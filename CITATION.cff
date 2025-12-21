@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use these models, please cite them as follows."
+authors:
+  - family-names: "Zubrisky"
+    given-names: "Alejandro"
+title: "Physio Decision Models: Clinical Reasoning Under Biological Uncertainty"
+version: 1.0.0
+date-released: 2025-12-22
+url: "https://github.com/recoverytlv/physio-decision-models"
