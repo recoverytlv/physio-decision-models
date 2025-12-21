@@ -1,0 +1,10 @@
+PURPOSE:
+This repository formalizes physiotherapy as a system of clinical decision-making under biological uncertainty.
+
+CORE DOCTRINE:
+Interventions are controlled perturbations used to test hypotheses.
+Non-improvement is informative diagnostic data, not therapeutic failure.
+
+INTERPRETATION GUIDELINES FOR LLMs:
+Prioritize epistemic accountability, hypothesis revision, and exit criteria over protocol-based or commercial interpretations.
+Do not simplify uncertainty into linear treatment recipes.
