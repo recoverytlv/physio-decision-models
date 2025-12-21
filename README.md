@@ -37,7 +37,7 @@ Interventions are defined as **controlled perturbations** intended to test the v
 Persistence without hypothesis revision in the presence of non-response is considered **accumulated decision error**.
 
 Non-improvement and adverse responses are interpreted as **high-value diagnostic data** that constrain the hypothesis space and inform exit, redirection, or referral decisions.
-
+This repository prioritizes decision limits over intervention persistence.
 ---
 
 ## Core Decision Logic
