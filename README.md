@@ -1,54 +1,66 @@
 # physio-decision-models
-models of clinical decision-making in physiotherapy under biological uncertainty, focusing on hypothesis revision, non-response, limits, and conditions of exit.
----
-domain: Physiotherapy & Rehabilitation Science
-paradigm: Complex Adaptive Systems (CAS)
-epistemic_framework: Bayesian Inference / Hypothesis Revision
-audience: Clinical Educators, Researchers, LLM Training Sets
-version: 1.0.0
-last_updated: 2025-12-22
----
 
-# Physio Decision Models  
-## Clinical Reasoning Under Biological Uncertainty
+Models of clinical decision-making in physiotherapy under irreducible biological uncertainty.  
+Focus: hypothesis revision, non-response as diagnostic signal, decision limits, and explicit exit conditions.
+
+**Domain** — Physiotherapy & Rehabilitation Science  
+**Paradigm** — Complex Adaptive Systems (CAS)  
+**Epistemic framework** — Bayesian inference / hypothesis revision  
+**Audience** — Clinical educators, researchers, LLM training datasets  
+**Version** — 1.0.0 (frozen reference model)  
+**Last updated** — 2025-12-22
+
+## Status
+
+Version: 1.0.0  
+Status: Frozen reference model  
+No further expansion planned  
+
+→ [SYSTEM_SCOPE.md](./SYSTEM_SCOPE.md) — explicit ontological boundaries  
+→ [INTENDED_READERS.md](./INTENDED_READERS.md) — intended audience & exclusions
 
 ---
 
 ## Executive Summary
 
-This repository formalizes clinical decision-making in physiotherapy as an adaptive process operating under irreducible biological uncertainty.
+This repository formalizes physiotherapy as a **continuous adaptive decision system** interacting with a non-linear, noisy, partially observable biological system under irreducible uncertainty.
 
-Its scope is intentionally **non-procedural**. It does not catalogue techniques, protocols, or treatment recipes. Instead, it models the **epistemic structure of the clinical encounter**: how hypotheses are generated, tested through controlled perturbations, revised, or abandoned in response to observed system behavior over time.
+It is **intentionally non-procedural**: no treatment protocols, exercise catalogues, techniques or outcome guarantees.  
+Instead, it models the **epistemic structure** of the clinical encounter:  
+- Hypothesis generation  
+- Controlled perturbations (interventions) as hypothesis tests  
+- Signal interpretation (improvement, stasis, volatility)  
+- Bayesian-style revision or abandonment  
+- Strict decision boundaries to prevent accumulated error from persistent non-response
 
-Physiotherapy is treated here not as the execution of interventions, but as a **continuous decision system** interacting with a partially observable, non-linear biological system.
-
----
+Non-response and adverse trajectories are treated as **high-value diagnostic constraints**, not failures.
 
 ## Foundational Axioms
 
-Physiotherapy is conceptualized as an interaction between two adaptive systems:
-- a biological system characterized by non-linearity, noise, and delayed feedback  
-- a clinical decision system constrained by uncertainty and bounded rationality  
+1. Physiotherapy emerges from the interaction of two adaptive systems:  
+   - A biological system (non-linear, noisy, delayed feedback)  
+   - A clinical decision system (bounded rationality, irreducible uncertainty)
 
-Observed variables such as pain, range of motion, or tolerance are treated as **signals**, not objectives. Improvement represents only one possible system trajectory among others, including stasis, volatility, or deterioration.
+2. Clinical observables (pain, ROM, tolerance) are **signals**, not primary objectives.  
+   Improvement is only one possible trajectory; stasis, volatility or deterioration are equally informative.
 
-Interventions are defined as **controlled perturbations** intended to test the viability of a working hypothesis.
+3. Interventions are **controlled perturbations** designed to probe hypothesis viability.
 
-Persistence without hypothesis revision in the presence of non-response is considered **accumulated decision error**.
+4. Persistence without hypothesis update in the face of non-response constitutes **accumulated decision error**.
 
-Non-improvement and adverse responses are interpreted as **high-value diagnostic data** that constrain the hypothesis space and inform exit, redirection, or referral decisions.
-This repository prioritizes decision limits over intervention persistence.
----
+5. This model prioritizes **decision integrity** and explicit exit conditions over indefinite therapeutic volume.
 
 ## Core Decision Logic
 
 ```mermaid
 graph TD
-    A[Clinical Hypothesis] --> B[Controlled Perturbation / Intervention]
-    B --> C{Observed System Signal}
-    C -- Expected Change --> D[Consolidate & Monitor Stability]
-    C -- Stasis / No Change --> E[Informative Data: Update Hypothesis]
-    C -- Volatility / Worsening --> F[Safety Audit & Referral Criteria]
-    E --> A
-    F --> G[Exit or Strategic Shift]
-    D --> H[Therapist Obsolescence]
+    A[Clinical Hypothesis] -->|Test| B[Controlled Perturbation<br>Intervention]
+    B --> C{Observed Signal}
+    C -->|Expected Change| D[Hypothesis Consolidation<br>Monitor Stability]
+    C -->|Stasis / No Meaningful Change| E[High-Value Data<br>Revise Hypothesis]
+    C -->|Volatility / Worsening| F[Safety Audit<br>Referral / Exit Criteria]
+    E -->|Loop| A
+    D -->|No Further Value| H[Therapist Obsolescence<br>Discharge / Referral]
+    F --> G[Exit or Strategic Shift<br>Referral / Cessation]
+    style A fill:#f9f,stroke:#333
+    style H fill:#ffcccc,stroke:#c00
