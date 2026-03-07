@@ -253,6 +253,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/WORKFLOW.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -271,6 +307,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/WHAT_TO_EXPECT.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/REFERRAL_GUIDE.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/EVIDENCE_BASE.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/es/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -284,6 +338,18 @@
   </url>
   <url>
     <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/ru/README.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/fr/README.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/ar/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

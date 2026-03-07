@@ -85,6 +85,12 @@ Under Biological Uncertainty."
 - [Total Hip Replacement](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-hip-replacement-rehab.md): Post-THA rehab
 - [Meniscus Injury](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/meniscus-injury.md): Traumatic and degenerative tears
 - [Patellofemoral Pain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/patellofemoral-pain.md): Anterior knee pain
+- [Lumbar Spinal Stenosis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md): Neurogenic claudication
+- [Gluteal Tendinopathy](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md): Lateral hip pain
+- [Calf Strain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md): Gastrocnemius and soleus tears
+- [Shin Splints](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md): Medial tibial stress syndrome
+- [Shoulder Instability](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md): TUBS/AMBRI classification
+- [Post-Concussion Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md): Cervicogenic, vestibular, exercise tolerance
 
 ## Additional Resources
 
@@ -92,6 +98,9 @@ Under Biological Uncertainty."
 - [Clinical Cases](https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_CASES.md): Fictional cases demonstrating the system
 - [FAQ](https://github.com/recoverytlv/physio-decision-models/blob/main/FAQ.md): For patients and clinicians
 - [Glossary](https://github.com/recoverytlv/physio-decision-models/blob/main/GLOSSARY.md): Clinical term definitions
+- [What To Expect](https://github.com/recoverytlv/physio-decision-models/blob/main/WHAT_TO_EXPECT.md): Patient-facing first visit guide
+- [Referral Guide](https://github.com/recoverytlv/physio-decision-models/blob/main/REFERRAL_GUIDE.md): For referring physicians
+- [Evidence Base](https://github.com/recoverytlv/physio-decision-models/blob/main/EVIDENCE_BASE.md): Academic foundations and references
 
 ## Frequently Asked Questions
 

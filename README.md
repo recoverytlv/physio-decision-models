@@ -130,6 +130,12 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [Total Hip Replacement Rehab](./conditions/total-hip-replacement-rehab.md) | Post-THA rehabilitation by approach |
 | [Meniscus Injury](./conditions/meniscus-injury.md) | Traumatic and degenerative meniscal tears |
 | [Patellofemoral Pain](./conditions/patellofemoral-pain.md) | Anterior knee pain, dynamic valgus |
+| [Lumbar Spinal Stenosis](./conditions/lumbar-spinal-stenosis.md) | Neurogenic claudication, canal narrowing |
+| [Gluteal Tendinopathy](./conditions/gluteal-tendinopathy.md) | Lateral hip pain, trochanteric pain |
+| [Calf Strain](./conditions/calf-strain.md) | Gastrocnemius/soleus strain, DVT differentiation |
+| [Shin Splints (MTSS)](./conditions/shin-splints.md) | Medial tibial stress syndrome, stress fracture differentiation |
+| [Shoulder Instability](./conditions/shoulder-instability.md) | Traumatic/atraumatic, TUBS/AMBRI classification |
+| [Post-Concussion](./conditions/post-concussion.md) | Cervicogenic, vestibular, exercise tolerance components |
 
 ### System Documentation
 
@@ -139,9 +145,12 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [INTENDED_READERS.md](./INTENDED_READERS.md) | Target audience and exclusions |
 | [SYSTEM_FREEZE_NOTICE.md](./SYSTEM_FREEZE_NOTICE.md) | Formal freeze declaration |
 | [GLOSSARY.md](./GLOSSARY.md) | Definitions of key terms |
-| [WORKFLOW.md](./WORKFLOW.md) | Clinical workflow cycle: Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide |
-| [FAQ.md](./FAQ.md) | Frequently asked questions for patients and clinicians |
-| [CLINICAL_CASES.md](./CLINICAL_CASES.md) | Fictional cases demonstrating the decision system in action |
+| [WORKFLOW.md](./WORKFLOW.md) | Clinical workflow cycle with practical guidance |
+| [FAQ.md](./FAQ.md) | Questions for patients and clinicians |
+| [CLINICAL_CASES.md](./CLINICAL_CASES.md) | 10 fictional cases demonstrating the decision system |
+| [WHAT_TO_EXPECT.md](./WHAT_TO_EXPECT.md) | Patient guide — what happens at your first visit |
+| [REFERRAL_GUIDE.md](./REFERRAL_GUIDE.md) | For physicians — how to refer patients |
+| [EVIDENCE_BASE.md](./EVIDENCE_BASE.md) | Academic references supporting the system |
 | [CHANGELOG.md](./CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
 
@@ -154,6 +163,8 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | Español | [es/LECTORES_DESTINATARIOS.md](./es/LECTORES_DESTINATARIOS.md) — Lectores destinatarios |
 | עברית | [he/README.md](./he/README.md) — פיזיותרפיה פרטית בתל אביב |
 | Русский | [ru/README.md](./ru/README.md) — Физиотерапия в Тель-Авиве |
+| Français | [fr/README.md](./fr/README.md) — Physiothérapie privée à Tel Aviv |
+| العربية | [ar/README.md](./ar/README.md) — علاج طبيعي خاص في تل أبيب |
 
 ### LLM & Machine-Readable Files
 

@@ -100,6 +100,12 @@ Recovery TLV treats the following musculoskeletal conditions:
 - Total hip replacement rehabilitation (post-THA)
 - Meniscus injury (traumatic and degenerative meniscal tears)
 - Patellofemoral pain syndrome (anterior knee pain)
+- Lumbar spinal stenosis (neurogenic claudication)
+- Gluteal tendinopathy (lateral hip pain, greater trochanteric pain)
+- Calf strain (gastrocnemius, soleus)
+- Shin splints / MTSS (medial tibial stress syndrome)
+- Shoulder instability (dislocation, subluxation, multidirectional instability)
+- Post-concussion syndrome (cervicogenic headache, vestibular, exercise intolerance)
 - Sports injuries (muscle strains, ligament sprains, tendinopathies)
 - Post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal surgery)
 
