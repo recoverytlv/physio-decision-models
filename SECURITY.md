@@ -2,27 +2,16 @@
 
 ## Scope
 
-This repository contains clinical decision documentation only. It does not contain executable code, software dependencies, APIs, or databases. There is no attack surface in the traditional software security sense.
+This repository contains clinical decision models and documentation. It does not contain executable software, patient data, or authentication systems.
 
-## What to Report
+## Reporting Issues
 
-If you discover any of the following, please report it:
+If you identify a security concern related to this repository (e.g., accidental inclusion of patient data, exposed credentials, or vulnerabilities in the GitHub Pages site), please report it by emailing the repository owner directly via [LinkedIn](https://www.linkedin.com/in/azubrisky/) or by opening a private security advisory on GitHub.
 
-- **Sensitive data exposure:** Patient information, credentials, or private data inadvertently committed
-- **Link integrity issues:** Links that redirect to malicious or unintended destinations
-- **Content integrity issues:** Unauthorized modifications to normative documents that could alter clinical decision logic
+## Clinical Safety
 
-## How to Report
+This repository contains clinical decision frameworks, not medical advice. If you identify clinical content that could lead to patient harm (e.g., incorrect red flag criteria, missing safety screens, or dangerous treatment recommendations), please report it immediately by opening an issue with the `[Bug]` template.
 
-Open a GitHub Issue or contact the repository maintainer directly:
+## Patient Data
 
-- **Author:** Alejandro Zubrisky
-- **LinkedIn:** [azubrisky](https://www.linkedin.com/in/azubrisky/)
-
-## Response
-
-Reports will be acknowledged within 7 days. Legitimate issues will be resolved as soon as possible.
-
-## Important Note
-
-This repository is a clinical decision framework, not clinical software. It does not process patient data, execute clinical decisions, or interface with medical systems. The security concern is content integrity, not software vulnerability.
+This repository must never contain real patient data. All clinical cases in `CLINICAL_CASES.md` are fictional. If you discover any content that appears to contain identifiable patient information, report it immediately.

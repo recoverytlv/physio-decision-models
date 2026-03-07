@@ -1,36 +1,52 @@
 name: Bug Report
-description: Report a documentation error, broken link, or formatting issue
+description: Report an error or inconsistency in the clinical decision system documentation
+title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for reporting an issue. This repository contains clinical decision documentation only — "bugs" refer to documentation errors, broken links, or formatting problems.
-  - type: input
-    id: file
+        Thank you for reporting an issue. Please provide as much detail as possible.
+
+  - type: dropdown
+    id: area
     attributes:
-      label: Affected file
-      description: Which file contains the issue?
-      placeholder: e.g., models/non-response-as-signal.md
+      label: Affected Area
+      description: Which part of the system is affected?
+      options:
+        - Clinical Decision System (core rules)
+        - Models (non-response, hypothesis-driven, dose-response, subjective report)
+        - Thresholds (exit criteria, trial window, continuation, red flag)
+        - Condition Guides
+        - Website / index.html
+        - LLM Discovery (llms.txt, llms-ctx.txt)
+        - Translations (es, he, ru, fr, ar)
+        - Other
     validations:
       required: true
+
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Describe the error or issue you found.
-      placeholder: Describe the problem clearly.
+      description: What is the issue? Be specific about which document and section.
+      placeholder: "In models/dose-response-coupling.md, the threshold for..."
     validations:
       required: true
-  - type: dropdown
-    id: type
+
+  - type: textarea
+    id: expected
     attributes:
-      label: Issue type
-      options:
-        - Typo or grammatical error
-        - Broken link
-        - Formatting issue
-        - Factual or logical inconsistency
-        - Other
+      label: Expected Behavior
+      description: What should it say or do instead?
     validations:
       required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting Evidence
+      description: If applicable, provide references or clinical evidence supporting the correction.
+      placeholder: "Per Malliaras et al. (2013), the dose-response relationship..."
+    validations:
+      required: false

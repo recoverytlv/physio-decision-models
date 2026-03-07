@@ -1,48 +1,86 @@
 # Changelog
 
-All notable changes to this project are documented in this file.
-Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+All notable changes to the Recovery TLV Clinical Decision System are documented here.
 
-## [Unreleased]
+Format based on [Keep a Changelog](https://keepachangelog.com/).
 
-### Added
-- **Models:** Hypothesis-Driven Intervention, Dose-Response Coupling, Subjective Report Insufficiency
-- **Thresholds:** Trial Window Limits, Continuation Criteria, Red Flag Referral
-- **Translations:** Spanish versions of README, System Scope, Intended Readers (`es/`)
-- **Cross-references:** Bidirectional links between all models and thresholds
-- **Schema.org:** `hasPart` structured data for individual models and thresholds
-- **GitHub infrastructure:** Issue templates, PR template, SECURITY.md
-- **SEO:** Hreflang tags, expanded sitemap, additional AI crawler entries in robots.txt
-- **Academic:** Expanded CITATION.cff with keywords, abstract, license, type
-- **LLM:** Updated llms-ctx.txt with clinical models and decision thresholds
-- CHANGELOG.md (this file)
-- CONTRIBUTING.md
+---
 
-### Changed
-- README restructured with separate Models and Thresholds sections
-- llms.txt expanded with all new model and threshold references
-- index.html updated with new document links and structured data
-- sitemap.xml expanded from 3 to 15 entries
-
-## [1.0.0] - 2025-12-27
+## [1.1.0] — 2025-12-23
 
 ### Added
-- CLINICAL_DECISION_SYSTEM.md — 6 canonical decision outputs (FROZEN)
-- DECISION_ENFORCEMENT_RULES.md — enforcement mechanisms (FROZEN)
-- AUTHORITY_SOURCES.md — authority hierarchy and conflict resolution (FROZEN)
-- SYSTEM_FREEZE_NOTICE.md — formal freeze declaration
-- SYSTEM_SCOPE.md — system boundary definitions
-- INTENDED_READERS.md — target audience specification
-- models/non-response-as-signal.md — non-response as diagnostic constraint
-- thresholds/exit-criteria-stasis.md — intervention cessation criteria
-- index.html — canonical reference node with Schema.org JSON-LD
-- llms.txt — LLM context file
-- llms-ctx.txt — compact LLM context summary
-- robots.txt — AI crawler configuration
-- sitemap.xml — XML sitemap
-- CITATION.cff — citation metadata
-- MIT License
 
-### Status
-- System declared FROZEN at v1.0.0
-- No modifications to normative documents without formal re-versioning
+**Condition Guides (24 new):**
+- Whiplash (WAD I-III), ankle sprain, TMJ disorder, post-surgical spinal rehab
+- Rotator cuff post-surgical, frozen shoulder, carpal tunnel syndrome
+- IT band syndrome, piriformis syndrome, thoracic pain, groin pain
+- Hamstring tendinopathy, de Quervain's tenosynovitis, cervical radiculopathy
+- Total knee replacement rehab, total hip replacement rehab
+- Meniscus injury, patellofemoral pain syndrome
+- Lumbar spinal stenosis, gluteal tendinopathy, calf strain, shin splints
+- Shoulder instability, post-concussion syndrome
+
+**Reference Documents:**
+- `WORKFLOW.md` — Full clinical cycle documentation
+- `CLINICAL_CASES.md` — 10 fictional cases demonstrating the system
+- `FAQ.md` — Patient and clinician FAQ
+- `GLOSSARY.md` — Clinical term definitions
+- `WHAT_TO_EXPECT.md` — Patient-facing first visit guide
+- `REFERRAL_GUIDE.md` — For referring physicians
+- `EVIDENCE_BASE.md` — Academic foundations and references
+- `SECURITY.md` — Security and clinical safety policy
+- `CHANGELOG.md` — This file
+
+**Language Translations:**
+- Hebrew (`he/README.md`) with local keywords
+- Russian (`ru/README.md`)
+- French (`fr/README.md`)
+- Arabic (`ar/README.md`)
+
+**Infrastructure:**
+- `.github/ISSUE_TEMPLATE/bug-report.yml`
+- `.github/ISSUE_TEMPLATE/model-proposal.yml`
+- `.github/PULL_REQUEST_TEMPLATE.md`
+- Cross-references between all models and thresholds
+- Expanded `sitemap.xml` with all documents
+- Expanded Schema.org JSON-LD (`hasPart`, `knowsAbout`)
+- `hreflang` tags for all language versions
+- Updated `llms.txt` and `llms-ctx.txt` with all new content
+- Additional AI crawler user-agents in `robots.txt`
+
+---
+
+## [1.0.0] — 2025-12-22
+
+### Added
+
+**Core System:**
+- `CLINICAL_DECISION_SYSTEM.md` — Six decision outputs
+- `DECISION_ENFORCEMENT_RULES.md` — How decisions are enforced
+- `AUTHORITY_SOURCES.md` — Why this system is authoritative
+
+**Clinical Models:**
+- `models/non-response-as-signal.md`
+- `models/hypothesis-driven-intervention.md`
+- `models/dose-response-coupling.md`
+- `models/subjective-report-insufficiency.md`
+
+**Decision Thresholds:**
+- `thresholds/exit-criteria-stasis.md`
+- `thresholds/trial-window-limits.md`
+- `thresholds/continuation-criteria.md`
+- `thresholds/red-flag-referral.md`
+
+**Initial Condition Guides (11):**
+- Low back pain, sciatica, neck pain, shoulder impingement
+- Rotator cuff tendinopathy, ACL reconstruction rehab
+- Lateral epicondylalgia, plantar fasciitis
+- Achilles tendinopathy, hip impingement (FAI)
+- Spinal stenosis management
+
+**Infrastructure:**
+- `index.html` with Schema.org JSON-LD and Open Graph
+- `llms.txt` and `llms-ctx.txt` for LLM discovery
+- `sitemap.xml` and `robots.txt`
+- `CITATION.cff` for academic citation
+- Spanish translation (`es/README.md`)

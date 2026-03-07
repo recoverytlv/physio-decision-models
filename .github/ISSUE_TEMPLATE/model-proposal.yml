@@ -1,43 +1,56 @@
 name: Model or Threshold Proposal
-description: Propose a new clinical model or decision threshold
+description: Propose a new clinical model, threshold, or condition guide
+title: "[Proposal]: "
 labels: ["proposal"]
 body:
   - type: markdown
     attributes:
       value: |
-        Propose a new model for `models/` or a new threshold for `thresholds/`. Proposals must be consistent with the frozen normative documents and cannot modify existing system logic.
+        Propose a new model, threshold, or condition guide for the clinical decision system.
+        All proposals should be grounded in clinical evidence and consistent with the system's principles.
+
   - type: dropdown
     id: type
     attributes:
-      label: Proposal type
+      label: Proposal Type
       options:
-        - New model (models/)
-        - New threshold (thresholds/)
+        - New Clinical Model
+        - New Decision Threshold
+        - New Condition Guide
+        - Modification to Existing Model/Threshold
+        - New Language Translation
     validations:
       required: true
-  - type: input
-    id: title
-    attributes:
-      label: Proposed title
-      placeholder: e.g., Temporal Decay of Hypothesis Confidence
-    validations:
-      required: true
+
   - type: textarea
-    id: premise
+    id: description
     attributes:
-      label: Premise
-      description: What clinical principle does this model or threshold formalize?
+      label: Description
+      description: Describe the proposed addition or change.
     validations:
       required: true
+
   - type: textarea
-    id: decision-consequences
+    id: rationale
     attributes:
-      label: Decision consequences
-      description: How does this affect the six canonical outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE)?
+      label: Clinical Rationale
+      description: Why is this needed? How does it fit within the existing decision system?
     validations:
       required: true
+
   - type: textarea
-    id: related
+    id: evidence
     attributes:
-      label: Related documents
-      description: Which existing models or thresholds does this relate to?
+      label: Supporting Evidence
+      description: Provide references from clinical literature supporting this proposal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: integration
+    attributes:
+      label: System Integration
+      description: How does this interact with existing models, thresholds, or decision outputs?
+      placeholder: "This model would connect to dose-response-coupling.md because..."
+    validations:
+      required: false
