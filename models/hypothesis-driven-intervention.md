@@ -16,6 +16,21 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 - Every intervention must have a testable prediction before execution.
 - An intervention that cannot be falsified by its outcome is not informative.
 
+## Clinical Example
+
+**Case:** Patient presents with lateral elbow pain aggravated by gripping.
+
+**Hypothesis:** Pain is driven by extensor tendon overload at the lateral epicondyle.
+
+**Controlled perturbation:** Eccentric wrist extension loading protocol, 3 sessions over 10 days.
+
+**Testable prediction:** If hypothesis is correct, grip strength should improve ≥10% and pain during resisted extension should decrease.
+
+**Outcomes:**
+- Prediction confirmed → Hypothesis consolidated → evaluate for CONTINUE
+- No change in grip strength or pain → Hypothesis weakened → revise (consider radial nerve, cervical contribution) or REFER
+- Pain worsens with loading → Hypothesis falsified → safety review, consider REFER
+
 ## Relationship to Outputs
 - A hypothesis that survives testing supports CONTINUE.
 - A hypothesis that is falsified mandates reassessment: DEFER, REFER, or DISCHARGE.

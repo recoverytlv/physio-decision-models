@@ -93,6 +93,8 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [SYSTEM_SCOPE.md](./SYSTEM_SCOPE.md) | What this system IS and IS NOT |
 | [INTENDED_READERS.md](./INTENDED_READERS.md) | Target audience and exclusions |
 | [SYSTEM_FREEZE_NOTICE.md](./SYSTEM_FREEZE_NOTICE.md) | Formal freeze declaration |
+| [GLOSSARY.md](./GLOSSARY.md) | Definitions of key terms |
+| [CHANGELOG.md](./CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
 
 ### Translations

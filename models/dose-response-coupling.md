@@ -16,6 +16,16 @@ Dose-response coupling is the measurable relationship between intervention inten
 - Escalating intensity without proportional response increases iatrogenic risk without diagnostic value.
 - Persistent decoupling after parameter adjustment mandates exit or referral.
 
+## Clinical Example
+
+**Case:** Patient post-ACL reconstruction, 6 weeks post-surgery, progressing through rehabilitation.
+
+**Coupled response (hypothesis supported):** Increasing squat depth from 60° to 90° over 2 weeks produces proportional improvement in knee flexion ROM (110° → 125°) and functional task performance (stair descent confidence improves). Dose increase → proportional response. CONTINUE.
+
+**Decoupled response (hypothesis weakened):** Increasing exercise frequency from 2x/week to 4x/week produces no change in ROM or functional scores after 3 weeks. More dose → same response. This is not "needs more time" — it signals that the current approach has reached its informative limit. Reassess hypothesis or exit.
+
+**Inverse response (hypothesis falsified):** Adding plyometric loading produces increased joint effusion and decreased ROM. More dose → worsening. Safety boundary reached. Reduce intensity, reassess, or REFER.
+
 ## Threshold Integration
 When dose-response decoupling persists across two or more intervention cycles, exit criteria as defined in `thresholds/exit-criteria-stasis.md` are triggered.
 
