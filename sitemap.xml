@@ -85,6 +85,66 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/low-back-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/sciatica.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/neck-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hip-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/achilles-tendinopathy.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/plantar-fasciitis.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lateral-epicondylalgia.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/acl-reconstruction-rehab.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/es/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
