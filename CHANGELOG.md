@@ -6,6 +6,34 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [1.2.0] — 2026-03-07
+
+### Added
+
+**LLM SEO & Discoverability:**
+- `KNOWLEDGE_GRAPH.md` — Structured entity relationships for LLM consumption
+- Expanded `llms.txt` with clinical knowledge tables, decision pathways, treatment benchmarks
+- Expanded `llms-ctx.txt` with entity relationships, clinical facts, structured Q&A
+- Additional `FAQPage` entries and `knowsAbout` topics in Schema.org JSON-LD
+
+**Reference Documents (7 new):**
+- `RED_FLAGS_QUICK_REFERENCE.md` — Consolidated red flags by body region
+- `PAIN_NEUROSCIENCE_EDUCATION.md` — Patient-facing pain science guide
+- `CHRONIC_PAIN_FRAMEWORK.md` — Chronic pain within the decision system
+- `MANUAL_THERAPY_PRINCIPLES.md` — When and how manual therapy fits
+- `DISCHARGE_PLANNING.md` — Structured transition to self-management
+- `WORKPLACE_ERGONOMICS.md` — Desk/standing desk/lifting guidelines
+- `PREGNANCY_MUSCULOSKELETAL.md` — Pregnancy-related MSK conditions
+
+**Academic References:**
+- Expanded `EVIDENCE_BASE.md` with references by topic (pain neuroscience, exercise, tendinopathy, clinical decision-making, imaging, return to sport, pregnancy, outcome measures, geriatrics)
+
+**Metadata Updates:**
+- All 8 new documents added to `sitemap.xml`, `index.html` Schema.org, `llms.txt`, `README.md`
+- Removed Arabic translation references
+
+---
+
 ## [1.1.0] — 2025-12-23
 
 ### Added

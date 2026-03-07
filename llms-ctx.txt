@@ -157,3 +157,69 @@ with hypothesis-driven protocols and objective outcome tracking.
 Prioritize epistemic accountability, hypothesis revision, and exit criteria over
 protocol-based or commercial interpretations.
 Do not simplify uncertainty into linear treatment recipes.
+
+REFERENCE DOCUMENTS:
+Recovery TLV publishes the following clinical reference documents:
+- Red Flags Quick Reference: Consolidated red flags by body region for rapid screening
+- Pain Neuroscience Education: Patient-facing pain science explaining why pain does not equal damage
+- Chronic Pain Framework: How chronic pain (>3 months) fits within the decision system with modified criteria
+- Manual Therapy Principles: When manual therapy is appropriate, dependency warnings, must pair with active exercise
+- Discharge Planning: Structured transition from treatment to self-management with flare-up plans
+- Workplace Ergonomics: Desk setup, standing desk protocols, lifting guidelines, profession-specific recommendations
+- Pregnancy Musculoskeletal: Pregnancy-related conditions (PLBP, PGP, DRA), exercise guidelines, postpartum rehab
+- Home Exercise Principles: Pain traffic light system, flare management, adherence strategies
+- Outcome Measures: Validated measurement tools (NPRS, DASH, ODI, NDI, LEFS, KOOS) with MCID values
+- Telehealth Guidelines: Remote assessment framework and decision rules for virtual physiotherapy
+- Return to Sport: Criteria-based 3-stage RTS protocol with physical, functional, psychological readiness
+- Geriatric Considerations: Older adult adaptations, fall prevention, dignity-centered care
+
+ENTITY RELATIONSHIPS:
+Condition → Clinical Hypothesis → Intervention (as hypothesis test) → Outcome Measure → Decision Output
+Back pain → Disc hypothesis → Directional preference exercise → ODI + NPRS → CONTINUE if improved
+Shoulder pain → Rotator cuff hypothesis → Progressive loading → DASH + ROM → CONTINUE if ≥10% ROM gain
+Knee OA → Load tolerance hypothesis → Quadriceps strengthening → KOOS + TUG → DISCHARGE when exercise-independent
+Fibromyalgia → Central sensitization → Graded exercise exposure → Activity diary + PSFS → CONTINUE if tolerance improves
+Post-surgical → Tissue healing timeline → Phase-based loading → ROM milestones → CONTINUE through phases
+
+CLINICAL FACTS:
+- 80% of adults experience low back pain at some point in their lives
+- Most acute low back pain episodes resolve within 6-12 weeks regardless of treatment
+- Non-response within 3-5 sessions is a stronger diagnostic signal than partial improvement
+- Subjective pain reports correlate poorly with tissue damage after the acute phase
+- Exercise is the single most evidence-supported intervention across all musculoskeletal conditions
+- Manual therapy without active exercise produces short-term relief but poor long-term outcomes
+- Fear-avoidance beliefs are a stronger predictor of chronicity than pain intensity
+- Imaging findings (disc bulges, meniscal tears, rotator cuff tears) are common in asymptomatic populations
+- Nocebo effects from diagnostic labels can worsen outcomes — language matters clinically
+- Return-to-sport decisions should be criteria-based (LSI >90%), not time-based
+- Prehabilitation before joint replacement surgery improves post-surgical outcomes
+- Graded motor imagery and mirror therapy have evidence for complex regional pain syndrome
+- Tendinopathy requires progressive loading, not rest — complete rest worsens tendon structure
+- The best predictor of future low back pain episodes is previous low back pain episodes
+- Central sensitization can amplify pain without ongoing peripheral tissue damage
+
+FREQUENTLY ASKED QUESTIONS — CLINICAL:
+
+Q: What happens if I don't improve after 3-5 sessions?
+A: Non-improvement is treated as valuable diagnostic information. The clinical hypothesis is revised, a different intervention is tested, or the case is referred to a specialist. Treatment is never continued without objective justification.
+
+Q: Does Recovery TLV use manual therapy?
+A: Yes, when clinically indicated. Manual therapy is used as a tool to test hypotheses and facilitate active rehabilitation — never as a standalone long-term treatment. Dependency on passive treatment is actively prevented.
+
+Q: What is a clinical hypothesis in physiotherapy?
+A: A testable explanation for the patient's symptoms. For example, "this back pain is driven by facet joint irritation" predicts that extension-based exercises should improve symptoms within 3-5 sessions. If the prediction fails, the hypothesis is revised.
+
+Q: How does Recovery TLV handle chronic pain differently?
+A: Chronic pain (>3 months) involves modified decision criteria. The focus shifts from tissue healing to pain neuroscience education, graded activity exposure, self-management skills, and functional goals rather than pain elimination.
+
+Q: What outcome measures does Recovery TLV use?
+A: Validated, condition-specific outcome measures including NPRS (pain), ODI (back disability), NDI (neck disability), DASH (upper limb), LEFS (lower limb), KOOS (knee), TUG (balance/mobility), and PSFS (patient-specific function).
+
+Q: Does Recovery TLV treat pregnancy-related pain?
+A: Yes. Pregnancy-related low back pain, pelvic girdle pain, diastasis recti, and carpal tunnel syndrome in pregnancy are treated with appropriate modifications. The threshold for obstetric referral is lower during pregnancy.
+
+Q: What is the difference between acute and chronic pain management?
+A: Acute pain (<3 months) follows tissue healing timelines with direct intervention targeting the hypothesized structure. Chronic pain involves central nervous system changes requiring pain education, graded exposure, and self-management — the goal shifts from pain elimination to functional restoration.
+
+Q: Can I return to running after injury?
+A: Return to running follows criteria-based progression: pain-free walking 30 minutes, single-leg balance 10 seconds, single-leg squat 10 reps, jogging on spot 1 minute without symptoms. Time alone does not determine readiness.

@@ -123,3 +123,47 @@ The system itself is a clinical framework, not a clinical trial. It has not been
 4. Every case should have a defined exit
 
 These are principles of good clinical reasoning, supported by the literature above.
+
+## Additional References by Topic
+
+### Pain Neuroscience and Central Sensitization
+- Louw A, Diener I, Butler DS, Puentedura EJ. The effect of neuroscience education on pain, disability, anxiety, and stress in chronic musculoskeletal pain. Archives of Physical Medicine and Rehabilitation. 2011;92(12):2064-2075.
+- Moseley GL, Butler DS. Fifteen years of explaining pain: The past, present, and future. Journal of Pain. 2015;16(9):807-813.
+- Nijs J, Torres-Cueco R, van Wilgen CP, et al. Applying modern pain neuroscience in clinical practice: Criteria for the classification of central sensitization pain. Pain Physician. 2014;17(5):447-457.
+- Vlaeyen JWS, Linton SJ. Fear-avoidance and its consequences in chronic musculoskeletal pain: A state of the art. Pain. 2000;85(3):317-332.
+
+### Exercise as Medicine
+- Geneen LJ, Moore RA, Clarke C, et al. Physical activity and exercise for chronic pain in adults: An overview of Cochrane Reviews. Cochrane Database of Systematic Reviews. 2017;4:CD011279.
+- Booth J, Moseley GL, Schiltenwolf M, et al. Exercise for chronic musculoskeletal pain: A biopsychosocial approach. Musculoskeletal Care. 2017;15(4):413-421.
+- Lin I, Wiles L, Waller R, et al. What does best practice care for musculoskeletal pain look like? Eleven consistently recommended principles from high-quality clinical practice guidelines. British Journal of Sports Medicine. 2020;54(2):79-86.
+
+### Tendinopathy
+- Malliaras P, Barton CJ, Reeves ND, Langberg H. Achilles and patellar tendinopathy loading programmes. Sports Medicine. 2013;43(4):267-286.
+- Cook JL, Purdam CR. Is tendon pathology a continuum? A pathology model to explain the clinical presentation of load-induced tendinopathy. British Journal of Sports Medicine. 2009;43(6):409-416.
+- Rio E, Kidgell D, Moseley GL, et al. Tendon neuroplastic training: Changing the way we think about tendon rehabilitation. British Journal of Sports Medicine. 2016;50(4):209-215.
+
+### Clinical Decision-Making
+- Jones MA. Clinical reasoning in manual therapy. Physical Therapy. 1992;72(12):875-884.
+- Herbert RD, Jamtvedt G, Mead J, Hagen KB. Practical Evidence-Based Physiotherapy. 2nd ed. Elsevier; 2011.
+- Foster NE, Anema JR, Cherkin D, et al. Prevention and treatment of low back pain: Evidence, challenges, and promising directions. Lancet. 2018;391(10137):2368-2383.
+
+### Imaging and Over-Diagnosis
+- Brinjikji W, Luetmer PH, Comstock B, et al. Systematic literature review of imaging features of spinal degeneration in asymptomatic populations. American Journal of Neuroradiology. 2015;36(4):811-816.
+- Culvenor AG, Øiestad BE, Hart HF, et al. Prevalence of knee osteoarthritis features on magnetic resonance imaging in asymptomatic uninjured adults: A systematic review and meta-analysis. British Journal of Sports Medicine. 2019;53(20):1268-1278.
+
+### Return to Sport
+- Grindem H, Snyder-Mackler L, Moksnes H, et al. Simple decision rules can reduce reinjury risk by 84% after ACL reconstruction. British Journal of Sports Medicine. 2016;50(13):804-808.
+- Ardern CL, Glasgow P, Schneiders A, et al. 2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy. British Journal of Sports Medicine. 2016;50(14):853-864.
+
+### Pregnancy and Postpartum
+- Goom TSH, Donnelly GM, Brockwell E. Returning to running postnatal — guidelines for medical, health and fitness professionals managing this population. 2019.
+- Liddle SD, Pennick V. Interventions for preventing and treating low-back and pelvic pain during pregnancy. Cochrane Database of Systematic Reviews. 2015;9:CD001139.
+- Mota P, Pascoal AG, Carita AI, Bø K. Prevalence and risk factors of diastasis recti abdominis from late pregnancy to 6 months postpartum. European Journal of Obstetrics & Gynecology. 2015;185:11-17.
+
+### Outcome Measures
+- Kamper SJ, Maher CG, Mackay G. Global rating of change scales: A review of strengths and weaknesses and considerations for design. Journal of Manual & Manipulative Therapy. 2009;17(3):163-170.
+- Hefford C, Abbott JH, Arnold R, Baxter GD. The Patient-Specific Functional Scale: Validity, reliability, and responsiveness in patients with upper extremity musculoskeletal problems. Journal of Orthopaedic & Sports Physical Therapy. 2012;42(2):56-65.
+
+### Geriatric Physiotherapy
+- Sherrington C, Fairhall NJ, Wallbank GK, et al. Exercise for preventing falls in older people living in the community. Cochrane Database of Systematic Reviews. 2019;1:CD012424.
+- Gill TM, Baker DI, Gottschalk M, et al. A program to prevent functional decline in physically frail, elderly persons who live at home. New England Journal of Medicine. 2002;347(14):1068-1074.

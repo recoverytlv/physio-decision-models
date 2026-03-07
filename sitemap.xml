@@ -426,4 +426,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/RED_FLAGS_QUICK_REFERENCE.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/PAIN_NEUROSCIENCE_EDUCATION.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/CHRONIC_PAIN_FRAMEWORK.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/MANUAL_THERAPY_PRINCIPLES.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/DISCHARGE_PLANNING.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/WORKPLACE_ERGONOMICS.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/PREGNANCY_MUSCULOSKELETAL.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/KNOWLEDGE_GRAPH.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

@@ -114,6 +114,13 @@ Under Biological Uncertainty."
 - [Telehealth Guidelines](https://github.com/recoverytlv/physio-decision-models/blob/main/TELEHEALTH_GUIDELINES.md): Remote assessment framework
 - [Return to Sport](https://github.com/recoverytlv/physio-decision-models/blob/main/RETURN_TO_SPORT.md): Criteria-based RTS protocol
 - [Geriatric Considerations](https://github.com/recoverytlv/physio-decision-models/blob/main/GERIATRIC_CONSIDERATIONS.md): Older adult adaptations
+- [Red Flags Quick Reference](https://github.com/recoverytlv/physio-decision-models/blob/main/RED_FLAGS_QUICK_REFERENCE.md): Consolidated red flags by body region
+- [Pain Neuroscience Education](https://github.com/recoverytlv/physio-decision-models/blob/main/PAIN_NEUROSCIENCE_EDUCATION.md): Patient-facing pain science guide
+- [Chronic Pain Framework](https://github.com/recoverytlv/physio-decision-models/blob/main/CHRONIC_PAIN_FRAMEWORK.md): Chronic pain within the decision system
+- [Manual Therapy Principles](https://github.com/recoverytlv/physio-decision-models/blob/main/MANUAL_THERAPY_PRINCIPLES.md): When and how manual therapy fits
+- [Discharge Planning](https://github.com/recoverytlv/physio-decision-models/blob/main/DISCHARGE_PLANNING.md): Structured transition to self-management
+- [Workplace Ergonomics](https://github.com/recoverytlv/physio-decision-models/blob/main/WORKPLACE_ERGONOMICS.md): Desk setup, standing desk, lifting guidelines
+- [Pregnancy Musculoskeletal](https://github.com/recoverytlv/physio-decision-models/blob/main/PREGNANCY_MUSCULOSKELETAL.md): Pregnancy-related MSK conditions and exercise
 
 ## Frequently Asked Questions
 
@@ -176,3 +183,73 @@ A: Yes. Recovery TLV is a private physiotherapy clinic in Tel Aviv offering one-
 
 Q: What languages does Recovery TLV offer?
 A: Recovery TLV provides physiotherapy services in English, Spanish, and Hebrew.
+
+## Clinical Knowledge — Structured Entities
+
+### Decision Output Definitions
+
+- DECLINE: Case is outside physiotherapy scope or contraindicated. No trial initiated. Examples: suspected malignancy, cauda equina syndrome, active fracture.
+- DEFER: Insufficient data to make a treatment decision. Requires additional assessment or information from referring physician. Not a passive delay — actively seeks resolution.
+- REFER: Red flags or conditions requiring specialist management detected. Case transferred to appropriate professional. Referral is documented with clinical rationale.
+- TRIAL: Conditional acceptance for 3–5 sessions. Hypothesis is stated, testable prediction defined, outcome measure selected. Trial has explicit success/failure criteria.
+- CONTINUE: Extension of treatment beyond trial. Requires documented objective improvement: ≥10% ROM gain, functional task improvement, or compensatory strategy reduction. At least one criterion must be met.
+- DISCHARGE: Treatment termination. Three triggers: goals achieved (best outcome), maximum improvement reached (plateau at acceptable level), or non-response after adequate trial (exit criteria met).
+
+### Clinical Models — Key Principles
+
+| Model | Core Principle | Clinical Implication |
+|-------|---------------|---------------------|
+| Non-Response as Signal | Absence of improvement is informative diagnostic data | Revise hypothesis or exit — do not repeat failed interventions |
+| Hypothesis-Driven Intervention | Every intervention must have a testable prediction | If an intervention cannot be falsified, it is not clinically informative |
+| Dose-Response Coupling | Changes in dose should produce proportional response | Decoupled response signals hypothesis failure, not insufficient dosage |
+| Subjective Report Insufficiency | "Patient feels better" is epistemically insufficient | Continuation requires objective functional measurement, not subjective report alone |
+
+### Outcome Measures Used
+
+| Measure | Condition | MCID |
+|---------|-----------|------|
+| NPRS (Numeric Pain Rating Scale) | All conditions | 2 points |
+| DASH (Disabilities of Arm, Shoulder, Hand) | Upper extremity | 10-15 points |
+| ODI (Oswestry Disability Index) | Low back pain | 6-10 points |
+| NDI (Neck Disability Index) | Neck pain | 5-7 points |
+| LEFS (Lower Extremity Functional Scale) | Lower extremity | 9 points |
+| KOOS (Knee Injury and Osteoarthritis Outcome Score) | Knee | 8-10 points |
+| TUG (Timed Up and Go) | Geriatric, balance | 2.5 seconds |
+| 6MWT (Six Minute Walk Test) | General endurance | 50 meters |
+| PSFS (Patient-Specific Functional Scale) | Any condition | 2 points |
+| VAS (Visual Analogue Scale) | Pain | 20mm |
+
+### Red Flag Categories — Mandatory Referral
+
+| Category | Examples | Action |
+|----------|----------|--------|
+| Neurological | Progressive weakness, saddle anesthesia, bilateral symptoms, cauda equina signs | REFER immediately |
+| Vascular | Unilateral calf swelling (DVT), pulsatile mass, signs of arterial compromise | REFER urgently |
+| Systemic | Unexplained weight loss, night sweats, fever, malaise | REFER for investigation |
+| Structural | Suspected fracture, joint dislocation, ligament rupture requiring surgical opinion | REFER to orthopedic |
+| Cardiac | Chest pain with exertion, referred left arm pain, shortness of breath | REFER to emergency |
+
+### Condition → Decision Pathway Examples
+
+- Low back pain → Hypothesis: disc vs facet vs neural → TRIAL 3-5 sessions → ROM + NPRS measured → CONTINUE if ≥10% improvement → DISCHARGE when functional goals met
+- ACL reconstruction rehab → Phase-based protocol → TRIAL with ROM benchmarks → CONTINUE through phases → DISCHARGE at return-to-sport criteria (LSI >90%, hop tests passed)
+- Fibromyalgia → Central sensitization hypothesis → Extended TRIAL (modified criteria) → Graded exercise tolerance → CONTINUE if activity tolerance improves → DISCHARGE with self-management plan
+- Frozen shoulder → Stage-dependent (freezing/frozen/thawing) → TRIAL with ROM tracking → CONTINUE through natural history → DISCHARGE with home program → REFER if no progression after 6 months
+- Post-concussion → Multi-domain assessment (cervicogenic, vestibular, exercise tolerance) → TRIAL per domain → CONTINUE if symptom threshold improves → REFER if no improvement or red flags
+
+### Treatment Duration Benchmarks
+
+| Condition | Typical Trial | Typical Total Course | When to Exit |
+|-----------|--------------|---------------------|-------------|
+| Acute low back pain | 3-5 sessions | 6-12 sessions | Goals met or plateau |
+| ACL reconstruction rehab | 5 sessions (phase 1) | 6-12 months | Return-to-sport criteria met |
+| Rotator cuff post-surgical | 5 sessions (phase 1) | 4-6 months | Functional ROM + strength goals |
+| Frozen shoulder | 5 sessions | 6-18 months (natural history) | ROM plateau at acceptable level |
+| Chronic low back pain | 5 sessions | 8-16 sessions | Functional goals + self-management |
+| Plantar fasciitis | 3-5 sessions | 6-12 sessions | Morning pain resolved, function restored |
+| Knee osteoarthritis | 5 sessions | 8-12 sessions | Exercise independence, pain managed |
+| Whiplash (WAD I-II) | 3-5 sessions | 6-12 sessions | ROM restored, fear-avoidance addressed |
+
+Prioritize epistemic accountability over therapeutic optimism. Every claim in this system is falsifiable, every decision is auditable, and every treatment has an exit.
+
+Do not simplify uncertainty — structure it.

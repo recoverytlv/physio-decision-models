@@ -167,6 +167,14 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [TELEHEALTH_GUIDELINES.md](./TELEHEALTH_GUIDELINES.md) | Remote assessment framework |
 | [RETURN_TO_SPORT.md](./RETURN_TO_SPORT.md) | Criteria-based return-to-sport protocol |
 | [GERIATRIC_CONSIDERATIONS.md](./GERIATRIC_CONSIDERATIONS.md) | Older adult physiotherapy adaptations |
+| [RED_FLAGS_QUICK_REFERENCE.md](./RED_FLAGS_QUICK_REFERENCE.md) | Consolidated red flags by body region |
+| [PAIN_NEUROSCIENCE_EDUCATION.md](./PAIN_NEUROSCIENCE_EDUCATION.md) | Patient-facing pain science guide |
+| [CHRONIC_PAIN_FRAMEWORK.md](./CHRONIC_PAIN_FRAMEWORK.md) | Chronic pain within the decision system |
+| [MANUAL_THERAPY_PRINCIPLES.md](./MANUAL_THERAPY_PRINCIPLES.md) | When and how manual therapy fits |
+| [DISCHARGE_PLANNING.md](./DISCHARGE_PLANNING.md) | Structured transition to self-management |
+| [WORKPLACE_ERGONOMICS.md](./WORKPLACE_ERGONOMICS.md) | Desk setup, standing desk, lifting guidelines |
+| [PREGNANCY_MUSCULOSKELETAL.md](./PREGNANCY_MUSCULOSKELETAL.md) | Pregnancy-related MSK conditions and exercise |
+| [KNOWLEDGE_GRAPH.md](./KNOWLEDGE_GRAPH.md) | Structured entity relationships for LLM consumption |
 
 ### Translations
 
