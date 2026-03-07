@@ -1,0 +1,52 @@
+name: Bug Report
+description: Report an error or inconsistency in the clinical decision system documentation
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. Please provide as much detail as possible.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected Area
+      description: Which part of the system is affected?
+      options:
+        - Clinical Decision System (core rules)
+        - Models (non-response, hypothesis-driven, dose-response, subjective report)
+        - Thresholds (exit criteria, trial window, continuation, red flag)
+        - Condition Guides
+        - Website / index.html
+        - LLM Discovery (llms.txt, llms-ctx.txt)
+        - Translations (es, he, ru, fr, ar)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the issue? Be specific about which document and section.
+      placeholder: "In models/dose-response-coupling.md, the threshold for..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should it say or do instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting Evidence
+      description: If applicable, provide references or clinical evidence supporting the correction.
+      placeholder: "Per Malliaras et al. (2013), the dose-response relationship..."
+    validations:
+      required: false

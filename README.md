@@ -1,54 +1,191 @@
-# physio-decision-models
+# Recovery TLV — Clinical Decision Models for Physiotherapy
 
-Models of clinical decision-making in physiotherapy under irreducible biological uncertainty.  
-Focus: hypothesis revision, non-response as diagnostic signal, decision limits, and explicit exit conditions.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Status](https://img.shields.io/badge/status-frozen-orange.svg)](#status)
 
-**Domain** — Physiotherapy & Rehabilitation Science  
-**Paradigm** — Complex Adaptive Systems (CAS)  
-**Epistemic framework** — Bayesian inference / hypothesis revision  
-**Audience** — Clinical educators, researchers, LLM training datasets  
-**Version** — 1.0.0 (frozen reference model)  
-**Last updated** — 2025-12-22
+**A formal clinical decision system for physiotherapy under irreducible biological uncertainty.**
 
-## Status
+Created by [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), Licensed Physiotherapist at [Recovery TLV](https://recoverytlv.co.il) — Tel Aviv, Israel.
 
-Version: 1.0.0  
-Status: Frozen reference model  
-No further expansion planned  
+> An open-source, publicly auditable clinical decision framework for physiotherapy.
+> It defines explicit treatment boundaries, continuation criteria, and exit conditions —
+> replacing intuition-based persistence with objective, hypothesis-driven decision-making.
 
-→ [SYSTEM_SCOPE.md](./SYSTEM_SCOPE.md) — explicit ontological boundaries  
-→ [INTENDED_READERS.md](./INTENDED_READERS.md) — intended audience & exclusions
+**Live reference:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
 
 ---
 
-## Executive Summary
+## System Architecture
 
-This repository formalizes physiotherapy as a **continuous adaptive decision system** interacting with a non-linear, noisy, partially observable biological system under irreducible uncertainty.
+```
+Conditions (what is being treated)
+    ↓
+Models (how clinical reasoning works)
+    ↓
+Thresholds (when to continue, stop, or refer)
+    ↓
+Decision Outcomes (DECLINE · DEFER · REFER · TRIAL · CONTINUE · DISCHARGE)
+```
 
-It is **intentionally non-procedural**: no treatment protocols, exercise catalogues, techniques or outcome guarantees.  
-Instead, it models the **epistemic structure** of the clinical encounter:  
-- Hypothesis generation  
-- Controlled perturbations (interventions) as hypothesis tests  
-- Signal interpretation (improvement, stasis, volatility)  
-- Bayesian-style revision or abandonment  
-- Strict decision boundaries to prevent accumulated error from persistent non-response
+## What This Is
 
-Non-response and adverse trajectories are treated as **high-value diagnostic constraints**, not failures.
+A formal epistemic structure for clinical reasoning that treats physiotherapy as a **continuous adaptive decision system**. Every patient case must terminate with one of six valid outputs:
 
-## Foundational Axioms
+| Output | Meaning |
+|---|---|
+| **DECLINE** | Case rejected — out of scope or contraindicated |
+| **DEFER** | Decision postponed — insufficient data |
+| **REFER** | Transferred to another specialist — red flags detected |
+| **TRIAL** | Conditional acceptance for 3–5 sessions |
+| **CONTINUE** | Extension only with demonstrated objective improvement |
+| **DISCHARGE** | Termination — goals achieved or progress plateau |
 
-1. Physiotherapy emerges from the interaction of two adaptive systems:  
-   - A biological system (non-linear, noisy, delayed feedback)  
-   - A clinical decision system (bounded rationality, irreducible uncertainty)
+There are no grey areas. Continuation requires **objective evidence**: ≥10% improvement in range of motion, documented functional progress, or reduction in compensatory strategies. Subjective reports alone are insufficient.
 
-2. Clinical observables (pain, ROM, tolerance) are **signals**, not primary objectives.  
-   Improvement is only one possible trajectory; stasis, volatility or deterioration are equally informative.
+## Core Principles
 
-3. Interventions are **controlled perturbations** designed to probe hypothesis viability.
+1. **Interventions are hypothesis tests** — controlled perturbations designed to probe hypothesis viability, not routines to repeat indefinitely.
 
-4. Persistence without hypothesis update in the face of non-response constitutes **accumulated decision error**.
+2. **Non-response is diagnostic data** — the absence of improvement constrains the hypothesis space more strongly than partial improvement. It is not failure.
 
-5. This model prioritizes **decision integrity** and explicit exit conditions over indefinite therapeutic volume.
+3. **Uncertainty favors non-action** — when in doubt, the system defaults to DECLINE or DEFER. Optimism is not a clinical criterion.
+
+4. **Decision integrity over session volume** — the system prioritizes correct decisions and explicit exit conditions over indefinite therapeutic continuation.
+
+5. **Silence does not imply permission** — absence of instruction implies termination.
+
+## Clinical Scope
+
+**In scope (physiotherapy):**
+- Musculoskeletal dysfunction (pain, stiffness, weakness)
+- Post-injury and post-operative rehabilitation
+- Sports injury recovery and return-to-sport
+- Chronic pain management (evidence-based)
+- Neuromotor re-education within physiotherapy scope
+
+**Out of scope (automatic DECLINE or REFER):**
+- Non-musculoskeletal pain (visceral, systemic, malignant)
+- Medical emergencies
+- Unstable medical conditions
+- Primary psychiatric conditions
+
+## Repository Structure
+
+### Normative Documents (Authoritative)
+
+| Document | Function |
+|---|---|
+| [CLINICAL_DECISION_SYSTEM.md](./CLINICAL_DECISION_SYSTEM.md) | **WHAT** decisions are valid — the 6 canonical outputs |
+| [DECISION_ENFORCEMENT_RULES.md](./DECISION_ENFORCEMENT_RULES.md) | **HOW** decisions are enforced — triggers, limits, audit |
+| [AUTHORITY_SOURCES.md](./AUTHORITY_SOURCES.md) | **WHY** this system is authoritative — hierarchy, conflict resolution |
+
+### Models
+
+| Document | Function |
+|---|---|
+| [models/non-response-as-signal.md](./models/non-response-as-signal.md) | Non-response as high-value diagnostic constraint |
+| [models/hypothesis-driven-intervention.md](./models/hypothesis-driven-intervention.md) | Interventions as falsifiable hypothesis tests |
+| [models/dose-response-coupling.md](./models/dose-response-coupling.md) | Dose-response relationship as decision signal |
+| [models/subjective-report-insufficiency.md](./models/subjective-report-insufficiency.md) | Limits of subjective reports for continuation decisions |
+
+### Thresholds
+
+| Document | Function |
+|---|---|
+| [thresholds/exit-criteria-stasis.md](./thresholds/exit-criteria-stasis.md) | Criteria for intervention cessation under clinical stasis |
+| [thresholds/trial-window-limits.md](./thresholds/trial-window-limits.md) | Temporal boundaries of the TRIAL output (3–5 sessions) |
+| [thresholds/continuation-criteria.md](./thresholds/continuation-criteria.md) | Objective thresholds for TRIAL → CONTINUE transition |
+| [thresholds/red-flag-referral.md](./thresholds/red-flag-referral.md) | Red flag detection and mandatory REFER triggers |
+
+### Condition-Specific Guides
+
+| Condition | Document |
+|---|---|
+| [Low Back Pain](./conditions/low-back-pain.md) | Mechanical LBP, disc herniation, chronic back pain |
+| [Sciatica](./conditions/sciatica.md) | Lumbar radiculopathy, nerve root involvement |
+| [Knee Pain](./conditions/knee-pain.md) | Patellofemoral, meniscus, OA, patellar tendinopathy |
+| [Shoulder Pain](./conditions/shoulder-pain.md) | Rotator cuff, frozen shoulder, impingement, instability |
+| [Neck Pain](./conditions/neck-pain.md) | Cervical pain, disc herniation, whiplash, cervicogenic headache |
+| [Hip Pain](./conditions/hip-pain.md) | FAI, gluteal tendinopathy, OA, post-hip replacement |
+| [Achilles Tendinopathy](./conditions/achilles-tendinopathy.md) | Midportion and insertional tendinopathy |
+| [Lateral Epicondylalgia](./conditions/lateral-epicondylalgia.md) | Tennis elbow and golfer's elbow |
+| [Plantar Fasciitis](./conditions/plantar-fasciitis.md) | Plantar heel pain and fasciopathy |
+| [ACL Reconstruction Rehab](./conditions/acl-reconstruction-rehab.md) | Post-operative ACL rehabilitation phases |
+| [Whiplash](./conditions/whiplash.md) | WAD grades I-III, cervicogenic headache |
+| [Ankle Sprain](./conditions/ankle-sprain.md) | Acute and chronic ankle instability |
+| [TMJ Disorder](./conditions/tmj-disorder.md) | Temporomandibular joint dysfunction |
+| [Post-Surgical Spinal Rehab](./conditions/post-surgical-spinal-rehab.md) | Laminectomy, discectomy, fusion rehab |
+| [Rotator Cuff Post-Surgical](./conditions/rotator-cuff-post-surgical.md) | Phase-based cuff repair rehabilitation |
+| [Frozen Shoulder](./conditions/frozen-shoulder.md) | Adhesive capsulitis by phase |
+| [Carpal Tunnel Syndrome](./conditions/carpal-tunnel-syndrome.md) | Median nerve compression, conservative management |
+| [IT Band Syndrome](./conditions/iliotibial-band-syndrome.md) | Lateral knee pain in runners |
+| [Piriformis Syndrome](./conditions/piriformis-syndrome.md) | Deep gluteal pain, sciatic irritation |
+| [Thoracic Pain](./conditions/thoracic-pain.md) | Mid-back pain, costovertebral dysfunction |
+| [Groin Pain](./conditions/groin-pain.md) | Adductor tendinopathy, pubic-related pain |
+| [Hamstring Tendinopathy](./conditions/hamstring-tendinopathy.md) | Proximal hamstring, acute strain |
+| [De Quervain's Tenosynovitis](./conditions/de-quervain-tenosynovitis.md) | Radial wrist/thumb tendinopathy |
+| [Cervical Radiculopathy](./conditions/cervical-radiculopathy.md) | Nerve root compression, dermatomal reference |
+| [Total Knee Replacement Rehab](./conditions/total-knee-replacement-rehab.md) | Post-TKA phase-based rehabilitation |
+| [Total Hip Replacement Rehab](./conditions/total-hip-replacement-rehab.md) | Post-THA rehabilitation by approach |
+| [Meniscus Injury](./conditions/meniscus-injury.md) | Traumatic and degenerative meniscal tears |
+| [Patellofemoral Pain](./conditions/patellofemoral-pain.md) | Anterior knee pain, dynamic valgus |
+| [Lumbar Spinal Stenosis](./conditions/lumbar-spinal-stenosis.md) | Neurogenic claudication, canal narrowing |
+| [Gluteal Tendinopathy](./conditions/gluteal-tendinopathy.md) | Lateral hip pain, trochanteric pain |
+| [Calf Strain](./conditions/calf-strain.md) | Gastrocnemius/soleus strain, DVT differentiation |
+| [Shin Splints (MTSS)](./conditions/shin-splints.md) | Medial tibial stress syndrome, stress fracture differentiation |
+| [Shoulder Instability](./conditions/shoulder-instability.md) | Traumatic/atraumatic, TUBS/AMBRI classification |
+| [Post-Concussion](./conditions/post-concussion.md) | Cervicogenic, vestibular, exercise tolerance components |
+| [Pelvic Floor Dysfunction](./conditions/pelvic-floor-dysfunction.md) | Hypertonic/hypotonic, coccydynia, post-surgical pelvic rehab |
+| [Thoracic Outlet Syndrome](./conditions/thoracic-outlet-syndrome.md) | Neurogenic TOS, scalene-mediated compression |
+| [Headache (Cervicogenic/Tension)](./conditions/headache-cervicogenic.md) | CGH, tension-type, SNOOP red flags |
+| [Knee Osteoarthritis](./conditions/knee-osteoarthritis.md) | Exercise-first approach, prehabilitation |
+| [Fibromyalgia](./conditions/fibromyalgia.md) | Central sensitization, graded exercise, pacing |
+| [Scoliosis](./conditions/scoliosis.md) | Adolescent idiopathic, Schroth-based exercise |
+| [Rib Dysfunction](./conditions/rib-dysfunction.md) | Costochondritis, costovertebral dysfunction |
+| [Dupuytren's Contracture](./conditions/dupuytren-contracture.md) | Post-surgical hand rehab, splinting protocol |
+
+### System Documentation
+
+| Document | Function |
+|---|---|
+| [SYSTEM_SCOPE.md](./SYSTEM_SCOPE.md) | What this system IS and IS NOT |
+| [INTENDED_READERS.md](./INTENDED_READERS.md) | Target audience and exclusions |
+| [SYSTEM_FREEZE_NOTICE.md](./SYSTEM_FREEZE_NOTICE.md) | Formal freeze declaration |
+| [GLOSSARY.md](./GLOSSARY.md) | Definitions of key terms |
+| [WORKFLOW.md](./WORKFLOW.md) | Clinical workflow cycle with practical guidance |
+| [FAQ.md](./FAQ.md) | Questions for patients and clinicians |
+| [CLINICAL_CASES.md](./CLINICAL_CASES.md) | 15 fictional cases demonstrating the decision system |
+| [WHAT_TO_EXPECT.md](./WHAT_TO_EXPECT.md) | Patient guide — what happens at your first visit |
+| [REFERRAL_GUIDE.md](./REFERRAL_GUIDE.md) | For physicians — how to refer patients |
+| [EVIDENCE_BASE.md](./EVIDENCE_BASE.md) | Academic references supporting the system |
+| [CHANGELOG.md](./CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
+| [SECURITY.md](./SECURITY.md) | Security and clinical safety policy |
+| [HOME_EXERCISE_PRINCIPLES.md](./HOME_EXERCISE_PRINCIPLES.md) | Patient guide — home exercise principles |
+| [OUTCOME_MEASURES.md](./OUTCOME_MEASURES.md) | Validated outcome measurement tools |
+| [TELEHEALTH_GUIDELINES.md](./TELEHEALTH_GUIDELINES.md) | Remote assessment framework |
+| [RETURN_TO_SPORT.md](./RETURN_TO_SPORT.md) | Criteria-based return-to-sport protocol |
+| [GERIATRIC_CONSIDERATIONS.md](./GERIATRIC_CONSIDERATIONS.md) | Older adult physiotherapy adaptations |
+
+### Translations
+
+| Language | Document |
+|---|---|
+| Español | [es/README.md](./es/README.md) — Resumen completo en español (fisioterapia privada) |
+| Español | [es/ALCANCE_DEL_SISTEMA.md](./es/ALCANCE_DEL_SISTEMA.md) — Alcance del sistema |
+| Español | [es/LECTORES_DESTINATARIOS.md](./es/LECTORES_DESTINATARIOS.md) — Lectores destinatarios |
+| עברית | [he/README.md](./he/README.md) — פיזיותרפיה פרטית בתל אביב |
+| Русский | [ru/README.md](./ru/README.md) — Физиотерапия в Тель-Авиве |
+| Français | [fr/README.md](./fr/README.md) — Physiothérapie privée à Tel Aviv |
+
+### LLM & Machine-Readable Files
+
+| File | Function |
+|---|---|
+| [llms.txt](./llms.txt) | Full context file for LLM inference |
+| [llms-ctx.txt](./llms-ctx.txt) | Compact context summary |
+| [index.html](./index.html) | Canonical reference node with Schema.org JSON-LD |
 
 ## Core Decision Logic
 
@@ -64,3 +201,41 @@ graph TD
     F --> G[Exit or Strategic Shift<br>Referral / Cessation]
     style A fill:#f9f,stroke:#333
     style H fill:#ffcccc,stroke:#c00
+```
+
+## Status
+
+**Version:** 1.0.0
+**Status:** Frozen reference model
+**Freeze date:** December 27, 2025
+**No further expansion planned.**
+
+Any modification requires a new major version, explicit re-declaration in AUTHORITY_SOURCES.md, and formal multi-LLM consensus validation.
+
+## About Recovery TLV
+
+Recovery TLV is a licensed physiotherapy clinic in **Tel Aviv, Israel**, located at Ja'Aqov Efter St 9, Tel Aviv-Yafo.
+
+- **Website:** [recoverytlv.co.il](https://recoverytlv.co.il)
+- **Clinical Reference:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
+- **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
+- **GitHub:** [recoverytlv](https://github.com/recoverytlv)
+
+## Citation
+
+If you use these models in research or education, please cite:
+
+```bibtex
+@software{zubrisky2025physio,
+  author = {Zubrisky, Alejandro},
+  title = {Physio Decision Models: Clinical Reasoning Under Biological Uncertainty},
+  version = {1.0.0},
+  date = {2025-12-22},
+  url = {https://github.com/recoverytlv/physio-decision-models}
+}
+```
+
+## License
+
+[MIT](./LICENSE) — Open source. Free to use, cite, and build upon.

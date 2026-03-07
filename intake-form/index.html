@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recovery TLV — Clinical Intake Decision Form</title>
+    <meta name="description" content="Clinical intake decision form implementing the Recovery TLV Clinical Decision System. Guides clinicians through the six canonical outputs.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            max-width: 640px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            color: #222;
+            background: #fafafa;
+        }
+        h1 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+        h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: #333; }
+        p { margin-bottom: 1rem; color: #555; font-size: 0.95rem; }
+        .step {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            display: none;
+        }
+        .step.active { display: block; }
+        .btn {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            margin: 0.3rem 0.3rem 0.3rem 0;
+        }
+        .btn-yes { background: #2d7d46; color: #fff; }
+        .btn-no { background: #c0392b; color: #fff; }
+        .btn-action { background: #2c3e50; color: #fff; }
+        .btn:hover { opacity: 0.9; }
+        .output {
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            display: none;
+        }
+        .output h2 { font-size: 1.3rem; }
+        .output.decline { border-color: #7f8c8d; }
+        .output.defer { border-color: #f39c12; }
+        .output.refer { border-color: #c0392b; }
+        .output.trial { border-color: #2d7d46; }
+        .output-code {
+            font-family: monospace;
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .decline .output-code { color: #7f8c8d; }
+        .defer .output-code { color: #f39c12; }
+        .refer .output-code { color: #c0392b; }
+        .trial .output-code { color: #2d7d46; }
+        .restart {
+            margin-top: 1.5rem;
+            padding: 0.5rem 1rem;
+            background: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .restart:hover { background: #d5dbdb; }
+        header { margin-bottom: 1.5rem; }
+        .note {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #999;
+            border-top: 1px dashed #ddd;
+            padding-top: 1rem;
+        }
+        footer a { color: #666; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Recovery TLV — Clinical Intake Decision</h1>
+    <p>This form implements the <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_DECISION_SYSTEM.md">Clinical Decision System</a>. Each case must terminate with one of six valid outputs.</p>
+</header>
+
+<!-- Step 1: Red Flags -->
+<div class="step active" id="step-redflags">
+    <h2>Step 1: Red Flag Screening</h2>
+    <p>Are any of the following present?</p>
+    <ul style="margin: 0.5rem 0 1rem 1.2rem; font-size: 0.9rem; color: #444;">
+        <li>Progressive neurological deficit or cauda equina signs</li>
+        <li>Unexplained weight loss, night pain, fever, history of malignancy</li>
+        <li>Signs of DVT, vascular compromise, or acute ischaemia</li>
+        <li>Suspected fracture, joint instability, or infection</li>
+    </ul>
+    <button class="btn btn-no" onclick="goTo('step-scope')">No red flags detected</button>
+    <button class="btn btn-yes" onclick="showOutput('refer', 'Red flag detected. Case must be referred to appropriate medical specialist. Document the specific red flag and referral destination.')">Yes — red flag present</button>
+    <p class="note">Reference: <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/red-flag-referral.md">red-flag-referral.md</a></p>
+</div>
+
+<!-- Step 2: Scope -->
+<div class="step" id="step-scope">
+    <h2>Step 2: Scope Assessment</h2>
+    <p>Is there a clear musculoskeletal component within physiotherapy scope?</p>
+    <ul style="margin: 0.5rem 0 1rem 1.2rem; font-size: 0.9rem; color: #444;">
+        <li>Musculoskeletal dysfunction (pain, stiffness, weakness)</li>
+        <li>Post-injury or post-operative rehabilitation</li>
+        <li>Sports injury recovery</li>
+        <li>Neuromotor re-education within physiotherapy scope</li>
+    </ul>
+    <button class="btn btn-yes" onclick="goTo('step-data')">Yes — musculoskeletal component present</button>
+    <button class="btn btn-no" onclick="showOutput('decline', 'Case is out of physiotherapy scope. Non-musculoskeletal pain (visceral, systemic, malignant), medical emergencies, unstable conditions, or primary psychiatric conditions require DECLINE or REFER.')">No — out of scope</button>
+</div>
+
+<!-- Step 3: Sufficient Data -->
+<div class="step" id="step-data">
+    <h2>Step 3: Data Sufficiency</h2>
+    <p>Is there sufficient clinical data to make a treatment decision?</p>
+    <p style="font-size: 0.9rem; color: #444;">Consider: Is the patient in an acute phase? Are there unresolved diagnostic questions? Is additional imaging or specialist input needed before proceeding?</p>
+    <button class="btn btn-yes" onclick="goTo('step-consent')">Yes — sufficient data available</button>
+    <button class="btn btn-no" onclick="showOutput('defer', 'Insufficient data to make a treatment decision. Decision is postponed. No action taken until data is available. Retrigger evaluation within 48 hours or when new information is obtained.')">No — insufficient data</button>
+</div>
+
+<!-- Step 4: Consent -->
+<div class="step" id="step-consent">
+    <h2>Step 4: Informed Consent</h2>
+    <p>Does the patient consent to a time-limited intervention (3–5 sessions)?</p>
+    <p style="font-size: 0.9rem; color: #444;">Patient must understand: this is a trial period. Continuation requires demonstrated objective improvement. Treatment is not indefinite.</p>
+    <button class="btn btn-yes" onclick="goTo('step-goals')">Yes — patient consents</button>
+    <button class="btn btn-no" onclick="showOutput('decline', 'Patient does not consent to time-limited intervention. Without informed consent, the case cannot proceed. DECLINE.')">No — patient does not consent</button>
+</div>
+
+<!-- Step 5: Functional Goals -->
+<div class="step" id="step-goals">
+    <h2>Step 5: Goal Assessment</h2>
+    <p>Are the patient's goals functional (not pain-only)?</p>
+    <p style="font-size: 0.9rem; color: #444;">Functional goals: "I want to return to running," "I need to lift my child," "I want to climb stairs without assistance." Pain-only goals ("I just want the pain to stop") without functional context are insufficient.</p>
+    <button class="btn btn-yes" onclick="showOutput('trial', 'All provisional inclusion criteria satisfied. Case accepted for TRIAL: 3–5 sessions of conditional, time-limited treatment. At the end of the trial window, evaluate continuation criteria (≥10% ROM improvement, functional task improvement, or compensatory strategy reduction).')">Yes — functional goals identified</button>
+    <button class="btn btn-no" onclick="showOutput('decline', 'Patient goals are pain-only without functional context. The system requires functional goals for treatment planning. Discuss functional goal setting with patient, or DECLINE if goals remain exclusively pain-focused.')">No — pain-only goals</button>
+</div>
+
+<!-- Outputs -->
+<div class="output refer" id="output-refer">
+    <div class="output-code">REFER</div>
+    <h2>Case Transferred to Specialist</h2>
+    <p id="refer-text"></p>
+    <p class="note">Document: the red flag identified, the referral destination, and the date of referral.</p>
+    <button class="restart" onclick="restart()">Start New Assessment</button>
+</div>
+
+<div class="output decline" id="output-decline">
+    <div class="output-code">DECLINE</div>
+    <h2>Case Not Accepted</h2>
+    <p id="decline-text"></p>
+    <button class="restart" onclick="restart()">Start New Assessment</button>
+</div>
+
+<div class="output defer" id="output-defer">
+    <div class="output-code">DEFER</div>
+    <h2>Decision Postponed</h2>
+    <p id="defer-text"></p>
+    <button class="restart" onclick="restart()">Start New Assessment</button>
+</div>
+
+<div class="output trial" id="output-trial">
+    <div class="output-code">TRIAL</div>
+    <h2>Case Accepted — Conditional Trial</h2>
+    <p id="trial-text"></p>
+    <p class="note">At the end of the trial window (3–5 sessions), evaluate using <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md">continuation-criteria.md</a>.</p>
+    <button class="restart" onclick="restart()">Start New Assessment</button>
+</div>
+
+<footer>
+    <p>
+        This form implements the <a href="https://github.com/recoverytlv/physio-decision-models">Recovery TLV Clinical Decision System</a> v1.0.0.
+        It is not medical advice. It is a decision support tool for licensed clinicians.
+        &copy; Recovery TLV. Created by Alejandro Zubrisky, Licensed Physiotherapist.
+    </p>
+</footer>
+
+<script>
+    function goTo(stepId) {
+        document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+        document.getElementById(stepId).classList.add('active');
+    }
+
+    function showOutput(type, text) {
+        document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+        document.querySelectorAll('.output').forEach(o => o.style.display = 'none');
+        const output = document.getElementById('output-' + type);
+        document.getElementById(type + '-text').textContent = text;
+        output.style.display = 'block';
+    }
+
+    function restart() {
+        document.querySelectorAll('.output').forEach(o => o.style.display = 'none');
+        document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+        document.getElementById('step-redflags').classList.add('active');
+    }
+</script>
+
+</body>
+</html>

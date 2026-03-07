@@ -1,0 +1,56 @@
+name: Model or Threshold Proposal
+description: Propose a new clinical model, threshold, or condition guide
+title: "[Proposal]: "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a new model, threshold, or condition guide for the clinical decision system.
+        All proposals should be grounded in clinical evidence and consistent with the system's principles.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Proposal Type
+      options:
+        - New Clinical Model
+        - New Decision Threshold
+        - New Condition Guide
+        - Modification to Existing Model/Threshold
+        - New Language Translation
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the proposed addition or change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Clinical Rationale
+      description: Why is this needed? How does it fit within the existing decision system?
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting Evidence
+      description: Provide references from clinical literature supporting this proposal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: integration
+    attributes:
+      label: System Integration
+      description: How does this interact with existing models, thresholds, or decision outputs?
+      placeholder: "This model would connect to dose-response-coupling.md because..."
+    validations:
+      required: false

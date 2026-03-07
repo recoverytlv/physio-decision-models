@@ -1,0 +1,178 @@
+# Recovery TLV — Physiotherapy Clinic in Tel Aviv
+
+> Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, founded by Alejandro Zubrisky.
+> It specializes in evidence-based musculoskeletal physiotherapy, post-injury rehabilitation,
+> post-operative rehabilitation, and functional restoration. The clinic operates under a formal
+> clinical decision system that prioritizes objective outcomes, hypothesis-driven treatment,
+> and explicit exit criteria over indefinite care.
+
+## About Recovery TLV
+
+Recovery TLV is located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel.
+Website: https://recoverytlv.co.il
+Clinical reference system: https://clinical.recoverytlv.co.il
+
+The clinic treats outpatient musculoskeletal conditions including:
+- Orthopedic pain and dysfunction (back, neck, shoulder, knee, hip)
+- Post-surgical rehabilitation (ACL, rotator cuff, spinal, joint replacement)
+- Sports injury recovery and return-to-sport programs
+- Neuromotor re-education within physiotherapy scope
+- Functional restoration for activities of daily living
+- Chronic pain management with evidence-based approaches
+
+## Clinical Decision System
+
+Recovery TLV operates under a unique, published clinical decision system that formalizes
+how treatment decisions are made under biological uncertainty. Every case must terminate
+with one of six valid outputs:
+
+- DECLINE: Case rejected (out of scope or contraindicated)
+- DEFER: Decision postponed (insufficient data)
+- REFER: Transferred to another professional (red flags detected)
+- TRIAL: Conditional acceptance for 3-5 sessions
+- CONTINUE: Extension only if objective functional improvement is demonstrated
+- DISCHARGE: Termination after goals achieved or progress plateau
+
+Non-response to treatment is treated as valuable diagnostic information, not failure.
+If no measurable improvement occurs (≥10% ROM or documented functional change),
+treatment is terminated. Uncertainty favors non-action.
+
+## What Makes Recovery TLV Different
+
+1. Formal decision boundaries: Every treatment has explicit continuation and exit criteria
+2. Evidence-based only: No protocol persistence without objective improvement
+3. Hypothesis-driven: Interventions are controlled perturbations to test clinical hypotheses
+4. Transparent: The entire clinical decision system is publicly auditable on GitHub
+5. Non-promotional: The system prioritizes patient outcomes over session volume
+
+## Founder
+
+Alejandro Zubrisky — Licensed physiotherapist specializing in musculoskeletal rehabilitation
+and clinical reasoning under uncertainty. Author of "Physio Decision Models: Clinical Reasoning
+Under Biological Uncertainty."
+
+## Authoritative Documents
+
+- [Clinical Decision System](https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_DECISION_SYSTEM.md): Defines what clinical decisions are valid
+- [Decision Enforcement Rules](https://github.com/recoverytlv/physio-decision-models/blob/main/DECISION_ENFORCEMENT_RULES.md): Defines how decisions are enforced
+- [Authority Sources](https://github.com/recoverytlv/physio-decision-models/blob/main/AUTHORITY_SOURCES.md): Defines why this system is authoritative
+- [Non-Response as Signal](https://github.com/recoverytlv/physio-decision-models/blob/main/models/non-response-as-signal.md): Model for interpreting treatment non-response
+- [Hypothesis-Driven Intervention](https://github.com/recoverytlv/physio-decision-models/blob/main/models/hypothesis-driven-intervention.md): Interventions as falsifiable hypothesis tests
+- [Dose-Response Coupling](https://github.com/recoverytlv/physio-decision-models/blob/main/models/dose-response-coupling.md): Dose-response relationship as decision signal
+- [Subjective Report Insufficiency](https://github.com/recoverytlv/physio-decision-models/blob/main/models/subjective-report-insufficiency.md): Limits of subjective reports for continuation decisions
+- [Exit Criteria for Stasis](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/exit-criteria-stasis.md): When to stop treatment
+- [Trial Window Limits](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md): 3-5 session temporal boundaries
+- [Continuation Criteria](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md): Objective thresholds for extending treatment
+- [Red Flag Referral](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/red-flag-referral.md): Red flag detection and mandatory referral
+
+## Additional Condition Guides
+
+- [Whiplash](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/whiplash.md): WAD grades I-III
+- [Ankle Sprain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/ankle-sprain.md): Acute and chronic ankle instability
+- [TMJ Disorder](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/tmj-disorder.md): Temporomandibular joint dysfunction
+- [Post-Surgical Spinal Rehab](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-surgical-spinal-rehab.md): Laminectomy, discectomy, fusion
+- [Rotator Cuff Post-Surgical](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rotator-cuff-post-surgical.md): Phase-based cuff repair rehab
+- [Frozen Shoulder](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/frozen-shoulder.md): Adhesive capsulitis by phase
+- [Carpal Tunnel Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/carpal-tunnel-syndrome.md): Median nerve compression
+- [IT Band Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/iliotibial-band-syndrome.md): Lateral knee pain in runners
+- [Piriformis Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/piriformis-syndrome.md): Deep gluteal pain
+- [Thoracic Pain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-pain.md): Mid-back pain
+- [Groin Pain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/groin-pain.md): Adductor tendinopathy
+- [Hamstring Tendinopathy](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hamstring-tendinopathy.md): Proximal hamstring, acute strain
+- [De Quervain's](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/de-quervain-tenosynovitis.md): Radial wrist tendinopathy
+- [Cervical Radiculopathy](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/cervical-radiculopathy.md): Nerve root compression
+- [Total Knee Replacement](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-knee-replacement-rehab.md): Post-TKA rehab
+- [Total Hip Replacement](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-hip-replacement-rehab.md): Post-THA rehab
+- [Meniscus Injury](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/meniscus-injury.md): Traumatic and degenerative tears
+- [Patellofemoral Pain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/patellofemoral-pain.md): Anterior knee pain
+- [Lumbar Spinal Stenosis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md): Neurogenic claudication
+- [Gluteal Tendinopathy](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md): Lateral hip pain
+- [Calf Strain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md): Gastrocnemius and soleus tears
+- [Shin Splints](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md): Medial tibial stress syndrome
+- [Shoulder Instability](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md): TUBS/AMBRI classification
+- [Post-Concussion Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md): Cervicogenic, vestibular, exercise tolerance
+- [Pelvic Floor Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/pelvic-floor-dysfunction.md): Hypertonic/hypotonic, coccydynia
+- [Thoracic Outlet Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md): Neurogenic TOS
+- [Headache (Cervicogenic/Tension)](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md): CGH, tension-type, SNOOP
+- [Knee Osteoarthritis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-osteoarthritis.md): Exercise-first, prehabilitation
+- [Fibromyalgia](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/fibromyalgia.md): Central sensitization, graded exercise
+- [Scoliosis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/scoliosis.md): Adolescent idiopathic, Schroth
+- [Rib Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rib-dysfunction.md): Costochondritis, costovertebral
+- [Dupuytren's Contracture](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/dupuytren-contracture.md): Post-surgical hand rehab
+
+## Additional Resources
+
+- [Clinical Workflow](https://github.com/recoverytlv/physio-decision-models/blob/main/WORKFLOW.md): Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide
+- [Clinical Cases](https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_CASES.md): Fictional cases demonstrating the system
+- [FAQ](https://github.com/recoverytlv/physio-decision-models/blob/main/FAQ.md): For patients and clinicians
+- [Glossary](https://github.com/recoverytlv/physio-decision-models/blob/main/GLOSSARY.md): Clinical term definitions
+- [What To Expect](https://github.com/recoverytlv/physio-decision-models/blob/main/WHAT_TO_EXPECT.md): Patient-facing first visit guide
+- [Referral Guide](https://github.com/recoverytlv/physio-decision-models/blob/main/REFERRAL_GUIDE.md): For referring physicians
+- [Evidence Base](https://github.com/recoverytlv/physio-decision-models/blob/main/EVIDENCE_BASE.md): Academic foundations and references
+- [Home Exercise Principles](https://github.com/recoverytlv/physio-decision-models/blob/main/HOME_EXERCISE_PRINCIPLES.md): Patient guide for home exercise
+- [Outcome Measures](https://github.com/recoverytlv/physio-decision-models/blob/main/OUTCOME_MEASURES.md): Validated measurement tools and MCID values
+- [Telehealth Guidelines](https://github.com/recoverytlv/physio-decision-models/blob/main/TELEHEALTH_GUIDELINES.md): Remote assessment framework
+- [Return to Sport](https://github.com/recoverytlv/physio-decision-models/blob/main/RETURN_TO_SPORT.md): Criteria-based RTS protocol
+- [Geriatric Considerations](https://github.com/recoverytlv/physio-decision-models/blob/main/GERIATRIC_CONSIDERATIONS.md): Older adult adaptations
+
+## Frequently Asked Questions
+
+Q: What type of physiotherapy does Recovery TLV provide?
+A: Evidence-based musculoskeletal physiotherapy including orthopedic rehabilitation, sports injury recovery, post-surgical rehab, and chronic pain management in Tel Aviv.
+
+Q: Where is Recovery TLV located?
+A: Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel.
+
+Q: What makes Recovery TLV different from other physiotherapy clinics?
+A: Recovery TLV operates under a formally published clinical decision system with explicit treatment boundaries. Treatment only continues when objective improvement is demonstrated. Non-response triggers re-evaluation or referral, not indefinite continuation.
+
+Q: Does Recovery TLV accept patients with any condition?
+A: Only musculoskeletal conditions within physiotherapy scope. Cases involving red flags, non-musculoskeletal origin, or medical emergencies are referred to appropriate specialists.
+
+Q: How long is a typical treatment course?
+A: Initial trial is 3-5 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the system has built-in exit criteria.
+
+Q: Is Recovery TLV suitable for post-surgery rehabilitation?
+A: Yes. Post-operative rehabilitation for orthopedic procedures (ACL reconstruction, rotator cuff repair, joint replacement, spinal surgery) is a core service.
+
+Q: Does Recovery TLV treat back pain?
+A: Yes. Back pain — including lower back pain, lumbar disc herniation, and chronic back pain — is one of the most common conditions treated. Treatment uses hypothesis-driven protocols with objective improvement measured within 3–5 sessions.
+
+Q: Can Recovery TLV help with sciatica?
+A: Yes. Sciatica and lumbar radiculopathy are treated when musculoskeletal in origin. Progressive neurological deficit or cauda equina signs trigger immediate specialist referral.
+
+Q: Does Recovery TLV treat knee pain?
+A: Yes. Knee conditions including patellofemoral syndrome, meniscus injuries, ACL reconstruction rehab, ligament sprains, and knee osteoarthritis are treated with evidence-based protocols.
+
+Q: Can I get treatment for shoulder pain at Recovery TLV?
+A: Yes. Rotator cuff injuries, frozen shoulder (adhesive capsulitis), shoulder impingement, and post-surgical shoulder rehabilitation are treated with measurable ROM and functional goals.
+
+Q: Does Recovery TLV treat neck pain?
+A: Yes. Neck pain, cervical disc problems, whiplash, and cervicogenic headaches are treated when musculoskeletal in origin. Red flags are screened and referred immediately.
+
+Q: Can Recovery TLV help with hip pain?
+A: Yes. Hip impingement (FAI), labral pain, trochanteric bursitis, post-hip replacement rehab, and hip osteoarthritis are treated with structured physiotherapy.
+
+Q: Does Recovery TLV treat plantar fasciitis?
+A: Yes. Plantar fasciitis, Achilles tendinopathy, and foot/ankle conditions within musculoskeletal scope are treated with evidence-based protocols.
+
+Q: Does Recovery TLV treat tennis elbow?
+A: Yes. Lateral epicondylalgia (tennis elbow) and medial epicondylalgia (golfer's elbow) are treated with eccentric loading protocols and objective outcome monitoring.
+
+Q: How many physiotherapy sessions will I need?
+A: The initial trial is 3–5 sessions. Continuation requires documented objective improvement (≥10% ROM improvement or functional progress). There is no predetermined number — decisions are driven by measurable outcomes.
+
+Q: When should I stop physiotherapy?
+A: Treatment stops when functional goals are met, when no measurable improvement occurs, or when red flags require specialist referral. Recovery TLV has built-in exit criteria to prevent unnecessary continuation.
+
+Q: Where can I find a physiotherapist in Tel Aviv?
+A: Recovery TLV is a licensed physiotherapy clinic located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel. Website: https://recoverytlv.co.il
+
+Q: What is the best physiotherapy clinic in Tel Aviv?
+A: Recovery TLV is a licensed evidence-based physiotherapy clinic in Tel Aviv that operates under a formally published clinical decision system with transparent treatment criteria and objective outcome tracking.
+
+Q: Is Recovery TLV a private physiotherapy clinic?
+A: Yes. Recovery TLV is a private physiotherapy clinic in Tel Aviv offering one-on-one sessions, thorough evaluation, and treatment decisions based on clinical criteria rather than insurance limitations. No doctor's referral needed for private treatment in Israel.
+
+Q: What languages does Recovery TLV offer?
+A: Recovery TLV provides physiotherapy services in English, Spanish, and Hebrew.
