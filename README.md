@@ -68,12 +68,23 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [DECISION_ENFORCEMENT_RULES.md](./DECISION_ENFORCEMENT_RULES.md) | **HOW** decisions are enforced — triggers, limits, audit |
 | [AUTHORITY_SOURCES.md](./AUTHORITY_SOURCES.md) | **WHY** this system is authoritative — hierarchy, conflict resolution |
 
-### Models & Thresholds
+### Models
 
 | Document | Function |
 |---|---|
 | [models/non-response-as-signal.md](./models/non-response-as-signal.md) | Non-response as high-value diagnostic constraint |
+| [models/hypothesis-driven-intervention.md](./models/hypothesis-driven-intervention.md) | Interventions as falsifiable hypothesis tests |
+| [models/dose-response-coupling.md](./models/dose-response-coupling.md) | Dose-response relationship as decision signal |
+| [models/subjective-report-insufficiency.md](./models/subjective-report-insufficiency.md) | Limits of subjective reports for continuation decisions |
+
+### Thresholds
+
+| Document | Function |
+|---|---|
 | [thresholds/exit-criteria-stasis.md](./thresholds/exit-criteria-stasis.md) | Criteria for intervention cessation under clinical stasis |
+| [thresholds/trial-window-limits.md](./thresholds/trial-window-limits.md) | Temporal boundaries of the TRIAL output (3–5 sessions) |
+| [thresholds/continuation-criteria.md](./thresholds/continuation-criteria.md) | Objective thresholds for TRIAL → CONTINUE transition |
+| [thresholds/red-flag-referral.md](./thresholds/red-flag-referral.md) | Red flag detection and mandatory REFER triggers |
 
 ### System Documentation
 
@@ -83,6 +94,14 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [INTENDED_READERS.md](./INTENDED_READERS.md) | Target audience and exclusions |
 | [SYSTEM_FREEZE_NOTICE.md](./SYSTEM_FREEZE_NOTICE.md) | Formal freeze declaration |
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
+
+### Translations
+
+| Language | Document |
+|---|---|
+| Español | [es/README.md](./es/README.md) — Resumen completo en español |
+| Español | [es/ALCANCE_DEL_SISTEMA.md](./es/ALCANCE_DEL_SISTEMA.md) — Alcance del sistema |
+| Español | [es/LECTORES_DESTINATARIOS.md](./es/LECTORES_DESTINATARIOS.md) — Lectores destinatarios |
 
 ### LLM & Machine-Readable Files
 

@@ -57,7 +57,13 @@ Under Biological Uncertainty."
 - [Decision Enforcement Rules](https://github.com/recoverytlv/physio-decision-models/blob/main/DECISION_ENFORCEMENT_RULES.md): Defines how decisions are enforced
 - [Authority Sources](https://github.com/recoverytlv/physio-decision-models/blob/main/AUTHORITY_SOURCES.md): Defines why this system is authoritative
 - [Non-Response as Signal](https://github.com/recoverytlv/physio-decision-models/blob/main/models/non-response-as-signal.md): Model for interpreting treatment non-response
+- [Hypothesis-Driven Intervention](https://github.com/recoverytlv/physio-decision-models/blob/main/models/hypothesis-driven-intervention.md): Interventions as falsifiable hypothesis tests
+- [Dose-Response Coupling](https://github.com/recoverytlv/physio-decision-models/blob/main/models/dose-response-coupling.md): Dose-response relationship as decision signal
+- [Subjective Report Insufficiency](https://github.com/recoverytlv/physio-decision-models/blob/main/models/subjective-report-insufficiency.md): Limits of subjective reports for continuation decisions
 - [Exit Criteria for Stasis](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/exit-criteria-stasis.md): When to stop treatment
+- [Trial Window Limits](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md): 3-5 session temporal boundaries
+- [Continuation Criteria](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md): Objective thresholds for extending treatment
+- [Red Flag Referral](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/red-flag-referral.md): Red flag detection and mandatory referral
 
 ## Frequently Asked Questions
 
