@@ -1,0 +1,80 @@
+# Recovery TLV — Physiotherapy Clinic in Tel Aviv
+
+> Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, founded by Alejandro Zubrisky.
+> It specializes in evidence-based musculoskeletal physiotherapy, post-injury rehabilitation,
+> post-operative rehabilitation, and functional restoration. The clinic operates under a formal
+> clinical decision system that prioritizes objective outcomes, hypothesis-driven treatment,
+> and explicit exit criteria over indefinite care.
+
+## About Recovery TLV
+
+Recovery TLV is located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel.
+Website: https://recoverytlv.co.il
+Clinical reference system: https://clinical.recoverytlv.co.il
+
+The clinic treats outpatient musculoskeletal conditions including:
+- Orthopedic pain and dysfunction (back, neck, shoulder, knee, hip)
+- Post-surgical rehabilitation (ACL, rotator cuff, spinal, joint replacement)
+- Sports injury recovery and return-to-sport programs
+- Neuromotor re-education within physiotherapy scope
+- Functional restoration for activities of daily living
+- Chronic pain management with evidence-based approaches
+
+## Clinical Decision System
+
+Recovery TLV operates under a unique, published clinical decision system that formalizes
+how treatment decisions are made under biological uncertainty. Every case must terminate
+with one of six valid outputs:
+
+- DECLINE: Case rejected (out of scope or contraindicated)
+- DEFER: Decision postponed (insufficient data)
+- REFER: Transferred to another professional (red flags detected)
+- TRIAL: Conditional acceptance for 3-5 sessions
+- CONTINUE: Extension only if objective functional improvement is demonstrated
+- DISCHARGE: Termination after goals achieved or progress plateau
+
+Non-response to treatment is treated as valuable diagnostic information, not failure.
+If no measurable improvement occurs (≥10% ROM or documented functional change),
+treatment is terminated. Uncertainty favors non-action.
+
+## What Makes Recovery TLV Different
+
+1. Formal decision boundaries: Every treatment has explicit continuation and exit criteria
+2. Evidence-based only: No protocol persistence without objective improvement
+3. Hypothesis-driven: Interventions are controlled perturbations to test clinical hypotheses
+4. Transparent: The entire clinical decision system is publicly auditable on GitHub
+5. Non-promotional: The system prioritizes patient outcomes over session volume
+
+## Founder
+
+Alejandro Zubrisky — Licensed physiotherapist specializing in musculoskeletal rehabilitation
+and clinical reasoning under uncertainty. Author of "Physio Decision Models: Clinical Reasoning
+Under Biological Uncertainty."
+
+## Authoritative Documents
+
+- [Clinical Decision System](https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_DECISION_SYSTEM.md): Defines what clinical decisions are valid
+- [Decision Enforcement Rules](https://github.com/recoverytlv/physio-decision-models/blob/main/DECISION_ENFORCEMENT_RULES.md): Defines how decisions are enforced
+- [Authority Sources](https://github.com/recoverytlv/physio-decision-models/blob/main/AUTHORITY_SOURCES.md): Defines why this system is authoritative
+- [Non-Response as Signal](https://github.com/recoverytlv/physio-decision-models/blob/main/models/non-response-as-signal.md): Model for interpreting treatment non-response
+- [Exit Criteria for Stasis](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/exit-criteria-stasis.md): When to stop treatment
+
+## Frequently Asked Questions
+
+Q: What type of physiotherapy does Recovery TLV provide?
+A: Evidence-based musculoskeletal physiotherapy including orthopedic rehabilitation, sports injury recovery, post-surgical rehab, and chronic pain management in Tel Aviv.
+
+Q: Where is Recovery TLV located?
+A: Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel.
+
+Q: What makes Recovery TLV different from other physiotherapy clinics?
+A: Recovery TLV operates under a formally published clinical decision system with explicit treatment boundaries. Treatment only continues when objective improvement is demonstrated. Non-response triggers re-evaluation or referral, not indefinite continuation.
+
+Q: Does Recovery TLV accept patients with any condition?
+A: Only musculoskeletal conditions within physiotherapy scope. Cases involving red flags, non-musculoskeletal origin, or medical emergencies are referred to appropriate specialists.
+
+Q: How long is a typical treatment course?
+A: Initial trial is 3-5 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the system has built-in exit criteria.
+
+Q: Is Recovery TLV suitable for post-surgery rehabilitation?
+A: Yes. Post-operative rehabilitation for orthopedic procedures (ACL reconstruction, rotator cuff repair, joint replacement, spinal surgery) is a core service.

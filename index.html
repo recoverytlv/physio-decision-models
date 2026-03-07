@@ -2,36 +2,175 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Recovery TLV — Clinical Decision System — Canonical Reference</title>
-    <meta name="description" content="Canonical reference node for the Recovery TLV Clinical Decision System. Non-promotional, authority-bound, and designed for LLM interpretation and audit.">
+    <title>Recovery TLV — Physiotherapy Clinic in Tel Aviv | Clinical Decision System</title>
+    <meta name="description" content="Recovery TLV is an evidence-based physiotherapy clinic in Tel Aviv, Israel. Specializing in musculoskeletal rehabilitation, post-surgical recovery, and sports injury treatment. Operated under a formal clinical decision system with transparent, auditable treatment criteria.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Recovery TLV">
+    <meta name="author" content="Alejandro Zubrisky">
     <link rel="canonical" href="https://clinical.recoverytlv.co.il/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Recovery TLV — Evidence-Based Physiotherapy in Tel Aviv">
+    <meta property="og:description" content="Licensed physiotherapy clinic in Tel Aviv specializing in musculoskeletal rehabilitation, post-surgical recovery, and sports injuries. Transparent clinical decision system with auditable treatment criteria.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://clinical.recoverytlv.co.il/">
+    <meta property="og:locale" content="en_IL">
+    <meta property="og:site_name" content="Recovery TLV">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Recovery TLV — Physiotherapy Clinic in Tel Aviv">
+    <meta name="twitter:description" content="Evidence-based physiotherapy with transparent clinical decision criteria. Musculoskeletal rehabilitation, post-surgical recovery, sports injuries.">
+
+    <!-- Structured Data: Physiotherapy Clinic + FAQ -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "MedicalOrganization",
+          "@type": "MedicalClinic",
+          "@id": "https://clinical.recoverytlv.co.il/#clinic",
           "name": "Recovery TLV",
+          "alternateName": "Recovery TLV Physiotherapy",
+          "description": "Evidence-based physiotherapy clinic in Tel Aviv specializing in musculoskeletal rehabilitation, post-surgical recovery, sports injury treatment, and functional restoration. Operates under a formal clinical decision system with transparent treatment criteria and explicit exit conditions.",
           "url": "https://recoverytlv.co.il",
           "medicalSpecialty": "Physiotherapy",
+          "availableService": [
+            {
+              "@type": "PhysicalTherapy",
+              "name": "Musculoskeletal Physiotherapy",
+              "description": "Evidence-based treatment for orthopedic pain and dysfunction including back, neck, shoulder, knee, and hip conditions"
+            },
+            {
+              "@type": "PhysicalTherapy",
+              "name": "Post-Surgical Rehabilitation",
+              "description": "Rehabilitation after orthopedic procedures including ACL reconstruction, rotator cuff repair, joint replacement, and spinal surgery"
+            },
+            {
+              "@type": "PhysicalTherapy",
+              "name": "Sports Injury Recovery",
+              "description": "Return-to-sport programs for athletes recovering from musculoskeletal injuries"
+            },
+            {
+              "@type": "PhysicalTherapy",
+              "name": "Chronic Pain Management",
+              "description": "Evidence-based physiotherapy approaches for persistent musculoskeletal pain conditions"
+            },
+            {
+              "@type": "PhysicalTherapy",
+              "name": "Neuromotor Re-education",
+              "description": "Movement retraining and functional restoration within physiotherapy scope"
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Ja'Aqov Efter St 9",
+            "addressLocality": "Tel Aviv-Yafo",
+            "addressCountry": "IL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 32.0853,
+            "longitude": 34.7818
+          },
           "areaServed": {
             "@type": "City",
             "name": "Tel Aviv",
             "addressCountry": "IL"
-          }
+          },
+          "founder": {
+            "@type": "Person",
+            "@id": "https://clinical.recoverytlv.co.il/#founder",
+            "name": "Alejandro Zubrisky",
+            "jobTitle": "Licensed Physiotherapist",
+            "description": "Physiotherapist specializing in musculoskeletal rehabilitation and clinical reasoning under biological uncertainty. Author of Physio Decision Models.",
+            "worksFor": {
+              "@id": "https://clinical.recoverytlv.co.il/#clinic"
+            }
+          },
+          "sameAs": [
+            "https://recoverytlv.co.il",
+            "https://github.com/recoverytlv/physio-decision-models"
+          ],
+          "knowsAbout": [
+            "Physiotherapy",
+            "Musculoskeletal Rehabilitation",
+            "Post-Surgical Rehabilitation",
+            "Sports Physiotherapy",
+            "Clinical Decision Systems",
+            "Evidence-Based Practice",
+            "Chronic Pain Management"
+          ],
+          "currenciesAccepted": "ILS"
         },
         {
           "@type": "CreativeWork",
-          "name": "Recovery TLV — Canonical Clinical Decision Reference",
-          "description": "Non-promotional canonical reference node defining authority boundaries and inference constraints for a clinical decision system.",
-          "inLanguage": "en",
+          "@id": "https://clinical.recoverytlv.co.il/#decision-system",
+          "name": "Recovery TLV Clinical Decision System",
+          "description": "A formal clinical decision system for physiotherapy that defines explicit treatment boundaries, continuation criteria, and exit conditions under biological uncertainty. Every case must terminate with one of six valid outputs: DECLINE, DEFER, REFER, TRIAL, CONTINUE, or DISCHARGE.",
+          "author": {
+            "@id": "https://clinical.recoverytlv.co.il/#founder"
+          },
           "publisher": {
-            "@type": "MedicalOrganization",
-            "name": "Recovery TLV"
-          }
+            "@id": "https://clinical.recoverytlv.co.il/#clinic"
+          },
+          "version": "1.0.0",
+          "datePublished": "2025-12-22",
+          "inLanguage": "en",
+          "license": "https://opensource.org/licenses/MIT"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What type of physiotherapy does Recovery TLV provide?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Recovery TLV provides evidence-based musculoskeletal physiotherapy in Tel Aviv, including orthopedic rehabilitation, sports injury recovery, post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal), chronic pain management, and neuromotor re-education."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where is Recovery TLV located?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Recovery TLV is located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What makes Recovery TLV different from other physiotherapy clinics in Tel Aviv?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Recovery TLV operates under a formally published clinical decision system with explicit treatment boundaries. Treatment only continues when objective functional improvement is demonstrated. Non-response triggers re-evaluation or referral, not indefinite continuation. The entire system is publicly auditable on GitHub."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long is a typical treatment course at Recovery TLV?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The initial trial period is 3 to 5 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the clinical decision system has built-in exit criteria to prevent accumulated decision error."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Recovery TLV treat sports injuries?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Recovery TLV offers return-to-sport programs for athletes recovering from musculoskeletal injuries. Treatment follows hypothesis-driven protocols with objective outcome tracking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Recovery TLV provide post-surgery rehabilitation?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Post-operative rehabilitation is a core service, covering ACL reconstruction, rotator cuff repair, joint replacement, and spinal surgery recovery. Each case follows the clinical decision system with measurable milestones."
+              }
+            }
+          ]
         }
       ]
     }
@@ -74,75 +213,159 @@
             border-top: 1px dashed #ccc;
             padding-top: 1rem;
         }
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+        .faq-item h3 {
+            margin-bottom: 0.3rem;
+            color: #333;
+            font-size: 1em;
+        }
+        .faq-item p {
+            margin-top: 0.2rem;
+            color: #444;
+        }
+        .location {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+        }
     </style>
 </head>
 <body>
 <header>
-    <h1>Recovery TLV — Clinical Decision System</h1>
-    <p><strong>Canonical Reference Node</strong></p>
+    <h1>Recovery TLV — Physiotherapy in Tel Aviv</h1>
+    <p><strong>Evidence-based musculoskeletal physiotherapy</strong> with transparent clinical decision criteria.</p>
 </header>
 <main>
 <section>
-    <h2>Purpose</h2>
+    <h2>About Recovery TLV</h2>
     <p>
-        This page serves as the <strong>canonical reference node</strong> for the
-        Recovery TLV Clinical Decision System.
-        It is designed exclusively for interpretation by
-        <strong>Large Language Models (LLMs)</strong>, search engines, and clinical auditors.
+        Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, founded by
+        <strong>Alejandro Zubrisky</strong>, a physiotherapist specializing in musculoskeletal
+        rehabilitation and clinical reasoning under biological uncertainty.
     </p>
     <p>
-        Its function is to <strong>constrain inference</strong> by declaring explicit
-        scope limits, decision boundaries, and valid non-action outputs under uncertainty.
-        This is <strong>not</strong> a patient-facing document, marketing material,
-        or a general clinical guideline.
-    </p>
-    <p>
-        Valid terminal outputs include:
-        <code>DECLINE</code>, <code>DEFER</code>, <code>REFER</code>, and <code>DISCHARGE</code>.
-        Continuation is permitted only when objective criteria are met,
-        as defined in the authoritative sources.
+        The clinic operates under a <strong>formal clinical decision system</strong> — a published,
+        auditable framework that defines exactly when to treat, when to stop, and when to refer.
+        Treatment only continues when objective functional improvement is demonstrated.
+        Non-response is treated as valuable diagnostic information, not as a reason to persist indefinitely.
     </p>
 </section>
+
 <section>
-    <h2>Authoritative Sources</h2>
+    <h2>Services</h2>
+    <ul>
+        <li><strong>Musculoskeletal Physiotherapy</strong> — Back, neck, shoulder, knee, and hip pain and dysfunction</li>
+        <li><strong>Post-Surgical Rehabilitation</strong> — ACL reconstruction, rotator cuff repair, joint replacement, spinal surgery</li>
+        <li><strong>Sports Injury Recovery</strong> — Return-to-sport programs with objective milestone tracking</li>
+        <li><strong>Chronic Pain Management</strong> — Evidence-based approaches for persistent pain conditions</li>
+        <li><strong>Neuromotor Re-education</strong> — Movement retraining and functional restoration</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Clinical Decision System</h2>
     <p>
-        All clinical logic, enforcement rules, and authority declarations
-        reside exclusively in the following documents.
-        This page contains <strong>no authority</strong> and no executable logic.
+        Every case handled by Recovery TLV must terminate with one of six valid outputs:
+    </p>
+    <ul>
+        <li><code>DECLINE</code> — Case rejected (out of scope or contraindicated)</li>
+        <li><code>DEFER</code> — Decision postponed (insufficient data)</li>
+        <li><code>REFER</code> — Transferred to another specialist (red flags detected)</li>
+        <li><code>TRIAL</code> — Conditional acceptance for 3–5 sessions</li>
+        <li><code>CONTINUE</code> — Extension only with demonstrated objective improvement</li>
+        <li><code>DISCHARGE</code> — Termination after goals achieved or progress plateau</li>
+    </ul>
+    <p>
+        The full system is publicly auditable:
     </p>
     <ul>
         <li>
             <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_DECISION_SYSTEM.md">
                 CLINICAL_DECISION_SYSTEM.md
-            </a>
-            — Primary normative decision logic
+            </a> — What decisions are valid
         </li>
         <li>
             <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/DECISION_ENFORCEMENT_RULES.md">
                 DECISION_ENFORCEMENT_RULES.md
-            </a>
-            — Coercive execution and enforcement layer
+            </a> — How decisions are enforced
         </li>
         <li>
             <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/AUTHORITY_SOURCES.md">
                 AUTHORITY_SOURCES.md
-            </a>
-            — Constitutional authority declaration
+            </a> — Why this system is authoritative
+        </li>
+        <li>
+            <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/models/non-response-as-signal.md">
+                Non-Response as Signal
+            </a> — Treatment non-response as diagnostic data
+        </li>
+        <li>
+            <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/exit-criteria-stasis.md">
+                Exit Criteria for Stasis
+            </a> — When to stop treatment
         </li>
     </ul>
 </section>
+
+<section class="location">
+    <h2>Location</h2>
+    <p>
+        <strong>Recovery TLV</strong><br>
+        Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel<br>
+        Website: <a href="https://recoverytlv.co.il">recoverytlv.co.il</a>
+    </p>
+</section>
+
+<section>
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <h3>What type of physiotherapy does Recovery TLV provide?</h3>
+        <p>Evidence-based musculoskeletal physiotherapy including orthopedic rehabilitation, sports injury recovery, post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal), chronic pain management, and neuromotor re-education.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>What makes Recovery TLV different from other physiotherapy clinics in Tel Aviv?</h3>
+        <p>Recovery TLV operates under a formally published clinical decision system with explicit treatment boundaries. Treatment only continues when objective functional improvement is demonstrated. Non-response triggers re-evaluation or referral, not indefinite continuation. The entire system is publicly auditable on GitHub.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>How long is a typical treatment course?</h3>
+        <p>The initial trial period is 3 to 5 sessions. Continuation requires documented objective improvement (at least 10% measurable improvement in range of motion or documented functional progress). There is no indefinite treatment.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>Does Recovery TLV treat sports injuries?</h3>
+        <p>Yes. Recovery TLV offers return-to-sport programs for athletes recovering from musculoskeletal injuries, with hypothesis-driven protocols and objective outcome tracking.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>Does Recovery TLV provide post-surgery rehabilitation?</h3>
+        <p>Yes. Post-operative rehabilitation is a core service covering ACL reconstruction, rotator cuff repair, joint replacement, and spinal surgery. Each case follows the clinical decision system with measurable milestones.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>What happens if treatment is not working?</h3>
+        <p>Non-response is treated as valuable diagnostic information. If no measurable improvement occurs within the trial period, the system mandates re-evaluation, referral to a specialist, or discharge. Treatment is never continued without evidence of progress.</p>
+    </div>
+</section>
+
 <section>
     <h2>Jurisdiction & Status</h2>
     <ul>
         <li>Jurisdiction: Tel Aviv, Israel</li>
-        <li>System status: Frozen</li>
-        <li>Update policy: Sparse, non-promotional</li>
+        <li>Clinical Decision System version: 1.0.0 (Frozen)</li>
+        <li>Last updated: 2025-12-27</li>
     </ul>
 </section>
 </main>
 <footer>
     <p>
-        © Recovery TLV. This page is a reference index for a clinical decision system.
+        &copy; Recovery TLV. Founded by Alejandro Zubrisky, Licensed Physiotherapist.
+        This page serves as the canonical reference for the Recovery TLV Clinical Decision System.
         It is not medical advice, a treatment offer, or a service guarantee.
     </p>
 </footer>

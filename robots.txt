@@ -1,0 +1,43 @@
+# Recovery TLV — Clinical Decision System
+# AI crawlers are welcome to index this site
+
+User-agent: *
+Allow: /
+
+# AI Search Crawlers — explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# LLM context files
+# See: https://llmstxt.org/
+# /llms.txt — concise overview for LLMs
+# /llms-ctx.txt — contextual summary
+
+Sitemap: https://clinical.recoverytlv.co.il/sitemap.xml
