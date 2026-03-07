@@ -306,6 +306,193 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 | Case 9 | Previous treatment was the problem | Knowing what NOT to do matters |
 | Case 10 | Multi-hypothesis approach | Complex cases need systematic multi-system assessment |
 
+---
+
+## Case 11: Knee Osteoarthritis — Exercise Over Surgery
+
+**Intake:** 68-year-old retired teacher, bilateral knee pain for 2 years. X-ray shows "bone on bone" medial compartment. Previous doctor recommended knee replacement. Patient wants to try physiotherapy first. BMI 31.
+
+**Listen:** Patient describes pain with stairs and prolonged walking. Fear: "My knee is bone on bone — can exercise really help?" Previous advice was rest and avoid stairs. Currently very sedentary.
+
+**Evaluate:** Bilateral genu varum. Mild effusion left knee. ROM: -5° extension, 115° flexion bilaterally. Quad strength 3+/5 bilaterally. TUG: 14.2 seconds. 30-second sit-to-stand: 7 repetitions. 6MWT: 320 meters. NDI/ODI not applicable — KOOS Pain: 42/100.
+
+**Hypothesis:** Quad weakness and deconditioning are major contributors to functional limitation. Radiographic severity does not predict exercise response.
+
+**Goal:** TUG <12 seconds, sit-to-stand ≥10, walk 30 minutes without stopping.
+
+**TRIAL (Sessions 1-5):**
+- Education: "Bone on bone does NOT mean exercise won't help. Strongest evidence in OA is exercise."
+- Progressive quad strengthening (seated knee extensions → step-ups)
+- Walking program: 10 minutes → 15 minutes daily
+- Aquatic therapy 1x/week (lower joint load)
+
+**Session 5 Re-evaluation:** TUG: 12.8 seconds (improved 1.4s). Sit-to-stand: 9 (improved 2). Pain during stairs reduced from 7/10 to 5/10.
+
+**Decision: CONTINUE** — All measures improving. Not yet at MCID for TUG but trending positive.
+
+**Sessions 6-12:** Progressive loading. Added hip strengthening. Walking up to 25 minutes.
+
+**Session 12 Re-evaluation:** TUG: 11.1 seconds. Sit-to-stand: 12. KOOS Pain: 61/100. Can walk 30 minutes. Doing stairs with alternating feet.
+
+**Decision: DISCHARGE** — All functional goals met. Independent gym program. Surgery deferred.
+
+**Teaching point:** Imaging severity does not determine physiotherapy outcome. Structured exercise is first-line treatment for knee OA regardless of radiographic grade.
+
+---
+
+## Case 12: Fibromyalgia — The Boom-Bust Patient
+
+**Intake:** 45-year-old graphic designer, widespread pain for 3 years. Diagnosed fibromyalgia by rheumatologist. Previous physiotherapy "made things worse." Currently on pregabalin and duloxetine. Sleeps 4-5 hours/night.
+
+**Listen:** "Every time I try to exercise, I crash for a week. I've been told to just push through it." Pattern: on good days does too much (3-hour house cleaning), then bedbound for 3-4 days. Classic boom-bust cycle. Yellow flag: "Maybe this is all in my head."
+
+**Evaluate:** No focal musculoskeletal findings. Widespread tenderness. 6MWT: 280 meters (stopped due to fatigue, not pain). 30-second sit-to-stand: 6. TSK: 42 (high fear). PCS: 28 (elevated catastrophizing). PHQ-9: 12 (moderate depression — already under psychiatric care).
+
+**Hypothesis:** Boom-bust activity pattern perpetuates the pain-fatigue cycle. Central sensitization amplifies normal movement signals as painful.
+
+**Goal:** Consistent daily activity without flare. 6MWT >350 meters. Independent pacing strategy.
+
+**TRIAL (Sessions 1-5):**
+- Pain neuroscience education (central sensitization explained simply)
+- Activity pacing: set ceiling on good days (no more than 60% capacity)
+- Exercise: walking 8 minutes daily (well below symptom threshold), gentle stretching
+- Flare management plan written down
+
+**Session 3:** Patient reports first week with no major flare in months. "I wanted to do more but stuck to the plan."
+
+**Session 5 Re-evaluation:** 6MWT: 310 meters (improved 30m). TSK: 38 (improved 4 points). No boom-bust episodes in 2 weeks. Sleep slightly improved.
+
+**Decision: CONTINUE** — Functional improvement. Extended trial justified for fibromyalgia.
+
+**Sessions 6-12:** Gradually increased walking to 15 minutes, added light resistance bands, introduced pool exercise.
+
+**Session 12:** 6MWT: 375 meters. Sit-to-stand: 10. Reports "I finally understand that doing less consistently gives me more." No boom-bust cycles. TSK: 32. Self-managing flares independently.
+
+**Decision: DISCHARGE** — Functional goals met. Independent self-management. Continues exercise independently.
+
+**Teaching point:** Previous "failed" physiotherapy was wrong dosing, not wrong modality. Start LOW, progress SLOW. Pacing is the intervention for boom-bust pattern.
+
+---
+
+## Case 13: Thoracic Outlet Syndrome — Differential Diagnosis Matters
+
+**Intake:** 34-year-old software developer, 6 months of right arm numbness and tingling. Worse at end of workday. Seen by neurologist — nerve conduction normal. MRI cervical spine unremarkable. Referred for "cervical radiculopathy."
+
+**Listen:** Symptoms are in ulnar distribution (ring and little finger). Worse with arms overhead (hanging laundry, reaching top shelves). No neck pain. Works 10+ hours/day at computer with forward head posture and rounded shoulders.
+
+**Evaluate:** Cervical ROM full and pain-free. Spurling's negative. ULTT for median nerve negative. ULTT for ulnar nerve mildly positive. Roos test (EAST): reproduces symptoms at 45 seconds (should tolerate 3 minutes). Elevated first rib on right. Tight anterior scalenes. Droopy shoulder posture bilateral.
+
+**Hypothesis:** This is neurogenic TOS, not cervical radiculopathy. Scalene tightness and droopy shoulder posture compress brachial plexus in thoracic outlet.
+
+**Goal:** Roos test tolerated >2 minutes. No arm symptoms during work.
+
+**TRIAL (Sessions 1-5):**
+- Scalene soft tissue release and stretching
+- First rib mobilization
+- Scapular retractor strengthening (lower trapezius, serratus anterior)
+- Workstation ergonomics: monitor height, keyboard position, hourly breaks
+
+**Session 3:** Roos test tolerated for 1:30 (improved from 0:45). Reports 50% reduction in work-related symptoms.
+
+**Session 5 Re-evaluation:** Roos test: 2:15. End-of-day symptoms gone on most days. Maintaining ergonomic setup.
+
+**Decision: CONTINUE** — Clear improvement with correct diagnosis.
+
+**Session 8:** Roos test: 3 minutes without symptoms. Working full days without arm numbness. Independent stretching and strengthening program.
+
+**Decision: DISCHARGE** — Goals met. Correct diagnosis was the key intervention.
+
+**Teaching point:** Ulnar-sided arm symptoms with normal cervical imaging should prompt TOS assessment. The referral diagnosis is not always the correct diagnosis. Listen to the pattern.
+
+---
+
+## Case 14: Geriatric Fall Prevention — Beyond the Injury
+
+**Intake:** 78-year-old widow, right hip pain after fall 3 weeks ago. X-ray negative for fracture. Lives alone. Daughter brought her because she's "afraid to walk."
+
+**Listen:** Fell getting out of bath. This was her third fall in 6 months (two previous unreported). Now uses furniture to walk around apartment. Stopped going to market. Stopped visiting friends. "I'm afraid I'll fall and break something and nobody will find me." Medications: amlodipine, metformin, omeprazole, lorazepam (0.5mg nightly for sleep).
+
+**Evaluate:** Hip ROM limited but consistent with age and guarding, not structural pathology. Gait: shuffling, wide base, uses hands on furniture. TUG: 18.4 seconds (high fall risk, cut-off 13.5s). Berg Balance Scale: 38/56 (fall risk). 30-second sit-to-stand: 4. Single leg stance: 2 seconds (right), 3 seconds (left). Quad strength: 3/5 bilateral. Fear of falling (FES-I): 42 (severe fear).
+
+**Red flag assessment:** Lorazepam is a benzodiazepine — known fall risk factor. Recommend discussion with prescribing physician about alternatives.
+
+**Hypothesis 1:** Deconditioning and quad weakness increase fall risk.
+**Hypothesis 2:** Fear of falling causes activity avoidance, which worsens deconditioning (fear-avoidance cycle).
+**Hypothesis 3:** Lorazepam contributes to balance impairment.
+
+**Goals:** TUG <14 seconds. Berg >45. Independent community ambulation. Reduced fear of falling.
+
+**TRIAL (Sessions 1-6, extended for geriatric):**
+- Progressive balance training: seated → standing → tandem → single leg (with safety)
+- Quad strengthening: chair squats, sit-to-stand practice, step-ups
+- Gait training: increase stride length, reduce base of support, outdoor walking
+- Education: fall prevention strategies, home safety
+- Letter to physician regarding lorazepam and fall risk
+
+**Session 6 Re-evaluation:** TUG: 15.1 seconds (improved 3.3s). Berg: 42 (improved 4 points). Sit-to-stand: 7. Physician tapered lorazepam, started trazodone for sleep.
+
+**Decision: CONTINUE** — Meaningful improvement. Still above fall risk threshold.
+
+**Sessions 7-14:** Continued progressive balance and strength. Introduced outdoor walking with therapist, then independently. Community re-engagement (walks to market with rest stops).
+
+**Session 14:** TUG: 12.8 seconds (below fall risk threshold). Berg: 47. Sit-to-stand: 10. Single leg stance: 8 seconds bilateral. Walks to market independently. Visiting friends again. FES-I: 28 (moderate fear, improved from severe).
+
+**Decision: DISCHARGE** — All goals met. Community-dwelling independence restored. Home exercise program established. Follow-up recommended in 3 months.
+
+**Teaching point:** The hip pain was the presenting complaint, but the real problem was fall risk, fear-avoidance, and deconditioning. Treating just the hip would have missed everything. The benzodiazepine was a modifiable risk factor — communication with the physician was essential.
+
+---
+
+## Case 15: Rib Dysfunction Masquerading as Cardiac Pain
+
+**Intake:** 52-year-old businessman, left-sided chest pain for 2 weeks. Saw cardiologist: ECG normal, stress test normal, troponin negative, echocardiogram normal. Referred to physiotherapy for "musculoskeletal chest pain."
+
+**Listen:** Pain is sharp, left anterior chest, worse with deep breathing and turning in bed. Started after moving heavy furniture. No exertional component (can exercise at gym without chest pain). No radiation to arm or jaw. No shortness of breath, diaphoresis, or nausea. Family history of cardiac disease (father had MI at 60).
+
+**Evaluate:**
+- **Cardiac screen:** CLEAR per cardiology workup. No exertional symptoms. Current episode not consistent with cardiac pattern.
+- **Musculoskeletal findings:** Tenderness at left 4th-5th costochondral junction (reproduces EXACT complaint). Restricted left costovertebral joint mobility T4-5. Pain with left rotation and deep inspiration. Spring test positive at T4-5.
+
+**Hypothesis:** Left costovertebral joint dysfunction T4-5 with costochondral irritation, post-mechanical strain from furniture moving.
+
+**Goal:** Pain-free breathing and sleeping. Full trunk rotation.
+
+**TRIAL (Sessions 1-3):**
+- Costovertebral mobilization T4-5
+- Thoracic extension mobilization
+- Breathing retraining (diaphragmatic, avoiding guarding pattern)
+- Ice to costochondral junction
+
+**Session 1 response:** 40% pain reduction immediately after costovertebral mobilization. "That's exactly where it hurts."
+
+**Session 3 Re-evaluation:** Pain 2/10 (was 7/10). Sleeping through night. Deep breathing pain-free. Trunk rotation full.
+
+**Decision: DISCHARGE** after session 4 (confirmatory session). Complete resolution. Education: if chest pain returns with exertional component → cardiology, not physiotherapy.
+
+**Teaching point:** Musculoskeletal chest pain is common but is a diagnosis of EXCLUSION. Cardiac workup must be completed first. The reproducibility with palpation was the key finding. Always err on the side of caution with chest pain — the cost of missing cardiac pathology is too high.
+
+---
+
+## Summary Table (All 15 Cases)
+
+| Case | Condition | Key Decision | Teaching Point |
+|------|-----------|-------------|----------------|
+| Case 1 | Low back pain | Hypothesis revision | Non-response drives hypothesis change, not more of the same |
+| Case 2 | Shoulder pain | REFER for red flags | Safety first — red flags override treatment plans |
+| Case 3 | Knee meniscus | TRIAL → CONTINUE → DISCHARGE | Objective improvement drives continuation |
+| Case 4 | Achilles tendinopathy | CONTINUE → Stasis → REFER | Exit criteria enforce honest termination |
+| Case 5 | Neck pain | DECLINE before any treatment | Scope check prevents unsafe treatment |
+| Case 6 | Frozen shoulder | CONTINUE despite ROM plateau | Biology must be respected; pain improvement counts |
+| Case 7 | Runner's knee | DEFER → reassess → correct TRIAL | Wrong hypothesis wastes time; DEFER is valid |
+| Case 8 | Post-TKR | Address fear-avoidance alongside stiffness | Yellow flags are as important as physical findings |
+| Case 9 | Lateral hip | Previous treatment was the problem | Knowing what NOT to do matters |
+| Case 10 | Post-concussion | Multi-hypothesis approach | Complex cases need systematic multi-system assessment |
+| Case 11 | Knee OA | Exercise over surgery | Imaging severity doesn't predict exercise response |
+| Case 12 | Fibromyalgia | Start LOW, progress SLOW | Previous "failed" physio was wrong dosing |
+| Case 13 | TOS | Differential diagnosis matters | Referral diagnosis isn't always correct |
+| Case 14 | Geriatric falls | Beyond the presenting complaint | Fall risk, fear, and medications matter more than hip pain |
+| Case 15 | Rib dysfunction | Diagnosis of exclusion | Cardiac workup first, then musculoskeletal |
+
 In every case, the workflow is the same: **Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide.**
 
 The decision is never "keep treating." It is always one of: DECLINE, DEFER, REFER, TRIAL, CONTINUE, or DISCHARGE — with documented justification.

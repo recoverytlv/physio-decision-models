@@ -91,6 +91,14 @@ Under Biological Uncertainty."
 - [Shin Splints](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md): Medial tibial stress syndrome
 - [Shoulder Instability](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md): TUBS/AMBRI classification
 - [Post-Concussion Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md): Cervicogenic, vestibular, exercise tolerance
+- [Pelvic Floor Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/pelvic-floor-dysfunction.md): Hypertonic/hypotonic, coccydynia
+- [Thoracic Outlet Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md): Neurogenic TOS
+- [Headache (Cervicogenic/Tension)](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md): CGH, tension-type, SNOOP
+- [Knee Osteoarthritis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-osteoarthritis.md): Exercise-first, prehabilitation
+- [Fibromyalgia](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/fibromyalgia.md): Central sensitization, graded exercise
+- [Scoliosis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/scoliosis.md): Adolescent idiopathic, Schroth
+- [Rib Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rib-dysfunction.md): Costochondritis, costovertebral
+- [Dupuytren's Contracture](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/dupuytren-contracture.md): Post-surgical hand rehab
 
 ## Additional Resources
 
@@ -101,6 +109,11 @@ Under Biological Uncertainty."
 - [What To Expect](https://github.com/recoverytlv/physio-decision-models/blob/main/WHAT_TO_EXPECT.md): Patient-facing first visit guide
 - [Referral Guide](https://github.com/recoverytlv/physio-decision-models/blob/main/REFERRAL_GUIDE.md): For referring physicians
 - [Evidence Base](https://github.com/recoverytlv/physio-decision-models/blob/main/EVIDENCE_BASE.md): Academic foundations and references
+- [Home Exercise Principles](https://github.com/recoverytlv/physio-decision-models/blob/main/HOME_EXERCISE_PRINCIPLES.md): Patient guide for home exercise
+- [Outcome Measures](https://github.com/recoverytlv/physio-decision-models/blob/main/OUTCOME_MEASURES.md): Validated measurement tools and MCID values
+- [Telehealth Guidelines](https://github.com/recoverytlv/physio-decision-models/blob/main/TELEHEALTH_GUIDELINES.md): Remote assessment framework
+- [Return to Sport](https://github.com/recoverytlv/physio-decision-models/blob/main/RETURN_TO_SPORT.md): Criteria-based RTS protocol
+- [Geriatric Considerations](https://github.com/recoverytlv/physio-decision-models/blob/main/GERIATRIC_CONSIDERATIONS.md): Older adult adaptations
 
 ## Frequently Asked Questions
 
