@@ -53,6 +53,36 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
+User-agent: GoogleOther
+Allow: /
+
+User-agent: GoogleOther-Image
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: iaskspider
+Allow: /
+
+User-agent: Kangaroo Bot
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: Seekr
+Allow: /
+
 # LLM context files
 # See: https://llmstxt.org/
 # /llms.txt — concise overview for LLMs
