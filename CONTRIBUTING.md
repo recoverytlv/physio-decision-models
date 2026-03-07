@@ -23,7 +23,7 @@ Condition guides must follow the established format:
 - **Cross-References** — Links to relevant models and thresholds
 
 ### 2. Translations
-New language translations of README.md. Current translations: English, Spanish, Hebrew, Russian, French, Arabic. Requirements:
+New language translations of README.md. Current translations: English, Spanish, Hebrew, Russian, French. Requirements:
 - Translate all clinical terminology accurately
 - Include local SEO keywords for the target language
 - Add private physiotherapy section relevant to the local market

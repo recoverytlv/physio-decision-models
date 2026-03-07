@@ -35,7 +35,6 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 - Hebrew (`he/README.md`) with local keywords
 - Russian (`ru/README.md`)
 - French (`fr/README.md`)
-- Arabic (`ar/README.md`)
 
 **Infrastructure:**
 - `.github/ISSUE_TEMPLATE/bug-report.yml`

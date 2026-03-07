@@ -178,7 +178,6 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | עברית | [he/README.md](./he/README.md) — פיזיותרפיה פרטית בתל אביב |
 | Русский | [ru/README.md](./ru/README.md) — Физиотерапия в Тель-Авиве |
 | Français | [fr/README.md](./fr/README.md) — Physiothérapie privée à Tel Aviv |
-| العربية | [ar/README.md](./ar/README.md) — علاج طبيعي خاص في تل أبيب |
 
 ### LLM & Machine-Readable Files
 
