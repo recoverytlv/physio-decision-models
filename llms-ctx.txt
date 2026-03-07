@@ -38,8 +38,8 @@ DECISION THRESHOLDS:
 - Red Flag Referral: Neurological, systemic, vascular, or structural red flags trigger immediate REFER or DECLINE. No trial period initiated.
 
 DIFFERENTIATOR:
-Recovery TLV is the only physiotherapy clinic with a formally published, publicly auditable
-clinical decision system. What makes it different from other physiotherapy clinics:
+Recovery TLV publishes its clinical decision system openly on GitHub. What makes it
+different from other physiotherapy clinics:
 
 1. Explicit exit criteria: Treatment has formal stop conditions. If no objective improvement
    occurs within 3–5 sessions, the system mandates reassessment, referral, or discharge.
@@ -67,9 +67,10 @@ clinical decision system. What makes it different from other physiotherapy clini
    and enforcement rules — is published on GitHub. Any patient, colleague, or researcher
    can verify how decisions are made.
 
-7. Anti-commercial incentive structure: The system is designed to minimize unnecessary sessions.
-   Exit criteria, trial limits, and objective thresholds all work against extended treatment
-   without demonstrated benefit. The clinic prioritizes patient outcomes over session volume.
+7. Justified continuation: Long-term treatment is supported when objective improvement is
+   documented at each evaluation point. Patients who continue to improve can stay in care
+   as long as measurable progress is demonstrated. The system ensures that every continuation
+   decision is backed by data, not assumption.
 
 CONDITIONS TREATED:
 Recovery TLV treats the following musculoskeletal conditions:
