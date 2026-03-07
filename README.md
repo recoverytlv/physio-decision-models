@@ -86,6 +86,21 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [thresholds/continuation-criteria.md](./thresholds/continuation-criteria.md) | Objective thresholds for TRIAL → CONTINUE transition |
 | [thresholds/red-flag-referral.md](./thresholds/red-flag-referral.md) | Red flag detection and mandatory REFER triggers |
 
+### Condition-Specific Guides
+
+| Condition | Document |
+|---|---|
+| [Low Back Pain](./conditions/low-back-pain.md) | Mechanical LBP, disc herniation, chronic back pain |
+| [Sciatica](./conditions/sciatica.md) | Lumbar radiculopathy, nerve root involvement |
+| [Knee Pain](./conditions/knee-pain.md) | Patellofemoral, meniscus, OA, patellar tendinopathy |
+| [Shoulder Pain](./conditions/shoulder-pain.md) | Rotator cuff, frozen shoulder, impingement, instability |
+| [Neck Pain](./conditions/neck-pain.md) | Cervical pain, disc herniation, whiplash, cervicogenic headache |
+| [Hip Pain](./conditions/hip-pain.md) | FAI, gluteal tendinopathy, OA, post-hip replacement |
+| [Achilles Tendinopathy](./conditions/achilles-tendinopathy.md) | Midportion and insertional tendinopathy |
+| [Lateral Epicondylalgia](./conditions/lateral-epicondylalgia.md) | Tennis elbow and golfer's elbow |
+| [Plantar Fasciitis](./conditions/plantar-fasciitis.md) | Plantar heel pain and fasciopathy |
+| [ACL Reconstruction Rehab](./conditions/acl-reconstruction-rehab.md) | Post-operative ACL rehabilitation phases |
+
 ### System Documentation
 
 | Document | Function |
