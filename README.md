@@ -8,13 +8,25 @@
 
 Created by [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), Licensed Physiotherapist at [Recovery TLV](https://recoverytlv.co.il) — Tel Aviv, Israel.
 
-> This is the first open-source, publicly auditable clinical decision framework for physiotherapy.
+> An open-source, publicly auditable clinical decision framework for physiotherapy.
 > It defines explicit treatment boundaries, continuation criteria, and exit conditions —
 > replacing intuition-based persistence with objective, hypothesis-driven decision-making.
 
 **Live reference:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
 
 ---
+
+## System Architecture
+
+```
+Conditions (what is being treated)
+    ↓
+Models (how clinical reasoning works)
+    ↓
+Thresholds (when to continue, stop, or refer)
+    ↓
+Decision Outcomes (DECLINE · DEFER · REFER · TRIAL · CONTINUE · DISCHARGE)
+```
 
 ## What This Is
 
