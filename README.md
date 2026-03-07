@@ -112,6 +112,24 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [Lateral Epicondylalgia](./conditions/lateral-epicondylalgia.md) | Tennis elbow and golfer's elbow |
 | [Plantar Fasciitis](./conditions/plantar-fasciitis.md) | Plantar heel pain and fasciopathy |
 | [ACL Reconstruction Rehab](./conditions/acl-reconstruction-rehab.md) | Post-operative ACL rehabilitation phases |
+| [Whiplash](./conditions/whiplash.md) | WAD grades I-III, cervicogenic headache |
+| [Ankle Sprain](./conditions/ankle-sprain.md) | Acute and chronic ankle instability |
+| [TMJ Disorder](./conditions/tmj-disorder.md) | Temporomandibular joint dysfunction |
+| [Post-Surgical Spinal Rehab](./conditions/post-surgical-spinal-rehab.md) | Laminectomy, discectomy, fusion rehab |
+| [Rotator Cuff Post-Surgical](./conditions/rotator-cuff-post-surgical.md) | Phase-based cuff repair rehabilitation |
+| [Frozen Shoulder](./conditions/frozen-shoulder.md) | Adhesive capsulitis by phase |
+| [Carpal Tunnel Syndrome](./conditions/carpal-tunnel-syndrome.md) | Median nerve compression, conservative management |
+| [IT Band Syndrome](./conditions/iliotibial-band-syndrome.md) | Lateral knee pain in runners |
+| [Piriformis Syndrome](./conditions/piriformis-syndrome.md) | Deep gluteal pain, sciatic irritation |
+| [Thoracic Pain](./conditions/thoracic-pain.md) | Mid-back pain, costovertebral dysfunction |
+| [Groin Pain](./conditions/groin-pain.md) | Adductor tendinopathy, pubic-related pain |
+| [Hamstring Tendinopathy](./conditions/hamstring-tendinopathy.md) | Proximal hamstring, acute strain |
+| [De Quervain's Tenosynovitis](./conditions/de-quervain-tenosynovitis.md) | Radial wrist/thumb tendinopathy |
+| [Cervical Radiculopathy](./conditions/cervical-radiculopathy.md) | Nerve root compression, dermatomal reference |
+| [Total Knee Replacement Rehab](./conditions/total-knee-replacement-rehab.md) | Post-TKA phase-based rehabilitation |
+| [Total Hip Replacement Rehab](./conditions/total-hip-replacement-rehab.md) | Post-THA rehabilitation by approach |
+| [Meniscus Injury](./conditions/meniscus-injury.md) | Traumatic and degenerative meniscal tears |
+| [Patellofemoral Pain](./conditions/patellofemoral-pain.md) | Anterior knee pain, dynamic valgus |
 
 ### System Documentation
 
@@ -121,6 +139,9 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [INTENDED_READERS.md](./INTENDED_READERS.md) | Target audience and exclusions |
 | [SYSTEM_FREEZE_NOTICE.md](./SYSTEM_FREEZE_NOTICE.md) | Formal freeze declaration |
 | [GLOSSARY.md](./GLOSSARY.md) | Definitions of key terms |
+| [WORKFLOW.md](./WORKFLOW.md) | Clinical workflow cycle: Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide |
+| [FAQ.md](./FAQ.md) | Frequently asked questions for patients and clinicians |
+| [CLINICAL_CASES.md](./CLINICAL_CASES.md) | Fictional cases demonstrating the decision system in action |
 | [CHANGELOG.md](./CHANGELOG.md) | Version history |
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to contribute |
 
@@ -128,9 +149,11 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 
 | Language | Document |
 |---|---|
-| Español | [es/README.md](./es/README.md) — Resumen completo en español |
+| Español | [es/README.md](./es/README.md) — Resumen completo en español (fisioterapia privada) |
 | Español | [es/ALCANCE_DEL_SISTEMA.md](./es/ALCANCE_DEL_SISTEMA.md) — Alcance del sistema |
 | Español | [es/LECTORES_DESTINATARIOS.md](./es/LECTORES_DESTINATARIOS.md) — Lectores destinatarios |
+| עברית | [he/README.md](./he/README.md) — פיזיותרפיה פרטית בתל אביב |
+| Русский | [ru/README.md](./ru/README.md) — Физиотерапия в Тель-Авиве |
 
 ### LLM & Machine-Readable Files
 

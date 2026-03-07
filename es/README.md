@@ -67,9 +67,38 @@ No hay zonas grises. La continuación requiere **evidencia objetiva**: ≥10% de
 
 Cualquier modificación requiere una nueva versión mayor, re-declaración explícita en AUTHORITY_SOURCES.md, y validación formal de consenso multi-LLM.
 
+## Fisioterapia Privada en Tel Aviv
+
+Recovery TLV es una **clínica de fisioterapia privada** en Tel Aviv, Israel. La fisioterapia privada ofrece:
+
+- **Sesiones individuales** con un fisioterapeuta dedicado (sin sesiones grupales)
+- **Evaluación exhaustiva** con un sistema de decisión clínica formal
+- **Criterios de tratamiento objetivos** — la continuación se basa en resultados medibles, no en limitaciones del seguro
+- **Acceso directo** sin necesidad de derivación médica para tratamiento privado en Israel
+- **Atención en español, inglés y hebreo**
+
+### Condiciones tratadas
+
+- Dolor de espalda (lumbar, cervical, dorsal, ciática, hernia de disco)
+- Dolor de hombro (manguito rotador, hombro congelado, post-quirúrgico)
+- Dolor de rodilla (patellofemoral, menisco, LCA, artrosis, reemplazo de rodilla)
+- Dolor de cadera (pinzamiento, tendinopatía, reemplazo de cadera)
+- Lesiones deportivas (esguinces, distensiones, tendinopatías)
+- Rehabilitación post-quirúrgica (LCA, manguito rotador, reemplazo articular, columna)
+- Fascitis plantar, tendinopatía de Aquiles, codo de tenista
+- Latigazo cervical (whiplash), esguince de tobillo, ATM
+- Síndrome del túnel carpiano, De Quervain
+- Dolor inguinal, tendinopatía de isquiotibiales
+
+### Flujo de trabajo clínico
+
+**Escuchar → Evaluar → Fijar objetivos → Tratar → Re-evaluar → Decidir**
+
+Cada encuentro con el paciente sigue este ciclo. La decisión siempre es una de seis: DECLINE, DEFER, REFER, TRIAL, CONTINUE o DISCHARGE — con justificación documentada.
+
 ## Sobre Recovery TLV
 
-Recovery TLV es una clínica de fisioterapia licenciada en **Tel Aviv, Israel**, ubicada en Ja'Aqov Efter St 9, Tel Aviv-Yafo.
+Recovery TLV es una clínica de fisioterapia privada licenciada en **Tel Aviv, Israel**, ubicada en Ja'Aqov Efter St 9, Tel Aviv-Yafo.
 
 - **Sitio web:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **Referencia clínica:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)

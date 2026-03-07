@@ -175,6 +175,96 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/frozen-shoulder.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/carpal-tunnel-syndrome.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/iliotibial-band-syndrome.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/piriformis-syndrome.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/groin-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hamstring-tendinopathy.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/de-quervain-tenosynovitis.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/cervical-radiculopathy.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-knee-replacement-rehab.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-hip-replacement-rehab.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/meniscus-injury.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/patellofemoral-pain.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/WORKFLOW.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/FAQ.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_CASES.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -188,6 +278,12 @@
   </url>
   <url>
     <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/he/README.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/ru/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -1,59 +1,62 @@
 # Glossary
 
-Key terms used throughout the Recovery TLV Clinical Decision System.
+Clinical terms used in the Recovery TLV decision system.
 
----
+## Decision Outputs
 
-### Clinical Stasis
-The absence of meaningful change in observed biological signals following a finite sequence of controlled perturbations. Stasis is not neutral — it is an informative boundary that invalidates the current working hypothesis. See [exit-criteria-stasis.md](./thresholds/exit-criteria-stasis.md).
+| Term | Definition |
+|---|---|
+| **DECLINE** | Case rejected before treatment begins. Outside physiotherapy scope or contraindicated. |
+| **DEFER** | Decision postponed. Insufficient data to make a clinical determination. |
+| **REFER** | Patient transferred to another professional. Red flags or conditions outside physiotherapy scope detected. |
+| **TRIAL** | Conditional acceptance for 3–5 sessions. Hypothesis tested with objective criteria for continuation. |
+| **CONTINUE** | Treatment extended. Requires documented objective improvement (≥10% ROM gain, functional progress, or reduced compensation). |
+| **DISCHARGE** | Treatment terminated. Goals achieved, or progress has plateaued and further treatment is not justified. |
 
-### Compensatory Strategy
-A movement pattern adopted by the patient to avoid pain, protect a structure, or work around a limitation. Reduction in compensatory strategies is one of three objective continuation criteria. See [continuation-criteria.md](./thresholds/continuation-criteria.md).
+## Clinical Concepts
 
-### CONTINUE
-One of six canonical outputs. Extension of an active treatment plan, permitted only when at least one objective improvement criterion is met. See [CLINICAL_DECISION_SYSTEM.md](./CLINICAL_DECISION_SYSTEM.md).
+| Term | Definition |
+|---|---|
+| **Hypothesis-driven intervention** | Treatment selected to test a specific clinical hypothesis. If the hypothesis is correct, the intervention should produce a predictable response. |
+| **Non-response** | Absence of measurable improvement following an intervention. Treated as diagnostic information that narrows the hypothesis space, not as treatment failure. |
+| **Signal invariance** | Pattern where the clinical signal (measured outcomes) does not change despite continued or modified treatment. Indicates stasis. |
+| **Dose-response coupling** | The relationship between treatment dose (intensity, frequency, volume) and clinical response. Decoupling (increasing dose with no proportional response) is a warning sign. |
+| **Stasis** | Three or more consecutive sessions without measurable change in any objective criterion. Triggers exit criteria evaluation. |
+| **Trial window** | The 3–5 session period during which a clinical hypothesis is tested. At the end of the trial, a decision must be made: CONTINUE, REFER, or DISCHARGE. |
+| **Red flags** | Signs or symptoms that indicate a potentially serious underlying pathology requiring medical investigation. Override all other clinical decisions. |
+| **Subjective report insufficiency** | The principle that patient-reported symptoms alone are not sufficient grounds for treatment continuation. Objective measures are required. |
 
-### Controlled Perturbation
-A deliberate, measured intervention applied to a biological system to generate an informative signal about hypothesis viability. Synonym: hypothesis test. See [hypothesis-driven-intervention.md](./models/hypothesis-driven-intervention.md).
+## Measurement Terms
 
-### DECLINE
-One of six canonical outputs. Case is rejected and not accepted into the system. Triggered by out-of-scope conditions, contraindications, or legal/ethical restrictions.
+| Term | Definition |
+|---|---|
+| **ROM** | Range of motion. Measured in degrees using goniometry. |
+| **Active ROM (AROM)** | Range of motion the patient can achieve through their own muscle effort. |
+| **Passive ROM (PROM)** | Range of motion achieved by the clinician moving the joint without patient effort. |
+| **MMT** | Manual muscle testing. Graded 0–5 scale of muscle strength. |
+| **VAS** | Visual analog scale. 0–10 subjective pain rating. Used as supplementary data only, not as continuation criterion. |
+| **Functional capacity** | The patient's ability to perform real-world tasks (walking, climbing stairs, lifting, sport-specific activities). |
 
-### DEFER
-One of six canonical outputs. Decision is postponed and no action is taken. Triggered by insufficient data, acute phase, or unresolved uncertainty.
+## Anatomical/Clinical Terms
 
-### DISCHARGE
-One of six canonical outputs. Termination of physiotherapy involvement after functional goals are achieved or a progress plateau is reached.
-
-### Dose-Response Coupling
-The measurable relationship between intervention intensity (frequency, duration, load, complexity) and the magnitude or direction of the observed clinical response. Decoupling signals hypothesis failure. See [dose-response-coupling.md](./models/dose-response-coupling.md).
-
-### Epistemic Inertia
-Continuation of an intervention strategy without hypothesis revision, despite failed or non-informative outcomes. A source of accumulated decision error that the system is designed to prevent.
-
-### Hypothesis-Driven Intervention
-An intervention designed as a controlled test of a clinical hypothesis, with a testable prediction and the ability to be falsified by its outcome. See [hypothesis-driven-intervention.md](./models/hypothesis-driven-intervention.md).
-
-### Non-Response
-The absence of meaningful system change following a controlled perturbation within an expected temporal window. Treated as high-value diagnostic data, not therapeutic failure. See [non-response-as-signal.md](./models/non-response-as-signal.md).
-
-### Objective Improvement
-Measurable change meeting at least one of: ≥10% range of motion improvement, documented functional task improvement, or compensatory strategy reduction. Subjective reports alone do not qualify. See [continuation-criteria.md](./thresholds/continuation-criteria.md).
-
-### Red Flag
-A clinical sign or symptom indicating a potentially serious underlying pathology requiring assessment beyond physiotherapy scope. Detection mandates immediate REFER or DECLINE. See [red-flag-referral.md](./thresholds/red-flag-referral.md).
-
-### REFER
-One of six canonical outputs. Case is transferred to another professional domain. Triggered by red flags, non-musculoskeletal causes, or specialist requirements.
-
-### Signal Invariance
-No relevant symptomatic or functional variation after three or more high-fidelity interventions. One of three triggers for mandatory exit under stasis.
-
-### Subjective Report Insufficiency
-The principle that patient-reported outcomes (pain levels, perceived improvement, satisfaction) cannot override objective functional assessment when determining treatment trajectory. See [subjective-report-insufficiency.md](./models/subjective-report-insufficiency.md).
-
-### TRIAL
-One of six canonical outputs. Conditional, time-limited acceptance of a case for 3–5 sessions. All provisional inclusion criteria must be satisfied. See [trial-window-limits.md](./thresholds/trial-window-limits.md).
-
-### Trial Window
-The bounded period (3–5 sessions) during which a new case is evaluated under controlled conditions before a continuation or termination decision is required. See [trial-window-limits.md](./thresholds/trial-window-limits.md).
+| Term | Definition |
+|---|---|
+| **Radiculopathy** | Nerve root compression causing pain, numbness, or weakness in a dermatomal/myotomal distribution. |
+| **Tendinopathy** | Degenerative or reactive change in a tendon causing pain with loading. |
+| **Tenosynovitis** | Inflammation of the tendon sheath surrounding a tendon, causing pain with movement. |
+| **Capsulitis** | Inflammation or fibrosis of a joint capsule (e.g., adhesive capsulitis / frozen shoulder). |
+| **Impingement** | Compression of soft tissue (tendon, bursa) within or around a joint during movement. |
+| **Myelopathy** | Spinal cord compression causing bilateral symptoms, gait disturbance, and hand dexterity deficit. Medical emergency. |
+| **Cauda equina syndrome** | Compression of the nerve roots below the spinal cord causing bowel/bladder dysfunction, saddle anaesthesia. Surgical emergency. |
+| **Dermatome** | Area of skin supplied by a single spinal nerve root. Used to localize radiculopathy. |
+| **Myotome** | Group of muscles supplied by a single spinal nerve root. Tested to identify motor deficit level. |
+| **Neural tension test** | Provocation test that places stretch on a peripheral nerve to assess neural mechanosensitivity. |
+| **Crepitus** | Grinding or crackling sensation in a joint during movement. May indicate cartilage changes. |
+| **Effusion** | Excess fluid within a joint. Indicates inflammation or injury. |
+| **Compensation** | Altered movement strategy to avoid pain or weakness. |
+| **Bursitis** | Inflammation of a bursa (fluid-filled sac) near a joint or tendon. |
+| **Osteoarthritis** | Degenerative joint disease with cartilage loss, osteophyte formation, and joint stiffness. |
+| **Osteochondral lesion** | Damage to the cartilage and underlying bone within a joint. |
+| **Syndesmosis** | Fibrous joint connecting two bones (e.g., distal tibiofibular syndesmosis in high ankle sprains). |
+| **Arthroplasty** | Joint replacement surgery (total knee replacement, total hip replacement). |
+| **Arthroscopy** | Minimally invasive joint surgery using a camera and small instruments. |
