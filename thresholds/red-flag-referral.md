@@ -34,3 +34,9 @@ Red flags are clinical signs or symptoms that indicate a potentially serious und
 
 ## 4. Decision Rule
 `If Red_Flag_Detected == TRUE → REFER OR DECLINE (immediate)`
+
+## Related Documents
+- [Trial Window Limits](./trial-window-limits.md) — Red flags override trial window and prevent TRIAL initiation
+- [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md) — Red flags invalidate the musculoskeletal hypothesis entirely
+- [Exit Criteria for Stasis](./exit-criteria-stasis.md) — Red flags are distinct from stasis — they demand immediate action, not observation
+- [Continuation Criteria](./continuation-criteria.md) — Red flags override continuation criteria regardless of objective improvement

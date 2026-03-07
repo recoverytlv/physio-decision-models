@@ -21,3 +21,9 @@ Treatment cessation under stasis is not failure. It represents epistemic closure
 
 ## 5. Decision Rule
 `If Perturbation[n] == Signal_Baseline AND Perturbation[n+1] == Signal_Baseline → HALT_INTERVENTION`
+
+## Related Documents
+- [Non-Response as Signal](../models/non-response-as-signal.md) — Stasis is a form of non-response with diagnostic value
+- [Dose-Response Coupling](../models/dose-response-coupling.md) — Dose-response decoupling triggers stasis criteria
+- [Trial Window Limits](./trial-window-limits.md) — Stasis detected within trial window mandates DISCHARGE or REFER
+- [Continuation Criteria](./continuation-criteria.md) — Stasis by definition fails all continuation criteria

@@ -18,3 +18,9 @@ Dose-response coupling is the measurable relationship between intervention inten
 
 ## Threshold Integration
 When dose-response decoupling persists across two or more intervention cycles, exit criteria as defined in `thresholds/exit-criteria-stasis.md` are triggered.
+
+## Related Documents
+- [Non-Response as Signal](./non-response-as-signal.md) — Decoupling as a specific non-response pattern
+- [Hypothesis-Driven Intervention](./hypothesis-driven-intervention.md) — Decoupling falsifies the dose-response hypothesis
+- [Exit Criteria for Stasis](../thresholds/exit-criteria-stasis.md) — Formal exit thresholds triggered by decoupling
+- [Continuation Criteria](../thresholds/continuation-criteria.md) — Objective criteria that decoupled responses fail to satisfy

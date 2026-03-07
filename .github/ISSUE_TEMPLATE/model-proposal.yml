@@ -1,0 +1,43 @@
+name: Model or Threshold Proposal
+description: Propose a new clinical model or decision threshold
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a new model for `models/` or a new threshold for `thresholds/`. Proposals must be consistent with the frozen normative documents and cannot modify existing system logic.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Proposal type
+      options:
+        - New model (models/)
+        - New threshold (thresholds/)
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Proposed title
+      placeholder: e.g., Temporal Decay of Hypothesis Confidence
+    validations:
+      required: true
+  - type: textarea
+    id: premise
+    attributes:
+      label: Premise
+      description: What clinical principle does this model or threshold formalize?
+    validations:
+      required: true
+  - type: textarea
+    id: decision-consequences
+    attributes:
+      label: Decision consequences
+      description: How does this affect the six canonical outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE)?
+    validations:
+      required: true
+  - type: textarea
+    id: related
+    attributes:
+      label: Related documents
+      description: Which existing models or thresholds does this relate to?

@@ -18,3 +18,9 @@ Subjective report insufficiency is the principle that patient-reported outcomes 
 
 ## Epistemic Basis
 Subjective reports are subject to placebo effects, expectation bias, therapeutic alliance effects, and recall distortion. Objective measurement constrains these sources of noise and anchors decisions to reproducible data.
+
+## Related Documents
+- [Continuation Criteria](../thresholds/continuation-criteria.md) — Defines the objective thresholds that subjective reports cannot replace
+- [Hypothesis-Driven Intervention](./hypothesis-driven-intervention.md) — Subjective reports cannot validate or falsify a hypothesis
+- [Non-Response as Signal](./non-response-as-signal.md) — Subjective improvement may mask objective non-response
+- [Trial Window Limits](../thresholds/trial-window-limits.md) — Trial evaluation requires objective data, not subjective reports

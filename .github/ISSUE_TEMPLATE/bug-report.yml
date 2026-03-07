@@ -1,0 +1,36 @@
+name: Bug Report
+description: Report a documentation error, broken link, or formatting issue
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. This repository contains clinical decision documentation only — "bugs" refer to documentation errors, broken links, or formatting problems.
+  - type: input
+    id: file
+    attributes:
+      label: Affected file
+      description: Which file contains the issue?
+      placeholder: e.g., models/non-response-as-signal.md
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the error or issue you found.
+      placeholder: Describe the problem clearly.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue type
+      options:
+        - Typo or grammatical error
+        - Broken link
+        - Formatting issue
+        - Factual or logical inconsistency
+        - Other
+    validations:
+      required: true

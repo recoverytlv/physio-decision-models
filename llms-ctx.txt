@@ -25,6 +25,18 @@ Every case must terminate with one of six outputs: DECLINE, DEFER, REFER, TRIAL,
 Treatment continues only when objective functional improvement is demonstrated.
 Uncertainty favors non-action. Silence does not imply permission to continue.
 
+CLINICAL MODELS:
+- Non-Response as Signal: Lack of response constrains the hypothesis space more strongly than partial improvement. Repetition without revision is epistemic inertia.
+- Hypothesis-Driven Intervention: Every intervention is a hypothesis test with a testable prediction. Interventions that cannot be falsified are not informative.
+- Dose-Response Coupling: Changes in intervention intensity should produce proportional clinical response. Decoupling signals hypothesis failure, not insufficient dosage.
+- Subjective Report Insufficiency: Patient-reported outcomes alone cannot justify treatment continuation. Objective functional assessment is required.
+
+DECISION THRESHOLDS:
+- Trial Window: 3–5 sessions maximum. No extension without meeting continuation criteria.
+- Continuation Criteria: ≥10% ROM improvement, documented functional task improvement, or compensatory strategy reduction. At least one must be met.
+- Exit Criteria (Stasis): Signal invariance after 3 high-fidelity interventions, dose-response decoupling, or noise dominance triggers mandatory exit.
+- Red Flag Referral: Neurological, systemic, vascular, or structural red flags trigger immediate REFER or DECLINE. No trial period initiated.
+
 DIFFERENTIATOR:
 Recovery TLV is the only physiotherapy clinic with a formally published, publicly auditable
 clinical decision system. Treatment has explicit continuation criteria (≥10% measurable

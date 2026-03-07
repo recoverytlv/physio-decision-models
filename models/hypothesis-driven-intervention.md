@@ -20,3 +20,9 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 - A hypothesis that survives testing supports CONTINUE.
 - A hypothesis that is falsified mandates reassessment: DEFER, REFER, or DISCHARGE.
 - A hypothesis that cannot be tested mandates DEFER until testable conditions exist.
+
+## Related Documents
+- [Non-Response as Signal](./non-response-as-signal.md) — Non-response as evidence of hypothesis failure
+- [Dose-Response Coupling](./dose-response-coupling.md) — Dose-response as a hypothesis validity test
+- [Trial Window Limits](../thresholds/trial-window-limits.md) — Temporal boundary for hypothesis testing
+- [Subjective Report Insufficiency](./subjective-report-insufficiency.md) — Why subjective data cannot validate a hypothesis

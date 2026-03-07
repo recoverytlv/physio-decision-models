@@ -16,3 +16,9 @@ Non-response constrains the hypothesis space more strongly than partial improvem
 
 ## Exit Logic
 When successive perturbations fail to produce informative signal, exit or referral is the rational endpoint.
+
+## Related Documents
+- [Hypothesis-Driven Intervention](./hypothesis-driven-intervention.md) — Non-response falsifies the working hypothesis
+- [Dose-Response Coupling](./dose-response-coupling.md) — Decoupled response is a specific form of non-response
+- [Exit Criteria for Stasis](../thresholds/exit-criteria-stasis.md) — Formal thresholds triggered by persistent non-response
+- [Continuation Criteria](../thresholds/continuation-criteria.md) — Objective criteria that non-response fails to satisfy

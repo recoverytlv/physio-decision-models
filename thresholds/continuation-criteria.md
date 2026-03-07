@@ -30,3 +30,9 @@ The following do NOT satisfy continuation criteria:
 ## 4. Decision Rule
 `If Objective_Criteria_Met >= 1 → CONTINUE PERMITTED`
 `If Objective_Criteria_Met == 0 → DISCHARGE OR REFER`
+
+## Related Documents
+- [Trial Window Limits](./trial-window-limits.md) — Continuation criteria are evaluated at trial window end
+- [Subjective Report Insufficiency](../models/subjective-report-insufficiency.md) — Why subjective reports do not satisfy these criteria
+- [Exit Criteria for Stasis](./exit-criteria-stasis.md) — Failure to meet continuation criteria under stasis
+- [Non-Response as Signal](../models/non-response-as-signal.md) — Non-response prevents satisfaction of any continuation criterion

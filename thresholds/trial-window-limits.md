@@ -21,3 +21,9 @@ At the end of the trial window, exactly one of the following decisions must be m
 
 ## 5. Decision Rule
 `If Sessions[TRIAL] > 5 AND Objective_Improvement == FALSE → DISCHARGE OR REFER`
+
+## Related Documents
+- [Continuation Criteria](./continuation-criteria.md) — Defines the objective thresholds evaluated at trial end
+- [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md) — The trial window is the hypothesis testing period
+- [Exit Criteria for Stasis](./exit-criteria-stasis.md) — Stasis within trial window triggers early exit
+- [Red Flag Referral](./red-flag-referral.md) — Red flags detected during trial override the window and mandate immediate REFER

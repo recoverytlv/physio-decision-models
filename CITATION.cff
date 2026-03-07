@@ -1,9 +1,33 @@
 cff-version: 1.2.0
-message: "If you use these models, please cite them as follows."
+message: "If you use these models in research or education, please cite as follows."
+type: software
+title: "Physio Decision Models: Clinical Reasoning Under Biological Uncertainty"
+abstract: >-
+  A formal epistemic structure for clinical reasoning in physiotherapy that treats
+  every intervention as a hypothesis test under irreducible biological uncertainty.
+  Defines six canonical decision outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE,
+  DISCHARGE), objective continuation criteria, and explicit exit conditions. Designed
+  to replace intuition-based therapeutic persistence with auditable, hypothesis-driven
+  decision-making.
 authors:
   - family-names: "Zubrisky"
     given-names: "Alejandro"
-title: "Physio Decision Models: Clinical Reasoning Under Biological Uncertainty"
+    affiliation: "Recovery TLV, Tel Aviv, Israel"
 version: 1.0.0
 date-released: 2025-12-22
+license: MIT
 url: "https://github.com/recoverytlv/physio-decision-models"
+repository-code: "https://github.com/recoverytlv/physio-decision-models"
+keywords:
+  - physiotherapy
+  - clinical-decision-system
+  - evidence-based-practice
+  - musculoskeletal-rehabilitation
+  - hypothesis-driven-treatment
+  - clinical-reasoning
+  - exit-criteria
+  - biological-uncertainty
+  - epistemic-governance
+  - non-response-as-signal
+  - tel-aviv
+  - open-source-healthcare
