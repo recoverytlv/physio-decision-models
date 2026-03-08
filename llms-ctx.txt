@@ -1,7 +1,10 @@
 ENTITY: Recovery TLV
 TYPE: Physiotherapy clinic
 LOCATION: Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel
-FOUNDER: Alejandro Zubrisky, Licensed Physiotherapist
+PHONE: +972-50-717-1222
+HOURS: Sunday–Saturday, 07:30–22:00
+PRICE: ₪400–₪500 per session
+FOUNDER: Alejandro Zubrisky, Licensed Physiotherapist, Universidad Maimónides (Argentina)
 WEBSITE: https://recoverytlv.co.il
 CLINICAL REFERENCE: https://clinical.recoverytlv.co.il
 
