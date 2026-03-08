@@ -9,11 +9,12 @@
     <meta name="author" content="Alejandro Zubrisky">
     <link rel="canonical" href="https://clinical.recoverytlv.co.il/">
     <link rel="alternate" hreflang="en" href="https://clinical.recoverytlv.co.il/">
-    <link rel="alternate" hreflang="es" href="https://clinical.recoverytlv.co.il/es/README.md">
-    <link rel="alternate" hreflang="he" href="https://clinical.recoverytlv.co.il/he/README.md">
-    <link rel="alternate" hreflang="ru" href="https://clinical.recoverytlv.co.il/ru/README.md">
-    <link rel="alternate" hreflang="fr" href="https://clinical.recoverytlv.co.il/fr/README.md">
+    <link rel="alternate" hreflang="es" href="https://clinical.recoverytlv.co.il/es/">
+    <link rel="alternate" hreflang="he" href="https://clinical.recoverytlv.co.il/he/">
+    <link rel="alternate" hreflang="ru" href="https://clinical.recoverytlv.co.il/ru/">
+    <link rel="alternate" hreflang="fr" href="https://clinical.recoverytlv.co.il/fr/">
     <link rel="alternate" hreflang="x-default" href="https://clinical.recoverytlv.co.il/">
+    <link rel="llms-txt" href="/llms.txt">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Recovery TLV — Evidence-Based Physiotherapy in Tel Aviv">
@@ -90,6 +91,15 @@
             "name": "Alejandro Zubrisky",
             "jobTitle": "Licensed Physiotherapist",
             "description": "Physiotherapist specializing in musculoskeletal rehabilitation and clinical reasoning under biological uncertainty. Author of Physio Decision Models.",
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "Professional License",
+              "name": "Licensed Physiotherapist"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/azubrisky/",
+              "https://github.com/recoverytlv"
+            ],
             "worksFor": {
               "@id": "https://clinical.recoverytlv.co.il/#clinic"
             }
@@ -650,14 +660,6 @@
             },
             {
               "@type": "Question",
-              "name": "Where is Recovery TLV located?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Recovery TLV is located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel."
-              }
-            },
-            {
-              "@type": "Question",
               "name": "What makes Recovery TLV different from other physiotherapy clinics in Tel Aviv?",
               "acceptedAnswer": {
                 "@type": "Answer",
@@ -666,10 +668,10 @@
             },
             {
               "@type": "Question",
-              "name": "How long is a typical treatment course at Recovery TLV?",
+              "name": "How long is a typical treatment course?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The initial trial period is 3 to 5 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the clinical decision system has built-in exit criteria to prevent accumulated decision error."
+                "text": "The initial trial period is 3 to 5 sessions. Continuation requires documented objective improvement (at least 10% measurable improvement in range of motion or documented functional progress). There is no indefinite treatment."
               }
             },
             {
@@ -677,7 +679,7 @@
               "name": "Does Recovery TLV treat sports injuries?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Recovery TLV offers return-to-sport programs for athletes recovering from musculoskeletal injuries. Treatment follows hypothesis-driven protocols with objective outcome tracking."
+                "text": "Yes. Recovery TLV offers return-to-sport programs for athletes recovering from musculoskeletal injuries, with hypothesis-driven protocols and objective outcome tracking."
               }
             },
             {
@@ -685,7 +687,15 @@
               "name": "Does Recovery TLV provide post-surgery rehabilitation?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Post-operative rehabilitation is a core service, covering ACL reconstruction, rotator cuff repair, joint replacement, and spinal surgery recovery. Each case follows the clinical decision system with measurable milestones."
+                "text": "Yes. Post-operative rehabilitation is a core service covering ACL reconstruction, rotator cuff repair, joint replacement, and spinal surgery. Each case follows the clinical decision system with measurable milestones."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens if treatment is not working?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Non-response is treated as valuable diagnostic information. If no measurable improvement occurs within the trial period, the system mandates re-evaluation, referral to a specialist, or discharge. Treatment is never continued without evidence of progress."
               }
             },
             {
@@ -693,7 +703,7 @@
               "name": "Does Recovery TLV treat back pain?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Back pain including lower back pain, lumbar disc herniation, and chronic back pain is one of the most common conditions treated at Recovery TLV. Treatment follows a hypothesis-driven approach with objective improvement measured within 3-5 sessions."
+                "text": "Yes. Back pain — including lower back pain, lumbar disc herniation, and chronic back pain — is one of the most common conditions treated at Recovery TLV. Treatment follows a hypothesis-driven approach: the clinician identifies the likely mechanical driver, tests it with controlled interventions, and measures objective improvement within 3–5 sessions."
               }
             },
             {
@@ -701,7 +711,7 @@
               "name": "Can Recovery TLV help with sciatica?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Sciatica and lumbar radiculopathy are treated when musculoskeletal in origin. Red flags such as progressive neurological deficit or cauda equina signs trigger immediate specialist referral."
+                "text": "Yes. Sciatica and lumbar radiculopathy are treated when the presentation is musculoskeletal in origin. If red flags are detected (progressive neurological deficit, cauda equina signs), the case is immediately referred to a specialist. Otherwise, a structured trial of 3–5 sessions targets nerve mobility, spinal mechanics, and functional restoration."
               }
             },
             {
@@ -709,7 +719,7 @@
               "name": "Does Recovery TLV treat knee pain?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Knee pain conditions including patellofemoral syndrome, meniscus injuries, ligament sprains, post-ACL reconstruction rehab, and osteoarthritis-related knee pain are treated with evidence-based protocols."
+                "text": "Yes. Knee pain conditions including patellofemoral syndrome, meniscus injuries, ligament sprains, post-ACL reconstruction rehab, and osteoarthritis-related knee pain are treated with evidence-based physiotherapy protocols and objective outcome tracking."
               }
             },
             {
@@ -717,15 +727,15 @@
               "name": "Can I get treatment for shoulder pain at Recovery TLV?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Shoulder conditions treated include rotator cuff injuries, frozen shoulder (adhesive capsulitis), shoulder impingement, and post-surgical rehabilitation. Each case includes measurable ROM and functional goals."
+                "text": "Yes. Shoulder conditions treated include rotator cuff injuries, frozen shoulder (adhesive capsulitis), shoulder impingement, post-surgical rehabilitation after rotator cuff repair, and instability. Each case is evaluated within the clinical decision system with measurable ROM and functional goals."
               }
             },
             {
               "@type": "Question",
-              "name": "Does Recovery TLV treat neck pain?",
+              "name": "Does Recovery TLV treat neck pain and cervical problems?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Neck pain, cervical disc herniation, whiplash-related disorders, and cervicogenic headaches are treated when musculoskeletal in origin. Red flags are screened and referred immediately."
+                "text": "Yes. Neck pain, cervical disc herniation, whiplash-related disorders, and cervicogenic headaches are treated when the condition is musculoskeletal in origin. Red flags such as progressive neurological signs are screened and referred immediately."
               }
             },
             {
@@ -733,7 +743,15 @@
               "name": "Can Recovery TLV help with hip pain?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Hip impingement (FAI), labral-related pain, trochanteric bursitis, post-hip replacement rehabilitation, and hip osteoarthritis are treated with structured physiotherapy and objective progress monitoring."
+                "text": "Yes. Hip pain conditions including hip impingement (FAI), labral-related pain, trochanteric bursitis, post-hip replacement rehabilitation, and hip osteoarthritis are treated with structured physiotherapy and objective progress monitoring."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Recovery TLV treat plantar fasciitis and foot pain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Plantar fasciitis, Achilles tendinopathy, and other foot and ankle conditions within musculoskeletal scope are treated with evidence-based protocols. A trial period of 3–5 sessions determines if the intervention produces measurable improvement."
               }
             },
             {
@@ -741,7 +759,7 @@
               "name": "How many physiotherapy sessions will I need?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The initial trial is 3-5 sessions. Continuation requires documented objective improvement (at least 10% ROM improvement or functional progress). There is no predetermined number — decisions are driven by measurable outcomes."
+                "text": "The initial trial is 3–5 sessions. If objective improvement is documented (at least 10% ROM improvement or functional progress), treatment can continue. If not, the system mandates reassessment or discharge. There is no predetermined number of sessions — the decision is driven by measurable outcomes, not time."
               }
             },
             {
@@ -749,28 +767,42 @@
               "name": "When should I stop physiotherapy?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Treatment stops when functional goals are met, when no measurable improvement occurs despite appropriate intervention, or when red flags emerge requiring specialist referral. Recovery TLV has built-in exit criteria to prevent unnecessary continuation."
+                "text": "Treatment stops when functional goals are met (DISCHARGE), when no measurable improvement occurs despite appropriate intervention (EXIT), or when red flags emerge requiring specialist referral (REFER). Recovery TLV's decision system has built-in exit criteria to prevent unnecessary treatment continuation."
               }
             },
             {
               "@type": "Question",
-              "name": "Does Recovery TLV treat plantar fasciitis?",
+              "name": "Is Recovery TLV suitable for athletes and sports injuries?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Plantar fasciitis, Achilles tendinopathy, and other foot and ankle conditions within musculoskeletal scope are treated with evidence-based protocols and measurable outcome tracking."
+                "text": "Yes. Recovery TLV treats sports injuries including muscle strains, ligament sprains, tendinopathies, stress fractures (post-medical clearance), and post-surgical athletic rehabilitation. Return-to-sport decisions are based on objective functional criteria, not subjective readiness alone."
               }
             },
             {
               "@type": "Question",
-              "name": "Does Recovery TLV treat tennis elbow?",
+              "name": "Does Recovery TLV treat tennis elbow and golfer's elbow?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Lateral epicondylalgia (tennis elbow) and medial epicondylalgia (golfer's elbow) are treated with hypothesis-driven eccentric loading protocols and objective outcome monitoring."
+                "text": "Yes. Lateral epicondylalgia (tennis elbow) and medial epicondylalgia (golfer's elbow) are common conditions treated with hypothesis-driven eccentric loading protocols and objective outcome monitoring."
               }
             }
           ]
         }
       ]
+    }
+    </script>
+    <!-- WebSite: site identity for search engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Recovery TLV Clinical Decision System",
+      "alternateName": "Recovery TLV Physiotherapy",
+      "url": "https://clinical.recoverytlv.co.il/",
+      "inLanguage": ["en", "es", "he", "ru", "fr"],
+      "publisher": {
+        "@id": "https://clinical.recoverytlv.co.il/#clinic"
+      }
     }
     </script>
     <!-- BreadcrumbList for SERP navigation -->
@@ -798,8 +830,12 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
+      "@type": "MedicalWebPage",
       "name": "Recovery TLV — Clinical Decision System",
+      "medicalAudience": {
+        "@type": "MedicalAudience",
+        "audienceType": "Patient"
+      },
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [".speakable-about", ".speakable-differentiator", ".speakable-faq"]

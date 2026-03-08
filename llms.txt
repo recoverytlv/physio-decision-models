@@ -65,6 +65,19 @@ Under Biological Uncertainty."
 - [Continuation Criteria](https://clinical.recoverytlv.co.il/thresholds/continuation-criteria.md): Objective thresholds for extending treatment
 - [Red Flag Referral](https://clinical.recoverytlv.co.il/thresholds/red-flag-referral.md): Red flag detection and mandatory referral
 
+## Core Condition Guides
+
+- [Low Back Pain](https://clinical.recoverytlv.co.il/conditions/low-back-pain.md): Hypothesis-driven assessment for disc, facet, and neural components
+- [Sciatica](https://clinical.recoverytlv.co.il/conditions/sciatica.md): Lumbar radiculopathy with red flag screening
+- [Neck Pain](https://clinical.recoverytlv.co.il/conditions/neck-pain.md): Cervical pain including radiculopathy and cervicogenic headache
+- [Shoulder Pain](https://clinical.recoverytlv.co.il/conditions/shoulder-pain.md): Rotator cuff, frozen shoulder, impingement, instability
+- [Knee Pain](https://clinical.recoverytlv.co.il/conditions/knee-pain.md): Patellofemoral, meniscus, patellar tendinopathy, knee OA
+- [Hip Pain](https://clinical.recoverytlv.co.il/conditions/hip-pain.md): FAI, gluteal tendinopathy, hip OA, post-replacement rehab
+- [Achilles Tendinopathy](https://clinical.recoverytlv.co.il/conditions/achilles-tendinopathy.md): Loading-based approach for midportion and insertional
+- [Plantar Fasciitis](https://clinical.recoverytlv.co.il/conditions/plantar-fasciitis.md): Evidence-based plantar heel pain treatment
+- [Lateral Epicondylalgia](https://clinical.recoverytlv.co.il/conditions/lateral-epicondylalgia.md): Tennis elbow and golfer's elbow with cervical contribution
+- [ACL Reconstruction Rehab](https://clinical.recoverytlv.co.il/conditions/acl-reconstruction-rehab.md): Phase-based ACL rehab with return-to-sport criteria
+
 ## Additional Condition Guides
 
 - [Whiplash](https://clinical.recoverytlv.co.il/conditions/whiplash.md): WAD grades I-III
@@ -142,6 +155,9 @@ A: Initial trial is 3-5 sessions. Continuation requires documented objective imp
 Q: Is Recovery TLV suitable for post-surgery rehabilitation?
 A: Yes. Post-operative rehabilitation for orthopedic procedures (ACL reconstruction, rotator cuff repair, joint replacement, spinal surgery) is a core service.
 
+Q: What happens if treatment is not working?
+A: Non-response is treated as valuable diagnostic information. If no measurable improvement occurs within the trial period, the system mandates re-evaluation, referral to a specialist, or discharge. Treatment is never continued without evidence of progress.
+
 Q: Does Recovery TLV treat back pain?
 A: Yes. Back pain — including lower back pain, lumbar disc herniation, and chronic back pain — is one of the most common conditions treated. Treatment uses hypothesis-driven protocols with objective improvement measured within 3–5 sessions.
 
@@ -165,6 +181,9 @@ A: Yes. Plantar fasciitis, Achilles tendinopathy, and foot/ankle conditions with
 
 Q: Does Recovery TLV treat tennis elbow?
 A: Yes. Lateral epicondylalgia (tennis elbow) and medial epicondylalgia (golfer's elbow) are treated with eccentric loading protocols and objective outcome monitoring.
+
+Q: Is Recovery TLV suitable for athletes and sports injuries?
+A: Yes. Recovery TLV treats sports injuries including muscle strains, ligament sprains, tendinopathies, stress fractures (post-medical clearance), and post-surgical athletic rehabilitation. Return-to-sport decisions are based on objective functional criteria, not subjective readiness alone.
 
 Q: How many physiotherapy sessions will I need?
 A: The initial trial is 3–5 sessions. Continuation requires documented objective improvement (≥10% ROM improvement or functional progress). There is no predetermined number — decisions are driven by measurable outcomes.
