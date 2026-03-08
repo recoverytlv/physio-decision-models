@@ -95,7 +95,7 @@
 
 <header>
     <h1>Recovery TLV — Clinical Intake Decision</h1>
-    <p>This form implements the <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_DECISION_SYSTEM.md">Clinical Decision System</a>. Each case must terminate with one of six valid outputs.</p>
+    <p>This form implements the <a href="https://clinical.recoverytlv.co.il/CLINICAL_DECISION_SYSTEM.md">Clinical Decision System</a>. Each case must terminate with one of six valid outputs.</p>
 </header>
 
 <!-- Step 1: Red Flags -->
@@ -110,7 +110,7 @@
     </ul>
     <button class="btn btn-no" onclick="goTo('step-scope')">No red flags detected</button>
     <button class="btn btn-yes" onclick="showOutput('refer', 'Red flag detected. Case must be referred to appropriate medical specialist. Document the specific red flag and referral destination.')">Yes — red flag present</button>
-    <p class="note">Reference: <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/red-flag-referral.md">red-flag-referral.md</a></p>
+    <p class="note">Reference: <a href="https://clinical.recoverytlv.co.il/thresholds/red-flag-referral.md">red-flag-referral.md</a></p>
 </div>
 
 <!-- Step 2: Scope -->
@@ -181,7 +181,7 @@
     <div class="output-code">TRIAL</div>
     <h2>Case Accepted — Conditional Trial</h2>
     <p id="trial-text"></p>
-    <p class="note">At the end of the trial window (3–5 sessions), evaluate using <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md">continuation-criteria.md</a>.</p>
+    <p class="note">At the end of the trial window (3–5 sessions), evaluate using <a href="https://clinical.recoverytlv.co.il/thresholds/continuation-criteria.md">continuation-criteria.md</a>.</p>
     <button class="restart" onclick="restart()">Start New Assessment</button>
 </div>
 

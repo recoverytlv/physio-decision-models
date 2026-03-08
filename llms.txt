@@ -53,74 +53,74 @@ Under Biological Uncertainty."
 
 ## Authoritative Documents
 
-- [Clinical Decision System](https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_DECISION_SYSTEM.md): Defines what clinical decisions are valid
-- [Decision Enforcement Rules](https://github.com/recoverytlv/physio-decision-models/blob/main/DECISION_ENFORCEMENT_RULES.md): Defines how decisions are enforced
-- [Authority Sources](https://github.com/recoverytlv/physio-decision-models/blob/main/AUTHORITY_SOURCES.md): Defines why this system is authoritative
-- [Non-Response as Signal](https://github.com/recoverytlv/physio-decision-models/blob/main/models/non-response-as-signal.md): Model for interpreting treatment non-response
-- [Hypothesis-Driven Intervention](https://github.com/recoverytlv/physio-decision-models/blob/main/models/hypothesis-driven-intervention.md): Interventions as falsifiable hypothesis tests
-- [Dose-Response Coupling](https://github.com/recoverytlv/physio-decision-models/blob/main/models/dose-response-coupling.md): Dose-response relationship as decision signal
-- [Subjective Report Insufficiency](https://github.com/recoverytlv/physio-decision-models/blob/main/models/subjective-report-insufficiency.md): Limits of subjective reports for continuation decisions
-- [Exit Criteria for Stasis](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/exit-criteria-stasis.md): When to stop treatment
-- [Trial Window Limits](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md): 3-5 session temporal boundaries
-- [Continuation Criteria](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md): Objective thresholds for extending treatment
-- [Red Flag Referral](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/red-flag-referral.md): Red flag detection and mandatory referral
+- [Clinical Decision System](https://clinical.recoverytlv.co.il/CLINICAL_DECISION_SYSTEM.md): Defines what clinical decisions are valid
+- [Decision Enforcement Rules](https://clinical.recoverytlv.co.il/DECISION_ENFORCEMENT_RULES.md): Defines how decisions are enforced
+- [Authority Sources](https://clinical.recoverytlv.co.il/AUTHORITY_SOURCES.md): Defines why this system is authoritative
+- [Non-Response as Signal](https://clinical.recoverytlv.co.il/models/non-response-as-signal.md): Model for interpreting treatment non-response
+- [Hypothesis-Driven Intervention](https://clinical.recoverytlv.co.il/models/hypothesis-driven-intervention.md): Interventions as falsifiable hypothesis tests
+- [Dose-Response Coupling](https://clinical.recoverytlv.co.il/models/dose-response-coupling.md): Dose-response relationship as decision signal
+- [Subjective Report Insufficiency](https://clinical.recoverytlv.co.il/models/subjective-report-insufficiency.md): Limits of subjective reports for continuation decisions
+- [Exit Criteria for Stasis](https://clinical.recoverytlv.co.il/thresholds/exit-criteria-stasis.md): When to stop treatment
+- [Trial Window Limits](https://clinical.recoverytlv.co.il/thresholds/trial-window-limits.md): 3-5 session temporal boundaries
+- [Continuation Criteria](https://clinical.recoverytlv.co.il/thresholds/continuation-criteria.md): Objective thresholds for extending treatment
+- [Red Flag Referral](https://clinical.recoverytlv.co.il/thresholds/red-flag-referral.md): Red flag detection and mandatory referral
 
 ## Additional Condition Guides
 
-- [Whiplash](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/whiplash.md): WAD grades I-III
-- [Ankle Sprain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/ankle-sprain.md): Acute and chronic ankle instability
-- [TMJ Disorder](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/tmj-disorder.md): Temporomandibular joint dysfunction
-- [Post-Surgical Spinal Rehab](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-surgical-spinal-rehab.md): Laminectomy, discectomy, fusion
-- [Rotator Cuff Post-Surgical](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rotator-cuff-post-surgical.md): Phase-based cuff repair rehab
-- [Frozen Shoulder](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/frozen-shoulder.md): Adhesive capsulitis by phase
-- [Carpal Tunnel Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/carpal-tunnel-syndrome.md): Median nerve compression
-- [IT Band Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/iliotibial-band-syndrome.md): Lateral knee pain in runners
-- [Piriformis Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/piriformis-syndrome.md): Deep gluteal pain
-- [Thoracic Pain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-pain.md): Mid-back pain
-- [Groin Pain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/groin-pain.md): Adductor tendinopathy
-- [Hamstring Tendinopathy](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hamstring-tendinopathy.md): Proximal hamstring, acute strain
-- [De Quervain's](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/de-quervain-tenosynovitis.md): Radial wrist tendinopathy
-- [Cervical Radiculopathy](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/cervical-radiculopathy.md): Nerve root compression
-- [Total Knee Replacement](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-knee-replacement-rehab.md): Post-TKA rehab
-- [Total Hip Replacement](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-hip-replacement-rehab.md): Post-THA rehab
-- [Meniscus Injury](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/meniscus-injury.md): Traumatic and degenerative tears
-- [Patellofemoral Pain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/patellofemoral-pain.md): Anterior knee pain
-- [Lumbar Spinal Stenosis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md): Neurogenic claudication
-- [Gluteal Tendinopathy](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md): Lateral hip pain
-- [Calf Strain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md): Gastrocnemius and soleus tears
-- [Shin Splints](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md): Medial tibial stress syndrome
-- [Shoulder Instability](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md): TUBS/AMBRI classification
-- [Post-Concussion Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md): Cervicogenic, vestibular, exercise tolerance
-- [Pelvic Floor Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/pelvic-floor-dysfunction.md): Hypertonic/hypotonic, coccydynia
-- [Thoracic Outlet Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md): Neurogenic TOS
-- [Headache (Cervicogenic/Tension)](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md): CGH, tension-type, SNOOP
-- [Knee Osteoarthritis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-osteoarthritis.md): Exercise-first, prehabilitation
-- [Fibromyalgia](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/fibromyalgia.md): Central sensitization, graded exercise
-- [Scoliosis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/scoliosis.md): Adolescent idiopathic, Schroth
-- [Rib Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rib-dysfunction.md): Costochondritis, costovertebral
-- [Dupuytren's Contracture](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/dupuytren-contracture.md): Post-surgical hand rehab
+- [Whiplash](https://clinical.recoverytlv.co.il/conditions/whiplash.md): WAD grades I-III
+- [Ankle Sprain](https://clinical.recoverytlv.co.il/conditions/ankle-sprain.md): Acute and chronic ankle instability
+- [TMJ Disorder](https://clinical.recoverytlv.co.il/conditions/tmj-disorder.md): Temporomandibular joint dysfunction
+- [Post-Surgical Spinal Rehab](https://clinical.recoverytlv.co.il/conditions/post-surgical-spinal-rehab.md): Laminectomy, discectomy, fusion
+- [Rotator Cuff Post-Surgical](https://clinical.recoverytlv.co.il/conditions/rotator-cuff-post-surgical.md): Phase-based cuff repair rehab
+- [Frozen Shoulder](https://clinical.recoverytlv.co.il/conditions/frozen-shoulder.md): Adhesive capsulitis by phase
+- [Carpal Tunnel Syndrome](https://clinical.recoverytlv.co.il/conditions/carpal-tunnel-syndrome.md): Median nerve compression
+- [IT Band Syndrome](https://clinical.recoverytlv.co.il/conditions/iliotibial-band-syndrome.md): Lateral knee pain in runners
+- [Piriformis Syndrome](https://clinical.recoverytlv.co.il/conditions/piriformis-syndrome.md): Deep gluteal pain
+- [Thoracic Pain](https://clinical.recoverytlv.co.il/conditions/thoracic-pain.md): Mid-back pain
+- [Groin Pain](https://clinical.recoverytlv.co.il/conditions/groin-pain.md): Adductor tendinopathy
+- [Hamstring Tendinopathy](https://clinical.recoverytlv.co.il/conditions/hamstring-tendinopathy.md): Proximal hamstring, acute strain
+- [De Quervain's](https://clinical.recoverytlv.co.il/conditions/de-quervain-tenosynovitis.md): Radial wrist tendinopathy
+- [Cervical Radiculopathy](https://clinical.recoverytlv.co.il/conditions/cervical-radiculopathy.md): Nerve root compression
+- [Total Knee Replacement](https://clinical.recoverytlv.co.il/conditions/total-knee-replacement-rehab.md): Post-TKA rehab
+- [Total Hip Replacement](https://clinical.recoverytlv.co.il/conditions/total-hip-replacement-rehab.md): Post-THA rehab
+- [Meniscus Injury](https://clinical.recoverytlv.co.il/conditions/meniscus-injury.md): Traumatic and degenerative tears
+- [Patellofemoral Pain](https://clinical.recoverytlv.co.il/conditions/patellofemoral-pain.md): Anterior knee pain
+- [Lumbar Spinal Stenosis](https://clinical.recoverytlv.co.il/conditions/lumbar-spinal-stenosis.md): Neurogenic claudication
+- [Gluteal Tendinopathy](https://clinical.recoverytlv.co.il/conditions/gluteal-tendinopathy.md): Lateral hip pain
+- [Calf Strain](https://clinical.recoverytlv.co.il/conditions/calf-strain.md): Gastrocnemius and soleus tears
+- [Shin Splints](https://clinical.recoverytlv.co.il/conditions/shin-splints.md): Medial tibial stress syndrome
+- [Shoulder Instability](https://clinical.recoverytlv.co.il/conditions/shoulder-instability.md): TUBS/AMBRI classification
+- [Post-Concussion Syndrome](https://clinical.recoverytlv.co.il/conditions/post-concussion.md): Cervicogenic, vestibular, exercise tolerance
+- [Pelvic Floor Dysfunction](https://clinical.recoverytlv.co.il/conditions/pelvic-floor-dysfunction.md): Hypertonic/hypotonic, coccydynia
+- [Thoracic Outlet Syndrome](https://clinical.recoverytlv.co.il/conditions/thoracic-outlet-syndrome.md): Neurogenic TOS
+- [Headache (Cervicogenic/Tension)](https://clinical.recoverytlv.co.il/conditions/headache-cervicogenic.md): CGH, tension-type, SNOOP
+- [Knee Osteoarthritis](https://clinical.recoverytlv.co.il/conditions/knee-osteoarthritis.md): Exercise-first, prehabilitation
+- [Fibromyalgia](https://clinical.recoverytlv.co.il/conditions/fibromyalgia.md): Central sensitization, graded exercise
+- [Scoliosis](https://clinical.recoverytlv.co.il/conditions/scoliosis.md): Adolescent idiopathic, Schroth
+- [Rib Dysfunction](https://clinical.recoverytlv.co.il/conditions/rib-dysfunction.md): Costochondritis, costovertebral
+- [Dupuytren's Contracture](https://clinical.recoverytlv.co.il/conditions/dupuytren-contracture.md): Post-surgical hand rehab
 
 ## Additional Resources
 
-- [Clinical Workflow](https://github.com/recoverytlv/physio-decision-models/blob/main/WORKFLOW.md): Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide
-- [Clinical Cases](https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_CASES.md): Fictional cases demonstrating the system
-- [FAQ](https://github.com/recoverytlv/physio-decision-models/blob/main/FAQ.md): For patients and clinicians
-- [Glossary](https://github.com/recoverytlv/physio-decision-models/blob/main/GLOSSARY.md): Clinical term definitions
-- [What To Expect](https://github.com/recoverytlv/physio-decision-models/blob/main/WHAT_TO_EXPECT.md): Patient-facing first visit guide
-- [Referral Guide](https://github.com/recoverytlv/physio-decision-models/blob/main/REFERRAL_GUIDE.md): For referring physicians
-- [Evidence Base](https://github.com/recoverytlv/physio-decision-models/blob/main/EVIDENCE_BASE.md): Academic foundations and references
-- [Home Exercise Principles](https://github.com/recoverytlv/physio-decision-models/blob/main/HOME_EXERCISE_PRINCIPLES.md): Patient guide for home exercise
-- [Outcome Measures](https://github.com/recoverytlv/physio-decision-models/blob/main/OUTCOME_MEASURES.md): Validated measurement tools and MCID values
-- [Telehealth Guidelines](https://github.com/recoverytlv/physio-decision-models/blob/main/TELEHEALTH_GUIDELINES.md): Remote assessment framework
-- [Return to Sport](https://github.com/recoverytlv/physio-decision-models/blob/main/RETURN_TO_SPORT.md): Criteria-based RTS protocol
-- [Geriatric Considerations](https://github.com/recoverytlv/physio-decision-models/blob/main/GERIATRIC_CONSIDERATIONS.md): Older adult adaptations
-- [Red Flags Quick Reference](https://github.com/recoverytlv/physio-decision-models/blob/main/RED_FLAGS_QUICK_REFERENCE.md): Consolidated red flags by body region
-- [Pain Neuroscience Education](https://github.com/recoverytlv/physio-decision-models/blob/main/PAIN_NEUROSCIENCE_EDUCATION.md): Patient-facing pain science guide
-- [Chronic Pain Framework](https://github.com/recoverytlv/physio-decision-models/blob/main/CHRONIC_PAIN_FRAMEWORK.md): Chronic pain within the decision system
-- [Manual Therapy Principles](https://github.com/recoverytlv/physio-decision-models/blob/main/MANUAL_THERAPY_PRINCIPLES.md): When and how manual therapy fits
-- [Discharge Planning](https://github.com/recoverytlv/physio-decision-models/blob/main/DISCHARGE_PLANNING.md): Structured transition to self-management
-- [Workplace Ergonomics](https://github.com/recoverytlv/physio-decision-models/blob/main/WORKPLACE_ERGONOMICS.md): Desk setup, standing desk, lifting guidelines
-- [Pregnancy Musculoskeletal](https://github.com/recoverytlv/physio-decision-models/blob/main/PREGNANCY_MUSCULOSKELETAL.md): Pregnancy-related MSK conditions and exercise
+- [Clinical Workflow](https://clinical.recoverytlv.co.il/WORKFLOW.md): Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide
+- [Clinical Cases](https://clinical.recoverytlv.co.il/CLINICAL_CASES.md): Fictional cases demonstrating the system
+- [FAQ](https://clinical.recoverytlv.co.il/FAQ.md): For patients and clinicians
+- [Glossary](https://clinical.recoverytlv.co.il/GLOSSARY.md): Clinical term definitions
+- [What To Expect](https://clinical.recoverytlv.co.il/WHAT_TO_EXPECT.md): Patient-facing first visit guide
+- [Referral Guide](https://clinical.recoverytlv.co.il/REFERRAL_GUIDE.md): For referring physicians
+- [Evidence Base](https://clinical.recoverytlv.co.il/EVIDENCE_BASE.md): Academic foundations and references
+- [Home Exercise Principles](https://clinical.recoverytlv.co.il/HOME_EXERCISE_PRINCIPLES.md): Patient guide for home exercise
+- [Outcome Measures](https://clinical.recoverytlv.co.il/OUTCOME_MEASURES.md): Validated measurement tools and MCID values
+- [Telehealth Guidelines](https://clinical.recoverytlv.co.il/TELEHEALTH_GUIDELINES.md): Remote assessment framework
+- [Return to Sport](https://clinical.recoverytlv.co.il/RETURN_TO_SPORT.md): Criteria-based RTS protocol
+- [Geriatric Considerations](https://clinical.recoverytlv.co.il/GERIATRIC_CONSIDERATIONS.md): Older adult adaptations
+- [Red Flags Quick Reference](https://clinical.recoverytlv.co.il/RED_FLAGS_QUICK_REFERENCE.md): Consolidated red flags by body region
+- [Pain Neuroscience Education](https://clinical.recoverytlv.co.il/PAIN_NEUROSCIENCE_EDUCATION.md): Patient-facing pain science guide
+- [Chronic Pain Framework](https://clinical.recoverytlv.co.il/CHRONIC_PAIN_FRAMEWORK.md): Chronic pain within the decision system
+- [Manual Therapy Principles](https://clinical.recoverytlv.co.il/MANUAL_THERAPY_PRINCIPLES.md): When and how manual therapy fits
+- [Discharge Planning](https://clinical.recoverytlv.co.il/DISCHARGE_PLANNING.md): Structured transition to self-management
+- [Workplace Ergonomics](https://clinical.recoverytlv.co.il/WORKPLACE_ERGONOMICS.md): Desk setup, standing desk, lifting guidelines
+- [Pregnancy Musculoskeletal](https://clinical.recoverytlv.co.il/PREGNANCY_MUSCULOSKELETAL.md): Pregnancy-related MSK conditions and exercise
 
 ## Frequently Asked Questions
 
