@@ -19,459 +19,519 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_DECISION_SYSTEM.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/CLINICAL_DECISION_SYSTEM.md</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/DECISION_ENFORCEMENT_RULES.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/DECISION_ENFORCEMENT_RULES.md</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/AUTHORITY_SOURCES.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/AUTHORITY_SOURCES.md</loc>
     <lastmod>2025-12-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/models/non-response-as-signal.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/models/non-response-as-signal.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/models/hypothesis-driven-intervention.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/models/hypothesis-driven-intervention.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/models/dose-response-coupling.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/models/dose-response-coupling.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/models/subjective-report-insufficiency.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/models/subjective-report-insufficiency.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/exit-criteria-stasis.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/thresholds/exit-criteria-stasis.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/thresholds/trial-window-limits.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/thresholds/continuation-criteria.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/red-flag-referral.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/thresholds/red-flag-referral.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/low-back-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/low-back-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/sciatica.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/sciatica.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/neck-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/neck-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/shoulder-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/knee-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hip-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/hip-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/achilles-tendinopathy.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/achilles-tendinopathy.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/plantar-fasciitis.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/plantar-fasciitis.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lateral-epicondylalgia.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/lateral-epicondylalgia.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/acl-reconstruction-rehab.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/acl-reconstruction-rehab.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/whiplash.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/whiplash.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/ankle-sprain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/ankle-sprain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/tmj-disorder.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/tmj-disorder.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-surgical-spinal-rehab.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/post-surgical-spinal-rehab.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rotator-cuff-post-surgical.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/rotator-cuff-post-surgical.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/frozen-shoulder.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/frozen-shoulder.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/carpal-tunnel-syndrome.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/carpal-tunnel-syndrome.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/iliotibial-band-syndrome.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/iliotibial-band-syndrome.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/piriformis-syndrome.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/piriformis-syndrome.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/thoracic-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/groin-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/groin-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hamstring-tendinopathy.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/hamstring-tendinopathy.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/de-quervain-tenosynovitis.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/de-quervain-tenosynovitis.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/cervical-radiculopathy.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/cervical-radiculopathy.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-knee-replacement-rehab.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/total-knee-replacement-rehab.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-hip-replacement-rehab.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/total-hip-replacement-rehab.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/meniscus-injury.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/meniscus-injury.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/patellofemoral-pain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/patellofemoral-pain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/lumbar-spinal-stenosis.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/gluteal-tendinopathy.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/calf-strain.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/shin-splints.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/shoulder-instability.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/post-concussion.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/WORKFLOW.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/WORKFLOW.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/FAQ.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/FAQ.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/CLINICAL_CASES.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/CLINICAL_CASES.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/WHAT_TO_EXPECT.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/WHAT_TO_EXPECT.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/REFERRAL_GUIDE.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/REFERRAL_GUIDE.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/EVIDENCE_BASE.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/EVIDENCE_BASE.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/HOME_EXERCISE_PRINCIPLES.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/HOME_EXERCISE_PRINCIPLES.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/OUTCOME_MEASURES.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/OUTCOME_MEASURES.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/TELEHEALTH_GUIDELINES.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/TELEHEALTH_GUIDELINES.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/RETURN_TO_SPORT.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/RETURN_TO_SPORT.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/GERIATRIC_CONSIDERATIONS.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/GERIATRIC_CONSIDERATIONS.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/pelvic-floor-dysfunction.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/pelvic-floor-dysfunction.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/thoracic-outlet-syndrome.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/headache-cervicogenic.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-osteoarthritis.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/knee-osteoarthritis.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/fibromyalgia.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/fibromyalgia.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/scoliosis.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/scoliosis.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rib-dysfunction.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/rib-dysfunction.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/dupuytren-contracture.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/conditions/dupuytren-contracture.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/es/README.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/es/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/he/README.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/he/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/ru/README.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/ru/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/fr/README.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/fr/README.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/RED_FLAGS_QUICK_REFERENCE.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/RED_FLAGS_QUICK_REFERENCE.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/PAIN_NEUROSCIENCE_EDUCATION.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/PAIN_NEUROSCIENCE_EDUCATION.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/CHRONIC_PAIN_FRAMEWORK.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/CHRONIC_PAIN_FRAMEWORK.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/MANUAL_THERAPY_PRINCIPLES.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/MANUAL_THERAPY_PRINCIPLES.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/DISCHARGE_PLANNING.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/DISCHARGE_PLANNING.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/WORKPLACE_ERGONOMICS.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/WORKPLACE_ERGONOMICS.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/PREGNANCY_MUSCULOSKELETAL.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/PREGNANCY_MUSCULOSKELETAL.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/KNOWLEDGE_GRAPH.md</loc>
+    <loc>https://clinical.recoverytlv.co.il/KNOWLEDGE_GRAPH.md</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/GLOSSARY.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/INTENDED_READERS.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/SYSTEM_SCOPE.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/SYSTEM_FREEZE_NOTICE.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/CONTRIBUTING.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/SECURITY.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/CHANGELOG.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/intake-form/</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/es/ALCANCE_DEL_SISTEMA.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://clinical.recoverytlv.co.il/es/LECTORES_DESTINATARIOS.md</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
 </urlset>
