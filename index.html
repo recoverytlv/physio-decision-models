@@ -773,6 +773,40 @@
       ]
     }
     </script>
+    <!-- BreadcrumbList for SERP navigation -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Recovery TLV",
+          "item": "https://recoverytlv.co.il"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Clinical Decision System",
+          "item": "https://clinical.recoverytlv.co.il/"
+        }
+      ]
+    }
+    </script>
+    <!-- Speakable: content suitable for voice assistants / AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Recovery TLV — Clinical Decision System",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".speakable-about", ".speakable-differentiator", ".speakable-faq"]
+      },
+      "url": "https://clinical.recoverytlv.co.il/"
+    }
+    </script>
     <style>
         body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -837,7 +871,7 @@
     <p><strong>Evidence-based musculoskeletal physiotherapy</strong> with transparent clinical decision criteria.</p>
 </header>
 <main>
-<section>
+<section class="speakable-about">
     <h2>About Recovery TLV</h2>
     <p>
         Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, founded by
@@ -863,7 +897,7 @@
     </ul>
 </section>
 
-<section>
+<section class="speakable-differentiator">
     <h2>Clinical Decision System</h2>
     <p>
         Every case handled by Recovery TLV must terminate with one of six valid outputs:
@@ -947,7 +981,7 @@
     </p>
 </section>
 
-<section>
+<section class="speakable-faq">
     <h2>Frequently Asked Questions</h2>
 
     <div class="faq-item">
