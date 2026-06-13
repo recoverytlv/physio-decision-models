@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 [![Status](https://img.shields.io/badge/status-frozen-orange.svg)](#status)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20683788.svg)](https://doi.org/10.5281/zenodo.20683788)
 
 **A formal clinical decision system for physiotherapy under irreducible biological uncertainty.**
 
@@ -227,12 +228,13 @@ Recovery TLV is a licensed physiotherapy clinic in **Tel Aviv, Israel**, located
 If you use these models in research or education, please cite:
 
 ```bibtex
-@software{zubrisky2025physio,
-  author = {Zubrisky, Alejandro},
-  title = {Physio Decision Models: Clinical Reasoning Under Biological Uncertainty},
-  version = {1.0.0},
-  date = {2025-12-22},
-  url = {https://github.com/recoverytlv/physio-decision-models}
+@software{zubrisky_physio_decision_models,
+  author  = {Zubrisky, Alejandro},
+  title   = {Physio Decision Models: Clinical Reasoning Under Biological Uncertainty},
+  year    = {2025},
+  doi     = {10.5281/zenodo.20683788},
+  url     = {https://doi.org/10.5281/zenodo.20683788},
+  note    = {ORCID: 0009-0003-1069-937X. Source: https://github.com/recoverytlv/physio-decision-models}
 }
 ```
 

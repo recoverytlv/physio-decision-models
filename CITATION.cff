@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use these models in research or education, please cite as follows."
 type: software
+doi: "10.5281/zenodo.20683788"
 title: "Physio Decision Models: Clinical Reasoning Under Biological Uncertainty"
 abstract: >-
   A formal epistemic structure for clinical reasoning in physiotherapy that treats
@@ -19,6 +20,10 @@ date-released: 2025-12-22
 license: MIT
 url: "https://github.com/recoverytlv/physio-decision-models"
 repository-code: "https://github.com/recoverytlv/physio-decision-models"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20683788"
+    description: "Concept DOI (always resolves to the latest version)"
 keywords:
   - physiotherapy
   - clinical-decision-system
