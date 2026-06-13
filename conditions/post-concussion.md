@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. Physiotherapy addresses the cervical, vestibular, and exercise tolerance components."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

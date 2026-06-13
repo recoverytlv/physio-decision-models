@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically onset at a reproducible distance or duration of activity."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

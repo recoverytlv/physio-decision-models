@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Temporomandibular disorders including myofascial pain of the masticatory muscles, TMJ disc displacement (with and without reduction), TMJ osteoarthritis, and jaw pain related to cervical dysfunction."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

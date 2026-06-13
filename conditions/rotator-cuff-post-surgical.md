@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Post-operative rehabilitation following rotator cuff repair (arthroscopic or open). Applies to partial and full-thickness tear repairs."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

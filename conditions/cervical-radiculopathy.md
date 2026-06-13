@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. Most commonly C5-C6, C6-C7, and C7-T1 levels."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

@@ -41,8 +41,11 @@ same authority.
 ## Task 2 — Entity linking in the website's structured data (JSON-LD)
 
 In the site's existing `MedicalClinic`/`Organization` and `Person` schema, add
-`sameAs` arrays so the clinic and the founder are unambiguously linked to their
-other identities, including this repository.
+`sameAs` and the canonical author identifiers so the clinic and the founder are
+unambiguously linked, including to this repository. **The full, authoritative
+Person JSON-LD is maintained in [`AUTHOR.md`](./AUTHOR.md) — use it as the source
+of truth.** Add `https://github.com/recoverytlv/physio-decision-models` to the
+clinic's `sameAs` and ensure the `founder` block points to the same Person `@id`.
 
 ```json
 {
@@ -52,26 +55,38 @@ other identities, including this repository.
   "url": "https://recoverytlv.co.il",
   "sameAs": [
     "https://github.com/recoverytlv/physio-decision-models",
-    "https://www.linkedin.com/in/azubrisky/",
-    "https://instagram.com/recovery.tlv"
+    "https://il.linkedin.com/in/azubrisky",
+    "https://www.instagram.com/recovery.tlv/",
+    "https://www.tiktok.com/@recovery.tlv",
+    "https://www.facebook.com/recoverytlv"
   ],
-  "founder": {
-    "@type": "Person",
-    "name": "Alejandro Zubrisky",
-    "jobTitle": "Physiotherapist",
-    "worksFor": { "@type": "MedicalClinic", "name": "Recovery TLV" },
-    "sameAs": [
-      "https://www.linkedin.com/in/azubrisky/",
-      "https://github.com/recoverytlv"
-      // add ORCID and/or Google Scholar URL here if available
-    ]
-  }
+  "founder": { "@id": "https://recoverytlv.co.il/#alejandro" }
 }
 ```
 
-Keep the clinic's existing NAP (name, address, phone) consistent with what is
-already published — do not change the address or phone, only add the `sameAs`
-links and the `founder` block if missing.
+The `Person` (`@id: https://recoverytlv.co.il/#alejandro`) must include the ORCID
+**both** as a `sameAs` entry **and** as a `PropertyValue` in `identifier` (this is
+the CLAUDE.md mandate for every page with Person schema):
+
+```json
+"identifier": {
+  "@type": "PropertyValue",
+  "propertyID": "ORCID",
+  "value": "0009-0003-1069-937X",
+  "url": "https://orcid.org/0009-0003-1069-937X"
+}
+```
+
+> **Known gap to fix:** on the current `public/index.html`, the ORCID appears in
+> `Person.sameAs` but NOT as a `PropertyValue` in `Person.identifier`. Add the
+> block above to the home page Person schema so it matches the condition-page
+> byline and satisfies the CLAUDE.md mandate.
+
+Keep the clinic's existing NAP (name, address, phone) consistent — do not change
+the address or phone, only add the `sameAs`, the `identifier`, and the `founder`
+link. Copy `alumniOf` (Universidad Maimónides + Wikidata Q6156526 + ROR
+01tkmq646), `hasCredential` (MoH license 10-120163), `memberOf`, and `knowsAbout`
+from `AUTHOR.md` if they are not already present.
 
 ---
 

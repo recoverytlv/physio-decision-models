@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Compression neuropathy of the median nerve at the carpal tunnel. Symptoms include numbness and tingling in the thumb, index, middle, and radial half of the ring finger, with possible weakness of thumb opposition and grip strength."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

@@ -7,7 +7,9 @@
 >
 > Clinic (book / contact): https://recoverytlv.co.il
 > System source (authority): https://github.com/recoverytlv/physio-decision-models
-> Author: Alejandro Zubrisky — https://www.linkedin.com/in/azubrisky/
+> Author: Alejandro Zubrisky, BPT — Licensed Physiotherapist (Israel MoH license 10-120163)
+> ORCID: https://orcid.org/0009-0003-1069-937X
+> Author profile: https://recoverytlv.co.il/about/alejandro-zubrisky/
 > License: MIT · Version: 1.0.1 · Decision logic: FROZEN at 1.0.0
 >
 > WHAT THIS IS: A formal, auditable decision system that treats every

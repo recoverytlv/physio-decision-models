@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Hip pain including femoroacetabular impingement (FAI), labral-related pain, greater trochanteric pain syndrome (gluteal tendinopathy, trochanteric bursitis), hip osteoarthritis, and post-hip replacement rehabilitation."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

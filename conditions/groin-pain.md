@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Groin pain of musculoskeletal origin including adductor tendinopathy, adductor strain, pubic-related groin pain (osteitis pubis), and iliopsoas-related groin pain. Common in sports involving kicking, cutting, and change of direction."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Pain in the thoracic spine region (mid-back) including thoracic segmental dysfunction, costovertebral joint pain, thoracic disc pathology, and postural thoracic pain. May present with local pain, referred pain to the chest or ribs, or intercostal neuralgia."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

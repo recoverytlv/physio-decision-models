@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Lateral ankle sprain (anterior talofibular ligament, calcaneofibular ligament), medial ankle sprain (deltoid ligament), and high ankle sprain (syndesmosis). Acute, subacute, and chronic ankle instability."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

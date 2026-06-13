@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Tendinopathy of the gluteus medius and/or gluteus minimus tendons at the greater trochanter. Previously called trochanteric bursitis. Lateral hip pain that is load-related, worse with single leg stance activities (walking, stairs, lying on the affected side). Most common in women aged 40–60."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

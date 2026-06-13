@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Meniscal tears of the knee including traumatic tears (acute onset with mechanism of injury) and degenerative tears (gradual onset, associated with osteoarthritis). Medial and lateral meniscus. May be managed conservatively or surgically (partial meniscectomy, meniscus repair)."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

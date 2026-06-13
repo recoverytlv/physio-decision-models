@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Proximal hamstring tendinopathy (high hamstring tendinopathy at the ischial tuberosity), acute hamstring strain, and chronic hamstring injuries. Common in runners, sprinters, and sports requiring high-speed running."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

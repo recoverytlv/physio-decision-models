@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Exercise-induced pain along the posteromedial border of the tibia. Most common overuse injury in runners and military recruits. Represents a continuum from periosteal stress reaction to tibial stress fracture. Must be differentiated from chronic exertional compartment syndrome and stress fracture."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

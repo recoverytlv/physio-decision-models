@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Stenosing tenosynovitis of the first dorsal compartment of the wrist, affecting the abductor pollicis longus (APL) and extensor pollicis brevis (EPB) tendons. Causes radial-sided wrist pain aggravated by thumb and wrist movements. Common in new parents, manual workers, and repetitive gripping activities."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

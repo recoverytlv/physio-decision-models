@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Narrowing of the spinal canal or intervertebral foramina in the lumbar spine, causing neurogenic claudication (leg pain, heaviness, or numbness with walking that eases with sitting or flexion). Most common in adults over 60. May coexist with degenerative disc disease and spondylolisthesis."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]

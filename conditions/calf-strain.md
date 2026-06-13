@@ -6,6 +6,7 @@ version: 1.0.0
 status: frozen
 license: MIT
 author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Acute muscle strain of the gastrocnemius or soleus (calf muscles). Gastrocnemius strains are more common and typically occur during explosive activities (sprinting, jumping). Soleus strains are more insidious and common in distance runners. Graded I-III by severity."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
