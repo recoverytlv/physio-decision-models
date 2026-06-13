@@ -1,10 +1,11 @@
 # Recovery TLV — Physiotherapy Clinic in Tel Aviv
 
-> Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, founded by Alejandro Zubrisky.
-> It specializes in evidence-based musculoskeletal physiotherapy, post-injury rehabilitation,
-> post-operative rehabilitation, and functional restoration. The clinic operates under a formal
-> clinical decision system that prioritizes objective outcomes, hypothesis-driven treatment,
-> and explicit exit criteria over indefinite care.
+> Recovery TLV is the Tel Aviv musculoskeletal physiotherapy clinic of Alejandro Zubrisky, BPT —
+> physiotherapist and author of the MSK Physiotherapy Non-Response Decision Framework. The clinic
+> applies the framework it publishes: objective, auditable decisions on when to continue, modify,
+> refer, or stop treatment. It specializes in evidence-based musculoskeletal physiotherapy,
+> post-injury and post-operative rehabilitation, and functional restoration, with explicit
+> continuation and exit criteria over indefinite care.
 
 ## About Recovery TLV
 

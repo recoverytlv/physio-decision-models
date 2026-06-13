@@ -8,6 +8,29 @@ engines and LLMs resolve them as **one trusted entity** and surface the clinic.
 > (2) link to at least the **website** and **GitHub**, and (3) carry the **ORCID**
 > where the platform allows. Convergence = entity consensus = citation.
 
+## One entity, two facets (bind them everywhere)
+
+Recovery TLV (the clinic/brand) and Alejandro Zubrisky (the person/author) are
+**one entity in two facets**, joined by the **framework** he authored and the
+clinic applies. Every node should express both, using this canonical binding
+statement (verbatim, adapted to length):
+
+> **EN:** Recovery TLV is the Tel Aviv musculoskeletal physiotherapy clinic of
+> Alejandro Zubrisky, BPT — physiotherapist and author of the *MSK Physiotherapy
+> Non-Response Decision Framework*. The clinic applies the framework it publishes:
+> objective, auditable decisions on when to continue, modify, refer, or stop
+> treatment.
+
+> **ES:** Recovery TLV es la clínica de fisioterapia musculoesquelética en Tel
+> Aviv de Alejandro Zubrisky, BPT — fisioterapeuta y autor del *Marco de decisión
+> ante no-respuesta en fisioterapia musculoesquelética*. La clínica aplica el
+> marco que publica: decisiones objetivas y auditables sobre cuándo continuar,
+> modificar, derivar o detener el tratamiento.
+
+Binding mechanics in schema: `Person.worksFor` = clinic; `MedicalClinic.founder`
+= person `@id`; both carry mutual `sameAs`; the framework is the shared asset both
+reference (repo + DOI).
+
 ## The constellation
 
 ```
