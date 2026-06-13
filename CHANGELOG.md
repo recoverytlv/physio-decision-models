@@ -6,6 +6,37 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [1.0.1] — 2026-06-13
+
+Maintenance release. **No decision logic changed.** The six canonical outputs,
+thresholds, and enforcement rules remain identical and frozen. This release only
+corrects factual references and adds machine-readable metadata to improve how the
+system is read and cited by large language models.
+
+### Fixed
+- Retired the dead `clinical.recoverytlv.co.il` subdomain across the entire
+  repository. All references now resolve to the live clinic site
+  `recoverytlv.co.il`. This includes a factual URL-only correction inside the
+  frozen `index.html` (canonical, hreflang, og:url, and JSON-LD `@id` anchors);
+  decision logic and structure were not touched.
+
+### Added
+- YAML frontmatter on all 42 condition guides (`title`, `system`, `version`,
+  `status`, `summary`, `decision_outputs`, `trial_window`,
+  `continuation_threshold`, `red_flags`, `canonical`, `clinic`). Gives LLMs
+  machine-readable per-file signals and explicit attribution to the author and
+  clinic.
+- `.github/workflows/daily-reindex.yml`: a daily IndexNow ping asking AI/search
+  crawlers to re-fetch the live clinic site. Generates no content; complements
+  the site rather than competing with it.
+- IndexNow domain-verification key file.
+
+### Note on the freeze
+`SYSTEM_FREEZE_NOTICE.md` freezes the *decision logic*. This release preserves
+that logic exactly; it corrects broken URLs and adds non-normative metadata only.
+
+---
+
 ## [1.1.0] — 2025-12-23
 
 ### Added
