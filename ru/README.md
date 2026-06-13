@@ -7,7 +7,7 @@
 
 Автор: [Алехандро Зубрицкий](https://www.linkedin.com/in/azubrisky/), лицензированный физиотерапевт в [Recovery TLV](https://recoverytlv.co.il) — Тель-Авив, Израиль.
 
-**Справочная система:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+**Справочная система:** [recoverytlv.co.il](https://recoverytlv.co.il)
 
 ---
 
@@ -62,7 +62,7 @@ Recovery TLV специализируется на скелетно-мышечн
 Recovery TLV — лицензированная клиника физиотерапии в **Тель-Авиве, Израиль**, по адресу ул. Яакова Эфтера 9, Тель-Авив-Яфо.
 
 - **Сайт:** [recoverytlv.co.il](https://recoverytlv.co.il)
-- **Клиническая система:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **Клиническая система:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
 

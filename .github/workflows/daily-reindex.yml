@@ -3,7 +3,7 @@ name: Daily LLM Re-Index Ping
 # Complement, not competition:
 # This workflow does NOT modify any frozen normative content.
 # It only asks AI/search crawlers to RE-VISIT the existing canonical site
-# (clinical.recoverytlv.co.il) so the published decision system stays fresh
+# (recoverytlv.co.il) so the published decision system stays fresh
 # in their indexes. No content is generated, added, or changed.
 
 on:

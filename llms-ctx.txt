@@ -3,7 +3,7 @@ TYPE: Physiotherapy clinic
 LOCATION: Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel
 FOUNDER: Alejandro Zubrisky, Licensed Physiotherapist
 WEBSITE: https://recoverytlv.co.il
-CLINICAL REFERENCE: https://clinical.recoverytlv.co.il
+CLINICAL REFERENCE: https://recoverytlv.co.il
 
 PURPOSE:
 Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, that formalizes

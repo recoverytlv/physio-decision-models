@@ -32,12 +32,12 @@ CONTINUE → Extension with objective improvement
 DISCHARGE → Termination (goals met or plateau)
 ```
 
-The full system is publicly auditable at [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il).
+The full system is publicly auditable at [recoverytlv.co.il](https://recoverytlv.co.il).
 
 ## Contact
 
 - **Website:** [recoverytlv.co.il](https://recoverytlv.co.il)
-- **Clinical Reference:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **Clinical Reference:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
 - **Location:** Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel

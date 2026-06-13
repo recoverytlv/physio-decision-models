@@ -10,7 +10,7 @@
 
 Recovery TLV is located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel.
 Website: https://recoverytlv.co.il
-Clinical reference system: https://clinical.recoverytlv.co.il
+Clinical reference system: https://recoverytlv.co.il
 
 The clinic treats outpatient musculoskeletal conditions including:
 - Orthopedic pain and dysfunction (back, neck, shoulder, knee, hip)

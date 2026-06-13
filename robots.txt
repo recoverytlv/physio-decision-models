@@ -162,4 +162,4 @@ Allow: /
 # /llms.txt — concise overview for LLMs
 # /llms-ctx.txt — contextual summary
 
-Sitemap: https://clinical.recoverytlv.co.il/sitemap.xml
+Sitemap: https://recoverytlv.co.il/sitemap.xml
