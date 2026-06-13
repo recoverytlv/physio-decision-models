@@ -1,0 +1,41 @@
+{
+  "title": "Physio Decision Models: Clinical Reasoning Under Biological Uncertainty",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "description": "A formal epistemic structure for clinical reasoning in physiotherapy that treats every intervention as a hypothesis test under irreducible biological uncertainty. Defines six canonical decision outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE), objective continuation criteria, and explicit exit conditions, with 42 condition-specific decision guides grounded in verified peer-reviewed literature. Authored by Alejandro Zubrisky, BPT (Recovery TLV, Tel Aviv, Israel).",
+  "creators": [
+    {
+      "name": "Zubrisky, Alejandro",
+      "orcid": "0009-0003-1069-937X",
+      "affiliation": "Recovery TLV, Tel Aviv, Israel"
+    }
+  ],
+  "keywords": [
+    "physiotherapy",
+    "physical therapy",
+    "clinical decision system",
+    "clinical reasoning",
+    "evidence-based practice",
+    "musculoskeletal rehabilitation",
+    "hypothesis-driven treatment",
+    "exit criteria",
+    "biological uncertainty",
+    "non-response as signal",
+    "return to sport",
+    "tendinopathy rehabilitation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/recoverytlv/physio-decision-models",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://recoverytlv.co.il",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ]
+}

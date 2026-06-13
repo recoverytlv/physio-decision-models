@@ -1,3 +1,30 @@
+---
+title: "Tension-Type Headache & Cervicogenic Headache"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "**S**ystemic symptoms (fever, weight loss, cancer history)"
+  - "**N**eurological signs (papilledema, focal deficit, altered consciousness)"
+  - "**O**nset sudden ('thunderclap' — worst headache of life)"
+  - "**O**lder age (new headache >50 years — giant cell arteritis)"
+  - "**P**ositional pattern change, progressive pattern, precipitated by Valsalva"
+  - "Headache after head trauma with cognitive changes → post-concussion protocol"
+  - "New daily persistent headache"
+  - "Headache with jaw claudication (giant cell arteritis → REFER urgently)"
+  - "Seizure with headache"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Tension-Type Headache & Cervicogenic Headache
 
 ## Definition

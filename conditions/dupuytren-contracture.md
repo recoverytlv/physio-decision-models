@@ -1,3 +1,25 @@
+---
+title: "Dupuytren's Contracture — Physiotherapy Scope"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Rapidly progressing contracture → surgical/procedural evaluation"
+  - "MCP contracture >30° or any PIP contracture — 'table top test' positive → surgical opinion"
+  - "Contracture causing functional limitation (can't put hand in pocket, wash face, grip properly)"
+  - "Suspected Dupuytren's diathesis (young onset, bilateral, family history, ectopic disease) — more aggressive, needs specialist monitoring"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/dupuytren-contracture.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Dupuytren's Contracture — Physiotherapy Scope
 
 ## Definition

@@ -1,3 +1,27 @@
+---
+title: "Temporomandibular Joint Disorder (TMJ/TMD)"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Temporomandibular disorders including myofascial pain of the masticatory muscles, TMJ disc displacement (with and without reduction), TMJ osteoarthritis, and jaw pain related to cervical dysfunction."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Locked jaw that does not self-reduce (acute disc displacement without reduction — may need specialist intervention)"
+  - "TMJ pain after facial trauma (suspected fracture)"
+  - "Progressive inability to open mouth with swelling (possible infection or tumour)"
+  - "Sudden change in bite alignment (possible condylar fracture or pathology)"
+  - "Ear symptoms (hearing loss, persistent tinnitus) requiring ENT evaluation"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/tmj-disorder.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Temporomandibular Joint Disorder (TMJ/TMD)
 
 ## Condition

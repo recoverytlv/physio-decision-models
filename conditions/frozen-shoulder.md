@@ -1,3 +1,27 @@
+---
+title: "Frozen Shoulder (Adhesive Capsulitis)"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Adhesive capsulitis of the glenohumeral joint. Progressive loss of active and passive range of motion in a capsular pattern (external rotation most limited, followed by abduction and internal rotation). Typically affects ages 40–60."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Shoulder stiffness following trauma (rule out fracture, dislocation)"
+  - "Progressive pain with systemic symptoms (weight loss, night sweats, fever)"
+  - "History of malignancy with new shoulder symptoms"
+  - "Rapidly worsening stiffness not consistent with adhesive capsulitis timeline"
+  - "Failed conservative management (consider manipulation under anesthesia or hydrodilatation)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/frozen-shoulder.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Frozen Shoulder (Adhesive Capsulitis)
 
 ## Condition

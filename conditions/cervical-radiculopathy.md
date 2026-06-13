@@ -1,3 +1,30 @@
+---
+title: "Cervical Radiculopathy"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. Most commonly C5-C6, C6-C7, and C7-T1 levels."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Progressive motor weakness (worsening over days/weeks)"
+  - "Bilateral upper extremity symptoms (consider cervical myelopathy or central disc)"
+  - "Upper motor neuron signs (hyperreflexia, clonus, Babinski sign, gait disturbance)"
+  - "Hand dexterity deficit with gait disturbance (cervical myelopathy — urgent referral)"
+  - "Bowel or bladder dysfunction"
+  - "Severe pain not responding to any position or medication"
+  - "History of trauma with new radicular symptoms (consider fracture, instability)"
+  - "Signs of vertebral artery insufficiency (dizziness, diplopia, dysarthria, dysphagia)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/cervical-radiculopathy.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Cervical Radiculopathy
 
 ## Condition

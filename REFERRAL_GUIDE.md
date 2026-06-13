@@ -104,7 +104,7 @@ We communicate with the surgeon if milestones are not met within expected timefr
 
 The complete clinical decision system is published as open source:
 
-- **Live reference:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **Live reference:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **Source code:** [github.com/recoverytlv/physio-decision-models](https://github.com/recoverytlv/physio-decision-models)
 
 You can verify how we make treatment decisions. The system is publicly auditable.

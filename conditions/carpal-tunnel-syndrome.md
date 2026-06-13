@@ -1,3 +1,28 @@
+---
+title: "Carpal Tunnel Syndrome"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Compression neuropathy of the median nerve at the carpal tunnel. Symptoms include numbness and tingling in the thumb, index, middle, and radial half of the ring finger, with possible weakness of thumb opposition and grip strength."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Thenar muscle wasting (atrophy of the thumb muscles)"
+  - "Constant numbness (loss of protective sensation)"
+  - "Progressive motor weakness (difficulty gripping, dropping objects frequently)"
+  - "Symptoms not responding to 6–8 weeks of conservative management"
+  - "Bilateral CTS with systemic symptoms (consider hypothyroidism, diabetes, rheumatoid arthritis)"
+  - "Symptoms inconsistent with median nerve distribution (consider cervical radiculopathy, thoracic outlet syndrome, or double crush syndrome)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/carpal-tunnel-syndrome.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Carpal Tunnel Syndrome
 
 ## Condition

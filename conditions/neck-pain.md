@@ -1,3 +1,27 @@
+---
+title: "Neck Pain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Neck pain including mechanical cervical pain, cervical disc herniation, whiplash-associated disorders, and cervicogenic headache."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Upper limb progressive weakness or bilateral symptoms (myelopathy)"
+  - "Drop attacks, diplopia, dysarthria, dysphagia, dizziness with cervical movement (vertebrobasilar insufficiency)"
+  - "Trauma with suspected cervical fracture or instability"
+  - "Signs of spinal cord compression (gait disturbance, hyperreflexia, clonus)"
+  - "Fever with neck stiffness (meningitis)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/neck-pain.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Neck Pain
 
 ## Condition

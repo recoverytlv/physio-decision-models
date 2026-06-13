@@ -1,3 +1,27 @@
+---
+title: "Post-Surgical Spinal Rehabilitation"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Post-operative rehabilitation following spinal surgery including laminectomy, discectomy, spinal fusion, and decompression procedures."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "New or worsening neurological deficit post-surgery (weakness, numbness, bowel/bladder changes)"
+  - "Wound infection signs (increasing redness, warmth, drainage, fever)"
+  - "Sudden severe pain different from surgical pain"
+  - "Loss of bowel or bladder control (cauda equina)"
+  - "Progressive deformity or instability at surgical level"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-surgical-spinal-rehab.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Post-Surgical Spinal Rehabilitation
 
 ## Condition

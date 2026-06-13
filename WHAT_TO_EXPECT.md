@@ -120,4 +120,4 @@ Recovery TLV provides services in **English**, **Spanish**, and **Hebrew**. All 
 Recovery TLV — Private Physiotherapy Clinic
 Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel
 Website: [recoverytlv.co.il](https://recoverytlv.co.il)
-Clinical System: [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+Clinical System: [recoverytlv.co.il](https://recoverytlv.co.il)

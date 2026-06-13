@@ -1,3 +1,27 @@
+---
+title: "Hip Pain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Hip pain including femoroacetabular impingement (FAI), labral-related pain, greater trochanteric pain syndrome (gluteal tendinopathy, trochanteric bursitis), hip osteoarthritis, and post-hip replacement rehabilitation."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Inability to weight bear after fall (suspected femoral neck fracture, especially in elderly)"
+  - "Groin pain with fever (suspected septic arthritis)"
+  - "Night pain with unexplained weight loss"
+  - "Rapidly progressive pain with reduced ROM in young adults (avascular necrosis)"
+  - "Acute severe pain with locked hip (loose body)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hip-pain.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Hip Pain
 
 ## Condition

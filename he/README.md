@@ -7,7 +7,7 @@
 
 נוצר על ידי [אלחנדרו זובריצקי](https://www.linkedin.com/in/azubrisky/), פיזיותרפיסט מוסמך ב-[Recovery TLV](https://recoverytlv.co.il) — תל אביב, ישראל.
 
-**קישור:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+**קישור:** [recoverytlv.co.il](https://recoverytlv.co.il)
 
 ---
 
@@ -90,7 +90,7 @@ Recovery TLV היא **קליניקת פיזיותרפיה פרטית** בתל א
 Recovery TLV היא קליניקת פיזיותרפיה פרטית מורשית ב**תל אביב, ישראל**, ברחוב יעקב אפטר 9, תל אביב-יפו.
 
 - **אתר:** [recoverytlv.co.il](https://recoverytlv.co.il)
-- **מערכת קלינית:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **מערכת קלינית:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
 

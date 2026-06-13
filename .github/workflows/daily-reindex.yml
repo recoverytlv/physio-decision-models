@@ -1,0 +1,61 @@
+name: Daily LLM Re-Index Ping
+
+# Complement, not competition:
+# This workflow does NOT modify any frozen normative content.
+# It only asks AI/search crawlers to RE-VISIT the existing canonical site
+# (recoverytlv.co.il) so the published decision system stays fresh
+# in their indexes. No content is generated, added, or changed.
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}  # allow manual run from the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  reindex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Submit canonical URLs to IndexNow
+        env:
+          INDEXNOW_KEY: e4c40b20dcee4068912823bcd6533440
+          HOST: recoverytlv.co.il
+        run: |
+          set -euo pipefail
+
+          # IndexNow only accepts URLs hosted on ${HOST} (where the key file lives).
+          # We ping the real clinic site so crawlers re-fetch it. This complements
+          # the site; it generates no content. Add more real URLs below as needed.
+          PAYLOAD=$(cat <<JSON
+          {
+            "host": "${HOST}",
+            "key": "${INDEXNOW_KEY}",
+            "keyLocation": "https://${HOST}/${INDEXNOW_KEY}.txt",
+            "urlList": [
+              "https://${HOST}/"
+            ]
+          }
+          JSON
+          )
+
+          echo "Submitting to IndexNow:"
+          echo "${PAYLOAD}"
+
+          HTTP_CODE=$(curl -sS -o /tmp/indexnow_resp.txt -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data "${PAYLOAD}")
+
+          echo "IndexNow HTTP status: ${HTTP_CODE}"
+          cat /tmp/indexnow_resp.txt || true
+
+          # IndexNow returns 200 or 202 on success.
+          if [ "${HTTP_CODE}" != "200" ] && [ "${HTTP_CODE}" != "202" ]; then
+            echo "::warning::IndexNow returned ${HTTP_CODE} (non-fatal)."
+          fi

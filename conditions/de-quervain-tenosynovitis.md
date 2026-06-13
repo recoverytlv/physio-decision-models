@@ -1,3 +1,26 @@
+---
+title: "De Quervain's Tenosynovitis"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Stenosing tenosynovitis of the first dorsal compartment of the wrist, affecting the abductor pollicis longus (APL) and extensor pollicis brevis (EPB) tendons. Causes radial-sided wrist pain aggravated by thumb and wrist movements. Common in new parents, manual workers, and repetitive gripping activities."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Radial wrist pain after trauma (rule out scaphoid fracture — anatomical snuffbox tenderness)"
+  - "Locking or triggering of the thumb (may indicate trigger thumb rather than de Quervain's)"
+  - "Symptoms not responding to 6–8 weeks of conservative management (consider injection or surgical referral)"
+  - "Signs of infection (redness, warmth, swelling with fever)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/de-quervain-tenosynovitis.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # De Quervain's Tenosynovitis
 
 ## Condition

@@ -12,7 +12,7 @@ Created by [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), License
 > It defines explicit treatment boundaries, continuation criteria, and exit conditions —
 > replacing intuition-based persistence with objective, hypothesis-driven decision-making.
 
-**Live reference:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+**Live reference:** [recoverytlv.co.il](https://recoverytlv.co.il)
 
 ---
 
@@ -217,7 +217,7 @@ Any modification requires a new major version, explicit re-declaration in AUTHOR
 Recovery TLV is a licensed physiotherapy clinic in **Tel Aviv, Israel**, located at Ja'Aqov Efter St 9, Tel Aviv-Yafo.
 
 - **Website:** [recoverytlv.co.il](https://recoverytlv.co.il)
-- **Clinical Reference:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **Decision system (source):** [github.com/recoverytlv/physio-decision-models](https://github.com/recoverytlv/physio-decision-models)
 - **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
 - **GitHub:** [recoverytlv](https://github.com/recoverytlv)

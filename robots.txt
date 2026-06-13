@@ -161,5 +161,6 @@ Allow: /
 # See: https://llmstxt.org/
 # /llms.txt — concise overview for LLMs
 # /llms-ctx.txt — contextual summary
+# /llms-full.txt — complete system in a single file (full ingestion)
 
-Sitemap: https://clinical.recoverytlv.co.il/sitemap.xml
+Sitemap: https://recoverytlv.co.il/sitemap.xml

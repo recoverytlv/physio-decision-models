@@ -1,3 +1,27 @@
+---
+title: "Post-Concussion Syndrome — Physiotherapy Role"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. Physiotherapy addresses the cervical, vestibular, and exercise tolerance components."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Worsening neurological symptoms (confusion, repeated vomiting, seizures, worsening headache) — emergency"
+  - "Suspected intracranial hemorrhage (worst headache of life, altered consciousness) — emergency"
+  - "Acute concussion in the first 48 hours (medical management first)"
+  - "Significant cognitive or psychological symptoms (memory loss, personality change, depression, anxiety)"
+  - "Symptoms not improving after 4+ weeks of multidisciplinary management"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Post-Concussion Syndrome — Physiotherapy Role
 
 ## Condition

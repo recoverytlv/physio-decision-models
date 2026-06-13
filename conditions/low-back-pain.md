@@ -1,3 +1,29 @@
+---
+title: "Low Back Pain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Low back pain including mechanical low back pain, lumbar disc herniation, chronic low back pain, and lumbar facet-related pain."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Progressive lower limb weakness or numbness"
+  - "Bladder or bowel dysfunction (cauda equina)"
+  - "Saddle anaesthesia"
+  - "Unexplained weight loss with back pain"
+  - "Night pain unrelated to position"
+  - "History of malignancy with new back pain"
+  - "Fever with spinal pain"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/low-back-pain.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Low Back Pain
 
 ## Condition

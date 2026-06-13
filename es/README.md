@@ -12,7 +12,7 @@ Creado por [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), Fisiote
 > Define límites explícitos de tratamiento, criterios de continuación y condiciones de salida —
 > reemplazando la persistencia basada en intuición con toma de decisiones objetiva e impulsada por hipótesis.
 
-**Referencia en vivo:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+**Referencia en vivo:** [recoverytlv.co.il](https://recoverytlv.co.il)
 
 ---
 
@@ -101,7 +101,7 @@ Cada encuentro con el paciente sigue este ciclo. La decisión siempre es una de 
 Recovery TLV es una clínica de fisioterapia privada licenciada en **Tel Aviv, Israel**, ubicada en Ja'Aqov Efter St 9, Tel Aviv-Yafo.
 
 - **Sitio web:** [recoverytlv.co.il](https://recoverytlv.co.il)
-- **Referencia clínica:** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **Referencia clínica:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
 - **GitHub:** [recoverytlv](https://github.com/recoverytlv)

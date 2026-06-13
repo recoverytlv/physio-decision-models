@@ -1,3 +1,27 @@
+---
+title: "Shoulder Instability"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Glenohumeral joint instability ranging from traumatic dislocation (anterior, posterior, or multidirectional) to atraumatic instability (generalized hypermobility, repetitive microtrauma). Includes first-time dislocations, recurrent instability, subluxation, and post-surgical stabilization rehabilitation."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Acute dislocation that has not been reduced (emergency — immediate referral for reduction)"
+  - "Suspected fracture with dislocation (Hill-Sachs, Bankart, greater tuberosity fracture)"
+  - "Neurovascular deficit after dislocation (axillary nerve palsy — deltoid weakness, regimental badge numbness)"
+  - "Recurrent dislocations (>2 episodes) despite comprehensive rehabilitation (surgical stabilization consultation)"
+  - "First-time dislocation in a young athlete (<25 years) with high recurrence risk (early surgical consultation may be appropriate)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Shoulder Instability
 
 ## Condition

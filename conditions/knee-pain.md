@@ -1,3 +1,27 @@
+---
+title: "Knee Pain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Knee pain including patellofemoral pain syndrome, meniscus injuries, ligament sprains, knee osteoarthritis, and patellar tendinopathy."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Acute locked knee (unable to extend — possible bucket handle meniscus tear)"
+  - "Significant joint effusion after trauma (possible ACL rupture or fracture)"
+  - "Gross valgus/varus instability suggesting complete ligament rupture"
+  - "Signs of infection (hot, red, swollen joint with fever)"
+  - "Suspected fracture (unable to weight bear, point tenderness over bone)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-pain.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Knee Pain
 
 ## Condition

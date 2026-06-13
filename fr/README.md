@@ -7,7 +7,7 @@
 
 Créé par [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), physiothérapeute diplômé chez [Recovery TLV](https://recoverytlv.co.il) — Tel Aviv, Israël.
 
-**Référence clinique :** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+**Référence clinique :** [recoverytlv.co.il](https://recoverytlv.co.il)
 
 ---
 
@@ -66,7 +66,7 @@ Recovery TLV est une **clinique de physiothérapie privée** à Tel Aviv :
 Recovery TLV est une clinique de physiothérapie privée agréée à **Tel Aviv, Israël**, située au 9 rue Ja'Aqov Efter, Tel Aviv-Yafo.
 
 - **Site web :** [recoverytlv.co.il](https://recoverytlv.co.il)
-- **Système clinique :** [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il)
+- **Système clinique :** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **LinkedIn :** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram :** [recovery.tlv](https://instagram.com/recovery.tlv)
 

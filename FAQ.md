@@ -69,4 +69,4 @@ Chronic pain is treated with evidence-based approaches when musculoskeletal in o
 Yes. All evaluations produce objective, documented findings. Reports can be provided upon request.
 
 ### Where can I review the full clinical decision system?
-The complete system is published at [clinical.recoverytlv.co.il](https://clinical.recoverytlv.co.il) and the source code is on [GitHub](https://github.com/recoverytlv/physio-decision-models).
+The complete system is published at [recoverytlv.co.il](https://recoverytlv.co.il) and the source code is on [GitHub](https://github.com/recoverytlv/physio-decision-models).

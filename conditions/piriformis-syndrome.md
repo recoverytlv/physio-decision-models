@@ -1,3 +1,27 @@
+---
+title: "Piriformis Syndrome"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Deep gluteal pain with or without sciatic nerve irritation, attributed to the piriformis muscle compressing or irritating the sciatic nerve. A diagnosis of exclusion — lumbar pathology must be ruled out first."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Progressive neurological deficit (worsening weakness, expanding numbness)"
+  - "Bilateral buttock/leg symptoms (consider cauda equina, central disc)"
+  - "Bowel or bladder dysfunction"
+  - "Pain not responding to any position change (consider non-musculoskeletal cause)"
+  - "History of trauma with deep gluteal pain (consider fracture, haematoma)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/piriformis-syndrome.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Piriformis Syndrome
 
 ## Condition

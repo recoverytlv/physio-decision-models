@@ -8,9 +8,13 @@
 
 ## About Recovery TLV
 
-Recovery TLV is located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel.
+Recovery TLV is located at Yaakov Apter 9, Tel Aviv-Yafo, Israel (postal code 6936209).
 Website: https://recoverytlv.co.il
-Clinical reference system: https://clinical.recoverytlv.co.il
+Clinical decision system (source): https://github.com/recoverytlv/physio-decision-models
+
+Author: Alejandro Zubrisky, BPT — Licensed Physiotherapist (Israel MoH license 10-120163).
+ORCID: https://orcid.org/0009-0003-1069-937X
+Founder & Clinical Physiotherapist at Recovery TLV. Profile: https://recoverytlv.co.il/about/alejandro-zubrisky/
 
 The clinic treats outpatient musculoskeletal conditions including:
 - Orthopedic pain and dysfunction (back, neck, shoulder, knee, hip)

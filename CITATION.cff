@@ -13,6 +13,7 @@ authors:
   - family-names: "Zubrisky"
     given-names: "Alejandro"
     affiliation: "Recovery TLV, Tel Aviv, Israel"
+    orcid: "https://orcid.org/0009-0003-1069-937X"
 version: 1.0.0
 date-released: 2025-12-22
 license: MIT

@@ -1,3 +1,26 @@
+---
+title: "Gluteal Tendinopathy"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Tendinopathy of the gluteus medius and/or gluteus minimus tendons at the greater trochanter. Previously called trochanteric bursitis. Lateral hip pain that is load-related, worse with single leg stance activities (walking, stairs, lying on the affected side). Most common in women aged 40–60."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Lateral hip pain after fall (especially in osteoporotic patients — rule out greater trochanter fracture)"
+  - "Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)"
+  - "Symptoms not responding to 8+ sessions of appropriate loading management"
+  - "Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Gluteal Tendinopathy
 
 ## Condition

@@ -1,3 +1,26 @@
+---
+title: "Hamstring Tendinopathy / Hamstring Injury"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Proximal hamstring tendinopathy (high hamstring tendinopathy at the ischial tuberosity), acute hamstring strain, and chronic hamstring injuries. Common in runners, sprinters, and sports requiring high-speed running."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Sudden severe pain with audible pop and significant bruising (complete tear/avulsion — surgical consultation)"
+  - "Inability to weight bear after hamstring injury (consider avulsion fracture)"
+  - "Recurrent hamstring strains not responding to rehabilitation (consider underlying biomechanical or neural factors — advanced assessment)"
+  - "Posterior thigh pain with lumbar/neural signs (consider lumbar radiculopathy or sciatic nerve involvement)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hamstring-tendinopathy.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Hamstring Tendinopathy / Hamstring Injury
 
 ## Condition

@@ -1,3 +1,27 @@
+---
+title: "Lumbar Spinal Stenosis"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Narrowing of the spinal canal or intervertebral foramina in the lumbar spine, causing neurogenic claudication (leg pain, heaviness, or numbness with walking that eases with sitting or flexion). Most common in adults over 60. May coexist with degenerative disc disease and spondylolisthesis."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Cauda equina syndrome (bilateral leg symptoms, saddle anaesthesia, bowel/bladder dysfunction — emergency)"
+  - "Progressive motor weakness in lower extremities"
+  - "Rapidly worsening walking tolerance (weeks, not months)"
+  - "Neurogenic claudication not responding to 8+ sessions of conservative management"
+  - "Severe stenosis with myelopathic signs (if thoracic/cervical involvement suspected)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Lumbar Spinal Stenosis
 
 ## Condition

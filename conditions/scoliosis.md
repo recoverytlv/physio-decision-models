@@ -1,3 +1,27 @@
+---
+title: "Adolescent Idiopathic Scoliosis — Physiotherapy Scope"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Rapid curve progression (>5° in 6 months in growing adolescent)"
+  - "Neurological signs (asymmetric reflexes, weakness, bowel/bladder changes)"
+  - "Pain as primary symptom in adolescent scoliosis (atypical — investigate further)"
+  - "Left thoracic curve (higher association with intraspinal pathology)"
+  - "Onset before age 10 (juvenile/infantile — different natural history)"
+  - "Skeletal immaturity with curve >25° (bracing evaluation needed)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/scoliosis.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Adolescent Idiopathic Scoliosis — Physiotherapy Scope
 
 ## Definition

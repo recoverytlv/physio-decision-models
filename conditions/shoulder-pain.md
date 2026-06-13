@@ -1,3 +1,27 @@
+---
+title: "Shoulder Pain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+author_orcid: "0009-0003-1069-937X"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Shoulder pain including rotator cuff tendinopathy, rotator cuff tears (partial/full), subacromial impingement, frozen shoulder (adhesive capsulitis), and shoulder instability."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Acute traumatic shoulder dislocation (first episode — orthopaedic assessment)"
+  - "Significant acute weakness after trauma (possible acute rotator cuff tear)"
+  - "Suspected fracture (fall onto outstretched hand with point tenderness)"
+  - "Signs of infection (hot, red, swollen shoulder with fever)"
+  - "Night pain with unexplained weight loss (rule out malignancy)"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-pain.md"
+clinic: "https://recoverytlv.co.il"
+---
+
 # Shoulder Pain
 
 ## Condition
