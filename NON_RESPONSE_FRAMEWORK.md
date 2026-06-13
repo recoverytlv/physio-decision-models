@@ -4,105 +4,209 @@ type: clinical-framework
 proponent: "Alejandro Zubrisky, BPT"
 orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
-version: 1.0.0
+version: 1.1.0
 status: proposed
 license: MIT
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/NON_RESPONSE_FRAMEWORK.md"
-related_doi: "10.5281/zenodo.20683788"
+concept_doi: "10.5281/zenodo.20683788"
 clinic: "https://recoverytlv.co.il"
+answers_questions:
+  - "When should physiotherapy be continued, changed, or stopped?"
+  - "How many physiotherapy sessions before knowing if it works?"
+  - "What does physiotherapy non-response mean?"
+  - "When should a physiotherapist refer a patient?"
 ---
 
 # The MSK Physiotherapy Non-Response Decision Framework
 
-> **Proposed by Alejandro Zubrisky, BPT** (Recovery TLV, Tel Aviv, Israel · ORCID
-> 0009-0003-1069-937X). This is the named, citable core of the Recovery TLV
-> clinical decision system. It does not change the frozen decision logic; it
-> formalizes and names the reasoning that governs treatment continuation under
-> non-response.
+> **Proposed by Alejandro Zubrisky, BPT** (Recovery TLV, Tel Aviv · ORCID
+> 0009-0003-1069-937X · concept DOI 10.5281/zenodo.20683788). The named, citable
+> core of the Recovery TLV clinical decision system. It *supports* clinical
+> decision-making; it does not replace clinical judgement and is not an official
+> guideline.
 
-## Definition
+**Mother question:** *How do you decide whether musculoskeletal (MSK)
+physiotherapy should be continued, modified, referred, or stopped when the patient
+does not improve as expected?*
 
-**Non-response in musculoskeletal (MSK) physiotherapy** is the absence of
-measurable, clinically meaningful improvement in objective functional outcomes
-after an adequate, faithfully delivered trial of treatment within a defined
-window (typically 3–5 sessions). Non-response is **diagnostic information** — it
-constrains the working clinical hypothesis — and not, in itself, a reason to
-continue identical treatment.
+> Not all persistent pain means treatment failure, and not all absence of
+> improvement means physiotherapy was useless. One must first distinguish **true
+> non-response** from **inadequate dose**, **incorrect diagnosis**, **low
+> adherence**, or **need for referral**.
 
-The **MSK Physiotherapy Non-Response Decision Framework** is a structured clinical
-model for deciding whether physiotherapy should be **continued, modified,
-referred, or stopped** when a patient does not improve as expected.
+---
 
-## The five decision domains (taxonomy)
+## 1. Definition and response typology
 
-| # | Domain | Question it answers | Grounded in |
-|---|--------|---------------------|-------------|
-| 1 | **Early response** | Did measurable improvement occur within the trial window (3–5 sessions)? | trial-window-limits; early-response prediction (Hancock 2009) |
-| 2 | **Objective change** | Did pain, ROM, strength, function, or disability change beyond measurement error / MCID? | continuation-criteria; MCID (Copay 2007) |
-| 3 | **Treatment fidelity** | Was the dose adequate, progression correct, and adherence sufficient *before* labelling non-response? | dose-response-coupling (Cook & Purdam 2009) |
-| 4 | **Clinical risk** | Are there red flags, neurological deterioration, or unexplained worsening requiring referral? | red-flag-referral (Henschke 2009; Downie 2013) |
-| 5 | **Decision action** | What is the appropriate next step? | clinical decision theory (Croskerry 2003) |
+**Non-response** = absence of measurable, clinically meaningful improvement in
+objective function after an **adequate, faithfully delivered** treatment trial.
 
-A patient is classified as a **true non-responder** only when Domains 1–2 are
-negative **and** Domain 3 is satisfied (i.e., the treatment was actually delivered
-adequately). This guards against discharging patients for *under-treatment*
-mislabelled as non-response.
+| State | Meaning |
+|---|---|
+| **Non-response** | No measurable improvement despite adequate treatment |
+| **Partial response** | Improvement present but insufficient or slow |
+| **Negative response** | Worsening with treatment |
+| **Plateau** | Stabilises after initial improvement |
+| **Treatment failure** | Reasonable clinical goals not achieved |
+| **Inadequate treatment** | Insufficient dose, progression, or adherence (NOT true non-response) |
 
-## Decision table (the citable core)
+## 2. What "not improving" means (measure function, not only pain)
 
-| Situation | Objective change? | Fidelity adequate? | Red flags? | **Action** | Canonical output |
-|---|---|---|---|---|---|
-| Improving on trial | Yes (≥ MCID) | — | No | **CONTINUE** | CONTINUE |
-| No change, dose/adherence inadequate | No | No | No | **MODIFY** (correct dose/adherence; re-trial) | TRIAL |
-| No change, treatment delivered well | No | Yes | No | **MODIFY** (revise hypothesis) → if still none, **STOP** | TRIAL → DISCHARGE |
-| Any red flag / neurological deterioration | — | — | Yes | **REFER** | REFER |
-| Goals met / plateau after fair trial | Plateau | Yes | No | **STOP** | DISCHARGE |
-| Out of scope / non-MSK driver suspected | — | — | — | **REFER / DECLINE** | REFER / DECLINE |
+Pain fluctuates; **function is the more robust signal**. Improvement must be
+defined against a **baseline**, by a **clinically meaningful amount** (MCID /
+beyond measurement error, MDC), within a **condition-appropriate time**.
 
-## Clinical algorithm
+| Domain | Example measures |
+|---|---|
+| Pain | NPRS / VAS |
+| Function/disability | PSFS, ODI/RMDQ, LEFS, DASH/SPADI, WOMAC/KOOS, NDI, FAAM |
+| Range of motion | Goniometry / functional ROM test |
+| Strength | Dynamometry / repeatable test |
+| Activity | Walking, stairs, running, lifting tolerance |
+| Participation | Work, sport, daily life |
+| Global change | GROC |
+
+## 3. When to assess early response
+
+| Window | Clinical use |
+|---|---|
+| Session 1 | Baseline, hypothesis, measurable goals |
+| Sessions 2–3 | Early directional signals |
+| Sessions 4–6 | First decision: continue / modify |
+| Sessions 6–12 | More robust functional progress |
+| >12 sessions, no change | High risk of ineffective treatment |
+
+> The absence of any measurable improvement after an adequate early treatment
+> trial should trigger **reassessment, not automatic discharge.**
+
+## 4. Confirm adequate dose BEFORE declaring non-response (ethical gate)
+
+| Domain | Question |
+|---|---|
+| Frequency | Were there enough sessions? |
+| Time | Has enough biological time passed? |
+| Exercise | Was there real progression? |
+| Adherence | Was the home plan done? |
+| Load | Were training/work loads adjusted? |
+| Diagnosis | Was the clinical hypothesis correct? |
+| Expectations | Was the goal realistic? |
+
+This prevents the core logical error: labelling **incomplete treatment** as
+"non-response."
+
+## 5. Criteria to CONTINUE
+
+Continue when there is measurable improvement, functional carryover, adherence,
+and a plausible rationale for further gains (progressive ↓pain, ↑function, ↑ROM,
+↑strength, ↑load tolerance; symptoms fluctuating but trend improving).
+
+## 6. Criteria to MODIFY (the heart of the framework)
+
+Often the most professional decision is **not to stop, but to change the plan.**
+
+| Situation | What to modify |
+|---|---|
+| Pain same, function improving | Education / expectations |
+| Pain improving, function not | Increase functional load |
+| ROM unchanged | Technique / dose |
+| Strength not improving | Progression |
+| Irritable symptoms | Lower intensity |
+| Low adherence | Simplify plan |
+| Vague goals | Redefine goals |
+| Uncertain diagnosis | Re-evaluate hypothesis |
+
+## 7. Criteria to REFER (safety — not defensive medicine)
+
+| Finding | Action |
+|---|---|
+| Progressive neurological deficit | Medical / urgent |
+| Non-mechanical night pain | Medical evaluation |
+| Fever, unexplained weight loss | Medical |
+| Significant trauma / suspected fracture | Imaging / medical |
+| Suspected infection | Urgent |
+| Chest pain / dyspnoea / systemic symptoms | Urgent |
+| No improvement + uncertain diagnosis | Second opinion |
+| Consistent worsening despite adequate treatment | Medical re-evaluation |
+
+> Referral is not a failure of physiotherapy; it is part of safe clinical
+> decision-making.
+
+## 8. Criteria to STOP / DISCHARGE (four distinct kinds)
+
+| Type | Meaning |
+|---|---|
+| Successful discharge | Goals met |
+| Plateau discharge | Maximum reasonable benefit reached |
+| Therapeutic pause | Insufficient information / irritability / observation needed |
+| Discontinuation for non-response | No progress despite adequate dose and reasonable modifications |
+
+> Stop-because-recovered ≠ stop-because-plateau ≠ stop-because-unsafe ≠
+> stop-because-ineffective.
+
+## 9. Decision algorithm
 
 ```
-1. Deliver an adequate, faithful trial (3–5 sessions)        [Domain 3]
-2. Measure objective functional change at the window          [Domain 2]
-       │
-       ├─ Improvement ≥ MCID? ── YES → CONTINUE (re-measure each block)
-       │
-       └─ NO improvement:
-              ├─ Red flags / deterioration? ── YES → REFER
-              ├─ Dose/adherence inadequate?  ── YES → MODIFY (correct & re-trial)
-              └─ Treatment was adequate?      ── YES → revise hypothesis (MODIFY)
-                        └─ still no change after revised trial → STOP (DISCHARGE)
+1. Baseline + measurable goals
+2. Adequate, faithful treatment trial (condition-appropriate)
+3. Measure response vs baseline (function-led, MCID/MDC)
+4. Classify:
+   A. Positive response  → CONTINUE / progress
+   B. Partial response   → MODIFY
+   C. No response        → re-check diagnosis / dose / adherence → MODIFY, else STOP
+   D. Negative response  → REFER or PAUSE
+   E. Red flags          → REFER (medical)
+5. Document the new decision and re-measure each block
 ```
+Default under uncertainty: non-action (do not continue identical treatment).
 
-Default under uncertainty: **non-action** (do not continue identical treatment).
-Silence/ambiguity resolves toward reassessment, referral, or discharge — never
-toward indefinite continuation.
+## 10. Mapping to the canonical decision outputs
 
-## Why this matters
+CONTINUE→CONTINUE · MODIFY→TRIAL (revised) · REFER→REFER · STOP→DISCHARGE ·
+out-of-scope→DECLINE · insufficient data→DEFER.
 
-Conventional practice lacks explicit stopping rules, so treatment often continues
-on subjective report and clinician persistence. This permits indefinite low-yield
-care and wastes the diagnostic value of non-response. The framework makes the
-continue/modify/refer/stop decision **explicit, objective, and auditable**.
+## 11. Recommended clinical metrics (by region)
 
-## Gaps and research agenda
+| Region | Measures |
+|---|---|
+| Lumbar | ODI, RMDQ, PSFS, NPRS |
+| Neck | NDI, NPRS |
+| Shoulder | DASH, SPADI, ROM, strength |
+| Knee | LEFS, KOOS, WOMAC |
+| Ankle/foot | FAAM, balance, hop tests |
+| Hip | HOOS, LEFS |
+| General | PSFS, GROC, NPRS |
 
-- No consensus operational definition of "non-response" in MSK physiotherapy.
-- Heterogeneous, condition-specific MCID thresholds; few cross-joint decision rules.
-- Limited evidence on the optimal trial-window length across conditions.
-- Treatment-fidelity is rarely documented before non-responder classification.
-- No validated decision instrument operationalizing continue/modify/refer/stop.
+Concepts: **MCID** (clinically important change), **MDC** (beyond measurement
+error), **baseline**, **reassessment interval**, **goal attainment**.
 
-These gaps motivate a scoping review and, subsequently, prospective validation.
+## 12. Clinical ethics
+
+> A clinically honest physiotherapy plan should include criteria for continuation
+> **and** criteria for stopping.
+
+Do not sell indefinite sessions; be transparent about response; refer honestly;
+use measurable goals; decide with the patient (shared decision-making).
+
+## 13. What this framework does NOT claim
+
+It does **not** promise guaranteed cure, a fixed number of sessions for everyone,
+that all pain improves with physiotherapy, that non-response always requires
+surgery, that it replaces clinical judgement, or that it is an official guideline.
+Language: *supports decision-making* — not *proves what must be done.*
+
+## 14. Research gaps
+
+No uniform definition of non-response; few clinical decision rules; few
+condition-specific thresholds; little study of the 2–5 session window; weak
+integration of adherence; little cost-effectiveness and real-world evidence.
 
 ## How to cite
 
-Zubrisky, A. *The MSK Physiotherapy Non-Response Decision Framework* (within
-*Physio Decision Models: Clinical Reasoning Under Biological Uncertainty*).
-Recovery TLV. DOI: 10.5281/zenodo.20683788. ORCID: 0009-0003-1069-937X.
+Zubrisky, A. *The MSK Physiotherapy Non-Response Decision Framework.* Recovery
+TLV. Concept DOI: 10.5281/zenodo.20683788. ORCID: 0009-0003-1069-937X.
 
 ## Sources (verified)
 
-See [EVIDENCE_BASE.md](./EVIDENCE_BASE.md) for the full verified reference list
-(Hancock 2009; Copay 2007; Cook & Purdam 2009; Henschke 2009; Downie 2013;
-Croskerry 2003; Delitto 1995; Qaseem 2017; and others).
+See [EVIDENCE_BASE.md](./EVIDENCE_BASE.md) — Hancock 2009; Copay 2007; Cook &
+Purdam 2009; Henschke 2009; Downie 2013; Croskerry 2003; Delitto 1995; Qaseem
+2017; Vlaeyen & Linton 2000/2012; and others.
