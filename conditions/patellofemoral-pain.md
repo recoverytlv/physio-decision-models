@@ -1,3 +1,26 @@
+---
+title: "Patellofemoral Pain Syndrome"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Anterior knee pain around or behind the patella, aggravated by activities that load the patellofemoral joint: squatting, stair climbing, running, prolonged sitting (theatre sign). One of the most common knee conditions in active individuals."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Acute patellar dislocation (visible deformity, inability to extend knee, significant effusion)"
+  - "Recurrent patellar subluxation/dislocation not controlled by rehabilitation"
+  - "Locking of the knee (loose body or osteochondral fragment)"
+  - "Significant effusion without clear traumatic mechanism"
+  - "Anterior knee pain with systemic symptoms in adolescents (consider osteosarcoma — rare but serious)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/patellofemoral-pain"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Patellofemoral Pain Syndrome
 
 ## Condition

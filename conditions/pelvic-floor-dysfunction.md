@@ -1,3 +1,26 @@
+---
+title: "Pelvic Floor Dysfunction"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Unexplained rectal bleeding"
+  - "Unexplained weight loss with pelvic symptoms"
+  - "New-onset bowel/bladder incontinence with neurological signs (cauda equina)"
+  - "Pelvic mass on examination"
+  - "Post-menopausal bleeding"
+  - "Suspected pelvic fracture"
+canonical: "https://clinical.recoverytlv.co.il/conditions/pelvic-floor-dysfunction"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Pelvic Floor Dysfunction
 
 ## Definition

@@ -1,3 +1,26 @@
+---
+title: "Calf Strain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Acute muscle strain of the gastrocnemius or soleus (calf muscles). Gastrocnemius strains are more common and typically occur during explosive activities (sprinting, jumping). Soleus strains are more insidious and common in distance runners. Graded I-III by severity."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Calf pain with swelling, warmth, and redness without clear mechanism of injury (suspected DVT — urgent referral)"
+  - "Palpable gap in the muscle with complete loss of function (grade III / complete rupture — surgical consultation)"
+  - "Positive Thompson test (Achilles tendon rupture, not calf strain)"
+  - "Calf pain with recent surgery, immobilization, or long-haul travel (DVT risk factors)"
+  - "Recurrent calf strains in the same location (consider underlying vascular pathology — popliteal artery entrapment)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/calf-strain"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Calf Strain
 
 ## Condition

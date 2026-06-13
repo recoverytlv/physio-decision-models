@@ -1,3 +1,25 @@
+---
+title: "Lateral Epicondylalgia (Tennis Elbow)"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Lateral epicondylalgia (tennis elbow) and medial epicondylalgia (golfer's elbow). Tendinopathy of the common extensor or flexor origin at the elbow."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Elbow instability after trauma (suspected ligament rupture)"
+  - "Progressive hand weakness or numbness (nerve entrapment)"
+  - "Elbow locking or catching (loose body)"
+  - "Suspected fracture (point tenderness over bone after trauma)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/lateral-epicondylalgia"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Lateral Epicondylalgia (Tennis Elbow)
 
 ## Condition

@@ -1,3 +1,26 @@
+---
+title: "Ankle Sprain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Lateral ankle sprain (anterior talofibular ligament, calcaneofibular ligament), medial ankle sprain (deltoid ligament), and high ankle sprain (syndesmosis). Acute, subacute, and chronic ankle instability."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Inability to weight bear (4 steps) after injury (Ottawa rules — suspect fracture)"
+  - "Point tenderness over posterior edge of medial/lateral malleolus or base of 5th metatarsal"
+  - "Gross instability with visible deformity"
+  - "Signs of vascular compromise (absent pedal pulse, severe swelling with tight compartment)"
+  - "High ankle sprain with positive squeeze test and external rotation test (syndesmosis — may need surgical fixation)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/ankle-sprain"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Ankle Sprain
 
 ## Condition

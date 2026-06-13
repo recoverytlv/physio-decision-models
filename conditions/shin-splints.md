@@ -1,3 +1,27 @@
+---
+title: "Medial Tibial Stress Syndrome (Shin Splints)"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Exercise-induced pain along the posteromedial border of the tibia. Most common overuse injury in runners and military recruits. Represents a continuum from periosteal stress reaction to tibial stress fracture. Must be differentiated from chronic exertional compartment syndrome and stress fracture."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Focal point tenderness on the tibia (stress fracture — not diffuse as in MTSS)"
+  - "Pain at rest that doesn't resolve (stress fracture or more serious pathology)"
+  - "Pain with single leg hop test (stress fracture)"
+  - "Neurological symptoms in the lower leg during exercise (numbness, weakness — compartment syndrome)"
+  - "Pain that occurs at a consistent time during exercise and resolves completely with rest (compartment syndrome)"
+  - "Night pain (rule out tumour or infection)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/shin-splints"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Medial Tibial Stress Syndrome (Shin Splints)
 
 ## Condition

@@ -1,3 +1,26 @@
+---
+title: "Plantar Fasciitis"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Plantar fasciitis (plantar heel pain) and plantar fasciopathy. Pain at the medial calcaneal tubercle, typically worse with first steps in the morning."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Heel pain after trauma with inability to weight bear (suspected fracture)"
+  - "Bilateral heel pain with morning stiffness >30 minutes (systemic inflammatory condition)"
+  - "Numbness or burning in heel distribution (nerve entrapment)"
+  - "Night pain with unexplained weight loss"
+  - "Pain not related to weight bearing (non-mechanical pattern)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/plantar-fasciitis"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Plantar Fasciitis
 
 ## Condition

@@ -1,3 +1,25 @@
+---
+title: "Thoracic Outlet Syndrome (TOS)"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Arm swelling, cyanosis, or color changes (venous TOS)"
+  - "Absent or diminished radial pulse with positional changes (arterial TOS)"
+  - "Hand ischemia or pallor"
+  - "Progressive hand muscle wasting (severe neurogenic compression)"
+  - "Subclavian steal symptoms (dizziness, syncope with arm elevation)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/thoracic-outlet-syndrome"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Thoracic Outlet Syndrome (TOS)
 
 ## Definition

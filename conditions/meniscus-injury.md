@@ -1,3 +1,26 @@
+---
+title: "Meniscus Injury"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Meniscal tears of the knee including traumatic tears (acute onset with mechanism of injury) and degenerative tears (gradual onset, associated with osteoarthritis). Medial and lateral meniscus. May be managed conservatively or surgically (partial meniscectomy, meniscus repair)."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Locked knee — inability to fully extend the knee (bucket-handle tear requiring surgery)"
+  - "Significant effusion with inability to weight bear after acute injury (consider meniscus tear with associated ligament injury)"
+  - "Mechanical catching or giving way not improving with rehabilitation"
+  - "Degenerative meniscus tear with severe osteoarthritis not responding to conservative management (orthopaedic consultation)"
+  - "Recurrent effusion without clear mechanical cause"
+canonical: "https://clinical.recoverytlv.co.il/conditions/meniscus-injury"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Meniscus Injury
 
 ## Condition

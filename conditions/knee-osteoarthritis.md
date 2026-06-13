@@ -1,3 +1,25 @@
+---
+title: "Knee Osteoarthritis"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Locked knee (mechanical block to extension) — possible loose body"
+  - "Acute hot, swollen joint with fever — septic arthritis (emergency)"
+  - "Rapid joint destruction on imaging"
+  - "Crystal arthropathy suspected (acute gout/pseudogout) — rheumatology"
+  - "Significant valgus/varus instability with functional limitation despite optimal conservative care → orthopedic opinion"
+canonical: "https://clinical.recoverytlv.co.il/conditions/knee-osteoarthritis"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Knee Osteoarthritis
 
 ## Definition

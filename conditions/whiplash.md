@@ -1,3 +1,26 @@
+---
+title: "Whiplash-Associated Disorder"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Whiplash-associated disorder (WAD) grades I-III following acceleration-deceleration injury, typically motor vehicle accident. Includes neck pain, headache, and associated symptoms."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Signs of cervical fracture or dislocation (Canadian C-spine rules positive)"
+  - "Signs of vertebral artery dissection (severe headache, dizziness, visual disturbance, dysphagia following neck trauma)"
+  - "Upper motor neuron signs (hyperreflexia, clonus, bilateral symptoms)"
+  - "Concussion symptoms that are worsening (confusion, vomiting, loss of consciousness)"
+  - "Progressive neurological deficit"
+canonical: "https://clinical.recoverytlv.co.il/conditions/whiplash"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Whiplash-Associated Disorder
 
 ## Condition

@@ -1,3 +1,25 @@
+---
+title: "Fibromyalgia — Physiotherapy Scope"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "New focal neurological signs (rule out neurological condition)"
+  - "Significant weight loss, night sweats (rule out malignancy/infection)"
+  - "Symptoms better explained by inflammatory arthritis, hypothyroidism, or other systemic disease → rheumatology"
+  - "Severe depression, suicidal ideation → psychology/psychiatry urgently"
+  - "Sleep apnea suspected → sleep medicine"
+canonical: "https://clinical.recoverytlv.co.il/conditions/fibromyalgia"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Fibromyalgia — Physiotherapy Scope
 
 ## Definition

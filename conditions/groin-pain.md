@@ -1,3 +1,26 @@
+---
+title: "Groin Pain / Adductor Tendinopathy"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Groin pain of musculoskeletal origin including adductor tendinopathy, adductor strain, pubic-related groin pain (osteitis pubis), and iliopsoas-related groin pain. Common in sports involving kicking, cutting, and change of direction."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Groin lump or swelling (inguinal or femoral hernia)"
+  - "Groin pain with urinary symptoms (genitourinary pathology)"
+  - "Groin pain with fever or systemic illness (infection — septic arthritis, osteomyelitis)"
+  - "Severe, sudden groin pain after trauma in elderly patients (stress fracture, avulsion fracture)"
+  - "Groin pain not responding to any loading pattern (consider referred pain from hip or lumbar spine)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/groin-pain"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Groin Pain / Adductor Tendinopathy
 
 ## Condition

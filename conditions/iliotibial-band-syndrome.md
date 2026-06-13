@@ -1,3 +1,26 @@
+---
+title: "Iliotibial Band Syndrome (IT Band Syndrome)"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically onset at a reproducible distance or duration of activity."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Locking or catching of the knee (meniscal pathology)"
+  - "Lateral knee instability (LCL injury)"
+  - "Swelling within the joint (intra-articular pathology)"
+  - "Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)"
+  - "Failed conservative management after 8+ sessions with no improvement"
+canonical: "https://clinical.recoverytlv.co.il/conditions/iliotibial-band-syndrome"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Iliotibial Band Syndrome (IT Band Syndrome)
 
 ## Condition

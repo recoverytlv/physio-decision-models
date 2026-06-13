@@ -1,3 +1,25 @@
+---
+title: "Rotator Cuff Post-Surgical Rehabilitation"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Post-operative rehabilitation following rotator cuff repair (arthroscopic or open). Applies to partial and full-thickness tear repairs."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Sudden loss of strength after initial recovery (suspected re-tear)"
+  - "Wound infection signs (redness, warmth, drainage, fever)"
+  - "Significant increase in pain not explained by rehabilitation progression"
+  - "Inability to achieve passive ROM milestones despite appropriate treatment (possible adhesive capsulitis requiring surgical consultation)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/rotator-cuff-post-surgical"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Rotator Cuff Post-Surgical Rehabilitation
 
 ## Condition

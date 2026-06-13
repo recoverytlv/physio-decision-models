@@ -1,3 +1,27 @@
+---
+title: "Total Knee Replacement Rehabilitation"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Post-operative rehabilitation following total knee arthroplasty (TKA). Includes primary and revision knee replacement procedures."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Calf pain, swelling, and redness (suspected deep vein thrombosis — DVT)"
+  - "Sudden shortness of breath with chest pain (suspected pulmonary embolism — emergency)"
+  - "Wound infection signs (increasing redness, warmth, drainage, fever)"
+  - "Sudden loss of ROM after initial progress (suspected arthrofibrosis or component malposition)"
+  - "Persistent instability or giving way (component loosening or ligament insufficiency)"
+  - "New-onset numbness or foot drop (peroneal nerve palsy)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/total-knee-replacement-rehab"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Total Knee Replacement Rehabilitation
 
 ## Condition

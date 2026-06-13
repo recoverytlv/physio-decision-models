@@ -1,3 +1,26 @@
+---
+title: "Achilles Tendinopathy"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Achilles tendinopathy including midportion tendinopathy and insertional tendinopathy. Distinct from acute Achilles tendon rupture."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Sudden onset of severe calf pain with audible pop (suspected rupture)"
+  - "Palpable gap in tendon"
+  - "Positive Thompson test (no plantarflexion with calf squeeze)"
+  - "Inability to perform single leg heel raise"
+  - "Signs of DVT (calf swelling, warmth, Homan's sign)"
+canonical: "https://clinical.recoverytlv.co.il/conditions/achilles-tendinopathy"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Achilles Tendinopathy
 
 ## Condition

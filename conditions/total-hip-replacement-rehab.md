@@ -1,3 +1,27 @@
+---
+title: "Total Hip Replacement Rehabilitation"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Post-operative rehabilitation following total hip arthroplasty (THA). Includes anterior, posterior, and lateral surgical approaches, each with specific precautions."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Sudden severe hip pain with leg shortening and rotation (suspected dislocation — emergency)"
+  - "Calf pain, swelling, and redness (suspected DVT)"
+  - "Sudden shortness of breath (suspected pulmonary embolism — emergency)"
+  - "Wound infection signs (increasing redness, warmth, drainage, fever)"
+  - "New-onset thigh pain with weight bearing (periprosthetic fracture)"
+  - "Progressive leg length discrepancy or new limp not improving with rehabilitation"
+canonical: "https://clinical.recoverytlv.co.il/conditions/total-hip-replacement-rehab"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Total Hip Replacement Rehabilitation
 
 ## Condition

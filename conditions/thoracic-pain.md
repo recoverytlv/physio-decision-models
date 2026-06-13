@@ -1,3 +1,29 @@
+---
+title: "Thoracic Pain"
+type: clinical-decision-guide
+system: "Recovery TLV Clinical Decision System"
+version: 1.0.0
+status: frozen
+license: MIT
+author: "Alejandro Zubrisky, PT"
+organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Pain in the thoracic spine region (mid-back) including thoracic segmental dysfunction, costovertebral joint pain, thoracic disc pathology, and postural thoracic pain. May present with local pain, referred pain to the chest or ribs, or intercostal neuralgia."
+decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
+trial_window: "3-5 sessions"
+continuation_threshold: ">=10% objective functional improvement"
+red_flags:
+  - "Chest pain with cardiac risk factors (age >50, hypertension, diabetes, smoking, family history) — consider cardiac origin"
+  - "Thoracic pain with shortness of breath, cough, or respiratory distress — consider pulmonary pathology"
+  - "Thoracic pain with abdominal symptoms (nausea, referred abdominal pain) — consider visceral referral (gallbladder, pancreas, aortic aneurysm)"
+  - "History of malignancy with new thoracic pain — consider metastatic disease"
+  - "Thoracic pain after trauma — consider fracture (especially in osteoporotic patients)"
+  - "Progressive neurological symptoms (bilateral leg weakness, gait disturbance) — consider thoracic myelopathy"
+  - "Sudden severe thoracic pain ('tearing' quality) — consider aortic dissection (emergency REFER)"
+  - "Pain in an osteoporotic patient after minimal trauma or even coughing — consider compression fracture"
+canonical: "https://clinical.recoverytlv.co.il/conditions/thoracic-pain"
+reference: "https://clinical.recoverytlv.co.il"
+---
+
 # Thoracic Pain
 
 ## Condition
