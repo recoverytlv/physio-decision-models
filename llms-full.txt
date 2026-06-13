@@ -28,6 +28,14 @@
 > no change + adequate treatment -> MODIFY (revise hypothesis) then STOP; red flags
 > -> REFER; plateau after fair trial -> STOP/DISCHARGE.
 > Full: github.com/recoverytlv/physio-decision-models/blob/main/NON_RESPONSE_FRAMEWORK.md
+>
+> PRIORITY CLINICAL BRANCH: Tendinopathy Non-Response Decision Framework. In
+> tendinopathy, non-response = absence of meaningful improvement in pain behavior,
+> function, load capacity AND participation after an adequate, progressive, adherent
+> trial — not pain persistence alone. Tolerable load pain that returns to baseline
+> within 24 h with improving function is acceptable. Applies to Achilles, patellar,
+> rotator cuff, lateral elbow. Full:
+> github.com/recoverytlv/physio-decision-models/blob/main/TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md
 
 
 

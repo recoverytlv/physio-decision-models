@@ -28,7 +28,7 @@ response, objective change, treatment fidelity, clinical risk, decision action).
 
 > Proposed by Alejandro Zubrisky, BPT · ORCID 0009-0003-1069-937X · DOI 10.5281/zenodo.20683788
 
-**Clinical branch:** [Tendinopathy Non-Response Framework](./TENDINOPATHY_NON_RESPONSE.md)
+**Priority clinical branch:** [Tendinopathy Non-Response Decision Framework](./TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md)
 — applies the model to tendon rehabilitation (Achilles, patellar, rotator cuff,
 lateral epicondylalgia): how to tell slow tendon adaptation from true non-response,
 and when to continue, modify, refer or stop.

@@ -159,6 +159,15 @@ Often the most professional decision is **not to stop, but to change the plan.**
 ```
 Default under uncertainty: non-action (do not continue identical treatment).
 
+## Priority clinical applications
+
+The framework is general; clinical branches show its application. Development order:
+
+1. **Tendinopathy rehabilitation** — [Tendinopathy Non-Response Decision Framework](./TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md) *(first branch developed)*
+2. Post-operative rehabilitation
+3. Sports-injury rehabilitation
+4. Persistent musculoskeletal pain
+
 ## 10. Mapping to the canonical decision outputs
 
 CONTINUE→CONTINUE · MODIFY→TRIAL (revised) · REFER→REFER · STOP→DISCHARGE ·
