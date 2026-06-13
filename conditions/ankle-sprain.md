@@ -17,8 +17,8 @@ red_flags:
   - "Gross instability with visible deformity"
   - "Signs of vascular compromise (absent pedal pulse, severe swelling with tight compartment)"
   - "High ankle sprain with positive squeeze test and external rotation test (syndesmosis — may need surgical fixation)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/ankle-sprain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/ankle-sprain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Ankle Sprain

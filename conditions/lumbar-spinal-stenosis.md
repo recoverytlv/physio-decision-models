@@ -17,8 +17,8 @@ red_flags:
   - "Rapidly worsening walking tolerance (weeks, not months)"
   - "Neurogenic claudication not responding to 8+ sessions of conservative management"
   - "Severe stenosis with myelopathic signs (if thoracic/cervical involvement suspected)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/lumbar-spinal-stenosis"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Lumbar Spinal Stenosis

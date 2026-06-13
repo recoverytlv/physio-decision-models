@@ -20,8 +20,8 @@ red_flags:
   - "New daily persistent headache"
   - "Headache with jaw claudication (giant cell arteritis → REFER urgently)"
   - "Seizure with headache"
-canonical: "https://clinical.recoverytlv.co.il/conditions/headache-cervicogenic"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Tension-Type Headache & Cervicogenic Headache

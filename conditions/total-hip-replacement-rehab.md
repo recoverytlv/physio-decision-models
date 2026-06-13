@@ -18,8 +18,8 @@ red_flags:
   - "Wound infection signs (increasing redness, warmth, drainage, fever)"
   - "New-onset thigh pain with weight bearing (periprosthetic fracture)"
   - "Progressive leg length discrepancy or new limp not improving with rehabilitation"
-canonical: "https://clinical.recoverytlv.co.il/conditions/total-hip-replacement-rehab"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-hip-replacement-rehab.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Total Hip Replacement Rehabilitation

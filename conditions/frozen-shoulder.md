@@ -17,8 +17,8 @@ red_flags:
   - "History of malignancy with new shoulder symptoms"
   - "Rapidly worsening stiffness not consistent with adhesive capsulitis timeline"
   - "Failed conservative management (consider manipulation under anesthesia or hydrodilatation)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/frozen-shoulder"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/frozen-shoulder.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Frozen Shoulder (Adhesive Capsulitis)

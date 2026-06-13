@@ -16,8 +16,8 @@ red_flags:
   - "Inability to weight bear after hamstring injury (consider avulsion fracture)"
   - "Recurrent hamstring strains not responding to rehabilitation (consider underlying biomechanical or neural factors — advanced assessment)"
   - "Posterior thigh pain with lumbar/neural signs (consider lumbar radiculopathy or sciatic nerve involvement)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/hamstring-tendinopathy"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hamstring-tendinopathy.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Hamstring Tendinopathy / Hamstring Injury

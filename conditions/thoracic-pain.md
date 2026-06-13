@@ -20,8 +20,8 @@ red_flags:
   - "Progressive neurological symptoms (bilateral leg weakness, gait disturbance) — consider thoracic myelopathy"
   - "Sudden severe thoracic pain ('tearing' quality) — consider aortic dissection (emergency REFER)"
   - "Pain in an osteoporotic patient after minimal trauma or even coughing — consider compression fracture"
-canonical: "https://clinical.recoverytlv.co.il/conditions/thoracic-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Thoracic Pain

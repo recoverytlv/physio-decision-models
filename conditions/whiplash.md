@@ -17,8 +17,8 @@ red_flags:
   - "Upper motor neuron signs (hyperreflexia, clonus, bilateral symptoms)"
   - "Concussion symptoms that are worsening (confusion, vomiting, loss of consciousness)"
   - "Progressive neurological deficit"
-canonical: "https://clinical.recoverytlv.co.il/conditions/whiplash"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/whiplash.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Whiplash-Associated Disorder

@@ -19,8 +19,8 @@ red_flags:
   - "Night pain unrelated to position"
   - "History of malignancy with new back pain"
   - "Fever with spinal pain"
-canonical: "https://clinical.recoverytlv.co.il/conditions/low-back-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/low-back-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Low Back Pain

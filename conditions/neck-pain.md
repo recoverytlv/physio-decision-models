@@ -17,8 +17,8 @@ red_flags:
   - "Trauma with suspected cervical fracture or instability"
   - "Signs of spinal cord compression (gait disturbance, hyperreflexia, clonus)"
   - "Fever with neck stiffness (meningitis)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/neck-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/neck-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Neck Pain

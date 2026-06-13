@@ -16,8 +16,8 @@ red_flags:
   - "Progressive hand weakness or numbness (nerve entrapment)"
   - "Elbow locking or catching (loose body)"
   - "Suspected fracture (point tenderness over bone after trauma)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/lateral-epicondylalgia"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lateral-epicondylalgia.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Lateral Epicondylalgia (Tennis Elbow)

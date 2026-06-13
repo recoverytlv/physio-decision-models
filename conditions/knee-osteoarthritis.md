@@ -16,8 +16,8 @@ red_flags:
   - "Rapid joint destruction on imaging"
   - "Crystal arthropathy suspected (acute gout/pseudogout) — rheumatology"
   - "Significant valgus/varus instability with functional limitation despite optimal conservative care → orthopedic opinion"
-canonical: "https://clinical.recoverytlv.co.il/conditions/knee-osteoarthritis"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-osteoarthritis.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Knee Osteoarthritis

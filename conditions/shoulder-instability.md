@@ -17,8 +17,8 @@ red_flags:
   - "Neurovascular deficit after dislocation (axillary nerve palsy — deltoid weakness, regimental badge numbness)"
   - "Recurrent dislocations (>2 episodes) despite comprehensive rehabilitation (surgical stabilization consultation)"
   - "First-time dislocation in a young athlete (<25 years) with high recurrence risk (early surgical consultation may be appropriate)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/shoulder-instability"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Shoulder Instability

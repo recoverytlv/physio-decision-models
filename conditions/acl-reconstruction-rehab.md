@@ -17,8 +17,8 @@ red_flags:
   - "Calf pain with swelling (DVT)"
   - "Inability to achieve expected milestones despite appropriate rehabilitation (re-evaluate with surgeon)"
   - "Cyclops lesion signs (mechanical block to terminal extension)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/acl-reconstruction-rehab"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/acl-reconstruction-rehab.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # ACL Reconstruction Rehabilitation

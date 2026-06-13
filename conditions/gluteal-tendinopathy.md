@@ -16,8 +16,8 @@ red_flags:
   - "Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)"
   - "Symptoms not responding to 8+ sessions of appropriate loading management"
   - "Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/gluteal-tendinopathy"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Gluteal Tendinopathy

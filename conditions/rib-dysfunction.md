@@ -18,8 +18,8 @@ red_flags:
   - "**GI:** Pain worse with eating, reflux symptoms → gastroenterology"
   - "**Fracture:** Trauma history with point tenderness, crepitus → imaging"
   - "**Malignancy:** Unexplained weight loss, night pain, history of cancer → medical evaluation"
-canonical: "https://clinical.recoverytlv.co.il/conditions/rib-dysfunction"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rib-dysfunction.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Rib Dysfunction & Costochondritis

@@ -17,8 +17,8 @@ red_flags:
   - "Left thoracic curve (higher association with intraspinal pathology)"
   - "Onset before age 10 (juvenile/infantile — different natural history)"
   - "Skeletal immaturity with curve >25° (bracing evaluation needed)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/scoliosis"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/scoliosis.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Adolescent Idiopathic Scoliosis — Physiotherapy Scope

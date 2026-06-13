@@ -16,8 +16,8 @@ red_flags:
   - "Locking or triggering of the thumb (may indicate trigger thumb rather than de Quervain's)"
   - "Symptoms not responding to 6–8 weeks of conservative management (consider injection or surgical referral)"
   - "Signs of infection (redness, warmth, swelling with fever)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/de-quervain-tenosynovitis"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/de-quervain-tenosynovitis.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # De Quervain's Tenosynovitis

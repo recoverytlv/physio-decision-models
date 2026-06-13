@@ -18,8 +18,8 @@ red_flags:
   - "Symptoms not responding to 6–8 weeks of conservative management"
   - "Bilateral CTS with systemic symptoms (consider hypothyroidism, diabetes, rheumatoid arthritis)"
   - "Symptoms inconsistent with median nerve distribution (consider cervical radiculopathy, thoracic outlet syndrome, or double crush syndrome)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/carpal-tunnel-syndrome"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/carpal-tunnel-syndrome.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Carpal Tunnel Syndrome

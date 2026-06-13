@@ -16,8 +16,8 @@ red_flags:
   - "Symptoms better explained by inflammatory arthritis, hypothyroidism, or other systemic disease → rheumatology"
   - "Severe depression, suicidal ideation → psychology/psychiatry urgently"
   - "Sleep apnea suspected → sleep medicine"
-canonical: "https://clinical.recoverytlv.co.il/conditions/fibromyalgia"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/fibromyalgia.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Fibromyalgia — Physiotherapy Scope

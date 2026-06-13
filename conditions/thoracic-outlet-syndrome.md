@@ -16,8 +16,8 @@ red_flags:
   - "Hand ischemia or pallor"
   - "Progressive hand muscle wasting (severe neurogenic compression)"
   - "Subclavian steal symptoms (dizziness, syncope with arm elevation)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/thoracic-outlet-syndrome"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Thoracic Outlet Syndrome (TOS)

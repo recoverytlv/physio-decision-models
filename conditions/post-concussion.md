@@ -17,8 +17,8 @@ red_flags:
   - "Acute concussion in the first 48 hours (medical management first)"
   - "Significant cognitive or psychological symptoms (memory loss, personality change, depression, anxiety)"
   - "Symptoms not improving after 4+ weeks of multidisciplinary management"
-canonical: "https://clinical.recoverytlv.co.il/conditions/post-concussion"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Post-Concussion Syndrome — Physiotherapy Role

@@ -17,8 +17,8 @@ red_flags:
   - "Groin pain with fever or systemic illness (infection — septic arthritis, osteomyelitis)"
   - "Severe, sudden groin pain after trauma in elderly patients (stress fracture, avulsion fracture)"
   - "Groin pain not responding to any loading pattern (consider referred pain from hip or lumbar spine)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/groin-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/groin-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Groin Pain / Adductor Tendinopathy

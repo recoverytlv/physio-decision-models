@@ -18,8 +18,8 @@ red_flags:
   - "Sudden loss of ROM after initial progress (suspected arthrofibrosis or component malposition)"
   - "Persistent instability or giving way (component loosening or ligament insufficiency)"
   - "New-onset numbness or foot drop (peroneal nerve palsy)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/total-knee-replacement-rehab"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/total-knee-replacement-rehab.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Total Knee Replacement Rehabilitation

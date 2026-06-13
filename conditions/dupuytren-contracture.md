@@ -15,8 +15,8 @@ red_flags:
   - "MCP contracture >30° or any PIP contracture — 'table top test' positive → surgical opinion"
   - "Contracture causing functional limitation (can't put hand in pocket, wash face, grip properly)"
   - "Suspected Dupuytren's diathesis (young onset, bilateral, family history, ectopic disease) — more aggressive, needs specialist monitoring"
-canonical: "https://clinical.recoverytlv.co.il/conditions/dupuytren-contracture"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/dupuytren-contracture.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Dupuytren's Contracture — Physiotherapy Scope

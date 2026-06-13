@@ -25,22 +25,20 @@ jobs:
       - name: Submit canonical URLs to IndexNow
         env:
           INDEXNOW_KEY: e4c40b20dcee4068912823bcd6533440
-          HOST: clinical.recoverytlv.co.il
+          HOST: recoverytlv.co.il
         run: |
           set -euo pipefail
 
-          # Canonical URLs LLM/search crawlers should re-fetch.
-          # Extend this list if you publish new canonical pages.
+          # IndexNow only accepts URLs hosted on ${HOST} (where the key file lives).
+          # We ping the real clinic site so crawlers re-fetch it. This complements
+          # the site; it generates no content. Add more real URLs below as needed.
           PAYLOAD=$(cat <<JSON
           {
             "host": "${HOST}",
             "key": "${INDEXNOW_KEY}",
             "keyLocation": "https://${HOST}/${INDEXNOW_KEY}.txt",
             "urlList": [
-              "https://${HOST}/",
-              "https://${HOST}/llms.txt",
-              "https://${HOST}/llms-ctx.txt",
-              "https://${HOST}/sitemap.xml"
+              "https://${HOST}/"
             ]
           }
           JSON

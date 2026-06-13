@@ -17,8 +17,8 @@ red_flags:
   - "Positive Thompson test (no plantarflexion with calf squeeze)"
   - "Inability to perform single leg heel raise"
   - "Signs of DVT (calf swelling, warmth, Homan's sign)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/achilles-tendinopathy"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/achilles-tendinopathy.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Achilles Tendinopathy

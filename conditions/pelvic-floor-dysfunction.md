@@ -17,8 +17,8 @@ red_flags:
   - "Pelvic mass on examination"
   - "Post-menopausal bleeding"
   - "Suspected pelvic fracture"
-canonical: "https://clinical.recoverytlv.co.il/conditions/pelvic-floor-dysfunction"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/pelvic-floor-dysfunction.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Pelvic Floor Dysfunction

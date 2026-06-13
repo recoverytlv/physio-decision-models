@@ -17,8 +17,8 @@ red_flags:
   - "Locking of the knee (loose body or osteochondral fragment)"
   - "Significant effusion without clear traumatic mechanism"
   - "Anterior knee pain with systemic symptoms in adolescents (consider osteosarcoma — rare but serious)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/patellofemoral-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/patellofemoral-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Patellofemoral Pain Syndrome

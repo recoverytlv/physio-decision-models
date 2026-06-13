@@ -17,8 +17,8 @@ red_flags:
   - "Night pain with unexplained weight loss"
   - "Rapidly progressive pain with reduced ROM in young adults (avascular necrosis)"
   - "Acute severe pain with locked hip (loose body)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/hip-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hip-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Hip Pain

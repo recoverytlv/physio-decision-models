@@ -17,8 +17,8 @@ red_flags:
   - "Swelling within the joint (intra-articular pathology)"
   - "Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)"
   - "Failed conservative management after 8+ sessions with no improvement"
-canonical: "https://clinical.recoverytlv.co.il/conditions/iliotibial-band-syndrome"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/iliotibial-band-syndrome.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Iliotibial Band Syndrome (IT Band Syndrome)

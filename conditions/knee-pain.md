@@ -17,8 +17,8 @@ red_flags:
   - "Gross valgus/varus instability suggesting complete ligament rupture"
   - "Signs of infection (hot, red, swollen joint with fever)"
   - "Suspected fracture (unable to weight bear, point tenderness over bone)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/knee-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Knee Pain

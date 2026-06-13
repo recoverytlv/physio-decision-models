@@ -17,8 +17,8 @@ red_flags:
   - "Mechanical catching or giving way not improving with rehabilitation"
   - "Degenerative meniscus tear with severe osteoarthritis not responding to conservative management (orthopaedic consultation)"
   - "Recurrent effusion without clear mechanical cause"
-canonical: "https://clinical.recoverytlv.co.il/conditions/meniscus-injury"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/meniscus-injury.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Meniscus Injury

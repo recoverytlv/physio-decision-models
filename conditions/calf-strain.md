@@ -17,8 +17,8 @@ red_flags:
   - "Positive Thompson test (Achilles tendon rupture, not calf strain)"
   - "Calf pain with recent surgery, immobilization, or long-haul travel (DVT risk factors)"
   - "Recurrent calf strains in the same location (consider underlying vascular pathology — popliteal artery entrapment)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/calf-strain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Calf Strain

@@ -18,8 +18,8 @@ red_flags:
   - "Neurological symptoms in the lower leg during exercise (numbness, weakness — compartment syndrome)"
   - "Pain that occurs at a consistent time during exercise and resolves completely with rest (compartment syndrome)"
   - "Night pain (rule out tumour or infection)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/shin-splints"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Medial Tibial Stress Syndrome (Shin Splints)

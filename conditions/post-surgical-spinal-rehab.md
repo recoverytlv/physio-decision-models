@@ -17,8 +17,8 @@ red_flags:
   - "Sudden severe pain different from surgical pain"
   - "Loss of bowel or bladder control (cauda equina)"
   - "Progressive deformity or instability at surgical level"
-canonical: "https://clinical.recoverytlv.co.il/conditions/post-surgical-spinal-rehab"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-surgical-spinal-rehab.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Post-Surgical Spinal Rehabilitation

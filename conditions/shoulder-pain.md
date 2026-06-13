@@ -17,8 +17,8 @@ red_flags:
   - "Suspected fracture (fall onto outstretched hand with point tenderness)"
   - "Signs of infection (hot, red, swollen shoulder with fever)"
   - "Night pain with unexplained weight loss (rule out malignancy)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/shoulder-pain"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-pain.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Shoulder Pain

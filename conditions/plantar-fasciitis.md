@@ -17,8 +17,8 @@ red_flags:
   - "Numbness or burning in heel distribution (nerve entrapment)"
   - "Night pain with unexplained weight loss"
   - "Pain not related to weight bearing (non-mechanical pattern)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/plantar-fasciitis"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/plantar-fasciitis.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Plantar Fasciitis

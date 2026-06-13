@@ -17,8 +17,8 @@ red_flags:
   - "Bladder or bowel dysfunction"
   - "Saddle anaesthesia"
   - "Rapidly worsening neurological signs"
-canonical: "https://clinical.recoverytlv.co.il/conditions/sciatica"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/sciatica.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Sciatica and Lumbar Radiculopathy

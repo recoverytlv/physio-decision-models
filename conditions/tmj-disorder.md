@@ -17,8 +17,8 @@ red_flags:
   - "Progressive inability to open mouth with swelling (possible infection or tumour)"
   - "Sudden change in bite alignment (possible condylar fracture or pathology)"
   - "Ear symptoms (hearing loss, persistent tinnitus) requiring ENT evaluation"
-canonical: "https://clinical.recoverytlv.co.il/conditions/tmj-disorder"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/tmj-disorder.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Temporomandibular Joint Disorder (TMJ/TMD)

@@ -20,8 +20,8 @@ red_flags:
   - "Severe pain not responding to any position or medication"
   - "History of trauma with new radicular symptoms (consider fracture, instability)"
   - "Signs of vertebral artery insufficiency (dizziness, diplopia, dysarthria, dysphagia)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/cervical-radiculopathy"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/cervical-radiculopathy.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Cervical Radiculopathy

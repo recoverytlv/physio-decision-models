@@ -16,8 +16,8 @@ red_flags:
   - "Wound infection signs (redness, warmth, drainage, fever)"
   - "Significant increase in pain not explained by rehabilitation progression"
   - "Inability to achieve passive ROM milestones despite appropriate treatment (possible adhesive capsulitis requiring surgical consultation)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/rotator-cuff-post-surgical"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rotator-cuff-post-surgical.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Rotator Cuff Post-Surgical Rehabilitation

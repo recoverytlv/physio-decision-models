@@ -17,8 +17,8 @@ red_flags:
   - "Bowel or bladder dysfunction"
   - "Pain not responding to any position change (consider non-musculoskeletal cause)"
   - "History of trauma with deep gluteal pain (consider fracture, haematoma)"
-canonical: "https://clinical.recoverytlv.co.il/conditions/piriformis-syndrome"
-reference: "https://clinical.recoverytlv.co.il"
+canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/piriformis-syndrome.md"
+clinic: "https://recoverytlv.co.il"
 ---
 
 # Piriformis Syndrome
