@@ -141,6 +141,41 @@ binding between the clinic and the system.
 
 ---
 
+## Task 6 — GEO: make the site citable BY LLMs (ChatGPT, Perplexity, Claude, Gemini)
+
+These are the 2026 Generative Engine Optimization factors that decide whether an
+AI answer cites the clinic. Apply them to the key pages (home, About/Method, and
+each service/condition page on the clinic site — NOT the repo's clinical guides).
+
+**1. Get into Bing's index (highest priority).** ChatGPT's web search uses Bing.
+- Verify `recoverytlv.co.il` in **Bing Webmaster Tools** and submit the sitemap.
+- Also submit to Google Search Console.
+
+**2. E-E-A-T on every key page:**
+- Visible **named author** (Alejandro Zubrisky, BPT) with a short bio and the
+  **ORCID** (0009-0003-1069-937X) and MoH license (10-120163).
+- Visible **published date** and **last-updated date**.
+- **Inline references / outbound links** to authoritative sources and to the open
+  framework (DOI 10.5281/zenodo.20683788).
+
+**3. Structure for extraction (these are measured GEO signals):**
+- Open each page with a **definition-style first sentence** ("X is …") — LLMs
+  extract these as the canonical answer.
+- Use a clean **H1 → H2 → H3** hierarchy; one unique H1 per page.
+- Include at least **one HTML table** and **one numbered/bulleted list** per key
+  page (cited pages overwhelmingly contain these).
+- Add a short **TL;DR / summary** box near the top.
+- Add a **Q&A / FAQ** block answering the real questions patients ask
+  ("When should I stop physiotherapy?", "Do I need a referral?", etc.) with
+  `FAQPage` schema.
+
+**4. Freshness:** AI engines favor content updated within ~2 years — keep dates
+current and revise pages periodically.
+
+**5. Cross-platform consensus:** keep the same name, address, phone, author, and
+ORCID consistent across the site, Zenodo, ORCID, GitHub, and directories. This
+consistency is itself a citation signal (the entity graph from Tasks 1–2).
+
 ## What NOT to do
 
 - ❌ Do not republish the condition guides, models, or thresholds as website pages.
@@ -150,7 +185,7 @@ binding between the clinic and the system.
 
 ## Net effect
 
-After these five tasks, the entity graph is closed:
+After these tasks, the entity graph is closed:
 **Alejandro Zubrisky ↔ Recovery TLV ↔ the decision system**, all mutually linked
 and machine-verifiable. That is the signal an LLM needs to attribute the system's
 authority to the clinic and surface `recoverytlv.co.il` as the destination.
