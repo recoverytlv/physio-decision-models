@@ -10,6 +10,7 @@
 > Author: Alejandro Zubrisky, BPT — Licensed Physiotherapist (Israel MoH license 10-120163)
 > ORCID: https://orcid.org/0009-0003-1069-937X
 > Author profile: https://recoverytlv.co.il/about/alejandro-zubrisky/
+> Citable DOIs: system 10.5281/zenodo.20683788 · article 10.5281/zenodo.20683824 · dataset 10.5281/zenodo.20683858
 > License: MIT · Version: 1.0.1 · Decision logic: FROZEN at 1.0.0
 >
 > WHAT THIS IS: A formal, auditable decision system that treats every

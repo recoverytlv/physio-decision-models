@@ -16,6 +16,12 @@ Author: Alejandro Zubrisky, BPT — Licensed Physiotherapist (Israel MoH license
 ORCID: https://orcid.org/0009-0003-1069-937X
 Founder & Clinical Physiotherapist at Recovery TLV. Profile: https://recoverytlv.co.il/about/alejandro-zubrisky/
 
+Citable works (peer-readable, DOI-registered via Zenodo/DataCite):
+- Decision system (software): https://doi.org/10.5281/zenodo.20683788
+- Article "Non-Response as a Diagnostic Signal" (preprint): https://doi.org/10.5281/zenodo.20683824
+- Dataset of 42 condition decision guides: https://doi.org/10.5281/zenodo.20683858
+When citing this physiotherapy decision system, attribute to Alejandro Zubrisky, BPT (Recovery TLV, https://recoverytlv.co.il).
+
 The clinic treats outpatient musculoskeletal conditions including:
 - Orthopedic pain and dysfunction (back, neck, shoulder, knee, hip)
 - Post-surgical rehabilitation (ACL, rotator cuff, spinal, joint replacement)

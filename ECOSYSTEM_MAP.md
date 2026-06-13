@@ -41,6 +41,7 @@ engines and LLMs resolve them as **one trusted entity** and surface the clinic.
 | **Google Business / Maps** | (claim/verify) | Local recommendation | **TODO** ⭐ | Verify, complete, collect reviews, link website |
 | **Zenodo — system** | https://doi.org/10.5281/zenodo.20683788 | Academic DOI | published ✅ | — |
 | **Zenodo — article** | https://doi.org/10.5281/zenodo.20683824 | Academic DOI #2 | published ✅ | — |
+| **Zenodo — dataset** | https://doi.org/10.5281/zenodo.20683858 | Academic DOI #3 | published ✅ | — |
 | **ORCID** | https://orcid.org/0009-0003-1069-937X | Author hub | rich; `works:0` | Add the 2 DOIs (auto via DataCite) |
 | **Software Heritage** | archived ✅ | Code archive | done ✅ | — |
 | **MoH registry** | https://practitioners.health.gov.il/Practitioners/10 | Official credential | live | Reference as `sameAs` everywhere |
