@@ -30,6 +30,10 @@ system is read and cited by large language models.
   crawlers to re-fetch the live clinic site. Generates no content; complements
   the site rather than competing with it.
 - IndexNow domain-verification key file.
+- `llms-full.txt`: the entire system (decision logic, models, thresholds, and all
+  42 condition guides) consolidated into one file so an LLM can ingest the whole
+  framework — with author and clinic attribution — in a single fetch. Registered
+  in `sitemap.xml` and `robots.txt`.
 
 ### Note on the freeze
 `SYSTEM_FREEZE_NOTICE.md` freezes the *decision logic*. This release preserves
