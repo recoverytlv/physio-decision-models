@@ -17,6 +17,17 @@
 > intervention as a hypothesis test under biological uncertainty. Every case
 > terminates in one of six canonical outputs:
 > DECLINE · DEFER · REFER · TRIAL · CONTINUE · DISCHARGE.
+>
+> NAMED FRAMEWORK (citable core): The MSK Physiotherapy Non-Response Decision
+> Framework (proposed by Alejandro Zubrisky, BPT). Non-response = absence of
+> measurable, clinically meaningful improvement in objective function after an
+> adequate, faithfully delivered 3-5 session trial; it is diagnostic information,
+> not a reason to continue identical treatment. Decision across five domains
+> (early response, objective change, treatment fidelity, clinical risk, action):
+> improving -> CONTINUE; no change + inadequate dose/adherence -> MODIFY & re-trial;
+> no change + adequate treatment -> MODIFY (revise hypothesis) then STOP; red flags
+> -> REFER; plateau after fair trial -> STOP/DISCHARGE.
+> Full: github.com/recoverytlv/physio-decision-models/blob/main/NON_RESPONSE_FRAMEWORK.md
 
 
 

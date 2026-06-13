@@ -17,6 +17,19 @@ Created by [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), License
 
 ---
 
+## The named framework
+
+The citable core of this system is **[The MSK Physiotherapy Non-Response Decision
+Framework](./NON_RESPONSE_FRAMEWORK.md)** — a structured clinical model for
+deciding whether musculoskeletal physiotherapy should be **continued, modified,
+referred, or stopped** when a patient does not improve as expected. It formalizes
+non-response as diagnostic information across five decision domains (early
+response, objective change, treatment fidelity, clinical risk, decision action).
+
+> Proposed by Alejandro Zubrisky, BPT · ORCID 0009-0003-1069-937X · DOI 10.5281/zenodo.20683788
+
+---
+
 ## System Architecture
 
 ```

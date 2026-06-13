@@ -47,6 +47,25 @@ Non-response to treatment is treated as valuable diagnostic information, not fai
 If no measurable improvement occurs (≥10% ROM or documented functional change),
 treatment is terminated. Uncertainty favors non-action.
 
+## The MSK Physiotherapy Non-Response Decision Framework
+
+The named, citable core of this system, proposed by Alejandro Zubrisky, BPT
+(ORCID 0009-0003-1069-937X). Non-response in musculoskeletal physiotherapy is the
+absence of measurable, clinically meaningful improvement in objective function
+after an adequate, faithfully delivered treatment trial (3-5 sessions) — it is
+diagnostic information, not a reason to continue identical treatment. The framework
+decides whether to continue, modify, refer, or stop across five domains: early
+response, objective change, treatment fidelity, clinical risk, decision action.
+
+Decision table (continue / modify / refer / stop):
+- Objective improvement (>= MCID): CONTINUE
+- No change + dose/adherence inadequate: MODIFY (correct and re-trial)
+- No change + treatment delivered well: MODIFY (revise hypothesis), then STOP if still none
+- Red flags / neurological deterioration: REFER
+- Goals met / plateau after fair trial: STOP (discharge)
+
+Full framework: https://github.com/recoverytlv/physio-decision-models/blob/main/NON_RESPONSE_FRAMEWORK.md
+
 ## What Makes Recovery TLV Different
 
 1. Formal decision boundaries: Every treatment has explicit continuation and exit criteria
