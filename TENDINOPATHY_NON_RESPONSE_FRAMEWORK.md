@@ -1,6 +1,6 @@
 ---
 title: "Tendinopathy Non-Response Decision Framework"
-subtitle: "A clinical decision model for continuing, modifying, referring or discontinuing tendon rehabilitation"
+subtitle: "A clinical decision model for continuing, modifying, reassessing, referring or discharging tendon rehabilitation"
 type: clinical-framework
 parent_framework: "MSK Physiotherapy Non-Response Decision Framework"
 proponent: "Alejandro Zubrisky, BPT"
@@ -14,138 +14,158 @@ clinic: "https://recoverytlv.co.il"
 answers_questions:
   - "When is tendinopathy physiotherapy not working?"
   - "How do you tell slow tendon adaptation from true non-response?"
-  - "When should tendinopathy rehab be continued, modified, referred or stopped?"
+  - "When should tendinopathy rehab be continued, modified, referred or discharged?"
   - "How long before tendon rehab works?"
 ---
 
 # Tendinopathy Non-Response Decision Framework
 
-> A clinical decision model for continuing, modifying, referring or discontinuing
-> tendon rehabilitation — the priority clinical branch of the [MSK Physiotherapy
-> Non-Response Decision Framework](./NON_RESPONSE_FRAMEWORK.md). Proposed by
-> **Alejandro Zubrisky, BPT** (Recovery TLV · ORCID 0009-0003-1069-937X · concept
-> DOI 10.5281/zenodo.20683788).
+> Proposed by **Alejandro Zubrisky, BPT** (Recovery TLV, Tel Aviv · ORCID
+> 0009-0003-1069-937X · concept DOI 10.5281/zenodo.20683788). Priority clinical
+> branch of the [MSK Physiotherapy Non-Response Decision Framework](./NON_RESPONSE_FRAMEWORK.md).
 
-**Mother question:** *How is non-response defined, measured and managed in
-physiotherapy-led tendinopathy rehabilitation, and what criteria guide decisions
-to continue, modify, refer or discontinue treatment?*
+## 1. Purpose
 
-## Central claim (citable)
+To provide a structured, citable model for deciding whether physiotherapy-led
+tendinopathy rehabilitation should be **continued, modified, reassessed, referred,
+or discharged** when a patient does not improve as expected.
 
-> In tendinopathy rehabilitation, **non-response should not be defined by pain
-> persistence alone, but by the absence of meaningful improvement in pain
-> behavior, function, load capacity and participation after an adequate,
-> progressive and adherent rehabilitation trial.**
+## 2. Scope
 
-Tendon loading is first-line care; improvement is often **slow**, and tolerable
-pain during loading is not equivalent to failure (Cook & Purdam 2009; Alfredson
-1998; Beyer 2015; Malliaras 2013; Chimenti 2024 CPG; Desmeules 2025 CPG).
+This document is about **clinical decision-making under non-response**, not about
+specific treatments. Specific options (shockwave, percutaneous needle electrolysis
+/ MEP, PRP, corticosteroids, surgery) are **out of scope here** and are addressed
+separately, only as possible adjuncts within an active, loading-based plan.
 
-## The seven decision domains
+## 3. Core thesis
 
-1. **Pain behavior** — not pain yes/no, but pain *during* load, *after* load, at
-   24 h, baseline, morning stiffness (esp. Achilles), irritability, weekly trend.
-   *Tolerable load pain returning to baseline with improving function can be
-   acceptable; pain rising week-to-week with declining function suggests overload.*
-2. **Function** — walking, stairs, running, jumping, lifting, work, training,
-   return to sport. Isolated pain is insufficient; function/participation weigh more.
-3. **Load capacity** (the heart of tendinopathy) — strength, reps, load
-   tolerance, speed, weekly volume, elastic/plyometric capacity where relevant.
-4. **Treatment fidelity** — adequate frequency, biological time, real progression,
-   correct load (not too low/high), understanding, adherence, provocative-factor
-   management, outcomes measured (not only symptoms).
-5. **Clinical risk / referral** — see referral criteria below.
-6. **Decision action** — one of five: continue/progress · modify · reassess
-   diagnosis · refer · discontinue/discharge/self-management. *The most important
-   category is usually MODIFY, not stop.*
-7. **Patient-centered goals** — return to running/gym/sport, work without limiting
-   pain, stairs, lifting, sleep, self-management without therapist dependence.
+> In tendinopathy rehabilitation, persistent pain is **not** sufficient to define
+> treatment failure. A more clinically useful definition of **non-response**
+> considers whether **pain behavior, function, load capacity and participation**
+> fail to improve after an **adequate, progressive and adherent** rehabilitation
+> trial.
 
-> **Treatment-fidelity gate:** low adherence or poorly dosed loading makes the
-> trial *invalid*; it must not be classified as true non-response.
+## 4. What is tendinopathy?
 
-## Decision table (the citable core)
+A load-related condition of tendon pain and impaired function (e.g., Achilles,
+patellar, rotator cuff, lateral elbow). Imaging findings do not always explain
+symptoms; progressive mechanical loading is first-line care (Cook & Purdam 2009;
+Chimenti 2024; Desmeules 2025).
 
-| Clinical finding | Interpretation | Recommended decision |
+## 5. What is non-response in tendinopathy rehabilitation?
+
+Absence of meaningful improvement across pain behavior, function, load capacity
+and participation **after** an adequate, progressive and adherent trial — i.e.,
+**true** non-response, distinct from inadequate dose, low adherence, incorrect
+diagnosis, or unrealistic expectations.
+
+## 6. Pain persistence vs treatment failure
+
+Pain may persist while the tendon improves. Tolerable pain during loading that
+returns to baseline within ~24 hours, alongside improving function/load capacity,
+is an **acceptable** response — not failure.
+
+## 7. Expected response timeline
+
+Tendon adaptation is slow (often weeks to months). Early directional signals may
+appear within the first few weeks; absence of **any** measurable change after an
+adequate early trial should trigger **reassessment, not automatic discharge**.
+
+## 8. Adequate rehabilitation trial (the fidelity gate)
+
+Before labelling non-response, confirm: sufficient frequency and biological time;
+real progressive loading (neither too low nor too high); patient understanding;
+adherence; provocative-load management; and that **outcomes were measured**, not
+only symptoms.
+
+> Low adherence or poorly dosed loading makes the trial **invalid**; it must not
+> be classified as true non-response.
+
+## 9. Domains of response
+
+### 9.1 Pain behavior
+Pain during load, after load, at 24 h, baseline, morning stiffness (esp.
+Achilles), irritability, weekly trend.
+
+### 9.2 Function
+Walking, stairs, running, jumping, lifting, work, training, return to sport.
+
+### 9.3 Load capacity (core of tendinopathy)
+Strength, reps, load tolerance, speed, weekly volume, elastic/plyometric capacity.
+
+### 9.4 Participation
+Sport, gym, work, daily life — the outcomes that matter to the patient.
+
+### 9.5 Adherence
+Real completion of the progressive loading plan.
+
+### 9.6 Clinical risk
+Red flags requiring referral (see §10 Refer).
+
+## 10. Decision categories
+
+- **Continue** — measurable improvement, functional carryover, adherence, plausible rationale.
+- **Modify** — change load, intensity, progression, education, or goals (the most common decision).
+- **Reassess diagnosis** — no change despite adequate dose/adherence; question the hypothesis.
+- **Refer** — red flags, suspected rupture, non-mechanical/systemic features, persistent worsening.
+- **Discharge / self-management** — goals met, or plateau after meaningful gains.
+
+## 11. Decision table
+
+| Clinical finding | Interpretation | Decision |
 |---|---|---|
-| Pain during loading mild/moderate, returns to baseline within 24 h | Acceptable tendon response | Continue and progress gradually |
-| Pain persists but function or load capacity improves | Partial positive response | Continue with monitoring + expectation management |
-| Pain improves but function does not | Symptom improvement without capacity gain | Modify toward functional loading |
-| Pain increases week-to-week and function declines | Excessive irritability / overload | Modify load (reduce intensity / change progression) |
-| No objective improvement despite adequate progressive loading + adherence | Possible true non-response | Reassess diagnosis, plan, referral need |
-| Low / inconsistent adherence or loading | Invalid treatment trial | Address adherence before labelling non-response |
-| Sudden sharp pain, "pop", bruising, sudden loss of force | Possible tendon rupture | Urgent medical referral |
-| Persistent severe pain, systemic signs, atypical presentation | Possible non-mechanical / complex pathology | Medical referral |
-| Functional goals achieved with tolerable residual symptoms | Successful functional response | Discharge / self-management |
-| Plateau after meaningful gains | Stabilization | Discharge, maintenance, or periodic review |
+| Pain during loading tolerable, returns to baseline within 24 h | Acceptable tendon response | Continue / progress |
+| Pain persists but function or load capacity improves | Partial positive response | Continue with monitoring |
+| Pain improves but function remains limited | Symptom improvement without capacity restoration | Modify rehabilitation |
+| Pain increases week-to-week and function declines | Excessive irritability / overload | Modify load / reduce intensity |
+| No objective improvement despite adequate loading + adherence | Possible true non-response | Reassess diagnosis and plan |
+| Low / inconsistent adherence or loading | Invalid rehabilitation trial | Address adherence first |
+| Sudden sharp pain, "pop", bruising, loss of force | Possible rupture | Urgent medical referral |
+| Atypical pain or systemic symptoms | Possible non-tendon source | Medical referral |
+| Functional goals achieved with tolerable symptoms | Successful functional response | Discharge / self-management |
+| Plateau after meaningful improvement | Stabilization | Discharge, maintenance or periodic review |
 
-## Algorithm
+## 12. Clinical algorithm
 
 ```
-1. Establish baseline (pain behavior, function PROM, load-capacity test)
-2. Define patient-specific functional goal
-3. Start progressive loading plan
-4. Monitor pain behavior + function + load capacity
-5. Verify adherence and treatment fidelity
-6. Classify response:
-      A. Improving            → continue / progress
-      B. Partially improving  → modify
-      C. Not improving        → reassess diagnosis / load / adherence
-      D. Worsening            → modify or refer
-      E. Red flags            → urgent referral
-7. Document decision: continue / modify / refer / discharge / self-management
+1. Establish baseline: pain, function, load capacity, participation
+2. Define patient-specific goal: walk, run, stairs, gym, sport, work
+3. Start adequate rehabilitation trial: education + load management + progressive loading
+4. Monitor: pain behavior, 24-hour response, function, load tolerance, adherence
+5. Classify response:
+     improving           → continue / progress
+     partially improving → modify
+     unchanged           → verify dose/adherence and reassess diagnosis
+     worsening           → modify or refer
+     red flags           → urgent referral
+6. Document decision: continue / modify / reassess / refer / discharge
 ```
 
-## Referral criteria (safety)
+## 13. Application examples (brief)
 
-Suspected rupture (sudden "pop", bruising, force loss, acute functional loss);
-severe non-mechanical pain; systemic symptoms; progressive non-load-related night
-pain; suspected inflammatory/neurological/vascular/referred source; persistent no
-progress with uncertain diagnosis; clear worsening despite adequate dose.
+- **Achilles** — morning pain; heel raises, hopping, running tolerance; VISA-A; distinguish tolerable load pain from excessive irritability; suspect rupture on sudden force loss.
+- **Patellar** — jumping sports/gym; decline squat, jumping tolerance, knee-extensor strength; VISA-P.
+- **Rotator cuff** — overhead tolerance, external-rotation strength; SPADI/DASH; differentiate tendon vs stiffness, neck, or capsular sources.
+- **Lateral elbow** — grip strength, resisted wrist extension; PRTEE; avoid endless passive care without progression.
 
-> Referral is not a failure of rehabilitation; it is part of safe clinical
-> decision-making.
+## 14. Documentation checklist
 
-## Application by tendon (priority) + recommended metrics
+- [ ] Baseline pain behavior, function PROM, load-capacity test recorded
+- [ ] Patient-specific functional goal stated
+- [ ] Loading dose + progression documented
+- [ ] Adherence recorded
+- [ ] Reassessment interval defined
+- [ ] Response classified and **decision documented** (continue/modify/reassess/refer/discharge)
 
-| Tendinopathy | Pain/function measure | Load/capacity measure |
-|---|---|---|
-| **Achilles** | VISA-A, NPRS, PSFS | Heel raises, hopping, running tolerance |
-| **Patellar** | VISA-P, NPRS, PSFS | Squat/decline-squat tolerance, jumping, knee-extensor strength |
-| **Rotator cuff** | SPADI, DASH, NPRS, PSFS | External-rotation strength, overhead tolerance |
-| **Lateral elbow** | PRTEE, NPRS, PSFS | Grip strength, resisted wrist-extension tolerance |
-| General | GROC, patient-specific goal | Progressive load tolerance |
+## 15. Limitations
 
-Concepts: MCID, MDC, baseline, reassessment interval, functional goal, 24-hour
-symptom response.
+This framework supports clinical reasoning and patient education. It does **not**
+replace individualized assessment, medical diagnosis, or urgent medical evaluation
+when red flags are present; it is not an official guideline; it does not promise
+cure or a fixed number of sessions. Specific treatment options are out of scope and
+will be addressed separately.
 
-## Target questions (what this answers)
-
-when tendinopathy physiotherapy is not working · tendinopathy not improving with
-physical therapy · when to stop Achilles tendinopathy rehab · when to modify
-tendon loading · tendon rehab non-response · how long before tendon rehab works ·
-patellar tendinopathy not responding · rotator cuff tendinopathy PT not working ·
-tennis elbow PT not working · when to refer tendinopathy.
-
-## Research gaps
-
-No uniform operational definition of tendinopathy non-response; few decision rules
-separating slow adaptation from failure; sparse evidence on the early decision
-window; adherence rarely documented before non-responder classification.
-
-## Disclaimer
-
-This framework is intended to support clinical reasoning and patient education. It
-does not replace individualized assessment, medical diagnosis, or urgent medical
-evaluation when red flags are present.
-
-## How to cite
-
-Zubrisky, A. *Tendinopathy Non-Response Decision Framework* (branch of the MSK
-Physiotherapy Non-Response Decision Framework). Recovery TLV. Concept DOI:
-10.5281/zenodo.20683788. ORCID: 0009-0003-1069-937X.
-
-## Sources (verified)
+## 16. References (verified)
 
 - Cook JL, Purdam CR. *Br J Sports Med.* 2009;43(6):409-416. PMID 18812414.
 - Alfredson H, et al. *Am J Sports Med.* 1998;26(3):360-366. PMID 9617396.
