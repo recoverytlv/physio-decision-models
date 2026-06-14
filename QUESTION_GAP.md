@@ -59,3 +59,35 @@ Use these as H1s, FAQ questions and headings so the page matches the query:
 
 > Strategy: don't out-backlink competitors — answer the question nobody owns,
 > clearly and credibly, so LLMs/Google cite this instead of a Reddit thread.
+
+## General MSK physiotherapy (cross-condition) — autocomplete 2026-06-14
+
+The SAME unanswered pattern repeats across every MSK condition (not just tendons):
+
+| Condition | Top "not improving" autocompletes |
+|---|---|
+| Sciatica | not going away · not getting better · not improving · not healing |
+| Low back pain | not going away · not getting better · not relieved by ibuprofen |
+| Herniated disc | not healing · not getting better · not healing after years · **reddit** · not showing on MRI |
+| Frozen shoulder | not getting better · not healing · not improving · not sleeping at night |
+| Knee pain | not going away · not getting better · not arthritis · not meniscus |
+| Neck pain | not going away · not getting better · not going away after a week |
+| Plantar fasciitis | not getting better · not going away · not healing · **reddit** |
+| (all) | "how long does physiotherapy take to work" |
+
+### Two reinforcing insights
+1. **The "not getting better / not going away" question is universal in MSK** and
+   under-owned — the *parent* MSK Non-Response framework applies to ALL of these,
+   not only tendinopathy.
+2. **When not improving, people question the diagnosis**: "lower back pain not
+   muscular / not spine", "sciatica not caused by herniated disc", "knee pain not
+   arthritis / not meniscus", "herniated disc not showing on MRI" → this maps
+   directly to the framework's **"reassess diagnosis"** decision domain. That is a
+   second un-owned angle worth answering.
+
+### Implication
+Every condition guide / future condition page should carry a short
+"Why is my [condition] not getting better, and what should change?" section that
+applies the Non-Response decision logic (continue / modify / reassess diagnosis /
+refer / discharge). That single recurring section, done across conditions, is the
+scalable way to own the most common unanswered MSK question.
