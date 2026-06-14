@@ -1,5 +1,5 @@
 ---
-title: "100 Question-Gap Blog Questions — Recovery TLV"
+title: "150 Question-Gap Blog Questions — Recovery TLV"
 type: blog-question-list
 author: "Alejandro Zubrisky, BPT"
 orcid: "0009-0003-1069-937X"
@@ -7,7 +7,7 @@ status: active
 note: "Curated list. Posts publish on the SITE, not this repo. Template: BLOG_KIT.md"
 ---
 
-# 100 Question-Gap Blog Questions
+# 150 Question-Gap Blog Questions
 
 > Decision-focused patient questions (non-response, duration, when to modify, refer,
 > stop). **Demand validated** (2026-06-14): real physio clinics already rank for
@@ -148,3 +148,63 @@ note: "Curated list. Posts publish on the SITE, not this repo. Template: BLOG_KI
 10. Why is my neck pain not going away?
 11. Why am I not progressing after surgery rehab?
 12. Why does my injury keep coming back after physiotherapy?
+
+## J. Hip & gluteal tendinopathy
+101. Why is my hip pain not getting better with physiotherapy?
+102. Why is my gluteal tendinopathy not improving?
+103. How long does gluteal tendinopathy take to heal?
+104. Why does my hip hurt when lying on my side?
+105. Is my hip pain bursitis or tendinopathy?
+106. Should I keep walking or running with gluteal tendinopathy?
+107. How do I know if hip physiotherapy is working?
+108. When should hip pain be referred to a doctor?
+109. Why does my hip pain keep coming back?
+110. When is hip pain not coming from the joint?
+
+## K. Plantar fasciitis & foot
+111. Why is my plantar fasciitis not getting better?
+112. Why is my plantar fasciitis not going away?
+113. How long does plantar fasciitis take to heal?
+114. Why does plantar fasciitis take so long to heal?
+115. Why is my heel pain worse in the morning?
+116. Should I keep running with plantar fasciitis?
+117. How do I know if plantar fasciitis treatment is working?
+118. When should I change my plantar fasciitis treatment?
+119. When should heel pain be referred to a doctor?
+120. Why does my heel pain keep coming back?
+
+## L. Ankle sprain
+121. Why is my ankle sprain not healing?
+122. Why is my ankle sprain not getting better after a month?
+123. How long does an ankle sprain take to heal?
+124. Why does my ankle keep giving way after a sprain?
+125. Should I exercise on a sprained ankle?
+126. How do I know if my ankle is ready for sport?
+127. When should an ankle sprain be referred for imaging?
+128. Why does my ankle still hurt months after a sprain?
+
+## M. Hamstring, sciatica & leg
+129. Why is my hamstring injury not healing?
+130. Why does my hamstring keep getting injured?
+131. How long does a hamstring strain take to heal?
+132. When can I return to running after a hamstring injury?
+133. Why is my sciatica not going away?
+134. Why is my sciatica not improving with physiotherapy?
+135. How long should physiotherapy take for sciatica?
+136. When should sciatica be referred to a doctor?
+137. Why does my sciatica keep coming back?
+138. Is my leg pain sciatica or something else?
+
+## N. Other conditions & return-to-sport decisions
+139. Why is my frozen shoulder not thawing?
+140. How long does frozen shoulder take to recover?
+141. When should frozen shoulder be referred?
+142. Why is my carpal tunnel not getting better?
+143. When should carpal tunnel be referred for surgery?
+144. How do I know when an injury is fully healed?
+145. How do I know if I am ready to return to sport?
+146. Is it safe to exercise with pain?
+147. When does pain mean I should stop exercising?
+148. Why does my injury keep coming back?
+149. Should I rest or keep moving with my injury?
+150. When is it time to get a second opinion?
