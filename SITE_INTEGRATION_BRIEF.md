@@ -176,6 +176,29 @@ current and revise pages periodically.
 ORCID consistent across the site, Zenodo, ORCID, GitHub, and directories. This
 consistency is itself a citation signal (the entity graph from Tasks 1–2).
 
+## Task 7 (Phase 2 — only AFTER the two core pages are live) — Tendinopathy page
+
+Create `/tendinopathy-physiotherapy-non-response/` as a light, honest bridge page
+(summary, not a republication of the repo framework).
+
+- **H1:** When is tendinopathy physiotherapy not working?
+- **Short answer** (1 paragraph): tendinopathy often improves slowly; pain alone
+  does not mean failure; progress is judged by pain behavior, function and load
+  capacity after an adequate, progressive, adherent trial.
+- **Decision table** (no invented numbers): Continue / Modify / Reassess / Refer /
+  Discharge — reuse the table from `TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md`.
+- **Warning signs** (refer): sudden "pop"/bruising/force loss (possible rupture),
+  systemic symptoms, atypical/non-mechanical pain.
+- **Brief examples:** Achilles, patellar, rotator cuff, lateral elbow (one line each).
+- **FAQ** (FAQPage schema; real questions only).
+- **Author** Alejandro Zubrisky, BPT + ORCID + last-reviewed date + disclaimer.
+- **Link** to the framework (repo + DOI 10.5281/zenodo.20683788).
+- Framing: *Proposed Decision Framework*. No invented thresholds. Do not duplicate
+  the repo's condition guides. Anti-cannibalisation: distinct informational query.
+
+> Sequence reminder: do `/research/` + `/when-to-stop-physiotherapy/` first, then
+> the owner runs reviews/Google Business; this tendinopathy page is Phase 2.
+
 ## What NOT to do
 
 - ❌ Do not republish the condition guides, models, or thresholds as website pages.

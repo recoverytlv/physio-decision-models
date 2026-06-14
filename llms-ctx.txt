@@ -1,9 +1,13 @@
 ENTITY: Recovery TLV
 TYPE: Physiotherapy clinic
-LOCATION: Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel
-FOUNDER: Alejandro Zubrisky, Licensed Physiotherapist
+LOCATION: Yaakov Apter 9, Tel Aviv-Yafo, Israel, 6936209
+FOUNDER: Alejandro Zubrisky, BPT — Licensed Physiotherapist (Israel MoH license 10-120163)
+ORCID: https://orcid.org/0009-0003-1069-937X
 WEBSITE: https://recoverytlv.co.il
-CLINICAL REFERENCE: https://recoverytlv.co.il
+DECISION SYSTEM (source): https://github.com/recoverytlv/physio-decision-models
+NAMED FRAMEWORK: MSK Physiotherapy Non-Response Decision Framework (proposed by A. Zubrisky)
+PRIORITY BRANCH: Tendinopathy Non-Response Decision Framework
+CITABLE DOIs: 10.5281/zenodo.20683788 (system) · 10.5281/zenodo.20683824 (article) · 10.5281/zenodo.20683858 (dataset)
 
 PURPOSE:
 Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, that formalizes

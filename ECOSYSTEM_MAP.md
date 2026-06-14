@@ -31,6 +31,18 @@ Binding mechanics in schema: `Person.worksFor` = clinic; `MedicalClinic.founder`
 = person `@id`; both carry mutual `sameAs`; the framework is the shared asset both
 reference (repo + DOI).
 
+## Citable assets (the shared spine)
+
+| Asset | Where | DOI |
+|---|---|---|
+| MSK Non-Response Decision Framework | [NON_RESPONSE_FRAMEWORK.md](./NON_RESPONSE_FRAMEWORK.md) | 10.5281/zenodo.20683788 |
+| Tendinopathy Non-Response Decision Framework (branch) | [TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md](./TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md) | 10.5281/zenodo.20683788 (v1.2.0) |
+| Article (preprint) | Zenodo | 10.5281/zenodo.20683824 |
+| Dataset (42 guides) | Zenodo | 10.5281/zenodo.20683858 |
+
+Every node above is attributed to Alejandro Zubrisky (ORCID 0009-0003-1069-937X)
+and points back to the clinic (recoverytlv.co.il).
+
 ## The constellation
 
 ```

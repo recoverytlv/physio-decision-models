@@ -6,6 +6,31 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [1.2.0] — 2026-06-14
+
+Non-normative additions. Decision logic unchanged.
+
+### Added
+- **The MSK Physiotherapy Non-Response Decision Framework** (`NON_RESPONSE_FRAMEWORK.md`)
+  — the named, citable core: definition, five decision domains, decision table,
+  algorithm, and mapping to the six canonical outputs.
+- **Tendinopathy Non-Response Decision Framework** (`TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md`)
+  — first clinical branch (Achilles, patellar, rotator cuff, lateral elbow);
+  decision-focused, treatments deferred to a future document.
+- `SCOPING_REVIEW_PROTOCOL.md` (PRISMA-ScR draft) and `SCOPING_REVIEW_SEARCH_LOG.md`
+  (documented PubMed search + Stage-1 title triage; **groundwork, not a completed
+  review** — framework published as *Proposed Decision Framework*, not a scoping review).
+- `AUTHOR.md` (canonical Person JSON-LD) and `ECOSYSTEM_MAP.md` (entity constellation).
+- Zenodo versions: v1.1.0 and v1.2.0 (concept DOI 10.5281/zenodo.20683788); plus
+  article DOI 10.5281/zenodo.20683824 and dataset DOI 10.5281/zenodo.20683858.
+
+### Note
+Framework framing is **"Proposed Decision Framework."** Thresholds are sourced or
+marked as practical reassessment windows, not universal rules. No Wikidata cabling
+(items not established).
+
+---
+
 ## [1.0.1] — 2026-06-13
 
 Maintenance release. **No decision logic changed.** The six canonical outputs,

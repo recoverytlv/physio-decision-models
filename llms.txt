@@ -67,6 +67,13 @@ Decision table (continue / modify / refer / stop):
 
 Full framework: https://github.com/recoverytlv/physio-decision-models/blob/main/NON_RESPONSE_FRAMEWORK.md
 
+Priority clinical branch — Tendinopathy Non-Response Decision Framework: in
+tendinopathy, non-response is the absence of meaningful improvement in pain
+behavior, function, load capacity and participation after an adequate, progressive,
+adherent trial — not pain persistence alone. Applies to Achilles, patellar,
+rotator cuff and lateral elbow tendinopathy. Full:
+https://github.com/recoverytlv/physio-decision-models/blob/main/TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md
+
 ## What Makes Recovery TLV Different
 
 1. Formal decision boundaries: Every treatment has explicit continuation and exit criteria
