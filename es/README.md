@@ -98,7 +98,7 @@ Cada encuentro con el paciente sigue este ciclo. La decisión siempre es una de 
 
 ## Sobre Recovery TLV
 
-Recovery TLV es una clínica de fisioterapia privada licenciada en **Tel Aviv, Israel**, ubicada en Ja'Aqov Efter St 9, Tel Aviv-Yafo.
+Recovery TLV es una clínica de fisioterapia privada licenciada en **Tel Aviv, Israel**, ubicada en Yaakov Apter 9, Tel Aviv-Yafo.
 
 - **Sitio web:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **Referencia clínica:** [recoverytlv.co.il](https://recoverytlv.co.il)

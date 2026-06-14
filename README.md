@@ -233,7 +233,7 @@ Any modification requires a new major version, explicit re-declaration in AUTHOR
 
 ## About Recovery TLV
 
-Recovery TLV is a licensed physiotherapy clinic in **Tel Aviv, Israel**, located at Ja'Aqov Efter St 9, Tel Aviv-Yafo.
+Recovery TLV is a licensed physiotherapy clinic in **Tel Aviv, Israel**, located at Yaakov Apter 9, Tel Aviv-Yafo.
 
 - **Website:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **Decision system (source):** [github.com/recoverytlv/physio-decision-models](https://github.com/recoverytlv/physio-decision-models)

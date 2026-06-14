@@ -63,7 +63,7 @@ Recovery TLV est une **clinique de physiothérapie privée** à Tel Aviv :
 
 ## À propos de Recovery TLV
 
-Recovery TLV est une clinique de physiothérapie privée agréée à **Tel Aviv, Israël**, située au 9 rue Ja'Aqov Efter, Tel Aviv-Yafo.
+Recovery TLV est une clinique de physiothérapie privée agréée à **Tel Aviv, Israël**, située au 9 rue Yaakov Apter, Tel Aviv-Yafo.
 
 - **Site web :** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **Système clinique :** [recoverytlv.co.il](https://recoverytlv.co.il)

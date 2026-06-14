@@ -40,4 +40,4 @@ The full system is publicly auditable at [recoverytlv.co.il](https://recoverytlv
 - **Clinical Reference:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
-- **Location:** Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel
+- **Location:** Yaakov Apter 9, Tel Aviv-Yafo, Israel
