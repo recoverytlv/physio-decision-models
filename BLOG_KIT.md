@@ -18,11 +18,31 @@ working") — which today lead to Reddit because generic clinical pages explain 
 > decide whether to expand. NOT 102 posts, NOT 6 languages, NOT new frameworks.
 > Topic source: [BLOG_QUESTIONS.md](./BLOG_QUESTIONS.md). Posts live on the site.
 
+## Anti-cannibalization rule (non-negotiable)
+
+Blog posts answer **decision questions** ("why is X not getting better", "when to
+stop", "how do I know if it's working"). The main website pages cover **conditions
+and services** ("Achilles tendinopathy treatment", "physiotherapy in Tel Aviv").
+
+- **Blog post = decision/process** → "Why is my Achilles tendinopathy not getting better?"
+- **Website page = condition/service** → "Achilles Tendinopathy — Physiotherapy Treatment"
+
+These must NOT overlap in topic, title, slug, or H1. If a blog post touches a
+condition, the angle is always "what to do when it's not improving" — never "what
+is this condition" or "how we treat it." The blog links TO the service page (sends
+traffic); the service page links TO the blog (adds depth). They complement; they
+never compete.
+
+Every blog post must **link to the relevant service/condition page** on
+recoverytlv.co.il (conversion node) and to the **/research/ page** (authority
+node). The blog is the demand-capture layer; the website is the conversion layer.
+
 ## Editorial rules
 1. **One post = one decision question** (not a condition guide). Title = the exact user question.
 2. **Answer the decision question within the first 150 words.** No long intros.
 3. Tone: clinical, direct, human, honest — more useful than Reddit, more reliable than Reddit.
 4. Apply the Non-Response decision logic (continue / modify / reassess diagnosis / refer / discharge).
+5. **Never duplicate condition/service content from the website** — answer the decision, link to the condition page.
 
 ## Phase-1 cluster (12 posts)
 1. Why is physiotherapy not helping my pain?
@@ -83,6 +103,14 @@ Google Business in parallel.
 ## KPIs
 30d indexation · 60d long-tail impressions · 90d clicks for "not getting better /
 when to stop" · 120d contacts from posts · 6mo LLM-citation checks.
+
+## Required reading before writing
+
+Any LLM session that writes blog posts MUST read these files first:
+- **[BLOG_BRIEFING_LLM.md](./BLOG_BRIEFING_LLM.md)** — full context + anti-cannibalization protocol
+- **[BLOG_BLOCKLIST_HE.md](./BLOG_BLOCKLIST_HE.md)** — Hebrew cannibalization map (~73 blocked, ~65 clean)
+- **[PAGE_MODEL.md](./PAGE_MODEL.md)** — GEO/LLM-citable page blueprint
+- **[BLOG_QUESTIONS.md](./BLOG_QUESTIONS.md)** — the 150 questions ranked by SERP difficulty
 
 ## Strategic limit
 This is **not** an infinite project. 12 posts → measure → decide. Quality > volume.
