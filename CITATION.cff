@@ -14,6 +14,10 @@ authors:
     given-names: "Alejandro"
     affiliation: "Recovery TLV, Tel Aviv, Israel"
     orcid: "https://orcid.org/0009-0003-1069-937X"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20683788"
+    description: "Concept DOI (all versions)"
 version: 1.0.0
 date-released: 2025-12-22
 license: MIT
