@@ -208,3 +208,33 @@ note: "Curated list. Posts publish on the SITE, not this repo. Template: BLOG_KI
 148. Why does my injury keep coming back?
 149. Should I rest or keep moving with my injury?
 150. When is it time to get a second opinion?
+
+## SERP difficulty map (free SERP check, 2026-06-14)
+
+Who ranks today for each query = real difficulty (cross-check with Ahrefs KD later).
+**Rule confirmed:** *process/decision* questions are owned by small clinics (winnable);
+*condition* questions ("patellar/rotator cuff/neck pain") are owned by medical giants
+(Mayo/Cleveland/HSS/Johns Hopkins) — frame as DECISION, not condition.
+
+### 🟢 Tier 1 — EASY (only small clinics/blogs/Reddit rank → start here)
+- When should I stop physiotherapy?
+- Why does my injury keep coming back after physiotherapy?
+- Why is physiotherapy not helping my pain?
+- What does it mean if physiotherapy is not working?
+- How do I know if physiotherapy is working?
+
+### 🟡 Tier 2 — MEDIUM (private clinics rank; no untouchable giants)
+- Why is my back pain not getting better with physiotherapy?
+- Why is my Achilles tendinopathy not getting better? (NHS/Mayo + a competitor)
+- Why is my tennis elbow not healing?
+- Why is my plantar fasciitis not getting better?
+- Why is my sciatica not going away?
+- Why is my tendinopathy not getting better?
+
+### 🔴 Tier 3 — HARD (medical giants own the SERP → attack with long-tail DECISION phrasing)
+- Why is my rotator cuff pain not improving? (HSS, Cleveland, AAOS)
+- Why is my patellar tendinopathy not going away? (Mayo, MGH, Cleveland)
+- Why is my neck pain not going away? (Healthline, Cleveland, Johns Hopkins)
+
+**Recommended order:** Tier 1 first (fast wins), then Tier 2, then Tier 3 only with
+decision-framed long-tail. Re-rank with Ahrefs Volume+KD when available.
