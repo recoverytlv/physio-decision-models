@@ -49,6 +49,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/SCOPING_REVIEW_EXTRACTION.md</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 
   <url>
     <loc>https://github.com/recoverytlv/physio-decision-models/blob/main/AUTHOR.md</loc>
