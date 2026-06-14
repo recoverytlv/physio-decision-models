@@ -11,8 +11,11 @@ version: 0.1.0
 
 # Scoping Review Protocol (PRISMA-ScR)
 
-> Draft protocol. Reported per PRISMA-ScR. Methodology follows the JBI scoping
-> review framework. Registration (OSF) to be completed before screening.
+> **DRAFT PROTOCOL — groundwork only. The review/manuscript is NOT completed.**
+> Reported per PRISMA-ScR; methodology follows the JBI scoping review framework.
+> Registration (OSF) to be completed before screening. Do not present any public
+> output as a completed scoping review; the framework is a *Proposed Decision
+> Framework* until the review is genuinely executed.
 
 ## 1. Title
 

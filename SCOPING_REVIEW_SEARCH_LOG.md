@@ -9,11 +9,14 @@ date_run: "2026-06-13"
 
 # Scoping Review — Search Log + Current Corpus (Stage 1)
 
-> **Status: in progress.** Documented search + **title-level triage** of a
-> current (2020-2026) relevance-sorted corpus of 70 real PubMed records. Not the
-> finished review: full screening (title/abstract -> full text across all results
-> and additional databases), de-duplication, dual review and charting remain, per
-> [SCOPING_REVIEW_PROTOCOL.md](./SCOPING_REVIEW_PROTOCOL.md). No findings synthesised.
+> **GROUNDWORK COMPLETED; MANUSCRIPT/REVIEW NOT COMPLETED.** This is a documented
+> search + **title-level triage** of a current (2020-2026) corpus of 170 real
+> PubMed records — preparatory groundwork only. The scoping review itself is **not**
+> done: full screening (title/abstract → full text across all results and additional
+> databases), de-duplication, dual review, charting and synthesis remain, per
+> [SCOPING_REVIEW_PROTOCOL.md](./SCOPING_REVIEW_PROTOCOL.md). **No findings are
+> synthesised.** Do NOT describe any public output as a completed scoping review;
+> the framework is published as a *Proposed Decision Framework*.
 
 ## Search metadata
 
