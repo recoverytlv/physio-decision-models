@@ -36,7 +36,7 @@ working") — which today lead to Reddit because generic clinical pages explain 
 9. Why is my knee pain not improving with physiotherapy?
 10. Why is my back pain not getting better with physiotherapy?
 11. Why is my neck pain not going away?
-12. Why am I not progressing after surgery rehab?
+12. Why does my injury keep coming back after physiotherapy?
 
 ## Post template
 ```

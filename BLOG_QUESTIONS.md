@@ -1,124 +1,150 @@
-# 100 Real Patient Questions (Question-Gap) — Blog Source List
+---
+title: "100 Question-Gap Blog Questions — Recovery TLV"
+type: blog-question-list
+author: "Alejandro Zubrisky, BPT"
+orcid: "0009-0003-1069-937X"
+status: active
+note: "Curated list. Posts publish on the SITE, not this repo. Template: BLOG_KIT.md"
+---
 
-> Real Google Autocomplete phrasings (2026-06-14) — what MSK physiotherapy
-> patients actually type and often only find answered on Reddit. Use each as a
-> blog title / FAQ, answered with the Non-Response decision logic (continue /
-**Total: 102 questions.**
-> modify / reassess diagnosis / refer / discharge). Author: Alejandro Zubrisky, BPT.
+# 100 Question-Gap Blog Questions
 
-## Tendinopathy (Achilles, patellar, rotator cuff, elbow, gluteal, hamstring) (34)
+> Decision-focused patient questions (non-response, duration, when to modify, refer,
+> stop). **Demand validated** (2026-06-14): real physio clinics already rank for
+> these (e.g., "Why isn't physiotherapy working") — proof the play converts — while
+> Reddit/forums still fill the gap. Recovery TLV's edge: local (Tel Aviv) + named
+> framework + credentialed author (ORCID) + decision table. English first
+> (SEO/LLM), then Hebrew for the best. Answer each with the Non-Response decision
+> logic (see [BLOG_KIT.md](./BLOG_KIT.md)).
 
-1. achilles tendinitis not getting better
-2. achilles tendinopathy not getting better
-3. achilles tendinopathy not going away
-4. achilles tendinopathy not healing
-5. achilles tendon not straight
-6. achilles tendon not visible
-7. achilles tendonitis not going away
-8. achilles tendonitis not healing
-9. achilles tendonitis not healing reddit
-10. achilles tendonitis not improving
-11. gluteal tendinopathy not getting better
-12. gluteal tendinopathy not going away
-13. gluteal tendinopathy not healing
-14. gluteal tendinopathy not improving
-15. gluteal tendinopathy what not to do
-16. hamstring tendinopathy not getting better
-17. hamstring tendinopathy not healing
-18. hamstring tendinopathy recovery time
-19. how do i know if my achilles tendon is healing
-20. how do i know if my tendon is healing
-21. how do i know if my tendonitis is getting better
-22. how long can patellar tendonitis last
-23. how long does achilles tendinitis last
-24. how long does achilles tendinopathy last
-25. how long does achilles tendinopathy take to heal
-26. how long does achilles tendonitis last
-27. how long does achilles tendonitis take to heal
-28. how long does achilles tendonitis take to recover
-29. how long does knee tendonitis last
-30. how long does knee tendonitis take to heal
-31. how long does patella tendon take to heal
-32. how long does patellar tendinopathy take to heal
-33. how long does patellar tendon tear take to heal
-34. how long does patellar tendonitis last
+## A. General physiotherapy & non-response
+1. Why is physiotherapy not helping my pain?
+2. Why is my pain not getting better with physiotherapy?
+3. How do I know if physiotherapy is working?
+4. When should I stop physiotherapy?
+5. When should I change my physiotherapy plan?
+6. How long should physiotherapy take to work?
+7. How many physiotherapy sessions before I should feel better?
+8. Is it normal to feel pain during physiotherapy?
+9. Is it normal to feel worse after physiotherapy?
+10. What should I do if physiotherapy is making my pain worse?
+11. When should I ask for a second opinion in physiotherapy?
+12. How do I know if I need physiotherapy or a doctor?
+13. When should a physiotherapist refer me to a doctor?
+14. Why does my injury keep coming back after physiotherapy?
+15. Why do I feel better after treatment but the pain returns?
+16. Can physiotherapy fail?
+17. What does it mean if physiotherapy is not working?
+18. When is pain persistence normal and when is it a warning sign?
+19. How do I know if I reached a plateau in physiotherapy?
+20. Should I continue physiotherapy if I am not improving?
 
-## Spine & nerve (low back, sciatica, disc, neck) (18)
+## B. Tendinopathy (general)
+21. Why is my tendinopathy not getting better?
+22. Why is my tendon pain not going away?
+23. How long does tendinopathy take to heal?
+24. Why does tendinopathy take so long to improve?
+25. Is it normal for tendon pain to hurt during exercise?
+26. Should I stop exercising if I have tendinopathy?
+27. When should I stop tendon rehabilitation?
+28. How do I know if tendon rehab is working?
+29. Why does my tendon pain improve and then come back?
+30. When should tendon rehabilitation be modified?
+31. What does it mean if tendon pain is worse the next day?
+32. Why is my tendon pain worse after loading exercises?
+33. Can tendon rehab fail?
+34. When should I get imaging for tendon pain?
+35. When should tendon pain be referred to a doctor?
 
-35. how long does physical therapy take for lower back pain
-36. how long does physical therapy take for sciatica
-37. how long does physical therapy take to help sciatica
-38. how long does sciatica flare up last
-39. how long does sciatica last
-40. how long does sciatica leg pain last
-41. how long does sciatica nerve pain last
-42. how long does sciatica pain last
-43. how long does sciatica pain usually last
-44. how long does sciatica take to go away
-45. how long does sciatica take to heal
-46. how long does sciatica typically last
-47. how long does sciatica usually last
-48. how many physio sessions for sciatica
-49. physical therapy making sciatica worse
-50. physical therapy not working for back pain
-51. physical therapy not working for herniated disc
-52. physical therapy not working for sciatica
+## C. Achilles
+36. Why is my Achilles tendinopathy not getting better?
+37. Why is my Achilles pain not going away?
+38. How long does Achilles tendinopathy take to improve?
+39. Is morning stiffness normal with Achilles tendinopathy?
+40. Why does my Achilles hurt after running?
+41. Should I keep running with Achilles tendinopathy?
+42. When should I stop Achilles tendon exercises?
+43. How do I know if Achilles rehab is working?
+44. Why does my Achilles pain return every time I run?
+45. When should Achilles tendinopathy be referred to a doctor?
 
-## Joints (knee, shoulder, frozen shoulder, hip, plantar, ankle) (22)
+## D. Patellar tendon / anterior knee
+46. Why is my patellar tendinopathy not getting better?
+47. Why is my jumper's knee not going away?
+48. How long does patellar tendinopathy take to heal?
+49. Should I keep training with patellar tendon pain?
+50. Why does my knee hurt after jumping or squatting?
+51. How do I know if patellar tendon rehab is working?
+52. When should I modify patellar tendon exercises?
+53. Why does my patellar tendon pain come back after rest?
+54. When should I stop playing sport with patellar tendinopathy?
+55. When should patellar tendon pain be referred?
 
-53. how long does frozen shoulder last
-54. how long does frozen shoulder last in menopause
-55. how long does frozen shoulder last in perimenopause
-56. how long does frozen shoulder last with physical therapy
-57. how long does frozen shoulder last without treatment
-58. how long does frozen shoulder pain last
-59. how long does frozen shoulder surgery take
-60. how long does frozen shoulder take to go away
-61. how long does frozen shoulder take to heal
-62. how long does frozen shoulder take to heal with physical therapy
-63. how long does physical therapy take for knee
-64. how long does physical therapy take for shoulder
-65. how long should i do physio after hip replacement
-66. how long should i do physio after knee replacement
-67. how many physio sessions after ankle surgery
-68. how many physio sessions for frozen shoulder
-69. how many physio sessions for whiplash
-70. when can i stop physical therapy after knee replacement
-71. why is my frozen shoulder clicking
-72. why is my frozen shoulder getting more painful
-73. why is my frozen shoulder getting worse
-74. why is my frozen shoulder not getting better
+## E. Tennis elbow / lateral epicondylalgia
+56. Why is my tennis elbow not healing?
+57. Why is my elbow pain not going away?
+58. How long does tennis elbow take to improve?
+59. Why does tennis elbow keep coming back?
+60. Should I keep lifting weights with tennis elbow?
+61. Why does my elbow hurt when gripping?
+62. How do I know if tennis elbow rehab is working?
+63. When should I modify tennis elbow exercises?
+64. Why is my tennis elbow worse after exercises?
+65. When should tennis elbow be referred to a doctor?
 
-## Timeline — how long / recovery (10)
+## F. Rotator cuff / shoulder
+66. Why is my rotator cuff pain not improving?
+67. Why is my shoulder pain not going away?
+68. How long does rotator cuff tendinopathy take to heal?
+69. Why does my shoulder hurt when lifting my arm?
+70. Should I keep exercising with rotator cuff pain?
+71. How do I know if shoulder physiotherapy is working?
+72. When should I change my shoulder rehab plan?
+73. Why is my shoulder pain worse at night?
+74. When should shoulder pain be referred to a doctor?
+75. Why does my shoulder pain come back after physiotherapy?
 
-75. how long does physical therapy take to see results
-76. how long does physical therapy take to start working
-77. how long does physical therapy take to study
-78. how long does physical therapy take to walk again
-79. how long does physical therapy take to work
-80. how long is first physio appointment
-81. how long should i do physical therapy
-82. how long should i do physio for
-83. how long should i do physiotherapy
-84. how long to do physiotherapy
+## G. Low back pain
+76. Why is my back pain not getting better with physiotherapy?
+77. Why does my lower back pain keep coming back?
+78. How long should physiotherapy take for back pain?
+79. When should I stop physiotherapy for back pain?
+80. How do I know if back pain physiotherapy is working?
+81. Why is my back pain worse after exercises?
+82. When should back pain be referred to a doctor?
+83. Why does my back pain improve and then return?
+84. Should I keep exercising if my back hurts?
+85. When is back pain not just a muscle problem?
 
-## Decision — when to stop / how many sessions / making worse (18)
+## H. Neck
+86. Why is my neck pain not going away?
+87. Why is my neck pain not improving with physiotherapy?
+88. How long should physiotherapy take for neck pain?
+89. Why does my neck pain keep coming back?
+90. How do I know if neck physiotherapy is working?
+91. Why is my neck pain worse after exercises?
+92. When should neck pain be referred to a doctor?
+93. Why do I have neck pain and headaches?
+94. Should I keep training with neck pain?
+95. When should I change my neck rehab plan?
 
-85. can physical therapy make it worse
-86. can you stop physical therapy at any time
-87. does physical therapy make it worse
-88. does physical therapy make it worse before better
-89. how do you know when to stop physical therapy
-90. how many physio sessions do i need
-91. how many physio sessions do you get on the nhs
-92. how many physio sessions do you need
-93. how many physio sessions does acc cover
-94. how many physio sessions on medicare
-95. how often should i do physical therapy
-96. how often should i do physio
-97. how often should i do physiotherapy
-98. how often should i do physiotherapy exercises
-99. is it normal for physical therapy to make pain worse
-100. is physical therapy supposed to be capitalized
-101. is physical therapy supposed to be hard
-102. is physical therapy supposed to be painful
+## I. Post-operative / functional return
+96. Why am I not progressing after surgery rehab?
+97. How do I know if post-surgery physiotherapy is working?
+98. When should post-operative rehab be modified?
+99. Why is my knee still stiff after surgery?
+100. When should I ask for a second opinion after surgery rehab?
+
+## Phase-1 priority (start with these 12)
+1. Why is physiotherapy not helping my pain?
+2. When should I stop physiotherapy?
+3. How do I know if physiotherapy is working?
+4. Why is my tendinopathy not getting better?
+5. Why is my Achilles tendinopathy not getting better?
+6. Why is my patellar tendinopathy not going away?
+7. Why is my tennis elbow not healing?
+8. Why is my rotator cuff pain not improving?
+9. Why is my back pain not getting better with physiotherapy?
+10. Why is my neck pain not going away?
+11. Why am I not progressing after surgery rehab?
+12. Why does my injury keep coming back after physiotherapy?
