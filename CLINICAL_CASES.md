@@ -265,29 +265,29 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Three hypotheses identified:**
 1. Cervicogenic headache from upper cervical dysfunction (whiplash component)
-2. Peripheral vestibular dysfunction (head impulse positive)
+2. Peripheral vestibular dysfunction (head impulse positive) — REFER: vestibular rehabilitation is not provided at this clinic
 3. Autonomic dysregulation (exercise intolerance at low heart rate)
 
 **Set Goals:** Reduce headache frequency, resolve dizziness, complete Buffalo Treadmill Test symptom-free, return to sport.
 
 **TRIAL (Sessions 1–5):**
 - C1-C2 mobilization + deep neck flexor training
-- VOR exercises (gaze stabilization × 1 and × 2)
+- Vestibular component: REFERRED to a vestibular rehabilitation specialist; care coordinated in parallel
 - Sub-threshold aerobic exercise (walking at HR 100, progressing)
 - Session 3: Headache frequency reduced 50%, dizziness improved with daily activities
 - Session 5: Buffalo test symptom-free to HR 140, cervical ROM normalized
 
-**Decision → CONTINUE** (improvement in all three systems)
+**Decision → CONTINUE** (cervical and exercise tolerance improving; vestibular component managed by referral)
 
 **Sessions 6–10:**
-- Progressive vestibular loading, sport-specific drills
+- Sport-specific drills (vestibular progression continued with the vestibular clinician)
 - Graded return to sport protocol initiated
 - Session 8: Symptom-free at all exercise intensities
 - Session 10: Completed all return-to-sport stages, cleared for full contact practice
 
 **Decision → DISCHARGE** (return to sport protocol completed)
 
-**Key lesson:** Post-concussion syndrome requires systematic assessment of multiple systems. Each system was treated as a separate hypothesis with its own expected response. All three improved, confirming the multi-hypothesis approach.
+**Key lesson:** Post-concussion syndrome requires systematic assessment of multiple systems. Each system was handled as a separate hypothesis with its own expected response — two treated here, one referred. Knowing which component to refer is part of the system.
 
 ---
 
@@ -324,7 +324,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 - Education: "Bone on bone does NOT mean exercise won't help. Strongest evidence in OA is exercise."
 - Progressive quad strengthening (seated knee extensions → step-ups)
 - Walking program: 10 minutes → 15 minutes daily
-- Aquatic therapy 1x/week (lower joint load)
+- Aquatic exercise at a community pool 1x/week, self-managed (lower joint load)
 
 **Session 5 Re-evaluation:** TUG: 12.8 seconds (improved 1.4s). Sit-to-stand: 9 (improved 2). Pain during stairs reduced from 7/10 to 5/10.
 
@@ -340,41 +340,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Case 12: Fibromyalgia — The Boom-Bust Patient
-
-**Intake:** 45-year-old graphic designer, widespread pain for 3 years. Diagnosed fibromyalgia by rheumatologist. Previous physiotherapy "made things worse." Currently on pregabalin and duloxetine. Sleeps 4-5 hours/night.
-
-**Listen:** "Every time I try to exercise, I crash for a week. I've been told to just push through it." Pattern: on good days does too much (3-hour house cleaning), then bedbound for 3-4 days. Classic boom-bust cycle. Yellow flag: "Maybe this is all in my head."
-
-**Evaluate:** No focal musculoskeletal findings. Widespread tenderness. 6MWT: 280 meters (stopped due to fatigue, not pain). 30-second sit-to-stand: 6. TSK: 42 (high fear). PCS: 28 (elevated catastrophizing). PHQ-9: 12 (moderate depression — already under psychiatric care).
-
-**Hypothesis:** Boom-bust activity pattern perpetuates the pain-fatigue cycle. Central sensitization amplifies normal movement signals as painful.
-
-**Goal:** Consistent daily activity without flare. 6MWT >350 meters. Independent pacing strategy.
-
-**TRIAL (Sessions 1-5):**
-- Pain neuroscience education (central sensitization explained simply)
-- Activity pacing: set ceiling on good days (no more than 60% capacity)
-- Exercise: walking 8 minutes daily (well below symptom threshold), gentle stretching
-- Flare management plan written down
-
-**Session 3:** Patient reports first week with no major flare in months. "I wanted to do more but stuck to the plan."
-
-**Session 5 Re-evaluation:** 6MWT: 310 meters (improved 30m). TSK: 38 (improved 4 points). No boom-bust episodes in 2 weeks. Sleep slightly improved.
-
-**Decision: CONTINUE** — Functional improvement. Extended trial justified for fibromyalgia.
-
-**Sessions 6-12:** Gradually increased walking to 15 minutes, added light resistance bands, introduced pool exercise.
-
-**Session 12:** 6MWT: 375 meters. Sit-to-stand: 10. Reports "I finally understand that doing less consistently gives me more." No boom-bust cycles. TSK: 32. Self-managing flares independently.
-
-**Decision: DISCHARGE** — Functional goals met. Independent self-management. Continues exercise independently.
-
-**Teaching point:** Previous "failed" physiotherapy was wrong dosing, not wrong modality. Start LOW, progress SLOW. Pacing is the intervention for boom-bust pattern.
-
----
-
-## Case 13: Thoracic Outlet Syndrome — Differential Diagnosis Matters
+## Case 12: Thoracic Outlet Syndrome — Differential Diagnosis Matters
 
 **Intake:** 34-year-old software developer, 6 months of right arm numbness and tingling. Worse at end of workday. Seen by neurologist — nerve conduction normal. MRI cervical spine unremarkable. Referred for "cervical radiculopathy."
 
@@ -406,7 +372,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Case 14: Geriatric Fall Prevention — Beyond the Injury
+## Case 13: Geriatric Fall Prevention — Beyond the Injury
 
 **Intake:** 78-year-old widow, right hip pain after fall 3 weeks ago. X-ray negative for fracture. Lives alone. Daughter brought her because she's "afraid to walk."
 
@@ -443,7 +409,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Case 15: Rib Dysfunction Masquerading as Cardiac Pain
+## Case 14: Rib Dysfunction Masquerading as Cardiac Pain
 
 **Intake:** 52-year-old businessman, left-sided chest pain for 2 weeks. Saw cardiologist: ECG normal, stress test normal, troponin negative, echocardiogram normal. Referred to physiotherapy for "musculoskeletal chest pain."
 
@@ -488,10 +454,9 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 | Case 9 | Lateral hip | Previous treatment was the problem | Knowing what NOT to do matters |
 | Case 10 | Post-concussion | Multi-hypothesis approach | Complex cases need systematic multi-system assessment |
 | Case 11 | Knee OA | Exercise over surgery | Imaging severity doesn't predict exercise response |
-| Case 12 | Fibromyalgia | Start LOW, progress SLOW | Previous "failed" physio was wrong dosing |
-| Case 13 | TOS | Differential diagnosis matters | Referral diagnosis isn't always correct |
-| Case 14 | Geriatric falls | Beyond the presenting complaint | Fall risk, fear, and medications matter more than hip pain |
-| Case 15 | Rib dysfunction | Diagnosis of exclusion | Cardiac workup first, then musculoskeletal |
+| Case 12 | TOS | Differential diagnosis matters | Referral diagnosis isn't always correct |
+| Case 13 | Geriatric falls | Beyond the presenting complaint | Fall risk, fear, and medications matter more than hip pain |
+| Case 14 | Rib dysfunction | Diagnosis of exclusion | Cardiac workup first, then musculoskeletal |
 
 In every case, the workflow is the same: **Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide.**
 

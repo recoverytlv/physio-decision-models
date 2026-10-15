@@ -8,7 +8,7 @@ license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
-summary: "Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. Physiotherapy addresses the cervical, vestibular, and exercise tolerance components."
+summary: "Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. This clinic addresses the cervical and exercise tolerance components; a vestibular component is screened for and referred."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
@@ -25,10 +25,10 @@ clinic: "https://recoverytlv.co.il"
 # Post-Concussion Syndrome — Physiotherapy Role
 
 ## Condition
-Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. Physiotherapy addresses the cervical, vestibular, and exercise tolerance components.
+Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. This clinic addresses the cervical and exercise tolerance components; a vestibular component is screened for and referred.
 
 ## Scope Check
-The cervicogenic, vestibular, and exercise tolerance components of post-concussion syndrome are within physiotherapy scope. Cognitive, psychological, and medical management of concussion requires a multidisciplinary team. Physiotherapy is one component of post-concussion care, not the sole treatment.
+The cervicogenic and exercise tolerance components of post-concussion syndrome are within this clinic's scope. Vestibular rehabilitation is a physiotherapy specialty that this clinic does not provide: a suspected vestibular component is REFERRED to a vestibular rehabilitation specialist. Cognitive, psychological, and medical management of concussion requires a multidisciplinary team. Physiotherapy is one component of post-concussion care, not the sole treatment.
 
 ## DECLINE or REFER Triggers
 - Acute concussion in the first 48 hours (medical management first)
@@ -36,6 +36,7 @@ The cervicogenic, vestibular, and exercise tolerance components of post-concussi
 - Suspected intracranial hemorrhage (worst headache of life, altered consciousness — emergency)
 - Significant cognitive or psychological symptoms (memory loss, personality change, depression, anxiety) — REFER to neuropsychologist
 - Symptoms not improving after 4+ weeks of multidisciplinary management — REFER to concussion specialist
+- Dizziness, vertigo, gaze instability or motion sensitivity suggesting a vestibular component — REFER to a vestibular rehabilitation specialist (not provided at this clinic)
 
 ## What Physiotherapy Can Address
 
@@ -46,12 +47,12 @@ Neck pain and cervicogenic headache following head/neck trauma (the same mechani
 - Treatment: cervical mobilization, deep neck flexor training, neck strengthening
 - Expected response: reduced headache frequency and neck pain
 
-### 2. Vestibular Component
+### 2. Vestibular Component — Screen and Refer
 Dizziness, balance deficits, and motion sensitivity following concussion.
 
-- Assessment: vestibulo-ocular reflex (VOR), balance testing (BESS), motion sensitivity quotient
-- Treatment: vestibular rehabilitation (gaze stabilization, habituation exercises, balance training)
-- Expected response: reduced dizziness, improved balance scores, reduced motion sensitivity
+- Screening: dizziness with head movement, motion sensitivity, gaze instability
+- Action: REFER to a vestibular rehabilitation specialist — vestibular rehabilitation is not provided at this clinic
+- Cervical and exercise tolerance care may continue alongside, coordinated with the vestibular clinician
 
 ### 3. Exercise Tolerance
 Exercise intolerance (symptoms worsen with physical exertion) is common in post-concussion syndrome.
@@ -62,14 +63,13 @@ Exercise intolerance (symptoms worsen with physical exertion) is common in post-
 
 ## Clinical Hypothesis Examples
 - **Cervicogenic headache post-concussion:** Upper cervical dysfunction contributing to persistent headache. Tested with C1-C2 assessment and treatment. Expected response: if cervicogenic, headache reduces with cervical treatment.
-- **Vestibular dysfunction:** Peripheral vestibular injury or central vestibular processing deficit. Tested with VOR exercises and habituation. Expected response: reduced dizziness and improved gaze stability within 3–5 sessions.
+- **Vestibular dysfunction:** Peripheral vestibular injury or central vestibular processing deficit. Not tested with treatment at this clinic — REFER for vestibular assessment and rehabilitation.
 - **Exercise intolerance — autonomic dysfunction:** Autonomic nervous system dysregulation causing symptoms with exertion. Tested with sub-threshold aerobic exercise program. Expected response: gradual increase in symptom-free exercise intensity over 2–4 weeks.
-- **Combined cervicogenic + vestibular:** Both systems contributing (common). Tested with combined cervical and vestibular rehabilitation. Expected response: improvement in both headache and dizziness metrics.
+- **Combined cervicogenic + vestibular:** Both systems contributing (common). Cervical component tested here; vestibular component REFERRED. Expected response: headache metrics improve with cervical treatment.
 
 ## Trial Window
 5 sessions. Objective criteria:
 - Improved exercise tolerance (higher threshold on treadmill test)
-- Reduced dizziness scores (DHI or similar)
 - Improved balance (BESS score)
 - Reduced headache frequency or intensity
 - Improved cervical ROM (if cervicogenic component)
@@ -89,7 +89,7 @@ Physiotherapy guides the graded return to sport:
 Each stage must be completed symptom-free before progressing. If symptoms return, drop back to the previous symptom-free stage.
 
 ## Non-Response
-If cervicogenic, vestibular, or exercise tolerance symptoms do not improve within the trial window, reassess. Persistent symptoms may require referral to concussion specialist, neuropsychologist, or neuro-ophthalmologist. Post-concussion syndrome lasting >3 months with minimal improvement despite multidisciplinary care requires specialist team management.
+If cervicogenic or exercise tolerance symptoms do not improve within the trial window, reassess. Persistent symptoms may require referral to concussion specialist, neuropsychologist, or neuro-ophthalmologist. Post-concussion syndrome lasting >3 months with minimal improvement despite multidisciplinary care requires specialist team management.
 
 ## Related Documents
 - [Neck Pain](neck-pain.md)

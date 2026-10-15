@@ -58,7 +58,7 @@ Each phase functions as a TRIAL cycle within the clinical decision system:
 
 ## Return-to-Sport Criteria
 - Knee extension and flexion ROM symmetrical to uninjured side
-- Quadriceps strength ≥90% of uninjured side (isokinetic or dynamometry)
+- Quadriceps strength ≥90% of uninjured side (handheld dynamometry)
 - Hop test battery ≥90% limb symmetry index
 - Single leg squat with good biomechanics
 - Sport-specific drills completed without apprehension or compensatory patterns

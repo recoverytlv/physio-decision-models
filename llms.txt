@@ -94,13 +94,10 @@ Under Biological Uncertainty."
 - [Calf Strain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md): Gastrocnemius and soleus tears
 - [Shin Splints](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md): Medial tibial stress syndrome
 - [Shoulder Instability](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md): TUBS/AMBRI classification
-- [Post-Concussion Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md): Cervicogenic, vestibular, exercise tolerance
-- [Pelvic Floor Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/pelvic-floor-dysfunction.md): Hypertonic/hypotonic, coccydynia
+- [Post-Concussion Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md): Cervicogenic and exercise tolerance; vestibular component referred
 - [Thoracic Outlet Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md): Neurogenic TOS
 - [Headache (Cervicogenic/Tension)](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md): CGH, tension-type, SNOOP
 - [Knee Osteoarthritis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-osteoarthritis.md): Exercise-first, prehabilitation
-- [Fibromyalgia](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/fibromyalgia.md): Central sensitization, graded exercise
-- [Scoliosis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/scoliosis.md): Adolescent idiopathic, Schroth
 - [Rib Dysfunction](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rib-dysfunction.md): Costochondritis, costovertebral
 - [Dupuytren's Contracture](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/dupuytren-contracture.md): Post-surgical hand rehab
 

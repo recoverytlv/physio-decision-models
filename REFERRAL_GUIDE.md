@@ -11,7 +11,7 @@ Recovery TLV provides evidence-based musculoskeletal physiotherapy for:
 - Lower extremity (knee pain, patellofemoral syndrome, meniscus injuries, ACL reconstruction rehab, total knee replacement rehab, hip pain, FAI, gluteal tendinopathy, total hip replacement rehab, ankle sprain, Achilles tendinopathy, plantar fasciitis, calf strain, shin splints)
 - TMJ disorders
 - Whiplash-associated disorders
-- Post-concussion syndrome (cervicogenic, vestibular, and exercise tolerance components)
+- Post-concussion syndrome (cervicogenic and exercise tolerance components; vestibular component referred)
 - Sports injuries and return-to-sport programs
 - Chronic pain (musculoskeletal origin, evidence-based approach)
 

@@ -766,7 +766,7 @@ Each phase functions as a TRIAL cycle within the clinical decision system:
 
 ## Return-to-Sport Criteria
 - Knee extension and flexion ROM symmetrical to uninjured side
-- Quadriceps strength ≥90% of uninjured side (isokinetic or dynamometry)
+- Quadriceps strength ≥90% of uninjured side (handheld dynamometry)
 - Hop test battery ≥90% limb symmetry index
 - Single leg squat with good biomechanics
 - Sport-specific drills completed without apprehension or compensatory patterns
@@ -1092,107 +1092,6 @@ Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The
 - [De Quervain's Tenosynovitis](./de-quervain-tenosynovitis.md) — Hand/wrist conditions
 - [Carpal Tunnel Syndrome](./carpal-tunnel-syndrome.md) — May coexist
 - [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab may justify extended window
-
-
---- source: conditions/fibromyalgia.md ---
-
-# Fibromyalgia — Physiotherapy Scope
-
-## Definition
-Widespread musculoskeletal pain with central sensitization, fatigue, sleep disturbance, and cognitive symptoms. Fibromyalgia is a clinical diagnosis — there is no definitive biomarker or imaging finding.
-
-## Scope Boundaries
-- **IN scope:** Exercise prescription, graded activity, pain neuroscience education, functional restoration
-- **OUT of scope:** Pharmacological management, psychological therapy (REFER if primary), rheumatological diagnosis confirmation
-
-## Important Context
-Fibromyalgia patients often have negative experiences with healthcare. Many have been told "nothing is wrong" or their pain is "all in their head." Physiotherapy must validate the reality of their pain while providing evidence-based management.
-
-## Red Flags → REFER
-- New focal neurological signs (rule out neurological condition)
-- Significant weight loss, night sweats (rule out malignancy/infection)
-- Symptoms better explained by inflammatory arthritis, hypothyroidism, or other systemic disease → rheumatology
-- Severe depression, suicidal ideation → psychology/psychiatry urgently
-- Sleep apnea suspected → sleep medicine
-
-## Clinical Hypothesis Framework
-
-### Deconditioning Hypothesis
-- **Hypothesis:** Physical deconditioning perpetuates pain-fatigue cycle
-- **Test:** Graded exercise program starting well below symptom threshold
-- **Expected response:** Improved exercise tolerance, reduced fatigue severity within 6-8 weeks
-- **If no response:** Reassess dosing (may be starting too high), assess sleep quality, consider psychological factors
-
-### Central Sensitization Hypothesis
-- **Hypothesis:** Central nervous system amplification drives widespread pain
-- **Test:** Pain neuroscience education + graded exposure to movement
-- **Expected response:** Improved pain self-efficacy, reduced fear-avoidance, functional improvement
-- **If no response:** Multidisciplinary approach needed — REFER for psychology/pain management
-
-### Sleep-Pain Cycle
-- **Hypothesis:** Poor sleep drives pain amplification
-- **Test:** Sleep hygiene education, exercise timing optimization, relaxation training
-- **Expected response:** Improved sleep quality correlates with pain reduction
-- **If sleep disorder suspected:** REFER to sleep medicine
-
-## Exercise Prescription — Key Principles
-
-### Start LOW, Progress SLOW
-| Phase | Duration | Intensity | Type |
-|-------|----------|-----------|------|
-| Phase 1 (Weeks 1-4) | 10-15 min | Very low (RPE 2-3/10) | Walking, gentle stretching, pool if available |
-| Phase 2 (Weeks 5-8) | 15-25 min | Low (RPE 3-4/10) | Add light resistance, increase walk duration |
-| Phase 3 (Weeks 9-12) | 25-40 min | Low-moderate (RPE 4-5/10) | Progressive strengthening, aerobic choice |
-| Maintenance | 30-45 min | Moderate (RPE 5-6/10) | Sustained program, patient-selected activities |
-
-### What NOT to Do
-- Do not push through pain flares — this reinforces the boom-bust cycle
-- Do not use passive modalities as primary treatment (ultrasound, TENS are adjuncts at best)
-- Do not tell patients to "just exercise more" — dosing and pacing are critical
-- Do not dismiss symptom flares as lack of effort — they are part of the condition
-- Do not set arbitrary timeline expectations — progress is often non-linear
-
-## Flare Management Protocol
-1. Reduce activity to 50% of current level (do not stop completely)
-2. Prioritize sleep and stress management
-3. Gentle movement (walking, stretching) at comfortable intensity
-4. Gradual return to previous activity level over 3-7 days
-5. Identify triggers if possible (overactivity, poor sleep, stress)
-
-## Trial Protocol (TRIAL)
-| Session | Focus |
-|---------|-------|
-| 1 | Assessment, pain neuroscience education, establish baseline functional capacity |
-| 2-3 | Begin graded exercise, establish flare management plan |
-| 4-5 | Re-evaluate: exercise tolerance, fatigue severity, functional measures |
-| 6-8 | Extended trial if trending positive (fibromyalgia often needs longer trial) |
-
-## Decision Criteria
-
-### CONTINUE if:
-- Improved exercise tolerance (can do more without flare)
-- Reduced fatigue severity
-- Functional improvement (household tasks, work tolerance, social participation)
-- Improved pain self-efficacy
-
-### DISCHARGE if:
-- Independent self-management program established
-- Patient confident in pacing and flare management
-- Functional goals met
-
-### REFER if:
-- Red flags for alternative diagnosis
-- Severe psychological distress beyond physiotherapy scope
-- No functional improvement after 8-12 weeks of structured program
-- Need for multidisciplinary pain program
-
-## Important Note on Trial Window
-Standard 3-5 session trial may be insufficient for fibromyalgia. Extended trial of 6-8 sessions is justified given the condition's nature. However, the decision logic remains the same: objective functional improvement must be demonstrated for continuation.
-
-## Cross-References
-- [Non-Response as Signal](../models/non-response-as-signal.md) — Non-response in fibromyalgia may indicate dosing error or need for multidisciplinary care
-- [Subjective Report Insufficiency](../models/subjective-report-insufficiency.md) — Particularly relevant: functional measures trump pain reports
-- [Dose-Response Coupling](../models/dose-response-coupling.md) — Non-linear dose-response is expected in central sensitization
 
 
 --- source: conditions/frozen-shoulder.md ---
@@ -1928,79 +1827,6 @@ If symptoms do not improve with quadriceps and hip strengthening within the tria
 - [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md)
 
 
---- source: conditions/pelvic-floor-dysfunction.md ---
-
-# Pelvic Floor Dysfunction
-
-## Definition
-Pelvic floor dysfunction encompasses hypertonic (overactive) and hypotonic (weak) pelvic floor conditions presenting as pelvic pain, urinary symptoms, or functional limitations. Within physiotherapy scope: musculoskeletal pelvic pain, coccydynia, dyspareunia with muscular origin, and post-surgical pelvic rehabilitation.
-
-## Scope Boundaries
-- **IN scope:** Musculoskeletal pelvic pain, coccydynia, post-surgical pelvic rehab (post-prostatectomy, post-hysterectomy), SI joint-related pelvic floor dysfunction
-- **OUT of scope:** Primary urological/gynecological pathology, prolapse management (REFER to pelvic floor specialist), obstetric conditions
-
-## Red Flags → REFER or DECLINE
-- Unexplained rectal bleeding
-- Unexplained weight loss with pelvic symptoms
-- New-onset bowel/bladder incontinence with neurological signs (cauda equina)
-- Pelvic mass on examination
-- Post-menopausal bleeding
-- Suspected pelvic fracture
-
-## Clinical Hypothesis Framework
-
-### Hypertonic Pelvic Floor
-- **Hypothesis:** Pelvic floor overactivity is driving pain and dysfunction
-- **Test:** Diaphragmatic breathing, manual release techniques, relaxation training
-- **Expected response:** Pain reduction ≥2/10 VAS, improved sitting tolerance within 3-5 sessions
-- **If no response:** Consider visceral referral source, central sensitization, or psychological factors → REFER
-
-### Coccydynia
-- **Hypothesis:** Coccyx pain is musculoskeletal (post-fall, postpartum, prolonged sitting)
-- **Test:** Manual therapy to coccyx and surrounding structures, sitting modification, pelvic floor relaxation
-- **Expected response:** Reduced pain with sitting within 3-5 sessions
-- **If no response:** Imaging to rule out fracture/tumor → REFER
-
-### Post-Surgical (Prostatectomy/Hysterectomy)
-- **Hypothesis:** Pelvic floor weakness is contributing to functional limitation
-- **Test:** Progressive pelvic floor strengthening, motor control retraining
-- **Expected response:** Improved continence, reduced leakage episodes within 4-6 weeks
-- **If no response:** REFER to pelvic floor specialist for biofeedback or further assessment
-
-## Trial Protocol (TRIAL)
-| Session | Focus |
-|---------|-------|
-| 1 | Assessment: symptom mapping, functional baseline, identify hypertonic vs hypotonic pattern |
-| 2 | Intervention: targeted relaxation (hypertonic) or strengthening (hypotonic) |
-| 3 | Re-evaluate: symptom change, functional improvement |
-| 4-5 | Progress or exit decision |
-
-## Decision Criteria
-
-### CONTINUE if:
-- Pain reduction ≥2/10 VAS
-- Improved functional tolerance (sitting, standing, walking)
-- Measurable strength or relaxation gains
-
-### DISCHARGE if:
-- Functional goals met
-- Independent home program established
-
-### REFER if:
-- Red flags detected
-- No response after 5 sessions
-- Symptoms suggest primary urological/gynecological pathology
-- Complex prolapse or severe incontinence
-
-## Common Mistake
-Treating all pelvic floor dysfunction with Kegels. Hypertonic pelvic floors need relaxation, not strengthening. Assessment determines direction.
-
-## Cross-References
-- [Non-Response as Signal](../models/non-response-as-signal.md) — Non-response in pelvic floor may indicate visceral or psychological origin
-- [Red Flag Referral](../thresholds/red-flag-referral.md) — Cauda equina and pelvic mass require immediate referral
-- [Trial Window Limits](../thresholds/trial-window-limits.md) — 3-5 session window applies
-
-
 --- source: conditions/piriformis-syndrome.md ---
 
 # Piriformis Syndrome
@@ -2093,10 +1919,10 @@ If first-step pain and walking tolerance do not improve within the trial window,
 # Post-Concussion Syndrome — Physiotherapy Role
 
 ## Condition
-Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. Physiotherapy addresses the cervical, vestibular, and exercise tolerance components.
+Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. This clinic addresses the cervical and exercise tolerance components; a vestibular component is screened for and referred.
 
 ## Scope Check
-The cervicogenic, vestibular, and exercise tolerance components of post-concussion syndrome are within physiotherapy scope. Cognitive, psychological, and medical management of concussion requires a multidisciplinary team. Physiotherapy is one component of post-concussion care, not the sole treatment.
+The cervicogenic and exercise tolerance components of post-concussion syndrome are within this clinic's scope. Vestibular rehabilitation is a physiotherapy specialty that this clinic does not provide: a suspected vestibular component is REFERRED to a vestibular rehabilitation specialist. Cognitive, psychological, and medical management of concussion requires a multidisciplinary team. Physiotherapy is one component of post-concussion care, not the sole treatment.
 
 ## DECLINE or REFER Triggers
 - Acute concussion in the first 48 hours (medical management first)
@@ -2104,6 +1930,7 @@ The cervicogenic, vestibular, and exercise tolerance components of post-concussi
 - Suspected intracranial hemorrhage (worst headache of life, altered consciousness — emergency)
 - Significant cognitive or psychological symptoms (memory loss, personality change, depression, anxiety) — REFER to neuropsychologist
 - Symptoms not improving after 4+ weeks of multidisciplinary management — REFER to concussion specialist
+- Dizziness, vertigo, gaze instability or motion sensitivity suggesting a vestibular component — REFER to a vestibular rehabilitation specialist (not provided at this clinic)
 
 ## What Physiotherapy Can Address
 
@@ -2114,12 +1941,12 @@ Neck pain and cervicogenic headache following head/neck trauma (the same mechani
 - Treatment: cervical mobilization, deep neck flexor training, neck strengthening
 - Expected response: reduced headache frequency and neck pain
 
-### 2. Vestibular Component
+### 2. Vestibular Component — Screen and Refer
 Dizziness, balance deficits, and motion sensitivity following concussion.
 
-- Assessment: vestibulo-ocular reflex (VOR), balance testing (BESS), motion sensitivity quotient
-- Treatment: vestibular rehabilitation (gaze stabilization, habituation exercises, balance training)
-- Expected response: reduced dizziness, improved balance scores, reduced motion sensitivity
+- Screening: dizziness with head movement, motion sensitivity, gaze instability
+- Action: REFER to a vestibular rehabilitation specialist — vestibular rehabilitation is not provided at this clinic
+- Cervical and exercise tolerance care may continue alongside, coordinated with the vestibular clinician
 
 ### 3. Exercise Tolerance
 Exercise intolerance (symptoms worsen with physical exertion) is common in post-concussion syndrome.
@@ -2130,14 +1957,13 @@ Exercise intolerance (symptoms worsen with physical exertion) is common in post-
 
 ## Clinical Hypothesis Examples
 - **Cervicogenic headache post-concussion:** Upper cervical dysfunction contributing to persistent headache. Tested with C1-C2 assessment and treatment. Expected response: if cervicogenic, headache reduces with cervical treatment.
-- **Vestibular dysfunction:** Peripheral vestibular injury or central vestibular processing deficit. Tested with VOR exercises and habituation. Expected response: reduced dizziness and improved gaze stability within 3–5 sessions.
+- **Vestibular dysfunction:** Peripheral vestibular injury or central vestibular processing deficit. Not tested with treatment at this clinic — REFER for vestibular assessment and rehabilitation.
 - **Exercise intolerance — autonomic dysfunction:** Autonomic nervous system dysregulation causing symptoms with exertion. Tested with sub-threshold aerobic exercise program. Expected response: gradual increase in symptom-free exercise intensity over 2–4 weeks.
-- **Combined cervicogenic + vestibular:** Both systems contributing (common). Tested with combined cervical and vestibular rehabilitation. Expected response: improvement in both headache and dizziness metrics.
+- **Combined cervicogenic + vestibular:** Both systems contributing (common). Cervical component tested here; vestibular component REFERRED. Expected response: headache metrics improve with cervical treatment.
 
 ## Trial Window
 5 sessions. Objective criteria:
 - Improved exercise tolerance (higher threshold on treadmill test)
-- Reduced dizziness scores (DHI or similar)
 - Improved balance (BESS score)
 - Reduced headache frequency or intensity
 - Improved cervical ROM (if cervicogenic component)
@@ -2157,7 +1983,7 @@ Physiotherapy guides the graded return to sport:
 Each stage must be completed symptom-free before progressing. If symptoms return, drop back to the previous symptom-free stage.
 
 ## Non-Response
-If cervicogenic, vestibular, or exercise tolerance symptoms do not improve within the trial window, reassess. Persistent symptoms may require referral to concussion specialist, neuropsychologist, or neuro-ophthalmologist. Post-concussion syndrome lasting >3 months with minimal improvement despite multidisciplinary care requires specialist team management.
+If cervicogenic or exercise tolerance symptoms do not improve within the trial window, reassess. Persistent symptoms may require referral to concussion specialist, neuropsychologist, or neuro-ophthalmologist. Post-concussion syndrome lasting >3 months with minimal improvement despite multidisciplinary care requires specialist team management.
 
 ## Related Documents
 - [Neck Pain](neck-pain.md)
@@ -2365,86 +2191,6 @@ If radicular symptoms do not centralize or neurological signs progress, the case
 - [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md)
 - [Red Flag Referral](../thresholds/red-flag-referral.md)
 - [Trial Window Limits](../thresholds/trial-window-limits.md)
-
-
---- source: conditions/scoliosis.md ---
-
-# Adolescent Idiopathic Scoliosis — Physiotherapy Scope
-
-## Definition
-Lateral curvature of the spine ≥10° (Cobb angle) in adolescents with no identifiable cause. Physiotherapy role: exercise-based management (Schroth method, SEAS), postural education, monitoring, and post-surgical rehabilitation.
-
-## Scope Boundaries
-- **IN scope:** Mild-moderate curves (10-40° Cobb) with exercise-based management, brace-wearing support, post-surgical spinal rehab, adult degenerative scoliosis with pain
-- **OUT of scope:** Bracing prescription (orthotist), surgical decision-making (orthopedic surgeon), curves >45-50° without surgical opinion
-
-## Red Flags → REFER
-- Rapid curve progression (>5° in 6 months in growing adolescent)
-- Neurological signs (asymmetric reflexes, weakness, bowel/bladder changes)
-- Pain as primary symptom in adolescent scoliosis (atypical — investigate further)
-- Left thoracic curve (higher association with intraspinal pathology)
-- Onset before age 10 (juvenile/infantile — different natural history)
-- Skeletal immaturity with curve >25° (bracing evaluation needed)
-
-## Clinical Hypothesis Framework
-
-### Mild Curves (10-25° Cobb) — Skeletal Immature
-- **Hypothesis:** Specific exercise can reduce curve progression risk during growth
-- **Test:** Schroth-based or SEAS exercise program, 3-5x/week home program
-- **Expected response:** Curve stabilization or improvement (verified by radiograph at 6-12 months)
-- **If progression:** REFER for bracing evaluation
-
-### Moderate Curves (25-40° Cobb) — With Brace
-- **Hypothesis:** Exercise combined with bracing optimizes outcomes
-- **Test:** Specific corrective exercises in and out of brace, breathing exercises, postural awareness
-- **Expected response:** Maintained/improved curve, improved body awareness, reduced pain if present
-- **If progression despite bracing + exercise:** REFER for surgical consultation
-
-### Adult Degenerative Scoliosis with Pain
-- **Hypothesis:** Pain is driven by muscle imbalance, deconditioning, or stenosis
-- **Test:** Core strengthening, flexibility program, functional training
-- **Expected response:** Pain reduction, improved function within 6-8 sessions
-- **If no response:** See [Lumbar Spinal Stenosis](./lumbar-spinal-stenosis.md) protocol
-
-## Exercise Approach (Schroth-Based Principles)
-1. **Auto-elongation:** Active spinal lengthening
-2. **3D Correction:** Addressing curve in all three planes (frontal, sagittal, transverse)
-3. **Rotational Angular Breathing:** Expanding concave side of curve
-4. **Muscle activation:** Strengthening convex-side muscles, releasing concave-side tightness
-5. **Postural integration:** Corrected posture in daily activities
-
-## Trial Protocol (TRIAL)
-| Session | Focus |
-|---------|-------|
-| 1 | Assessment, Cobb angle review, posture analysis, baseline functional measures |
-| 2-3 | Teach specific corrective exercises, establish home program |
-| 4-5 | Re-evaluate: exercise competence, posture in ADLs, pain if relevant |
-| 6+ | Ongoing monitoring (adolescent: every 3-6 months during growth) |
-
-## Decision Criteria
-
-### CONTINUE if:
-- Patient performing home exercises correctly
-- No curve progression
-- Improved posture awareness
-- Pain reduction (if pain was present)
-
-### DISCHARGE if:
-- Skeletal maturity reached with stable curve
-- Independent exercise program
-- Adult: functional goals met
-
-### REFER if:
-- Red flags present
-- Curve progression >5° despite exercise
-- Curve >25° in growing adolescent without brace evaluation
-- Curve >40-45° — surgical consultation
-- Neurological symptoms
-
-## Cross-References
-- [Thoracic Pain](./thoracic-pain.md) — May coexist
-- [Lumbar Spinal Stenosis](./lumbar-spinal-stenosis.md) — Relevant for adult degenerative scoliosis
-- [Trial Window Limits](../thresholds/trial-window-limits.md) — Extended monitoring justified for scoliosis
 
 
 --- source: conditions/shin-splints.md ---

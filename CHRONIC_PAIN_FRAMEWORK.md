@@ -166,4 +166,4 @@ Even chronic pain cases must have exit criteria:
 
 ---
 
-*This document is part of the Recovery TLV Clinical Decision System. See also: [Pain Neuroscience Education](PAIN_NEUROSCIENCE_EDUCATION.md), [Fibromyalgia](conditions/fibromyalgia.md), [Non-Response as Signal](models/non-response-as-signal.md)*
+*This document is part of the Recovery TLV Clinical Decision System. See also: [Pain Neuroscience Education](PAIN_NEUROSCIENCE_EDUCATION.md), [Non-Response as Signal](models/non-response-as-signal.md)*

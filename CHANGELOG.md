@@ -6,6 +6,27 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [1.0.2] — 2026-10-15
+
+Scope correction. **No decision logic changed.** The six canonical outputs, thresholds and enforcement
+rules remain identical. This release removes guides for conditions the clinic does not treat, so that
+readers and language models are not told otherwise.
+
+### Removed
+- `conditions/fibromyalgia.md`, `conditions/pelvic-floor-dysfunction.md`, `conditions/scoliosis.md`
+  (adolescent idiopathic / Schroth) and `PREGNANCY_MUSCULOSKELETAL.md` — not treated at this clinic.
+- `CLINICAL_CASES.md` Case 12 (fibromyalgia); later cases renumbered 12–14.
+
+### Changed
+- Post-concussion: the vestibular component is screened and **referred** (vestibular rehabilitation is not
+  provided at this clinic). Case 10 updated accordingly.
+- ACL return-to-sport strength criterion: handheld dynamometry (no isokinetic testing at this clinic).
+- Case 11: aquatic exercise is self-managed at a community pool (the clinic has no pool).
+- Indexes updated: `README.md`, `llms.txt`, `llms-ctx.txt`, `llms-full.txt`, `sitemap.xml`, `index.html`
+  JSON-LD, `codemeta.json`, `.zenodo.json` (42 → 39 condition guides).
+
+---
+
 ## [1.0.1] — 2026-06-13
 
 Maintenance release. **No decision logic changed.** The six canonical outputs,

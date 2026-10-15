@@ -135,13 +135,10 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [Calf Strain](./conditions/calf-strain.md) | Gastrocnemius/soleus strain, DVT differentiation |
 | [Shin Splints (MTSS)](./conditions/shin-splints.md) | Medial tibial stress syndrome, stress fracture differentiation |
 | [Shoulder Instability](./conditions/shoulder-instability.md) | Traumatic/atraumatic, TUBS/AMBRI classification |
-| [Post-Concussion](./conditions/post-concussion.md) | Cervicogenic, vestibular, exercise tolerance components |
-| [Pelvic Floor Dysfunction](./conditions/pelvic-floor-dysfunction.md) | Hypertonic/hypotonic, coccydynia, post-surgical pelvic rehab |
+| [Post-Concussion](./conditions/post-concussion.md) | Cervicogenic and exercise tolerance components; vestibular component referred |
 | [Thoracic Outlet Syndrome](./conditions/thoracic-outlet-syndrome.md) | Neurogenic TOS, scalene-mediated compression |
 | [Headache (Cervicogenic/Tension)](./conditions/headache-cervicogenic.md) | CGH, tension-type, SNOOP red flags |
 | [Knee Osteoarthritis](./conditions/knee-osteoarthritis.md) | Exercise-first approach, prehabilitation |
-| [Fibromyalgia](./conditions/fibromyalgia.md) | Central sensitization, graded exercise, pacing |
-| [Scoliosis](./conditions/scoliosis.md) | Adolescent idiopathic, Schroth-based exercise |
 | [Rib Dysfunction](./conditions/rib-dysfunction.md) | Costochondritis, costovertebral dysfunction |
 | [Dupuytren's Contracture](./conditions/dupuytren-contracture.md) | Post-surgical hand rehab, splinting protocol |
 
@@ -155,7 +152,7 @@ There are no grey areas. Continuation requires **objective evidence**: ≥10% im
 | [GLOSSARY.md](./GLOSSARY.md) | Definitions of key terms |
 | [WORKFLOW.md](./WORKFLOW.md) | Clinical workflow cycle with practical guidance |
 | [FAQ.md](./FAQ.md) | Questions for patients and clinicians |
-| [CLINICAL_CASES.md](./CLINICAL_CASES.md) | 15 fictional cases demonstrating the decision system |
+| [CLINICAL_CASES.md](./CLINICAL_CASES.md) | 14 fictional cases demonstrating the decision system |
 | [WHAT_TO_EXPECT.md](./WHAT_TO_EXPECT.md) | Patient guide — what happens at your first visit |
 | [REFERRAL_GUIDE.md](./REFERRAL_GUIDE.md) | For physicians — how to refer patients |
 | [EVIDENCE_BASE.md](./EVIDENCE_BASE.md) | Academic references supporting the system |
