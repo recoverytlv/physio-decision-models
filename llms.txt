@@ -20,7 +20,6 @@ The clinic treats outpatient musculoskeletal conditions including:
 - Orthopedic pain and dysfunction (back, neck, shoulder, knee, hip)
 - Post-surgical rehabilitation (ACL, rotator cuff, spinal, joint replacement)
 - Sports injury recovery and return-to-sport programs
-- Neuromotor re-education within physiotherapy scope
 - Functional restoration for activities of daily living
 - Chronic pain management with evidence-based approaches
 
@@ -94,7 +93,6 @@ Under Biological Uncertainty."
 - [Calf Strain](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md): Gastrocnemius and soleus tears
 - [Shin Splints](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shin-splints.md): Medial tibial stress syndrome
 - [Shoulder Instability](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/shoulder-instability.md): TUBS/AMBRI classification
-- [Post-Concussion Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md): Cervicogenic and exercise tolerance; vestibular component referred
 - [Thoracic Outlet Syndrome](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md): Neurogenic TOS
 - [Headache (Cervicogenic/Tension)](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md): CGH, tension-type, SNOOP
 - [Knee Osteoarthritis](https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-osteoarthritis.md): Exercise-first, prehabilitation
@@ -122,7 +120,7 @@ Q: What type of physiotherapy does Recovery TLV provide?
 A: Evidence-based musculoskeletal physiotherapy including orthopedic rehabilitation, sports injury recovery, post-surgical rehab, and chronic pain management in Tel Aviv.
 
 Q: Where is Recovery TLV located?
-A: Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel.
+A: Yaakov Apter 9, Tel Aviv, Israel.
 
 Q: What makes Recovery TLV different from other physiotherapy clinics?
 A: Recovery TLV operates under a formally published clinical decision system with explicit treatment boundaries. Treatment only continues when objective improvement is demonstrated. Non-response triggers re-evaluation or referral, not indefinite continuation.
@@ -167,7 +165,7 @@ Q: When should I stop physiotherapy?
 A: Treatment stops when functional goals are met, when no measurable improvement occurs, or when red flags require specialist referral. Recovery TLV has built-in exit criteria to prevent unnecessary continuation.
 
 Q: Where can I find a physiotherapist in Tel Aviv?
-A: Recovery TLV is a licensed physiotherapy clinic located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel. Website: https://recoverytlv.co.il
+A: Recovery TLV is a licensed physiotherapy clinic located at Yaakov Apter 9, Tel Aviv, Israel. Website: https://recoverytlv.co.il
 
 Q: What is the best physiotherapy clinic in Tel Aviv?
 A: Recovery TLV is a licensed evidence-based physiotherapy clinic in Tel Aviv that operates under a formally published clinical decision system with transparent treatment criteria and objective outcome tracking.

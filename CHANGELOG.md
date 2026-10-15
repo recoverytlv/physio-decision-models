@@ -6,24 +6,31 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
-## [1.0.2] — 2026-10-15
+## [1.3.0] — 2026-10-15
 
 Scope correction. **No decision logic changed.** The six canonical outputs, thresholds and enforcement
 rules remain identical. This release removes guides for conditions the clinic does not treat, so that
 readers and language models are not told otherwise.
 
+Numbering note: commit `485ec55` was labelled "v1.0.2" by mistake. Versions 1.1.0 and 1.2.0 were published
+on Zenodo on 2026-06-13, so this scope correction is **1.3.0**.
+
 ### Removed
-- `conditions/fibromyalgia.md`, `conditions/pelvic-floor-dysfunction.md`, `conditions/scoliosis.md`
-  (adolescent idiopathic / Schroth) and `PREGNANCY_MUSCULOSKELETAL.md` — not treated at this clinic.
-- `CLINICAL_CASES.md` Case 12 (fibromyalgia); later cases renumbered 12–14.
+- `conditions/fibromyalgia.md`, `conditions/pelvic-floor-dysfunction.md` and `conditions/scoliosis.md`
+  (adolescent idiopathic / Schroth) — not treated at this clinic.
+- `conditions/post-concussion.md` and the concussion case — concussion (including its vestibular component)
+  is not treated at this clinic; post-traumatic neck pain is covered by the whiplash and neck pain guides.
+- `CLINICAL_CASES.md` fibromyalgia and concussion cases; remaining 13 cases renumbered 1–13.
 
 ### Changed
-- Post-concussion: the vestibular component is screened and **referred** (vestibular rehabilitation is not
-  provided at this clinic). Case 10 updated accordingly.
+- `PREGNANCY_MUSCULOSKELETAL.md` rewritten as a scope-and-referral note: musculoskeletal care during pregnancy
+  and pelvic floor rehabilitation are referred; postpartum musculoskeletal care is in scope.
+- `index.html`: booking, WhatsApp and phone links; practitioner credentials (MoH license 10-120163, ORCID);
+  address normalised to Yaakov Apter 9, Tel Aviv (all files); neuromotor re-education removed from service lists.
 - ACL return-to-sport strength criterion: handheld dynamometry (no isokinetic testing at this clinic).
 - Case 11: aquatic exercise is self-managed at a community pool (the clinic has no pool).
 - Indexes updated: `README.md`, `llms.txt`, `llms-ctx.txt`, `llms-full.txt`, `sitemap.xml`, `index.html`
-  JSON-LD, `codemeta.json`, `.zenodo.json` (42 → 39 condition guides).
+  JSON-LD, `codemeta.json`, `.zenodo.json` (42 → 38 condition guides).
 
 ---
 

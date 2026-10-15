@@ -1278,7 +1278,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 - **P**ositional pattern change, progressive pattern, precipitated by Valsalva
 
 ### Additional Red Flags
-- Headache after head trauma with cognitive changes → post-concussion protocol
+- Headache after head trauma with cognitive changes → REFER (concussion care is not provided at this clinic)
 - New daily persistent headache
 - Headache with jaw claudication (giant cell arteritis → REFER urgently)
 - Seizure with headache
@@ -1314,7 +1314,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 ### Post-Traumatic Headache (Musculoskeletal Component)
 - **Hypothesis:** Cervical dysfunction from trauma contributes to ongoing headache
 - **Test:** Cervical assessment and treatment per CGH protocol
-- **Expected response:** See [Post-Concussion Protocol](./post-concussion.md)
+- **Expected response:** Reduced headache frequency with cervical treatment; any concussion symptoms → REFER
 - **If no response:** Multidisciplinary referral
 
 ## Outcome Measures
@@ -1349,7 +1349,6 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 
 ## Cross-References
 - [Whiplash](./whiplash.md) — CGH common after WAD
-- [Post-Concussion](./post-concussion.md) — Post-traumatic headache protocol
 - [Non-Response as Signal](../models/non-response-as-signal.md) — Non-response may indicate incorrect headache classification
 
 
@@ -1912,85 +1911,6 @@ If first-step pain and walking tolerance do not improve within the trial window,
 - [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md)
 - [Trial Window Limits](../thresholds/trial-window-limits.md)
 - [Continuation Criteria](../thresholds/continuation-criteria.md)
-
-
---- source: conditions/post-concussion.md ---
-
-# Post-Concussion Syndrome — Physiotherapy Role
-
-## Condition
-Persistent symptoms following concussion (mild traumatic brain injury) lasting beyond the expected recovery period (>10-14 days in adults). Symptoms may include headache, dizziness, neck pain, balance deficits, exercise intolerance, and visual disturbance. This clinic addresses the cervical and exercise tolerance components; a vestibular component is screened for and referred.
-
-## Scope Check
-The cervicogenic and exercise tolerance components of post-concussion syndrome are within this clinic's scope. Vestibular rehabilitation is a physiotherapy specialty that this clinic does not provide: a suspected vestibular component is REFERRED to a vestibular rehabilitation specialist. Cognitive, psychological, and medical management of concussion requires a multidisciplinary team. Physiotherapy is one component of post-concussion care, not the sole treatment.
-
-## DECLINE or REFER Triggers
-- Acute concussion in the first 48 hours (medical management first)
-- Worsening neurological symptoms (confusion, repeated vomiting, seizures, worsening headache — emergency)
-- Suspected intracranial hemorrhage (worst headache of life, altered consciousness — emergency)
-- Significant cognitive or psychological symptoms (memory loss, personality change, depression, anxiety) — REFER to neuropsychologist
-- Symptoms not improving after 4+ weeks of multidisciplinary management — REFER to concussion specialist
-- Dizziness, vertigo, gaze instability or motion sensitivity suggesting a vestibular component — REFER to a vestibular rehabilitation specialist (not provided at this clinic)
-
-## What Physiotherapy Can Address
-
-### 1. Cervicogenic Component
-Neck pain and cervicogenic headache following head/neck trauma (the same mechanism that causes concussion often injures the cervical spine).
-
-- Assessment: cervical ROM, segmental mobility, deep neck flexor endurance, cervicogenic headache provocation
-- Treatment: cervical mobilization, deep neck flexor training, neck strengthening
-- Expected response: reduced headache frequency and neck pain
-
-### 2. Vestibular Component — Screen and Refer
-Dizziness, balance deficits, and motion sensitivity following concussion.
-
-- Screening: dizziness with head movement, motion sensitivity, gaze instability
-- Action: REFER to a vestibular rehabilitation specialist — vestibular rehabilitation is not provided at this clinic
-- Cervical and exercise tolerance care may continue alongside, coordinated with the vestibular clinician
-
-### 3. Exercise Tolerance
-Exercise intolerance (symptoms worsen with physical exertion) is common in post-concussion syndrome.
-
-- Assessment: Buffalo Concussion Treadmill Test or modified exercise tolerance test — identify symptom threshold
-- Treatment: sub-symptom threshold aerobic exercise, gradually progressed
-- Expected response: increasing exercise tolerance without symptom exacerbation
-
-## Clinical Hypothesis Examples
-- **Cervicogenic headache post-concussion:** Upper cervical dysfunction contributing to persistent headache. Tested with C1-C2 assessment and treatment. Expected response: if cervicogenic, headache reduces with cervical treatment.
-- **Vestibular dysfunction:** Peripheral vestibular injury or central vestibular processing deficit. Not tested with treatment at this clinic — REFER for vestibular assessment and rehabilitation.
-- **Exercise intolerance — autonomic dysfunction:** Autonomic nervous system dysregulation causing symptoms with exertion. Tested with sub-threshold aerobic exercise program. Expected response: gradual increase in symptom-free exercise intensity over 2–4 weeks.
-- **Combined cervicogenic + vestibular:** Both systems contributing (common). Cervical component tested here; vestibular component REFERRED. Expected response: headache metrics improve with cervical treatment.
-
-## Trial Window
-5 sessions. Objective criteria:
-- Improved exercise tolerance (higher threshold on treadmill test)
-- Improved balance (BESS score)
-- Reduced headache frequency or intensity
-- Improved cervical ROM (if cervicogenic component)
-
-## Return to Sport Protocol (After Concussion)
-Physiotherapy guides the graded return to sport:
-
-| Stage | Activity | Minimum Duration |
-|---|---|---|
-| 1 | Symptom-limited activity (daily activities that don't provoke symptoms) | 24 hours |
-| 2 | Light aerobic exercise (walking, cycling at mild intensity) | 24 hours |
-| 3 | Sport-specific exercise (running drills, no contact) | 24 hours |
-| 4 | Non-contact training drills (complex drills, resistance training) | 24 hours |
-| 5 | Full contact practice (after medical clearance) | 24 hours |
-| 6 | Return to competition | — |
-
-Each stage must be completed symptom-free before progressing. If symptoms return, drop back to the previous symptom-free stage.
-
-## Non-Response
-If cervicogenic or exercise tolerance symptoms do not improve within the trial window, reassess. Persistent symptoms may require referral to concussion specialist, neuropsychologist, or neuro-ophthalmologist. Post-concussion syndrome lasting >3 months with minimal improvement despite multidisciplinary care requires specialist team management.
-
-## Related Documents
-- [Neck Pain](neck-pain.md)
-- [Whiplash](whiplash.md)
-- [Cervical Radiculopathy](cervical-radiculopathy.md)
-- [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md)
-- [Red Flag Referral](../thresholds/red-flag-referral.md)
 
 
 --- source: conditions/post-surgical-spinal-rehab.md ---

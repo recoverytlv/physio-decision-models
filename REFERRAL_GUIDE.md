@@ -11,7 +11,6 @@ Recovery TLV provides evidence-based musculoskeletal physiotherapy for:
 - Lower extremity (knee pain, patellofemoral syndrome, meniscus injuries, ACL reconstruction rehab, total knee replacement rehab, hip pain, FAI, gluteal tendinopathy, total hip replacement rehab, ankle sprain, Achilles tendinopathy, plantar fasciitis, calf strain, shin splints)
 - TMJ disorders
 - Whiplash-associated disorders
-- Post-concussion syndrome (cervicogenic and exercise tolerance components; vestibular component referred)
 - Sports injuries and return-to-sport programs
 - Chronic pain (musculoskeletal origin, evidence-based approach)
 
@@ -112,5 +111,5 @@ You can verify how we make treatment decisions. The system is publicly auditable
 ## Contact
 
 Recovery TLV — Private Physiotherapy Clinic
-Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel
+Yaakov Apter 9, Tel Aviv, Israel
 Website: [recoverytlv.co.il](https://recoverytlv.co.il)

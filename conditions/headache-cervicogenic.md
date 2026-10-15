@@ -17,7 +17,7 @@ red_flags:
   - "**O**nset sudden ('thunderclap' — worst headache of life)"
   - "**O**lder age (new headache >50 years — giant cell arteritis)"
   - "**P**ositional pattern change, progressive pattern, precipitated by Valsalva"
-  - "Headache after head trauma with cognitive changes → post-concussion protocol"
+  - "Headache after head trauma with cognitive changes → REFER (concussion care is not provided at this clinic)"
   - "New daily persistent headache"
   - "Headache with jaw claudication (giant cell arteritis → REFER urgently)"
   - "Seizure with headache"
@@ -42,7 +42,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 - **P**ositional pattern change, progressive pattern, precipitated by Valsalva
 
 ### Additional Red Flags
-- Headache after head trauma with cognitive changes → post-concussion protocol
+- Headache after head trauma with cognitive changes → REFER (concussion care is not provided at this clinic)
 - New daily persistent headache
 - Headache with jaw claudication (giant cell arteritis → REFER urgently)
 - Seizure with headache
@@ -78,7 +78,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 ### Post-Traumatic Headache (Musculoskeletal Component)
 - **Hypothesis:** Cervical dysfunction from trauma contributes to ongoing headache
 - **Test:** Cervical assessment and treatment per CGH protocol
-- **Expected response:** See [Post-Concussion Protocol](./post-concussion.md)
+- **Expected response:** Reduced headache frequency with cervical treatment; any concussion symptoms → REFER
 - **If no response:** Multidisciplinary referral
 
 ## Outcome Measures
@@ -113,5 +113,4 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 
 ## Cross-References
 - [Whiplash](./whiplash.md) — CGH common after WAD
-- [Post-Concussion](./post-concussion.md) — Post-traumatic headache protocol
 - [Non-Response as Signal](../models/non-response-as-signal.md) — Non-response may indicate incorrect headache classification

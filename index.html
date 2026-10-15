@@ -61,16 +61,11 @@
               "@type": "PhysicalTherapy",
               "name": "Chronic Pain Management",
               "description": "Evidence-based physiotherapy approaches for persistent musculoskeletal pain conditions"
-            },
-            {
-              "@type": "PhysicalTherapy",
-              "name": "Neuromotor Re-education",
-              "description": "Movement retraining and functional restoration within physiotherapy scope"
             }
           ],
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Ja'Aqov Efter St 9",
+            "streetAddress": "Yaakov Apter 9",
             "addressLocality": "Tel Aviv-Yafo",
             "addressCountry": "IL"
           },
@@ -152,7 +147,6 @@
             "Calf Strain",
             "Shin Splints",
             "Shoulder Instability",
-            "Post-Concussion Rehabilitation",
             "Thoracic Outlet Syndrome",
             "Cervicogenic Headache",
             "Tension-Type Headache",
@@ -432,12 +426,6 @@
             },
             {
               "@type": "CreativeWork",
-              "name": "Post-Concussion Syndrome Clinical Guide",
-              "url": "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/post-concussion.md",
-              "description": "Cervicogenic and exercise tolerance components with return-to-sport protocol; vestibular component referred"
-            },
-            {
-              "@type": "CreativeWork",
               "name": "Thoracic Outlet Syndrome Clinical Guide",
               "url": "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/thoracic-outlet-syndrome.md",
               "description": "Neurogenic TOS with scalene, postural, and first rib hypotheses"
@@ -506,7 +494,7 @@
               "name": "What type of physiotherapy does Recovery TLV provide?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Recovery TLV provides evidence-based musculoskeletal physiotherapy in Tel Aviv, including orthopedic rehabilitation, sports injury recovery, post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal), chronic pain management, and neuromotor re-education."
+                "text": "Recovery TLV provides evidence-based musculoskeletal physiotherapy in Tel Aviv, including orthopedic rehabilitation, sports injury recovery, post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal), and chronic pain management."
               }
             },
             {
@@ -514,7 +502,7 @@
               "name": "Where is Recovery TLV located?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Recovery TLV is located at Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel."
+                "text": "Recovery TLV is located at Yaakov Apter 9, Tel Aviv, Israel."
               }
             },
             {
@@ -690,12 +678,17 @@
             border-radius: 6px;
             margin: 1rem 0;
         }
+        .cta { margin-top: 1rem; }
+        .cta a { display: inline-block; margin: .25rem .5rem .25rem 0; padding: .6rem 1.1rem; border-radius: 8px; background: #00b4d8; color: #04121f; font-weight: 700; text-decoration: none; }
+        .cta a.alt { background: #25D366; }
+        .cta a.alt2 { background: transparent; color: inherit; border: 1px solid currentColor; }
     </style>
 </head>
 <body>
 <header>
     <h1>Recovery TLV — Physiotherapy in Tel Aviv</h1>
     <p><strong>Evidence-based musculoskeletal physiotherapy</strong> with transparent clinical decision criteria.</p>
+    <p class="cta"><a href="https://recoverytlv.co.il/booking/en/">Book an appointment</a><a class="alt" href="https://wa.me/972507171222">WhatsApp</a><a class="alt2" href="tel:+972507171222">050-717-1222</a></p>
 </header>
 <main>
 <section>
@@ -704,6 +697,10 @@
         Recovery TLV is a licensed physiotherapy clinic in Tel Aviv, Israel, founded by
         <strong>Alejandro Zubrisky</strong>, a physiotherapist specializing in musculoskeletal
         rehabilitation and clinical reasoning under biological uncertainty.
+    </p>
+    <p>
+        Alejandro Zubrisky, BPT — licensed by the Israel Ministry of Health (license 10-120163)
+        · ORCID <a href="https://orcid.org/0009-0003-1069-937X">0009-0003-1069-937X</a>.
     </p>
     <p>
         The clinic operates under a <strong>formal clinical decision system</strong> — a published,
@@ -720,7 +717,6 @@
         <li><strong>Post-Surgical Rehabilitation</strong> — ACL reconstruction, rotator cuff repair, joint replacement, spinal surgery</li>
         <li><strong>Sports Injury Recovery</strong> — Return-to-sport programs with objective milestone tracking</li>
         <li><strong>Chronic Pain Management</strong> — Evidence-based approaches for persistent pain conditions</li>
-        <li><strong>Neuromotor Re-education</strong> — Movement retraining and functional restoration</li>
     </ul>
 </section>
 
@@ -803,8 +799,9 @@
     <h2>Location</h2>
     <p>
         <strong>Recovery TLV</strong><br>
-        Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel<br>
-        Website: <a href="https://recoverytlv.co.il">recoverytlv.co.il</a>
+        Yaakov Apter 9, Tel Aviv, Israel<br>
+        Website: <a href="https://recoverytlv.co.il">recoverytlv.co.il</a><br>
+        Book: <a href="https://recoverytlv.co.il/booking/en/">recoverytlv.co.il/booking/en/</a> · Phone / WhatsApp: <a href="tel:+972507171222">050-717-1222</a>
     </p>
 </section>
 
@@ -813,7 +810,7 @@
 
     <div class="faq-item">
         <h3>What type of physiotherapy does Recovery TLV provide?</h3>
-        <p>Evidence-based musculoskeletal physiotherapy including orthopedic rehabilitation, sports injury recovery, post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal), chronic pain management, and neuromotor re-education.</p>
+        <p>Evidence-based musculoskeletal physiotherapy including orthopedic rehabilitation, sports injury recovery, post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal), and chronic pain management.</p>
     </div>
 
     <div class="faq-item">
@@ -901,8 +898,8 @@
     <h2>Jurisdiction & Status</h2>
     <ul>
         <li>Jurisdiction: Tel Aviv, Israel</li>
-        <li>Clinical Decision System version: 1.0.0 (Frozen)</li>
-        <li>Last updated: 2025-12-27</li>
+        <li>Clinical Decision System version: 1.3.0 (decision logic unchanged since 1.0.0)</li>
+        <li>Last updated: 2026-10-15</li>
     </ul>
 </section>
 </main>

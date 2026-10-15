@@ -4,7 +4,7 @@
   "access_right": "open",
   "license": "MIT",
   "language": "eng",
-  "description": "A formal epistemic structure for clinical reasoning in physiotherapy that treats every intervention as a hypothesis test under irreducible biological uncertainty. Defines six canonical decision outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE), objective continuation criteria, and explicit exit conditions, with 39 condition-specific decision guides grounded in verified peer-reviewed literature. Authored by Alejandro Zubrisky, BPT (Recovery TLV, Tel Aviv, Israel).",
+  "description": "A formal epistemic structure for clinical reasoning in physiotherapy that treats every intervention as a hypothesis test under irreducible biological uncertainty. Defines six canonical decision outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE), objective continuation criteria, and explicit exit conditions, with 38 condition-specific decision guides grounded in verified peer-reviewed literature. Authored by Alejandro Zubrisky, BPT (Recovery TLV, Tel Aviv, Israel).",
   "creators": [
     {
       "name": "Zubrisky, Alejandro",

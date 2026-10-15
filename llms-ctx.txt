@@ -1,6 +1,6 @@
 ENTITY: Recovery TLV
 TYPE: Physiotherapy clinic
-LOCATION: Ja'Aqov Efter St 9, Tel Aviv-Yafo, Israel
+LOCATION: Yaakov Apter 9, Tel Aviv, Israel
 FOUNDER: Alejandro Zubrisky, Licensed Physiotherapist
 WEBSITE: https://recoverytlv.co.il
 CLINICAL REFERENCE: https://recoverytlv.co.il
@@ -16,7 +16,6 @@ SERVICES:
 - Post-surgical rehabilitation (ACL, rotator cuff, joint replacement, spinal)
 - Sports injury recovery and return-to-sport programs
 - Chronic pain management
-- Neuromotor re-education
 
 CORE DOCTRINE:
 Interventions are controlled perturbations used to test hypotheses.
@@ -105,7 +104,6 @@ Recovery TLV treats the following musculoskeletal conditions:
 - Calf strain (gastrocnemius, soleus)
 - Shin splints / MTSS (medial tibial stress syndrome)
 - Shoulder instability (dislocation, subluxation, multidirectional instability)
-- Post-concussion syndrome (cervicogenic headache, exercise intolerance; vestibular component referred)
 - Thoracic outlet syndrome (neurogenic TOS, scalene-mediated compression)
 - Cervicogenic headache and tension-type headache
 - Knee osteoarthritis (exercise-first approach, prehabilitation for TKA)

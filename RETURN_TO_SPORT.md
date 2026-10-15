@@ -72,7 +72,6 @@ These are **minimum** timelines. Criteria must also be met — time alone is ins
 | Ankle sprain (Grade I-II) | 1-4 weeks | Single leg balance, hop tests, sport-specific agility |
 | Calf strain (Grade I-II) | 2-6 weeks | Pain-free running, heel raise endurance ≥25 reps, hop test |
 | Rotator cuff (non-surgical) | 6-12 weeks | Full ROM, strength ≥90%, sport-specific throwing/swimming |
-| Concussion | Variable (see protocol) | Graded return-to-sport protocol, symptom-free at each stage |
 | Meniscus (non-surgical) | 4-8 weeks | Full ROM, no effusion, strength ≥90%, hop tests |
 | Stress fracture | 6-12 weeks | Pain-free running progression, completed return-to-run protocol |
 

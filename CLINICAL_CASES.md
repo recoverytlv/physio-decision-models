@@ -254,43 +254,6 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Case 10: Concussion — Multisystem Assessment
-
-**Intake:** 24-year-old male football player, 3 weeks post-concussion. Cleared by neurologist for physiotherapy. Persistent symptoms: headache (daily), dizziness with head movement, neck pain, and exercise intolerance (symptoms worsen after 5 minutes of jogging).
-
-**Listen → Evaluate:**
-- Cervical: restricted C1-C2 rotation, deep neck flexor endurance reduced, cervicogenic headache provocation test positive
-- Vestibular: positive head impulse test, reduced VOR gain, motion sensitivity quotient elevated
-- Exercise tolerance: Buffalo Treadmill Test — symptoms at heart rate 120 bpm (expected >150)
-
-**Three hypotheses identified:**
-1. Cervicogenic headache from upper cervical dysfunction (whiplash component)
-2. Peripheral vestibular dysfunction (head impulse positive) — REFER: vestibular rehabilitation is not provided at this clinic
-3. Autonomic dysregulation (exercise intolerance at low heart rate)
-
-**Set Goals:** Reduce headache frequency, resolve dizziness, complete Buffalo Treadmill Test symptom-free, return to sport.
-
-**TRIAL (Sessions 1–5):**
-- C1-C2 mobilization + deep neck flexor training
-- Vestibular component: REFERRED to a vestibular rehabilitation specialist; care coordinated in parallel
-- Sub-threshold aerobic exercise (walking at HR 100, progressing)
-- Session 3: Headache frequency reduced 50%, dizziness improved with daily activities
-- Session 5: Buffalo test symptom-free to HR 140, cervical ROM normalized
-
-**Decision → CONTINUE** (cervical and exercise tolerance improving; vestibular component managed by referral)
-
-**Sessions 6–10:**
-- Sport-specific drills (vestibular progression continued with the vestibular clinician)
-- Graded return to sport protocol initiated
-- Session 8: Symptom-free at all exercise intensities
-- Session 10: Completed all return-to-sport stages, cleared for full contact practice
-
-**Decision → DISCHARGE** (return to sport protocol completed)
-
-**Key lesson:** Post-concussion syndrome requires systematic assessment of multiple systems. Each system was handled as a separate hypothesis with its own expected response — two treated here, one referred. Knowing which component to refer is part of the system.
-
----
-
 ## How These Cases Demonstrate the System
 
 | Case | Key Decision | System Principle |
@@ -304,11 +267,10 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 | Case 7 | DEFER → reassess → correct TRIAL | Wrong hypothesis wastes time; DEFER is valid |
 | Case 8 | Address fear-avoidance alongside stiffness | Yellow flags are as important as physical findings |
 | Case 9 | Previous treatment was the problem | Knowing what NOT to do matters |
-| Case 10 | Multi-hypothesis approach | Complex cases need systematic multi-system assessment |
 
 ---
 
-## Case 11: Knee Osteoarthritis — Exercise Over Surgery
+## Case 10: Knee Osteoarthritis — Exercise Over Surgery
 
 **Intake:** 68-year-old retired teacher, bilateral knee pain for 2 years. X-ray shows "bone on bone" medial compartment. Previous doctor recommended knee replacement. Patient wants to try physiotherapy first. BMI 31.
 
@@ -340,7 +302,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Case 12: Thoracic Outlet Syndrome — Differential Diagnosis Matters
+## Case 11: Thoracic Outlet Syndrome — Differential Diagnosis Matters
 
 **Intake:** 34-year-old software developer, 6 months of right arm numbness and tingling. Worse at end of workday. Seen by neurologist — nerve conduction normal. MRI cervical spine unremarkable. Referred for "cervical radiculopathy."
 
@@ -372,7 +334,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Case 13: Geriatric Fall Prevention — Beyond the Injury
+## Case 12: Geriatric Fall Prevention — Beyond the Injury
 
 **Intake:** 78-year-old widow, right hip pain after fall 3 weeks ago. X-ray negative for fracture. Lives alone. Daughter brought her because she's "afraid to walk."
 
@@ -409,7 +371,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Case 14: Rib Dysfunction Masquerading as Cardiac Pain
+## Case 13: Rib Dysfunction Masquerading as Cardiac Pain
 
 **Intake:** 52-year-old businessman, left-sided chest pain for 2 weeks. Saw cardiologist: ECG normal, stress test normal, troponin negative, echocardiogram normal. Referred to physiotherapy for "musculoskeletal chest pain."
 
@@ -452,11 +414,10 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 | Case 7 | Runner's knee | DEFER → reassess → correct TRIAL | Wrong hypothesis wastes time; DEFER is valid |
 | Case 8 | Post-TKR | Address fear-avoidance alongside stiffness | Yellow flags are as important as physical findings |
 | Case 9 | Lateral hip | Previous treatment was the problem | Knowing what NOT to do matters |
-| Case 10 | Post-concussion | Multi-hypothesis approach | Complex cases need systematic multi-system assessment |
-| Case 11 | Knee OA | Exercise over surgery | Imaging severity doesn't predict exercise response |
-| Case 12 | TOS | Differential diagnosis matters | Referral diagnosis isn't always correct |
-| Case 13 | Geriatric falls | Beyond the presenting complaint | Fall risk, fear, and medications matter more than hip pain |
-| Case 14 | Rib dysfunction | Diagnosis of exclusion | Cardiac workup first, then musculoskeletal |
+| Case 10 | Knee OA | Exercise over surgery | Imaging severity doesn't predict exercise response |
+| Case 11 | TOS | Differential diagnosis matters | Referral diagnosis isn't always correct |
+| Case 12 | Geriatric falls | Beyond the presenting complaint | Fall risk, fear, and medications matter more than hip pain |
+| Case 13 | Rib dysfunction | Diagnosis of exclusion | Cardiac workup first, then musculoskeletal |
 
 In every case, the workflow is the same: **Listen → Evaluate → Set Goals → Treat → Re-evaluate → Decide.**
 
