@@ -2,7 +2,7 @@
 title: "Tension-Type Headache & Cervicogenic Headache"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Tension-type headache and cervicogenic headache with a musculoskeletal contribution from the neck. Red flags for secondary headache are screened first."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Systemic symptoms (fever, weight loss, cancer history)"
   - "Neurological signs (papilledema, focal deficit, altered consciousness)"
@@ -75,7 +75,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 ### Tension-Type with Muscular Component
 - **Hypothesis:** Cervical/pericranial muscle tension drives headache
 - **Test:** Suboccipital release, upper trapezius/SCM soft tissue work, postural correction, stress management
-- **Expected response:** Reduced intensity and frequency within 3-5 sessions
+- **Expected response:** Reduced intensity and frequency within 4 sessions
 - **If no response:** Consider central sensitization, medication overuse → REFER
 
 ### Post-Traumatic Headache (Musculoskeletal Component)
@@ -95,13 +95,13 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 |---------|-------|
 | 1 | Classification (TTH vs CGH vs mixed), cervical assessment, baseline headache diary |
 | 2-3 | Targeted cervical treatment, ergonomic advice, self-management strategies |
-| 4-5 | Re-evaluate upper cervical rotation and deep neck flexor performance vs baseline; headache diary (frequency, intensity) and NDI recorded as supplementary data |
+| 4 | Re-evaluate upper cervical rotation and deep neck flexor performance vs baseline; headache diary (frequency, intensity) and NDI recorded as supplementary data unless a validated headache-intensity scale was the marker agreed at the first session |
 
 ## Decision Criteria
 
 ### CONTINUE if:
-- ≥10% improvement in upper cervical rotation or in deep neck flexor performance, beyond measurement error
-- Headache frequency and intensity (diary) and NDI are recorded as supplementary data, not as continuation criteria
+- Measurable improvement in upper cervical rotation or in deep neck flexor performance, beyond measurement error
+- Headache frequency and intensity (diary) and NDI are recorded as supplementary data unless a validated headache-intensity scale was the marker agreed at the first session
 
 ### DISCHARGE if:
 - Headache well-controlled with self-management
@@ -109,7 +109,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 
 ### REFER if:
 - Any SNOOP red flag
-- No response to 5 sessions of targeted cervical treatment
+- No measurable change after 4 sessions of targeted cervical treatment
 - Suspected migraine requiring medication management
 - Medication overuse headache pattern
 

@@ -1,7 +1,7 @@
 # Recovery TLV — Modèles de Décision Clinique en Physiothérapie
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 
 **Un système formel de décision clinique pour la physiothérapie sous incertitude biologique.**
 
@@ -22,11 +22,11 @@ Chaque cas doit se terminer par l'une des six sorties :
 | **DECLINE** | Refus — hors du champ de la physiothérapie |
 | **DEFER** | Report — données insuffisantes pour décider |
 | **REFER** | Orientation — drapeaux rouges nécessitant un spécialiste |
-| **TRIAL** | Acceptation conditionnelle pour 3–5 séances |
+| **TRIAL** | Acceptation conditionnelle pour 4 séances |
 | **CONTINUE** | Poursuite — uniquement avec amélioration objective documentée |
 | **DISCHARGE** | Fin du traitement — objectifs atteints ou plateau de progression |
 
-La poursuite du traitement nécessite des **preuves objectives** : amélioration d'au moins 10% de l'amplitude de mouvement, progrès fonctionnel documenté, ou réduction des stratégies de compensation. Les rapports subjectifs seuls sont insuffisants.
+La poursuite du traitement nécessite des **preuves objectives** : amélioration mesurable (supérieure à l'erreur de mesure) de l'amplitude de mouvement, progrès fonctionnel documenté, ou réduction des stratégies de compensation. Les rapports subjectifs seuls sont insuffisants.
 
 ## Principes
 

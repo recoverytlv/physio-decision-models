@@ -32,13 +32,13 @@ with one of six valid outputs:
 - DECLINE: Case rejected (out of scope or contraindicated)
 - DEFER: Decision postponed (insufficient data)
 - REFER: Transferred to another professional (red flags detected)
-- TRIAL: Conditional acceptance for 3-5 sessions
+- TRIAL: Conditional acceptance for 4 sessions
 - CONTINUE: Extension only if objective functional improvement is demonstrated
 - DISCHARGE: Termination after goals achieved or progress plateau
 
 Non-response to treatment is treated as valuable diagnostic information, not failure.
-If no measurable improvement occurs (≥10% in ROM or another objective measure, or documented
-functional change), the hypothesis is revised once, or the patient is discharged or referred. Uncertainty favors non-action.
+If the marker agreed at the first session has not changed measurably (beyond measurement error) after
+4 sessions, the case is re-evaluated: the hypothesis is revised once, or the patient is discharged or referred. Uncertainty favors non-action.
 
 ## What Makes Recovery TLV Different
 
@@ -64,7 +64,7 @@ Under Biological Uncertainty."
 - [Dose-Response Coupling](https://github.com/recoverytlv/physio-decision-models/blob/main/models/dose-response-coupling.md): Dose-response relationship as decision signal
 - [Subjective Report Insufficiency](https://github.com/recoverytlv/physio-decision-models/blob/main/models/subjective-report-insufficiency.md): Limits of subjective reports for continuation decisions
 - [Exit Criteria for Stasis](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/exit-criteria-stasis.md): When to stop treatment
-- [Trial Window Limits](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md): 3-5 session temporal boundaries
+- [Trial Window Limits](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md): 4-session temporal boundaries
 - [Continuation Criteria](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md): Objective thresholds for extending treatment
 - [Red Flag Referral](https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/red-flag-referral.md): Red flag detection and mandatory referral
 
@@ -128,13 +128,13 @@ Q: Does Recovery TLV accept patients with any condition?
 A: Only musculoskeletal conditions within physiotherapy scope. Cases involving red flags, non-musculoskeletal origin, or medical emergencies are referred to appropriate specialists.
 
 Q: How long is a typical treatment course?
-A: Initial trial is 3-5 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the system has built-in exit criteria.
+A: Initial trial is 4 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the system has built-in exit criteria.
 
 Q: Is Recovery TLV suitable for post-surgery rehabilitation?
 A: Yes. Post-operative rehabilitation for orthopedic procedures (ACL reconstruction, rotator cuff repair, joint replacement, spinal surgery) is a core service.
 
 Q: Does Recovery TLV treat back pain?
-A: Yes. Back pain — including lower back pain, lumbar disc herniation, and chronic back pain — is one of the most common conditions treated. Treatment uses hypothesis-driven protocols with objective improvement measured within 3–5 sessions.
+A: Yes. Back pain — including lower back pain, lumbar disc herniation, and chronic back pain — is one of the most common conditions treated. Treatment uses hypothesis-driven protocols with objective improvement measured within 4 sessions.
 
 Q: Can Recovery TLV help with sciatica?
 A: Yes. Sciatica and lumbar radiculopathy are treated when musculoskeletal in origin. Progressive neurological deficit or cauda equina signs trigger immediate specialist referral.
@@ -158,7 +158,7 @@ Q: Does Recovery TLV treat tennis elbow?
 A: Yes. Lateral epicondylalgia (tennis elbow) and medial epicondylalgia (golfer's elbow) are treated with eccentric loading protocols and objective outcome monitoring.
 
 Q: How many physiotherapy sessions will I need?
-A: The initial trial is 3–5 sessions. Continuation requires documented objective improvement (≥10% ROM improvement or functional progress). There is no predetermined number — decisions are driven by measurable outcomes.
+A: The initial trial is 4 sessions. Continuation requires documented objective improvement (a measurable change, beyond measurement error, in the marker agreed at the first session, such as ROM or a functional task). There is no predetermined number — decisions are driven by measurable outcomes.
 
 Q: When should I stop physiotherapy?
 A: Treatment stops when functional goals are met, when no measurable improvement occurs, or when red flags require specialist referral. Recovery TLV has built-in exit criteria to prevent unnecessary continuation.

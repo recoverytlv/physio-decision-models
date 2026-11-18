@@ -2,7 +2,7 @@
 title: "Cervical Radiculopathy"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. The C7 root (C6–C7 level) is affected most often, followed by the C6 root (C5–C6 level)."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Progressive motor weakness (worsening over days/weeks)"
   - "Bilateral upper extremity symptoms (consider cervical myelopathy or central disc)"
@@ -44,7 +44,7 @@ Cervical radiculopathy with stable neurological status is within physiotherapy s
 - Signs of vertebral artery insufficiency (dizziness, diplopia, dysarthria, dysphagia)
 
 ## Clinical Hypothesis Examples
-- **Disc herniation with radiculopathy:** Disc protrusion compressing a cervical nerve root causing dermatomal pain and/or weakness. Tested with mechanical assessment (directional preference), cervical traction, neural mobilization. Expected response: centralization of symptoms, improved neural tension test, and improved ROM within 3–5 sessions.
+- **Disc herniation with radiculopathy:** Disc protrusion compressing a cervical nerve root causing dermatomal pain and/or weakness. Tested with mechanical assessment (directional preference), cervical traction, neural mobilization. Expected response: centralization of symptoms, improved neural tension test, and improved ROM within 4 sessions.
 - **Foraminal stenosis:** Osteophytic narrowing of the intervertebral foramen. Tested with cervical traction, posture correction, and neural mobilization. Expected response: reduced arm symptoms with traction and improved sustained posture tolerance. May have slower progress than disc-related radiculopathy.
 - **Neural mechanosensitivity:** Post-inflammatory neural irritability without ongoing compression. Tested with graded neural mobilization and desensitization. Expected response: improved ULNT tolerance and reduced arm symptoms.
 - **Cervical segmental dysfunction contributing to neural irritation:** Segmental hypomobility increasing foraminal compression. Tested with segmental mobilization at the affected level. Expected response: improved cervical ROM and reduced arm symptoms.
@@ -60,7 +60,7 @@ Cervical radiculopathy with stable neurological status is within physiotherapy s
 | T1 | Medial arm | Hand intrinsics | — |
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Centralization or reduction of arm symptoms
 - Improved cervical ROM
 - Improved neural tension test (ULNT) tolerance

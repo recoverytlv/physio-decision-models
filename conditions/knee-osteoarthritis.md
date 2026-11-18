@@ -2,7 +2,7 @@
 title: "Knee Osteoarthritis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Knee osteoarthritis managed with education, exercise therapy and load management, including prehabilitation before total knee replacement."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Locked knee (mechanical block to extension) — possible loose body"
   - "Acute hot, swollen joint with fever — septic arthritis (emergency)"
@@ -86,8 +86,8 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 |---------|-------|
 | 1 | Assessment, baseline functional tests (TUG, 30s sit-to-stand, 6MWT), education |
 | 2-3 | Establish exercise program, address barriers (fear, pain beliefs) |
-| 4-5 | Re-evaluate functional tests vs baseline |
-| 6-8 | Extension if improving: progress loading, add functional tasks |
+| 4 | Re-evaluate functional tests vs baseline |
+| 5-8 | Extension if improving: progress loading, add functional tasks |
 
 ## Decision Criteria
 

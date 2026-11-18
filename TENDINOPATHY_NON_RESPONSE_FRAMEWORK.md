@@ -6,7 +6,7 @@ parent_framework: "MSK Physiotherapy Non-Response Decision Framework"
 proponent: "Alejandro Zubrisky, BPT"
 orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
-version: 1.3.0
+version: 2.0.0
 status: proposed
 license: MIT
 concept_doi: "10.5281/zenodo.20683788"
@@ -71,8 +71,8 @@ is an **acceptable** response — not failure.
 Tendon adaptation is slow (often weeks to months). Early directional signals may
 appear within the first few weeks; absence of **any** measurable change after an
 adequate early trial should trigger **reassessment, not automatic discharge**.
-At the end of the 3–5 session trial window (an author-defined review point), CONTINUE requires at least
-one continuation criterion (CLINICAL_DECISION_SYSTEM.md §4) — for example a ≥10% objective change beyond
+At the end of the 4-session trial window (an author-defined review point), CONTINUE requires at least
+one continuation criterion (CLINICAL_DECISION_SYSTEM.md §4) — for example a measurable objective change beyond
 measurement error in load capacity; otherwise the hypothesis is revised (ONE new TRIAL), or the patient is
 discharged or referred. The trial tests for an early objective signal, not for resolution: full tendon
 adaptation takes longer (loading trials used 12-week protocols).

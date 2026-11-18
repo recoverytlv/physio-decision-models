@@ -2,7 +2,7 @@
 title: "Frozen Shoulder (Adhesive Capsulitis)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Adhesive capsulitis of the glenohumeral joint. Progressive loss of active and passive range of motion in a capsular pattern (external rotation most limited, followed by abduction and internal rotation). Typically affects ages 40–60."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Shoulder stiffness following trauma (rule out fracture, dislocation)"
   - "Progressive pain with systemic symptoms (weight loss, night sweats, fever)"
@@ -44,15 +44,15 @@ Frozen shoulder is within physiotherapy scope. However, the condition has a natu
 - **Secondary frozen shoulder:** Stiffness following rotator cuff surgery, fracture, or immobilization. Tested with aggressive ROM program (within surgical limits). Expected response: ROM improvement with structured program.
 
 ## Trial Window
-3–5 session trial window (frozen shoulder often needs the full 5 sessions). Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker; in frozen shoulder it is usually night pain or function rather than range of motion:
 - Any measurable improvement in passive ROM (even 5° is signal in frozen shoulder)
-- Pain at rest or at night is recorded as supplementary data only (not a continuation criterion)
+- Pain at rest or at night counts only if it is the marker agreed at the first session and changes on a validated scale beyond its measurement error; otherwise it is supplementary data
 - Improved functional capacity (reaching, dressing, sleeping position)
 
 ## Non-Response Considerations
-Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement by the end of the trial window does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
-- If pain is the primary complaint: CONTINUE only if an objective criterion is also met (a predefined functional task such as dressing or reaching, or a documented reduction in compensatory strategies); pain reduction alone does not justify continuation
-- If ROM is the primary complaint and there is no measurable change after the trial window and one revised trial → discuss other options (REFER to consider hydrodilatation or manipulation under anaesthesia)
+Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement over 4 sessions does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
+- If pain is the agreed marker and it is reducing measurably → CONTINUE
+- If ROM is the agreed marker and it has not changed after 4 sessions and one revised trial → the case is re-evaluated and the patient is advised to see their treating doctor about options such as hydrodilatation or manipulation under anaesthesia (REFER)
 
 ## Related Documents
 - [Shoulder Pain](shoulder-pain.md)

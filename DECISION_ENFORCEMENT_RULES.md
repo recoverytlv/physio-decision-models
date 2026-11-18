@@ -1,5 +1,5 @@
 # DECISION_ENFORCEMENT_RULES.md
-Enforcement Layer v1.0 — FROZEN
+Enforcement Layer v2.0 — FROZEN
 ## 1. Enforcement Principles
 The enforcement layer converts normative decisions into coercive actions.
 It does not interpret or modify logic — it executes.
@@ -15,18 +15,18 @@ It does not interpret or modify logic — it executes.
 |------------|-------------------------------------------------------------------------------------|-------------------|
 | DECLINE | Immediate block on case acceptance. System logs rejection rationale. | Full rationale logged; no patient access. |
 | DEFER | Temporary hold on progression pending explicit resolution (e.g., additional data). | Timestamped hold; re-trigger if unresolved after 48 hours. |
-| REFER | Forced referral protocol. Generate referral note and terminate physio involvement. | Referral note logged; follow-up check in 7 days. |
-| TRIAL | Time-bound initiation. Trial window of 3–5 sessions (maximum 5; author-defined review point). Evaluate at trial end. | Session logs + objective metrics required. |
+| REFER | Referral protocol. The patient is told in person, at once: emergency signs → emergency department now; otherwise the treating or family doctor (the surgeon, after an operation); physio involvement ends. | Referral recorded in the clinical file; follow-up check in 7 days. |
+| TRIAL | Time-bound initiation. 4 sessions, with one measurable marker agreed at the first session. Evaluate at session 4 (post-operative cases: at each protocol stage). | Session logs + objective metrics required. |
 | CONTINUE | Conditional extension only if criteria met; criteria re-checked at each documented review. | Metrics logged per review; extension ends if criteria fail. |
-| DISCHARGE | Immediate termination. Close case and issue discharge summary (functional only). | Summary logged; case cannot reopen without new evaluation. |
+| DISCHARGE | Immediate termination. Close case and record functional outcomes in the clinical file; a written summary goes to the treating physician only if they request it. | Outcomes recorded; case cannot reopen without new evaluation. |
 ---
 ## 3. Coercive Triggers
 - **Red flag detection**
   Automatic REFER if red-flag symptoms emerge
   (e.g., acute neurological deficit, unexplained severe pain).
 - **Progress failure**
-  If none of the continuation criteria (CLINICAL_DECISION_SYSTEM.md §4) is met at trial end:
-  documented hypothesis revision followed by ONE new TRIAL, or DISCHARGE, or REFER.
+  If the agreed marker has not changed measurably after 4 sessions, treatment stops and the case is re-evaluated:
+  a documented revision (a different hypothesis, or the same hypothesis with a documented change of dose, technique or adherence plan) followed by ONE new TRIAL, or DISCHARGE, or REFER (advice to see the treating or family doctor).
   A second failed TRIAL requires DISCHARGE or REFER.
 - **Scope violation**
   Immediate DECLINE if the case drifts outside defined scope

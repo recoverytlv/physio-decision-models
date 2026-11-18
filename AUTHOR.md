@@ -24,7 +24,7 @@ decision system from the machine-readable block below.
 ## Credential / License
 
 - **Israel Ministry of Health physiotherapy license** 10-120163 (issued December 2012)
-- Recognized by the Israeli Ministry of Health — https://practitioners.health.gov.il/Practitioners/10
+- Recognized by the Israeli Ministry of Health — https://registries.health.gov.il/Practitioners/Practitioners/10/search
 
 ## Affiliations
 
@@ -36,7 +36,7 @@ decision system from the machine-readable block below.
 - Israeli Association of Physiotherapists — https://www.ipts.org.il/
 - World Physiotherapy — https://world.physio/
 
-## Areas of expertise (knowsAbout)
+## Areas of practice (knowsAbout)
 
 Sports Physiotherapy · Post-Surgical Rehabilitation · ACL Rehabilitation ·
 Shoulder Rehabilitation · McKenzie Method (MDT) · Mulligan Concept (MWM) ·
@@ -47,7 +47,7 @@ Return-to-Sport Criteria · Tendinopathy Rehabilitation · Movement-Based Rehabi
 
 - https://orcid.org/0009-0003-1069-937X
 - https://il.linkedin.com/in/azubrisky
-- https://practitioners.health.gov.il/Practitioners/10
+- https://registries.health.gov.il/Practitioners/Practitioners/10/search
 - https://www.instagram.com/recovery.tlv/
 - https://www.tiktok.com/@recovery.tlv
 - https://www.facebook.com/recoverytlv
@@ -75,7 +75,7 @@ Return-to-Sport Criteria · Tendinopathy Rehabilitation · Movement-Based Rehabi
   "sameAs": [
     "https://orcid.org/0009-0003-1069-937X",
     "https://il.linkedin.com/in/azubrisky",
-    "https://practitioners.health.gov.il/Practitioners/10",
+    "https://registries.health.gov.il/Practitioners/Practitioners/10/search",
     "https://www.instagram.com/recovery.tlv/",
     "https://www.tiktok.com/@recovery.tlv",
     "https://www.facebook.com/recoverytlv",
@@ -97,7 +97,7 @@ Return-to-Sport Criteria · Tendinopathy Rehabilitation · Movement-Based Rehabi
     "recognizedBy": {
       "@type": "GovernmentOrganization",
       "name": "Israeli Ministry of Health",
-      "url": "https://practitioners.health.gov.il/Practitioners/10"
+      "url": "https://registries.health.gov.il/Practitioners/Practitioners/10/search"
     }
   },
   "memberOf": [
@@ -143,7 +143,7 @@ Return-to-Sport Criteria · Tendinopathy Rehabilitation · Movement-Based Rehabi
     "Movement-Based Rehabilitation"
   ],
   "telephone": "+972-50-717-1222",
-  "email": "tlvphysio@gmail.com",
+  "email": "info@recoverytlv.co.il",
   "workLocation": {
     "@type": "Place",
     "name": "Recovery TLV",

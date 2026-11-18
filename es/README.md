@@ -1,7 +1,7 @@
 # Recovery TLV — Modelos de Decisión Clínica para Fisioterapia
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 [![Status](https://img.shields.io/badge/status-frozen-orange.svg)](#estado)
 
 **Un sistema formal de decisión clínica para fisioterapia bajo incertidumbre biológica irreducible.**
@@ -25,11 +25,11 @@ Una estructura epistémica formal para el razonamiento clínico que trata la fis
 | **DECLINE** | Caso rechazado — fuera de alcance o contraindicado |
 | **DEFER** | Decisión pospuesta — datos insuficientes |
 | **REFER** | Transferido a otro especialista — banderas rojas detectadas |
-| **TRIAL** | Aceptación condicional por 3–5 sesiones |
+| **TRIAL** | Aceptación condicional por 4 sesiones |
 | **CONTINUE** | Extensión solo con mejora objetiva demostrada |
 | **DISCHARGE** | Terminación — objetivos alcanzados o meseta de progreso |
 
-No hay zonas grises. La continuación requiere **evidencia objetiva**: ≥10% de mejora en rango de movimiento, progreso funcional documentado, o reducción en estrategias compensatorias. Los reportes subjetivos por sí solos son insuficientes.
+No hay zonas grises. La continuación requiere **evidencia objetiva**: una mejora medible (mayor que el error de medición) en rango de movimiento, progreso funcional documentado, o reducción en estrategias compensatorias. Los reportes subjetivos por sí solos son insuficientes.
 
 ## Principios Fundamentales
 
@@ -59,8 +59,8 @@ No hay zonas grises. La continuación requiere **evidencia objetiva**: ≥10% de
 
 ## Estado
 
-**Versión:** 1.3.0  
-**Estado:** La lógica de decisión está congelada desde la v1.0 (27 de diciembre de 2025); las versiones 1.1.0–1.3.0 cambiaron documentos de apoyo y corrigieron errores (ver CHANGELOG.md).  
+**Versión:** 2.0.0  
+**Estado:** La versión 2.0.0 cambia la lógica de decisión (regla de 4 sesiones con un marcador acordado en la primera sesión; ver CHANGELOG.md).  
 El marco es opinión experta y no ha sido validado clínicamente.
 
 Cualquier cambio en la lógica de decisión requiere una nueva versión mayor, re-declaración explícita en AUTHORITY_SOURCES.md y una justificación documentada.

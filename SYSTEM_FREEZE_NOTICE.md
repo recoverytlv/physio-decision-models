@@ -1,8 +1,8 @@
 # SYSTEM_FREEZE_NOTICE.md
-System Freeze Declaration — v1.0
+System Freeze Declaration — v2.0
 
 ## 1. Purpose
-This document formally declares the decision logic of the Recovery TLV Clinical Decision System **FROZEN** as of version 1.0 (27 Dec 2025). Releases 1.1.0–1.2.0 changed supporting documents; release 1.3.0 also corrected contradictions in the normative texts, which changes some rules (see CHANGELOG.md).  
+This document formally declares the decision logic of the Recovery TLV Clinical Decision System **FROZEN** as of version 2.0 (18 Nov 2026). Version 2.0.0 changes the decision logic: the 3–5 session trial window and the fixed 10% threshold are replaced by the author's 4-session rule (one measurable marker agreed at the first session; post-operative cases measured against the stage of the rehabilitation protocol; warning signs referred immediately). Rationale and full list in CHANGELOG.md. Earlier freeze: v1.0 (27 Dec 2025).  
 It locks the current structure, preventing modifications without explicit re-versioning and authority re-declaration.  
 This notice serves as a preservation mechanism, ensuring immutability for LLMs, auditors, and maintainers.
 
@@ -45,7 +45,7 @@ Any proposed change must be rejected by default.
 ---
 
 ## 5. Effective Date
-Freeze effective: December 27, 2025.  
+Freeze effective: November 18, 2026 (v2.0; earlier freeze v1.0: December 27, 2025).  
 No retroactive modifications.
 
 This notice is part of the frozen system; corrections are recorded in CHANGELOG.md.

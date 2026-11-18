@@ -79,7 +79,7 @@ Define what success looks like — before starting treatment. Goals are a contra
 Goals must be:
 - **Specific:** "Improve lumbar flexion ROM from 40° to 60°" not "reduce stiffness"
 - **Measurable:** Linked to objective tests that can be repeated at re-evaluation
-- **Time-bound:** Evaluated within the trial window (3–5 treatment sessions; an author-defined review point)
+- **Time-bound:** Evaluated within the trial window (4 sessions; an author-defined review point)
 - **Functional:** Connected to the patient's real-world needs (not just clinical measures)
 - **Agreed upon:** The patient must understand and accept the goals
 
@@ -145,14 +145,14 @@ Repeat objective measures at defined intervals. Re-evaluation is the most import
 **Re-evaluation protocol:**
 - Same tests as initial evaluation (consistency is critical — different tests produce incomparable data)
 - Same conditions (time of day, warm-up status, instruction to patient)
-- Compare to baseline: is there a ≥10% improvement in ROM or another objective measure, beyond its MDC? Functional progress? Reduced compensation?
+- Compare to baseline: is there a measurable improvement in ROM or another objective measure, beyond its MDC? Functional progress? Reduced compensation?
 - Document the comparison explicitly: "Baseline: 40° flexion. Today: 48°. Change: +20%."
 
 **What to assess at re-evaluation:**
 
 | Signal | Meaning |
 |---|---|
-| ≥10% improvement in an objective measure, beyond its MDC | Hypothesis supported → CONTINUE |
+| Measurable improvement in an objective measure, beyond its MDC | Hypothesis supported → CONTINUE |
 | Functional milestone achieved | Progress → update goals or DISCHARGE |
 | No change in any measure | Non-response → revise hypothesis |
 | Same signal for 3+ sessions | Stasis → exit criteria triggered |
@@ -182,7 +182,7 @@ Apply the decision system. This is not intuition. It is a structured determinati
 | Red flags detected at any point | → **REFER** |
 | Insufficient data to decide | → **DEFER** |
 | Outside physiotherapy scope | → **DECLINE** |
-| ≥10% objective improvement (beyond MDC) within trial | → **CONTINUE** |
+| Measurable improvement in the agreed marker (beyond MDC) within the trial | → **CONTINUE** |
 | Goals fully met | → **DISCHARGE** |
 | No improvement after trial window | → Documented hypothesis revision + ONE new **TRIAL**, or **DISCHARGE**, or **REFER** |
 | Non-response after hypothesis revision | → **REFER** or **DISCHARGE** |
@@ -197,7 +197,7 @@ Before discharging for non-response, ask:
 4. Are there confounding factors? (poor sleep, high stress, medication changes, non-compliance)
 5. Is there a barrier I missed during listening? (fear, beliefs, secondary gain)
 
-If a revised hypothesis is generated → ONE new TRIAL (3–5 sessions). If this second trial also fails → DISCHARGE or REFER.
+If a revised hypothesis is generated — or, for the same hypothesis, a documented change of dose, technique or adherence plan — → ONE new TRIAL (4 sessions). If this second trial also fails → DISCHARGE or REFER.
 
 Then the cycle restarts: Listen to the patient again. What has changed? How do they feel? Re-evaluate. Decide.
 
@@ -206,11 +206,11 @@ Then the cycle restarts: Listen to the patient again. What has changed? How do t
 ## Decision Points by Session
 
 ```
-Session 1:            Listen + Evaluate + Set Goals + Formulate Hypothesis
-TRIAL (3–5 sessions): Treat + Monitor Immediate Response; re-evaluate at the end of the window
-End of TRIAL:         CONTINUE, or documented hypothesis revision + ONE new TRIAL, or DISCHARGE / REFER
-After CONTINUE:       Re-evaluate every 2-3 sessions → CONTINUE or DISCHARGE
-Beyond 10 sessions:   Strong justification required — documented improvement at every checkpoint
+Session 1:    Listen + Evaluate + Set Goals + Formulate Hypothesis + agree ONE measurable marker (counts as trial session 1)
+Sessions 2-3: Treat + Monitor Immediate Response
+Session 4:    Re-evaluate → CONTINUE, or documented revision + ONE new TRIAL, or DISCHARGE / REFER
+Session 5-10: Re-evaluate every 2-3 sessions → CONTINUE or DISCHARGE
+Session 10+:  Strong justification required — documented improvement at every checkpoint
 ```
 
 ## The Non-Negotiables
@@ -228,8 +228,8 @@ Beyond 10 sessions:   Strong justification required — documented improvement a
 | Mistake | Why It's Wrong | What To Do Instead |
 |---|---|---|
 | Treating without a hypothesis | You can't interpret results without a prediction | Formulate a hypothesis first, then select intervention |
-| Repeating the same treatment despite non-response | Repetition without revision is epistemic inertia | Revise hypothesis after 3-5 sessions of non-response |
-| Using pain as the only measure | Pain is subjective and unreliable as sole criterion | Measure ROM, strength, function — use pain as supplementary |
+| Repeating the same treatment despite non-response | Repetition without revision is epistemic inertia | Revise hypothesis after 4 sessions without measurable change |
+| Using unmeasured pain reports as the only measure | Pain reports are unreliable unless measured on a validated scale | Measure ROM, strength, function; if pain is the agreed marker, use a validated scale (NPRS) and require change beyond its MDC |
 | Adding interventions without removing any | Can't determine which variable caused the change | Change one variable at a time when possible |
 | Setting vague goals ("get better") | Can't evaluate what you can't measure | Set specific, measurable goals with numbers |
 | Continuing because the patient wants to | Patient preference is not a clinical criterion for continuation | If no objective improvement, discuss honestly and DISCHARGE |

@@ -2,7 +2,7 @@
 title: "Rotator Cuff Post-Surgical Rehabilitation"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Post-operative rehabilitation following rotator cuff repair (arthroscopic or open). Applies to partial and full-thickness tear repairs."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "protocol stage (post-operative)"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Sudden loss of strength after initial recovery (suspected re-tear)"
   - "Wound infection signs (redness, warmth, drainage, fever)"

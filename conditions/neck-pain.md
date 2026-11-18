@@ -2,7 +2,7 @@
 title: "Neck Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Neck pain including mechanical cervical pain, cervical disc herniation, whiplash-associated disorders, and cervicogenic headache."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Upper limb progressive weakness or bilateral symptoms (myelopathy)"
   - "Drop attacks, diplopia, dysarthria, dysphagia, facial numbness, nystagmus or ataxia, with or without dizziness, or a new severe headache/neck pain unlike any previous one (suspected vascular pathology of the neck — cervical arterial dysfunction; emergency referral). Dizziness provoked by neck movement with none of these features is not a red flag by itself and is assessed as possible cervicogenic dizziness"
@@ -44,9 +44,9 @@ Neck pain is within physiotherapy scope when musculoskeletal in origin. Upper mo
 - **Cervicogenic headache:** Headache driven by upper cervical dysfunction. Tested with C1-C2 mobilization and suboccipital techniques. Expected response: reduced headache frequency and intensity.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in cervical ROM (rotation, flexion, extension)
-- For cervicogenic headache: improved upper cervical rotation (headache frequency is recorded as supplementary data)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in cervical ROM (rotation, flexion, extension), beyond measurement error
+- For cervicogenic headache: improved upper cervical rotation (headache frequency is recorded as supplementary data unless a validated headache-intensity scale was the marker agreed at the first session)
 - Centralization of arm symptoms (for radiculopathy)
 - Improved deep neck flexor endurance or motor control tests
 

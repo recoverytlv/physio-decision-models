@@ -24,7 +24,7 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 
 **Controlled perturbation:** Progressive wrist-extensor loading, reviewed at the end of the trial window. Full tendon adaptation takes longer (tendinopathy loading trials have used 12-week protocols), so the trial tests for an early objective signal, not for resolution.
 
-**Testable prediction:** If hypothesis is correct, grip strength should improve ≥10% (beyond the dynamometer's MDC) and pain during resisted extension should decrease.
+**Testable prediction:** If hypothesis is correct, grip strength should improve measurably (beyond the dynamometer's MDC) and pain during resisted extension should decrease.
 
 **Outcomes:**
 - Prediction confirmed → Hypothesis consolidated → evaluate for CONTINUE

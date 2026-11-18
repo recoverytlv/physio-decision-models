@@ -115,7 +115,7 @@ A: For most musculoskeletal conditions, yes — with the right approach. Even ch
 A: Not necessarily. Mild pain during exercise (3-4/10) is acceptable. Pain that is severe, sharp, or gets progressively worse during exercise → stop and tell your physiotherapist. See the [Pain Traffic Light](HOME_EXERCISE_PRINCIPLES.md).
 
 **Q: Do I need an MRI?**
-A: Usually not. For most musculoskeletal conditions, imaging does not change the treatment plan. Many "abnormal" findings on MRI are normal age-related changes found in people with NO pain. Your physiotherapist will refer for imaging if clinically indicated.
+A: Usually not. For most musculoskeletal conditions, imaging does not change the treatment plan. Many "abnormal" findings on MRI are normal age-related changes found in people with NO pain. Your physiotherapist will advise you to see your doctor to consider imaging if clinically indicated.
 
 **Q: How long does recovery take?**
 A: It depends on the condition, how long you've had it, contributing factors, and your engagement with the program. Your physiotherapist will set realistic goals with measurable milestones.

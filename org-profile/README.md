@@ -17,7 +17,6 @@ We operate under a **formally published clinical decision system** — the first
 | Repository | Description |
 |---|---|
 | [physio-decision-models](https://github.com/recoverytlv/physio-decision-models) | Formal clinical decision system for physiotherapy under biological uncertainty |
-| [clinical-intake-form](https://github.com/recoverytlv/clinical-intake-form) | Digital intake form implementing the clinical decision flowchart |
 
 ## Clinical Decision System
 
@@ -27,7 +26,7 @@ Every case must terminate with one of six valid outputs:
 DECLINE  → Case rejected (out of scope)
 DEFER    → Decision postponed (insufficient data)
 REFER    → Transferred to specialist (red flags)
-TRIAL    → Conditional acceptance (3–5 sessions)
+TRIAL    → Conditional acceptance (4 sessions)
 CONTINUE → Extension with objective improvement
 DISCHARGE → Termination (goals met or plateau)
 ```

@@ -2,7 +2,7 @@
 title: "Thoracic Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Pain in the thoracic spine region (mid-back) including thoracic segmental dysfunction, costovertebral joint pain, thoracic disc pathology, and postural thoracic pain. May present with local pain, referred pain to the chest or ribs, or intercostal neuralgia."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Chest pain with cardiac risk factors (age >50, hypertension, diabetes, smoking, family history) — consider cardiac origin"
   - "Thoracic pain with shortness of breath, cough, or respiratory distress — consider pulmonary pathology"
@@ -44,13 +44,13 @@ Musculoskeletal thoracic pain is within physiotherapy scope. The thoracic region
 - Pain in an osteoporotic patient after minimal trauma or even coughing — consider compression fracture
 
 ## Clinical Hypothesis Examples
-- **Thoracic segmental dysfunction:** Hypomobility of one or more thoracic segments causing local pain and stiffness. Tested with segmental mobilization and thoracic extension exercises. Expected response: improved thoracic ROM and reduced local pain within 3–5 sessions.
+- **Thoracic segmental dysfunction:** Hypomobility of one or more thoracic segments causing local pain and stiffness. Tested with segmental mobilization and thoracic extension exercises. Expected response: improved thoracic ROM and reduced local pain within 4 sessions.
 - **Costovertebral joint dysfunction:** Pain at the costotransverse or costovertebral joints causing local and referred rib pain. Tested with specific rib mobilization and respiratory exercises. Expected response: reduced pain with deep breathing and trunk rotation.
 - **Postural thoracic pain:** Sustained thoracic flexion (desk work) causing muscular fatigue and joint stiffness. Tested with postural correction, thoracic extension strengthening, and ergonomic modification. Expected response: reduced end-of-day pain and improved sustained posture tolerance.
 - **Thoracic contribution to neck/shoulder pain:** Thoracic hypomobility contributing to cervical or shoulder dysfunction. Tested with thoracic mobilization. Expected response: if thoracic-driven, neck/shoulder symptoms improve with thoracic treatment.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved thoracic ROM (extension, rotation — measured)
 - Reduced local pain with movement or palpation
 - Improved functional tolerance (sitting, deep breathing, trunk rotation)

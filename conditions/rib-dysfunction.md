@@ -2,7 +2,7 @@
 title: "Rib Dysfunction & Costochondritis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Musculoskeletal chest wall pain from costovertebral/costotransverse joints, costochondral junctions or intercostal structures, including costochondritis. Cardiac, pulmonary and gastrointestinal causes must be screened first."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Cardiac: Chest pain with exertion, radiation to arm/jaw, shortness of breath, diaphoresis, history of cardiac disease → ER"
   - "Pulmonary: Pleuritic pain with fever, cough, dyspnea → medical evaluation"
@@ -70,7 +70,7 @@ Pain reproduced by palpation makes a cardiac cause less likely but never exclude
 ### Intercostal Strain
 - **Hypothesis:** Muscle or fascial strain from coughing, twisting, or overuse
 - **Test:** Breathing retraining, gentle mobilization, progressive loading
-- **Expected response:** Pain reduction with breathing and movement within 3-5 sessions
+- **Expected response:** Pain reduction with breathing and movement within 4 sessions
 
 ## Trial Protocol (TRIAL)
 | Session | Focus |
@@ -78,7 +78,7 @@ Pain reproduced by palpation makes a cardiac cause less likely but never exclude
 | 1 | RULE OUT non-musculoskeletal causes. Thorough screening. Palpation reproduction. Baseline |
 | 2 | Targeted mobilization or soft tissue based on hypothesis |
 | 3 | Re-evaluate: pain reproduction, movement quality, breathing |
-| 4-5 | Progress or exit |
+| 4 | Progress or exit |
 
 ## Decision Criteria
 
@@ -94,7 +94,7 @@ Pain reproduced by palpation makes a cardiac cause less likely but never exclude
 
 ### REFER if:
 - ANY cardiac, pulmonary, or GI red flags
-- No response to 3-5 sessions (consider alternative diagnosis)
+- No measurable change after 4 sessions (consider alternative diagnosis)
 - Recurrent costochondritis — rheumatological evaluation
 
 ## Cross-References

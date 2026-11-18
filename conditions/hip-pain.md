@@ -2,7 +2,7 @@
 title: "Hip Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Hip pain including femoroacetabular impingement (FAI), labral-related pain, greater trochanteric pain syndrome (gluteal tendinopathy, trochanteric bursitis), hip osteoarthritis, and post-hip replacement rehabilitation."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Inability to weight bear after fall (suspected femoral neck fracture, especially in elderly)"
   - "Groin pain with fever (suspected septic arthritis)"
@@ -40,14 +40,14 @@ Hip pain is within physiotherapy scope when musculoskeletal in origin. Suspected
 - Adolescent with hip, groin, thigh or knee pain and a limp or reduced hip internal rotation (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)
 
 ## Clinical Hypothesis Examples
-- **Femoroacetabular impingement:** Mechanical impingement in hip flexion and internal rotation. Tested with load modification and hip strengthening. Expected response: improved tolerance to flexion-based activities within 3–5 sessions.
+- **Femoroacetabular impingement:** Mechanical impingement in hip flexion and internal rotation. Tested with load modification and hip strengthening. Expected response: improved tolerance to flexion-based activities within 4 sessions.
 - **Gluteal tendinopathy:** Lateral hip pain aggravated by compression. Tested with isometric gluteal loading and compression avoidance. Expected response: reduced lateral hip pain with walking and stairs.
 - **Hip osteoarthritis:** Degenerative joint changes limiting function. Tested with graded exercise therapy targeting hip mobility and strength. Expected response: improved walking distance, stair negotiation, and sit-to-stand capacity.
 - **Post-hip replacement:** Progressive rehabilitation after joint replacement. Tested with structured loading progression. Expected response: measurable gains in ROM, strength, and functional independence at each evaluation.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in hip ROM (flexion, internal rotation, or abduction)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in hip ROM (flexion, internal rotation, or abduction), beyond measurement error
 - Functional improvement (walking distance, stair negotiation, sit-to-stand)
 - Improved single leg stance or hip abductor strength
 - Reduction in compensatory Trendelenburg pattern

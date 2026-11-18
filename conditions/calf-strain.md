@@ -2,7 +2,7 @@
 title: "Calf Strain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Acute muscle strain of the gastrocnemius or soleus (calf muscles). Gastrocnemius strains are more common and typically occur during explosive activities (sprinting, jumping). Soleus strains are more insidious and common in distance runners. Graded I-III by severity."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Calf pain with swelling, warmth, and redness without clear mechanism of injury (suspected DVT — urgent referral)"
   - "Palpable gap in the muscle with complete loss of function (grade III / complete rupture — surgical consultation)"
@@ -59,7 +59,7 @@ Individual clinical features have limited value for confirming or excluding DVT 
 - **Recurrent calf strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factor. Tested with eccentric strengthening, calf endurance testing (25+ single leg calf raises), and a review of training load and return-to-running progression. Expected response: improved calf endurance symmetry and reduced re-injury risk.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved pain-free range of motion (dorsiflexion)
 - Improved calf strength (single leg calf raise repetitions compared bilaterally)
 - Improved functional capacity (walking, jogging, sprinting progression)

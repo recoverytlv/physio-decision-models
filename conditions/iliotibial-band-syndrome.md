@@ -2,7 +2,7 @@
 title: "Iliotibial Band Syndrome (IT Band Syndrome)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,14 +10,14 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically starts at a reproducible distance or duration of activity."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Locking or catching of the knee (meniscal pathology)"
   - "Lateral knee instability (LCL injury)"
   - "Swelling within the joint (intra-articular pathology)"
   - "Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)"
-  - "Failed conservative management after the trial window and one revised trial, with no improvement"
+  - "No measurable change after 4 sessions and one revised trial of conservative management"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/iliotibial-band-syndrome.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -35,7 +35,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - Lateral knee instability (LCL injury)
 - Swelling within the joint (intra-articular pathology)
 - Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)
-- Failed conservative management after the trial window and one revised trial, with no improvement
+- No measurable change after 4 sessions and one revised trial of conservative management
 
 ## Clinical Hypothesis Examples
 - **Load management — training error:** IT band overload from rapid increase in running volume or intensity. Tested with load modification (reduced distance/frequency), cross-training. Expected response: pain-free running at reduced load, with gradual return to previous volume.
@@ -43,7 +43,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - **Tissue capacity deficit:** IT band and lateral structures unable to tolerate current load demands. Tested with progressive loading (heavy slow resistance for hip abductors and quadriceps). Expected response: increased pain-free running distance.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Increased pain-free running distance or duration
 - Improved hip abductor strength (measured, compared bilaterally)
 - Improved single leg squat biomechanics

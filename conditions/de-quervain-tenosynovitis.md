@@ -2,7 +2,7 @@
 title: "De Quervain's Tenosynovitis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Stenosing tenosynovitis of the first dorsal compartment of the wrist, affecting the abductor pollicis longus (APL) and extensor pollicis brevis (EPB) tendons. Causes radial-sided wrist pain aggravated by thumb and wrist movements. Common in new parents, manual workers, and repetitive gripping activities."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Radial wrist pain after trauma (rule out scaphoid fracture — anatomical snuffbox tenderness)"
   - "Locking or triggering of the thumb (may indicate trigger thumb rather than de Quervain's)"
@@ -36,19 +36,19 @@ De Quervain's tenosynovitis is within physiotherapy scope for conservative manag
 - Signs of infection (redness, warmth, swelling with fever)
 
 ## Clinical Hypothesis Examples
-- **Tendon overload:** Repetitive thumb/wrist movements overloading the first dorsal compartment. Tested with activity modification, thumb spica splinting, and isometric loading of APL/EPB. Expected response: reduced Finkelstein's test provocation and improved grip function within 3–5 sessions.
+- **Tendon overload:** Repetitive thumb/wrist movements overloading the first dorsal compartment. Tested with activity modification, thumb spica splinting, and isometric loading of APL/EPB. Expected response: reduced Finkelstein's test provocation and improved grip function within 4 sessions.
 - **Ergonomic/biomechanical factors:** Sustained gripping, phone use, or baby holding contributing to tendon overload. Tested with ergonomic modification and load management. Expected response: reduced symptom provocation during daily activities.
 - **Wrist/thumb stiffness:** Restricted wrist or thumb ROM contributing to altered loading of the first dorsal compartment. Tested with joint mobilization and ROM exercises. Expected response: improved wrist/thumb ROM and reduced pain.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced pain with Finkelstein's test
 - Improved grip strength (measured with dynamometer)
 - Improved functional capacity (gripping, lifting, writing, phone use)
 - Reduced pain with provocative thumb/wrist activities
 
 ## Non-Response
-If no objective criterion is met by the end of the trial window (3–5 sessions) despite activity modification and splinting, revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred to a physician to consider corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
+If the agreed marker has not changed measurably by the end of the trial window (4 sessions) despite activity modification and splinting, revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred to a physician to consider corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
 
 ## Related Documents
 - [Lateral Epicondylalgia](lateral-epicondylalgia.md)

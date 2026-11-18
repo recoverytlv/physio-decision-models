@@ -13,7 +13,7 @@ Guides clinicians through the intake decision flowchart:
 ├─ Insufficient data? → DEFER
 ├─ Patient consents? → No → DECLINE
 ├─ Functional goals? → No → DECLINE
-└─ All criteria met? → TRIAL (3–5 sessions)
+└─ All criteria met? → TRIAL (4 sessions)
 ```
 
 Each assessment terminates with one of four intake-stage outputs: **REFER**, **DECLINE**, **DEFER**, or **TRIAL**.

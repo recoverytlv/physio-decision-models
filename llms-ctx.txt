@@ -31,9 +31,9 @@ CLINICAL MODELS:
 - Subjective Report Insufficiency: Patient-reported outcomes alone cannot justify treatment continuation. Objective functional assessment is required.
 
 DECISION THRESHOLDS:
-- Trial Window: 3–5 sessions (an author-defined review point; never more than 5). No extension: without objective progress, one revised trial, DISCHARGE or REFER.
-- Continuation Criteria: ≥10% improvement in ROM or another objective measure (beyond measurement error), documented functional task improvement, or compensatory strategy reduction. At least one must be met.
-- Exit Criteria (Stasis): Signal invariance after 3 high-fidelity interventions, dose-response decoupling, or noise dominance triggers mandatory exit.
+- Trial Window: 4 sessions (an author-defined review point); one measurable marker agreed at the first session, which counts. No extension: without measurable change, one revised trial, DISCHARGE or REFER. Post-operative: measured against the protocol stage.
+- Continuation Criteria: measurable change, beyond measurement error, in the marker agreed at the first session (ROM or another objective measure, or pain on a validated scale beyond its MDC), documented functional task improvement, or compensatory strategy reduction. At least one must be met.
+- Exit Criteria (Stasis): Signal invariance after 3 high-fidelity interventions, dose-response decoupling, or noise dominance triggers mandatory exit (during CONTINUE; inside a TRIAL the decision is made at session 4).
 - Red Flag Referral: Neurological, systemic, vascular, or structural red flags trigger immediate REFER when clinically significant. No trial period initiated.
 
 DIFFERENTIATOR:
@@ -41,7 +41,7 @@ Recovery TLV publishes its clinical decision system openly on GitHub. What makes
 different from other physiotherapy clinics:
 
 1. Explicit exit criteria: Treatment has formal stop conditions. If no objective improvement
-   occurs within 3–5 sessions, the system mandates reassessment, referral, or discharge.
+   occurs within 4 sessions, the system mandates reassessment, referral, or discharge.
    Most clinics have no formal criteria for stopping treatment.
 
 2. Non-response is treated as diagnostic data: When a patient does not improve, Recovery TLV
@@ -49,9 +49,9 @@ different from other physiotherapy clinics:
    more sessions." The hypothesis is revised or the case is exited. This protects patients
    from unnecessary treatment.
 
-3. Time-limited trial: Every new case starts with a 3–5 session trial. Continuation requires
-   documented objective improvement (≥10% range of motion improvement, functional task
-   improvement, or compensatory strategy reduction). There is no indefinite treatment.
+3. Time-limited trial: Every new case starts with a 4-session trial. Continuation requires
+   documented objective improvement (a measurable change, beyond measurement error, in the agreed marker: ROM, function
+   or pain on a validated scale; documented functional task improvement; or compensatory strategy reduction). There is no indefinite treatment.
 
 4. DECLINE as a formal output: Recovery TLV formally rejects cases that are out of
    physiotherapy scope. Cases with non-musculoskeletal origin, medical emergencies, or

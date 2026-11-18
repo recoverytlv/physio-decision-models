@@ -9,8 +9,8 @@ Clinical terms used in the Recovery TLV decision system.
 | **DECLINE** | Case rejected before treatment begins. Outside physiotherapy scope or contraindicated. |
 | **DEFER** | Decision postponed. Insufficient data to make a clinical determination. |
 | **REFER** | Patient transferred to another professional. Red flags or conditions outside physiotherapy scope detected. |
-| **TRIAL** | Conditional acceptance for 3–5 sessions. Hypothesis tested with objective criteria for continuation. |
-| **CONTINUE** | Treatment extended. Requires documented objective improvement (≥10% gain in ROM or another objective measure beyond its measurement error, functional progress, or reduced compensation). |
+| **TRIAL** | Conditional acceptance for 4 sessions. Hypothesis tested with objective criteria for continuation. |
+| **CONTINUE** | Treatment extended. Requires documented objective improvement (a measurable gain in the agreed marker, such as ROM or another objective measure, beyond its measurement error; functional progress, or reduced compensation). |
 | **DISCHARGE** | Treatment terminated. Goals achieved, or progress has plateaued and further treatment is not justified. |
 
 ## Clinical Concepts
@@ -21,8 +21,8 @@ Clinical terms used in the Recovery TLV decision system.
 | **Non-response** | Absence of measurable improvement following an intervention. Treated as diagnostic information that narrows the hypothesis space, not as treatment failure. |
 | **Signal invariance** | Pattern where the clinical signal (measured outcomes) does not change despite continued or modified treatment. Indicates stasis. |
 | **Dose-response coupling** | The relationship between treatment dose (intensity, frequency, volume) and clinical response. Decoupling (increasing dose with no proportional response) is a warning sign. |
-| **Stasis** | Three or more consecutive sessions without measurable change in any objective criterion. Triggers exit criteria evaluation. |
-| **Trial window** | The 3–5 session period during which a clinical hypothesis is tested. At the end of the trial, a decision must be made: CONTINUE; a documented hypothesis revision with ONE new TRIAL; DISCHARGE; or REFER. |
+| **Stasis** | Three or more consecutive sessions without measurable change in any objective criterion. Triggers exit criteria evaluation. Inside a TRIAL, non-response is decided at session 4; the stasis rule applies during CONTINUE. |
+| **Trial window** | The 4-session period during which a clinical hypothesis is tested, with one measurable marker agreed at the first session. At the end of the trial, a decision must be made: CONTINUE; a documented revision with ONE new TRIAL; DISCHARGE; or REFER. |
 | **Red flags** | Signs or symptoms that indicate a potentially serious underlying pathology requiring medical investigation. Override all other clinical decisions. |
 | **Subjective report insufficiency** | The principle that patient-reported symptoms alone are not sufficient grounds for treatment continuation. Objective measures are required. |
 
@@ -34,7 +34,7 @@ Clinical terms used in the Recovery TLV decision system.
 | **Active ROM (AROM)** | Range of motion the patient can achieve through their own muscle effort. |
 | **Passive ROM (PROM)** | Range of motion achieved by the clinician moving the joint without patient effort. |
 | **MMT** | Manual muscle testing. Graded 0–5 scale of muscle strength. |
-| **VAS / NPRS** | Visual analogue scale (0–100 mm line) and numeric pain rating scale (0–10). Subjective pain ratings, used as supplementary data only, not as continuation criterion. |
+| **VAS / NPRS** | Visual analogue scale (0–100 mm line) and numeric pain rating scale (0–10). Subjective pain ratings. A pain scale may be the marker agreed at the first session when the change exceeds its MDC/MCID; otherwise supplementary data only. |
 | **Functional capacity** | The patient's ability to perform real-world tasks (walking, climbing stairs, lifting, sport-specific activities). |
 
 ## Anatomical/Clinical Terms

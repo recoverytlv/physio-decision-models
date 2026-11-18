@@ -2,7 +2,7 @@
 title: "Piriformis Syndrome"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Deep gluteal pain with or without sciatic nerve irritation, attributed to the piriformis muscle compressing or irritating the sciatic nerve. A diagnosis of exclusion — lumbar pathology must be ruled out first."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Progressive neurological deficit (worsening weakness, expanding numbness)"
   - "Bilateral buttock/leg symptoms (consider cauda equina, central disc)"
@@ -46,12 +46,12 @@ Piriformis syndrome is overdiagnosed. Before accepting this hypothesis, rule out
 - Referred pain from lumbar facet joints
 
 ## Clinical Hypothesis Examples
-- **Piriformis overactivity/tightness:** Piriformis muscle spasm or shortening irritating the sciatic nerve. Tested with piriformis stretching, soft tissue release, and hip external rotator rebalancing. Expected response: reduced deep gluteal pain and improved straight leg raise or slump test within 3–5 sessions.
+- **Piriformis overactivity/tightness:** Piriformis muscle spasm or shortening irritating the sciatic nerve. Tested with piriformis stretching, soft tissue release, and hip external rotator rebalancing. Expected response: reduced deep gluteal pain and improved straight leg raise or slump test within 4 sessions.
 - **Hip external rotator weakness:** Piriformis overloaded because the other hip external rotators (e.g., gluteus maximus) are weak. Tested with gluteal strengthening and hip external rotator program. Expected response: reduced piriformis irritability as load is shared.
 - **Sitting-related compression:** Prolonged sitting compresses the sciatic nerve in the deep gluteal space. Tested with sitting modification (cushion, posture changes, regular breaks). Expected response: reduced symptom provocation with sitting.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced deep gluteal pain with provocation tests
 - Improved neural tension test tolerance (if neural component present)
 - Improved sitting tolerance

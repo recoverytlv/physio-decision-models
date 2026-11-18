@@ -6,6 +6,30 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [2.0.0] — 2026-11-18
+
+Decision-logic change (major version, as SYSTEM_FREEZE_NOTICE.md requires). The six canonical outputs are unchanged.
+
+**Why:** the 3–5 session window and the fixed ≥10% threshold were author-defined numbers that no study validates,
+and a fixed percentage can be smaller than the measurement error of the instrument (goniometry on a small range).
+The author's clinical rule, already applied at the clinic, is simpler and states the measurement problem directly.
+
+**What changed:**
+- Trial window: **4 sessions**. One measurable marker (pain on a validated scale, function, mobility or strength) is
+  agreed at the first session; the first session counts. A change counts only if it exceeds the instrument's
+  measurement error (MDC) and, where published, its MCID. The fixed ≥10% threshold is removed.
+- No measurable change after 4 sessions: treatment stops and the case is re-evaluated → ONE revised trial, or
+  DISCHARGE, or REFER (advice in person to see the treating or family doctor; emergency signs → emergency department; a written
+  summary only if the physician asks). A second failed
+  trial → DISCHARGE or REFER.
+- A revised trial may test a different hypothesis, or the same hypothesis with a documented change of dose,
+  technique or adherence plan.
+- Post-operative cases are measured against the stage of the rehabilitation protocol (stalled stage → the surgeon);
+  warning signs or worsening → immediate referral, without waiting for the window to end.
+- Chronic pain and older adults follow the same 4-session rule (no extended windows); the agreed marker is usually
+  functional.
+- Session length stated: 50–60 minutes, one-to-one. Contact e-mail and Ministry of Health verification URL updated.
+
 ## [1.3.0] — 2026-11-17
 
 Scope correction and evidence audit. The six canonical outputs and the numeric thresholds (3–5 session

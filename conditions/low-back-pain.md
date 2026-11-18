@@ -2,7 +2,7 @@
 title: "Low Back Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Low back pain including mechanical low back pain, lumbar disc herniation, chronic low back pain, and lumbar facet-related pain."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Progressive lower limb weakness or numbness"
   - "Bladder or bowel dysfunction (cauda equina)"
@@ -50,8 +50,8 @@ Low back pain is within physiotherapy scope when the presentation is musculoskel
 - **Neural sensitivity:** Heightened mechanosensitivity of neural structures. Tested with neural mobilization. Expected response: improved nerve mobility tests.
 
 ## Trial Window
-3–5 sessions. At least one objective criterion must be met:
-- ≥10% improvement in lumbar ROM (flexion, extension, or lateral flexion)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in lumbar ROM (flexion, extension, or lateral flexion), beyond measurement error
 - Documented functional task improvement (e.g., sit-to-stand, walking tolerance, lifting capacity)
 - Reduction in compensatory movement strategies
 

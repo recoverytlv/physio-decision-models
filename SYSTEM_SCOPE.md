@@ -49,7 +49,7 @@ This is not a patient tool. It is a reference model for epistemic governance in 
 
 ## Final boundary statement
 
-The decision logic is a frozen reference model (frozen as of v1.0, 27 Dec 2025; current release 1.3.0).  
+The decision logic is a frozen reference model (frozen as of v2.0, 18 Nov 2026; current release 2.0.0).  
 Its value lies in its narrowness, closure, and resistance to expansion.  
 Any attempt to widen scope, add procedures, or introduce outcome promises  
 is outside the defined system and should be considered a fork, not an evolution.

@@ -2,7 +2,7 @@
 title: "Dupuytren's Contracture — Physiotherapy Scope"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Progressive fibroproliferative disorder of the palmar fascia causing finger flexion contracture. Physiotherapy does not reverse it; the role is hand function, post-procedural rehabilitation and timely referral."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Rapidly progressing contracture → surgical/procedural evaluation"
   - "MCP contracture >30° or any PIP contracture — 'table top test' positive → surgical opinion"
@@ -75,7 +75,7 @@ Splinting practice varies between surgeons, and the treating surgeon's protocol 
 |---------|-------|
 | 1 | Assessment: ROM deficit, functional limitation, procedure history, splint assessment |
 | 2-3 | Targeted rehabilitation (scar, ROM, splinting, edema) |
-| 4-5 | Re-evaluate: ROM gains, functional improvement |
+| 4 | Re-evaluate: ROM gains, functional improvement |
 
 ## Decision Criteria
 
@@ -99,4 +99,4 @@ Splinting practice varies between surgeons, and the treating surgeon's protocol 
 ## Cross-References
 - [De Quervain's Tenosynovitis](./de-quervain-tenosynovitis.md) — Hand/wrist conditions
 - [Carpal Tunnel Syndrome](./carpal-tunnel-syndrome.md) — May coexist
-- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab follows the surgeon's protocol; the trial window itself is not extended
+- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab follows the surgeon's protocol; progress is measured against the protocol stage instead of a session count

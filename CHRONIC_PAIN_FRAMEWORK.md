@@ -21,7 +21,7 @@ Chronic pain: pain that persists or recurs for more than 3 months (IASP classifi
 | Goal | Full recovery | Functional restoration, self-management |
 | Timeline expectations | Weeks | Months |
 | Patient education | Injury-specific | Pain neuroscience education |
-| Trial window | 3–5 sessions | 3–5 sessions; if no objective criterion is met, one revised trial of 3–5 sessions |
+| Trial window | 4 sessions | 4 sessions (same rule; the agreed marker is usually functional); if it has not changed, one revised trial of 4 sessions |
 
 ## The Chronic Pain Assessment Framework
 
@@ -114,12 +114,8 @@ Chronic pain: pain that persists or recurs for more than 3 months (IASP classifi
 
 ## Decision Criteria — Adapted for Chronic Pain
 
-### TRIAL (3–5 sessions; one revised trial if no objective criterion is met)
-Chronic pain often needs the full 5 sessions and the one permitted revised trial; the window itself is not extended. Plan for both when:
-- Pain duration >6 months
-- Multiple contributing factors identified
-- Patient needs time to build trust and understand the approach
-- Graded exercise requires longer to show functional gains
+### TRIAL (4 sessions — same rule as acute pain)
+The 4-session rule applies to chronic pain too. What changes is the marker agreed at the first session: it is usually functional (walking time, sitting tolerance, a work task, PSFS) rather than pain intensity. If that marker has not changed measurably after 4 sessions, treatment stops and the case is re-evaluated: a documented revision (a different hypothesis, or the same hypothesis with a documented change of dose, technique or adherence plan) with ONE new trial, or DISCHARGE / REFER. The window itself is not extended.
 
 ### CONTINUE if:
 - Functional improvement documented (PSFS, 6MWT, sit-to-stand, work tolerance)
@@ -138,7 +134,7 @@ Chronic pain often needs the full 5 sessions and the one permitted revised trial
 ### REFER if:
 - Severe psychological distress beyond physiotherapy scope
 - Suicidal ideation
-- No functional improvement after 10-12 sessions of multimodal approach
+- No measurable change in the agreed marker after 4 sessions, after re-evaluation
 - Need for multidisciplinary pain program
 - Pharmacological management needed
 - Sleep disorder requiring medical intervention
@@ -162,7 +158,7 @@ Even chronic pain cases must have exit criteria:
 2. **Functional plateau despite optimal approach** → DISCHARGE or REFER to pain program
 3. **Patient not engaging** → Honest conversation, reassess goals, consider DISCHARGE
 4. **Psychological factors dominating** → REFER to psychology, may continue physio concurrently
-5. **No functional change after 10-12 sessions** → REFER for multidisciplinary assessment
+5. **No measurable change in the agreed marker after 4 sessions** → stop, re-evaluate, and REFER for multidisciplinary assessment if needed
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Temporomandibular Joint Disorder (TMJ/TMD)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Temporomandibular disorders including myofascial pain of the masticatory muscles, TMJ disc displacement (with and without reduction), TMJ osteoarthritis, and jaw pain related to cervical dysfunction."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Jaw stuck open and unable to close (TMJ dislocation / open lock — urgent reduction, REFER)"
   - "TMJ pain after facial trauma (suspected fracture)"
@@ -38,13 +38,13 @@ TMJ disorders with musculoskeletal origin are within physiotherapy scope. Suspec
 - Ear symptoms (hearing loss, persistent tinnitus) requiring ENT evaluation
 
 ## Clinical Hypothesis Examples
-- **Masticatory muscle myofascial pain:** Overactivity and trigger points in masseter, temporalis, or pterygoid muscles. Tested with manual therapy to masticatory muscles, jaw exercises, and habit modification (clenching awareness). Expected response: improved mouth opening and reduced pain with chewing within 3–5 sessions.
+- **Masticatory muscle myofascial pain:** Overactivity and trigger points in masseter, temporalis, or pterygoid muscles. Tested with manual therapy to masticatory muscles, jaw exercises, and habit modification (clenching awareness). Expected response: improved mouth opening and reduced pain with chewing within 4 sessions.
 - **TMJ disc displacement with reduction:** Click or pop during jaw opening with intermittent locking. Tested with jaw movement retraining and manual therapy. Expected response: reduced frequency of catching and improved jaw movement coordination.
 - **Acute closed lock (disc displacement without reduction, limited opening):** Tested with jaw mobilization and exercise. REFER if mouth opening does not improve within the trial window.
 - **Cervical contribution to TMJ pain:** Upper cervical dysfunction contributing to jaw pain and headache. Tested with cervical mobilization and deep neck flexor training. Expected response: if cervical-driven, jaw pain reduces with cervical treatment.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved mouth opening (measured in mm)
 - Reduced pain with chewing or jaw function
 - Reduced frequency of locking or clicking (if applicable)

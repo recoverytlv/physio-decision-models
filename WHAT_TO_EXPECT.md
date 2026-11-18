@@ -63,9 +63,9 @@ Treatment is based on what we think is driving your problem, not on a generic pr
 
 ## What Happens Next
 
-### The Trial Period (3–5 Sessions)
+### The Trial Period (4 Sessions)
 
-Your first 3–5 sessions are a trial period. During this time, we test our hypothesis about your problem.
+Your first 4 sessions are a trial period. At the first session we agree on one thing to measure (pain, function, mobility or strength). During this time, we test our hypothesis about your problem.
 
 At re-evaluation, we measure the same things we measured on day one and compare:
 - Is your range of motion improving?
@@ -108,7 +108,7 @@ DISCHARGE is not a bad thing. It means either you've achieved your goals, or we'
 - You have the right to see your measured progress at any time
 - You have the right to stop treatment whenever you choose
 - You have the right to a second opinion
-- You have the right to receive a written report of your evaluation findings
+- You have the right to a clear explanation of your evaluation findings
 - You have the right to be referred if your condition is outside our scope
 
 ## Languages

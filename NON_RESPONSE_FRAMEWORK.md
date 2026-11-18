@@ -4,7 +4,7 @@ type: clinical-framework
 proponent: "Alejandro Zubrisky, BPT"
 orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
-version: 1.3.0
+version: 2.0.0
 status: proposed
 license: MIT
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/NON_RESPONSE_FRAMEWORK.md"
@@ -72,11 +72,11 @@ beyond measurement error, MDC), within a **condition-appropriate time**.
 |---|---|
 | Session 1 | Baseline, hypothesis, measurable goals |
 | Trial sessions 1–2 | Early directional signals |
-| End of trial window (3–5 sessions) | First decision: CONTINUE / revised TRIAL / DISCHARGE / REFER |
+| End of trial window (session 4) | First decision: CONTINUE / revised TRIAL / DISCHARGE / REFER |
 | Later reviews | More robust functional progress |
 | No change after two trials | High risk of ineffective treatment → DISCHARGE or REFER |
 
-The 3–5 session window is a pragmatic, author-defined review point (see thresholds/trial-window-limits.md).
+The 4-session window is a pragmatic, author-defined review point (see thresholds/trial-window-limits.md).
 
 > The absence of any measurable improvement after an adequate early treatment
 > trial should trigger **reassessment, not automatic discharge.**
@@ -210,7 +210,7 @@ Language: *supports decision-making* — not *proves what must be done.*
 ## 14. Research gaps
 
 No uniform definition of non-response; few clinical decision rules; few
-condition-specific thresholds; little study of early-response windows such as the 3–5 session window used here; weak
+condition-specific thresholds; little study of early-response windows such as the 4-session window used here; weak
 integration of adherence; little cost-effectiveness and real-world evidence.
 
 ## How to cite

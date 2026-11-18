@@ -2,7 +2,7 @@
 title: "Gluteal Tendinopathy"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,12 +10,12 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Tendinopathy of the gluteus medius and/or gluteus minimus tendons at the greater trochanter. Previously called trochanteric bursitis. Lateral hip pain that is load-related, worse with single leg stance activities (walking, stairs, lying on the affected side). Most common in women aged 40–60."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Lateral hip pain after fall (especially in osteoporotic patients — rule out greater trochanter fracture)"
   - "Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)"
-  - "Symptoms not responding to appropriate loading management after the trial window and one revised trial"
+  - "No measurable change after 4 sessions and one revised trial of appropriate loading management"
   - "Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md"
 clinic: "https://recoverytlv.co.il"
@@ -32,11 +32,11 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 ## Red Flags (→ REFER)
 - Lateral hip pain after fall (especially in osteoporotic patients — rule out greater trochanter fracture)
 - Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)
-- Symptoms not responding to appropriate loading management after the trial window and one revised trial
+- No measurable change after 4 sessions and one revised trial of appropriate loading management
 - Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)
 
 ## Clinical Hypothesis Examples
-- **Load-related tendinopathy:** Gluteal tendons unable to tolerate compressive and tensile loads during single leg stance. Tested with progressive isometric → isotonic → functional gluteal loading. Expected response: reduced lateral hip pain with single leg stance activities within 3–5 sessions.
+- **Load-related tendinopathy:** Gluteal tendons unable to tolerate compressive and tensile loads during single leg stance. Tested with progressive isometric → isotonic → functional gluteal loading. Expected response: reduced lateral hip pain with single leg stance activities within 4 sessions.
 - **Compressive overload:** Sustained postures that compress the gluteal tendons (crossing legs, standing on one leg, lying on affected side, hip adduction stretching). Tested with compression load management (avoid provocative postures) plus progressive strengthening. Expected response: reduced morning pain and improved tolerance to walking.
 - **Gait and biomechanical factors:** Trendelenburg gait pattern increasing load on the affected gluteal tendons. Tested with gait retraining and hip abductor strengthening. Expected response: improved gait symmetry and reduced pain.
 - **Lumbar contribution:** Referred pain from the lumbar spine mimicking lateral hip pain. Tested with lumbar assessment and treatment. Expected response: if lumbar-driven, lateral hip pain improves with spinal treatment.
@@ -48,7 +48,7 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 - Do NOT prescribe excessive single leg stance activities early on
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced pain with single leg stance (30-second test)
 - Improved walking tolerance
 - Reduced night pain / pain lying on affected side

@@ -2,7 +2,7 @@
 title: "Sciatica and Lumbar Radiculopathy"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Sciatica, lumbar radiculopathy, and nerve root involvement with pain radiating below the knee in a dermatomal distribution."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Progressive motor weakness (foot drop, inability to heel walk or toe walk)"
   - "Bilateral radiculopathy"
@@ -43,9 +43,9 @@ Sciatica is within physiotherapy scope when the presentation is consistent with 
 - **Foraminal stenosis:** Positional nerve root compression. Tested with flexion-based approaches and decompression. Expected response: reduced radicular symptoms in loaded positions.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Centralization or reduction of radicular symptoms
-- ≥10% improvement in straight leg raise or slump test range
+- Measurable improvement in straight leg raise or slump test range, beyond measurement error
 - Functional improvement (walking distance, sitting tolerance, stair negotiation)
 - Reduction in compensatory gait patterns
 

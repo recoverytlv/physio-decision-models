@@ -2,7 +2,7 @@
 title: "Medial Tibial Stress Syndrome (Shin Splints)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Exercise-induced pain along the posteromedial border of the tibia. Most common overuse injury in runners and military recruits. Represents a continuum from periosteal stress reaction to tibial stress fracture. Must be differentiated from chronic exertional compartment syndrome and stress fracture."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Focal point tenderness on the tibia (stress fracture — not diffuse as in MTSS)"
   - "Pain at rest that doesn't resolve (stress fracture or more serious pathology)"
@@ -56,7 +56,7 @@ MTSS is within physiotherapy scope for management and prevention. Suspected stre
 - **Bone stress adaptation failure:** Insufficient recovery between training sessions preventing bone remodeling. Tested with adequate rest days, sleep optimization, and screening questions on diet and energy availability (refer to a physician for calcium/vitamin D testing if suspected). Expected response: gradual symptom resolution with appropriate recovery.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced pain with palpation along tibial border
 - Improved running tolerance (distance or duration before symptom onset)
 - Improved calf endurance (single leg calf raise repetitions)

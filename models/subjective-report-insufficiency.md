@@ -12,13 +12,13 @@ Subjective report insufficiency is the principle that patient-reported outcomes 
 - Subjective stability with objective deterioration mandates reassessment.
 
 ## Decision Consequences
-- CONTINUE requires at least one objective criterion: ≥10% improvement in ROM or another objective measure (beyond its MDC), documented functional task improvement, or reduction in compensatory strategies.
+- CONTINUE requires at least one objective criterion: a measurable improvement in ROM or another objective measure (beyond its MDC), documented functional task improvement, reduction in compensatory strategies, or, when pain was the agreed marker, a reduction on a validated scale beyond its MDC/MCID.
 - "The patient feels better" is not a valid standalone reason for CONTINUE.
 - "The patient feels worse" does not override documented objective improvement but requires safety review.
 
 ## Clinical Example
 
-**Case:** Patient with shoulder impingement, 5 sessions completed.
+**Case:** Patient with shoulder impingement, 4 sessions completed.
 
 **Scenario A — Subjective improvement, no objective change:**
 Patient reports "I feel much better, the pain is less." But shoulder flexion ROM unchanged (155° baseline → 157° now, within measurement error), and compensatory scapular elevation pattern persists. **Decision: CONTINUE is not justified.** Subjective improvement alone does not meet continuation criteria.

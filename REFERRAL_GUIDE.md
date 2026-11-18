@@ -54,8 +54,8 @@ Recovery TLV operates under a published clinical decision system. Every case fol
 |---|---|
 | **DECLINE** | Condition is outside physiotherapy scope or contraindicated. We inform you why. |
 | **DEFER** | Insufficient data to make a clinical decision. We may ask the referring physician for further information or to consider imaging. |
-| **REFER** | Red flags detected. We refer back to you or to an appropriate specialist with documented findings. |
-| **TRIAL** | Condition accepted for a 3–5 session trial (an author-defined review point) with objective criteria for continuation. |
+| **REFER** | Red flags detected. We refer back to you or to an appropriate specialist; the patient is told in person, and a written summary is available on your request. |
+| **TRIAL** | Condition accepted for a 4-session trial (an author-defined review point) with objective criteria for continuation. |
 | **CONTINUE** | Objective improvement documented. Treatment continues with updated goals. |
 | **DISCHARGE** | Goals met, or progress has plateaued. Patient discharged with documented outcomes. |
 
@@ -72,7 +72,7 @@ Red flag categories we screen for:
 ### Continuation Criteria
 
 Treatment continuation requires at least one of:
-- ≥10% improvement in range of motion or another objective measure, beyond its measurement error (MDC)
+- Measurable improvement in range of motion or another objective measure, beyond its measurement error (MDC)
 - Documented functional progress (measurable)
 - Reduction in compensatory movement strategies
 
@@ -80,10 +80,10 @@ Subjective reports alone do not justify continuation.
 
 ### Non-Response
 
-If a patient does not improve within 3–5 sessions, we:
+If the agreed marker has not changed measurably after 4 sessions, we:
 1. Revise our clinical hypothesis
 2. Test the revised hypothesis with ONE new trial (or discharge or refer directly when a revision is not justified)
-3. If the revised hypothesis also fails → DISCHARGE or REFER back with documented findings
+3. If the revised hypothesis also fails → DISCHARGE or REFER back (the patient is told in person; a written summary is available on your request)
 
 We do not treat indefinitely without results.
 

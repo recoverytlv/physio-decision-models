@@ -7,7 +7,7 @@ Objective outcome measurement is a non-negotiable component of the clinical deci
 ## General Principles
 
 1. **Baseline before treatment** — Every measure is taken at initial assessment before any intervention
-2. **Repeated at defined intervals** — Re-measured at trial window end (after 3–5 treatment sessions) and at each continuation decision point
+2. **Repeated at defined intervals** — Re-measured at trial window end (session 4) and at each continuation decision point
 3. **Beyond measurement error** — Change must exceed the instrument's minimal detectable change (MDC) and, where a value has been published, its minimal clinically important difference (MCID)
 4. **Condition-specific + generic** — Use at least one condition-specific and one generic measure per case
 
@@ -16,13 +16,13 @@ Objective outcome measurement is a non-negotiable component of the clinical deci
 ### Range of Motion (ROM)
 - **Tool:** Goniometer, inclinometer
 - **Application:** All musculoskeletal conditions with ROM limitations
-- **Threshold:** ≥10% improvement from baseline AND greater than the instrument's MDC (author-defined decision heuristic, not an MCID)
+- **Threshold:** a measurable improvement from baseline, greater than the instrument's MDC
 - **Decision link:** ROM improvement is a primary CONTINUE criterion
 
 ### Strength Testing
 - **Tool:** Manual muscle testing (MMT), handheld dynamometer, 1RM estimation
 - **Application:** Post-surgical, weakness-related dysfunction, tendinopathy
-- **Threshold:** Dynamometry or repetition testing: ≥10% improvement from baseline AND greater than the instrument's MDC (author-defined decision heuristic, not an MCID). MMT is ordinal: record the grade as supporting information only
+- **Threshold:** Dynamometry or repetition testing: a measurable improvement from baseline, greater than the instrument's MDC. MMT is ordinal: record the grade as supporting information only
 - **Decision link:** Strength gains support CONTINUE, stasis suggests hypothesis revision
 
 ## Functional Performance Tests
@@ -81,7 +81,7 @@ Objective outcome measurement is a non-negotiable component of the clinical deci
 ```
 Baseline Assessment
         ↓
-    TRIAL (3-5 sessions)
+    TRIAL (4 sessions)
         ↓
     Re-measure outcomes
         ↓
@@ -91,7 +91,7 @@ Baseline Assessment
         ↓
     Hypothesis revision
         ↓
-    ONE new TRIAL with revised hypothesis (3-5 sessions)
+    ONE new TRIAL with revised hypothesis (4 sessions)
         ↓
     Re-measure again
         ↓

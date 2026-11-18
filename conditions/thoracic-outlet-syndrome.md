@@ -2,7 +2,7 @@
 title: "Thoracic Outlet Syndrome (TOS)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Compression of the brachial plexus or subclavian vessels in the thoracic outlet. Physiotherapy manages neurogenic TOS; venous and arterial TOS are referred to vascular surgery."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Arm swelling, cyanosis, or color changes (venous TOS)"
   - "Absent or diminished radial pulse with positional changes (arterial TOS)"
@@ -53,13 +53,13 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 ### Scalene-Mediated Compression
 - **Hypothesis:** Anterior/middle scalene tightness is compressing the brachial plexus
 - **Test:** Scalene stretching, soft tissue mobilization, postural correction
-- **Expected response:** Reduced arm symptoms with overhead activities within 3-5 sessions
+- **Expected response:** Reduced arm symptoms with overhead activities within 4 sessions
 - **If no response:** Consider first rib dysfunction or structural anomaly (cervical rib)
 
 ### Postural (Droopy Shoulder)
 - **Hypothesis:** Poor scapular posture narrows the costoclavicular space
 - **Test:** Scapular strengthening, postural retraining, workplace ergonomics
-- **Expected response:** Symptom reduction with improved posture within 3-5 sessions
+- **Expected response:** Symptom reduction with improved posture within 4 sessions
 - **If no response:** REFER to a physician to consider imaging (cervical rib, elongated C7 transverse process)
 
 ### First Rib Dysfunction
@@ -74,7 +74,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 | 1 | Differentiate neurogenic vs vascular, assess scalene/posture/first rib contributions |
 | 2 | Targeted intervention based on hypothesis (scalene, posture, first rib) |
 | 3 | Re-evaluate: Roos test duration, symptom reproduction threshold |
-| 4-5 | Progress or exit |
+| 4 | Progress or exit |
 
 ## Decision Criteria
 
@@ -90,7 +90,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 ### REFER if:
 - Vascular signs present at any point
 - Progressive weakness or wasting
-- No improvement after 5 sessions of targeted intervention
+- No measurable change after 4 sessions of targeted intervention
 - Suspected structural anomaly (cervical rib)
 
 ## Cross-References

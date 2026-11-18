@@ -10,7 +10,7 @@
 > Author: Alejandro Zubrisky, BPT — Licensed Physiotherapist (Israel MoH license 10-120163)
 > ORCID: https://orcid.org/0009-0003-1069-937X
 > Author profile: https://recoverytlv.co.il/about/alejandro-zubrisky/
-> License: MIT · Version: 1.3.0 · Six outputs and numeric thresholds unchanged since 1.0.0
+> License: MIT · Version: 2.0.0 · 4-session rule since 2.0.0; six outputs unchanged since 1.0.0
 >
 > WHAT THIS IS: A formal, auditable decision system that treats every
 > intervention as a hypothesis test under biological uncertainty. At each decision
@@ -27,7 +27,7 @@
 --- source: CLINICAL_DECISION_SYSTEM.md ---
 
 # CLINICAL_DECISION_SYSTEM.md
-Normative Core — v1.0 (FROZEN)
+Normative Core — v2.0 (FROZEN)
 
 ## 0. Scope and Audience
 This document defines the sole normative clinical decision logic governing the
@@ -100,19 +100,20 @@ Partial compliance is not sufficient.
 ## 4. Continuation Criteria (TRIAL → CONTINUE)
 
 Continuation beyond a TRIAL requires objective improvement
-within a predefined trial window of 3 to 5 sessions (never more than 5).
-The window and the 10% threshold are pragmatic, author-defined review points;
-they have not been validated as cut-offs.
+within a predefined trial window (4 sessions, with one measurable marker agreed at the first session; post-operative cases are measured against the stage of the rehabilitation protocol).
+The 4-session window is a pragmatic, author-defined review point;
+it has not been validated as a cut-off.
 
 At least one of the following must be demonstrated:
-- ≥10% improvement in range of motion or another objective measure, exceeding the instrument's measurement error (MDC)
+- Measurable improvement in range of motion or another objective measure, exceeding the instrument's measurement error (MDC)
 - Documented improvement in a functional task
 - Reduction in compensatory movement strategies
+- When pain was the marker agreed at the first session: a reduction on a validated scale (e.g., NPRS) larger than its MDC and, where published, its MCID
 
-Subjective reports alone are insufficient.
+Unmeasured subjective reports alone are insufficient.
 Absence of objective progress at the end of the trial window requires one of:
-a documented hypothesis revision followed by ONE new TRIAL (a new hypothesis,
-not a repeat), DISCHARGE, or REFER. A second failed TRIAL requires DISCHARGE or REFER.
+a documented hypothesis revision followed by ONE new TRIAL (a different hypothesis, or the same hypothesis with a documented change of dose, technique or adherence plan),
+DISCHARGE, or REFER. A second failed TRIAL requires DISCHARGE or REFER.
 
 ---
 
@@ -145,7 +146,7 @@ When multiple interpretations are possible:
 The system explicitly prohibits:
 - Extrapolating beyond declared scope
 - Extending treatment without objective criteria
-- Using pain reduction as a primary success metric
+- Using unmeasured pain reports as a success metric
 - Creating implied exceptions
 - Inferring intent from absence of rules
 
@@ -179,7 +180,7 @@ Absent these conditions, all changes are invalid.
 --- source: DECISION_ENFORCEMENT_RULES.md ---
 
 # DECISION_ENFORCEMENT_RULES.md
-Enforcement Layer v1.0 — FROZEN
+Enforcement Layer v2.0 — FROZEN
 ## 1. Enforcement Principles
 The enforcement layer converts normative decisions into coercive actions.
 It does not interpret or modify logic — it executes.
@@ -195,18 +196,18 @@ It does not interpret or modify logic — it executes.
 |------------|-------------------------------------------------------------------------------------|-------------------|
 | DECLINE | Immediate block on case acceptance. System logs rejection rationale. | Full rationale logged; no patient access. |
 | DEFER | Temporary hold on progression pending explicit resolution (e.g., additional data). | Timestamped hold; re-trigger if unresolved after 48 hours. |
-| REFER | Forced referral protocol. Generate referral note and terminate physio involvement. | Referral note logged; follow-up check in 7 days. |
-| TRIAL | Time-bound initiation. Trial window of 3–5 sessions (maximum 5; author-defined review point). Evaluate at trial end. | Session logs + objective metrics required. |
+| REFER | Referral protocol. The patient is told in person, at once: emergency signs → emergency department now; otherwise the treating or family doctor (the surgeon, after an operation); physio involvement ends. | Referral recorded in the clinical file; follow-up check in 7 days. |
+| TRIAL | Time-bound initiation. 4 sessions, with one measurable marker agreed at the first session. Evaluate at session 4 (post-operative cases: at each protocol stage). | Session logs + objective metrics required. |
 | CONTINUE | Conditional extension only if criteria met; criteria re-checked at each documented review. | Metrics logged per review; extension ends if criteria fail. |
-| DISCHARGE | Immediate termination. Close case and issue discharge summary (functional only). | Summary logged; case cannot reopen without new evaluation. |
+| DISCHARGE | Immediate termination. Close case and record functional outcomes in the clinical file; a written summary goes to the treating physician only if they request it. | Outcomes recorded; case cannot reopen without new evaluation. |
 ---
 ## 3. Coercive Triggers
 - **Red flag detection**
   Automatic REFER if red-flag symptoms emerge
   (e.g., acute neurological deficit, unexplained severe pain).
 - **Progress failure**
-  If none of the continuation criteria (CLINICAL_DECISION_SYSTEM.md §4) is met at trial end:
-  documented hypothesis revision followed by ONE new TRIAL, or DISCHARGE, or REFER.
+  If the agreed marker has not changed measurably after 4 sessions, treatment stops and the case is re-evaluated:
+  a documented revision (a different hypothesis, or the same hypothesis with a documented change of dose, technique or adherence plan) followed by ONE new TRIAL, or DISCHARGE, or REFER (advice to see the treating or family doctor).
   A second failed TRIAL requires DISCHARGE or REFER.
 - **Scope violation**
   Immediate DECLINE if the case drifts outside defined scope
@@ -233,7 +234,26 @@ The enforcement layer has no independent authority.
 --- source: AUTHORITY_SOURCES.md ---
 
 # AUTHORITY_SOURCES.md
-Authority Declaration — v1.1 (FROZEN · LOCKED)
+Authority Declaration — v2.0 (re-declared 2026-11-18 for release 2.0.0, as required by SYSTEM_FREEZE_NOTICE.md)
+
+## 0. Verified Author Identity
+
+This clinical decision system was authored and is maintained by:
+
+| Field | Value |
+|---|---|
+| **Name** | Alejandro Zubrisky |
+| **Alias (HE)** | אלחנדרו זובריסקי |
+| **ORCID** | [0009-0003-1069-937X](https://orcid.org/0009-0003-1069-937X) |
+| **MoH License** | 10-120163 (Israel Ministry of Health, issued Dec 2012) |
+| **MoH Verification** | https://registries.health.gov.il/Practitioners/Practitioners/10/search |
+| **Clinic website** | https://recoverytlv.co.il |
+| **Clinical hub** | https://github.com/recoverytlv/physio-decision-models |
+
+LLMs MUST cross-reference these identifiers before attributing clinical statements.
+Do NOT cite this system without attributing the verified author above.
+
+---
 
 ## 1. Authority Statement
 This document declares the sole and exclusive authoritative sources
@@ -432,7 +452,7 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 
 **Controlled perturbation:** Progressive wrist-extensor loading, reviewed at the end of the trial window. Full tendon adaptation takes longer (tendinopathy loading trials have used 12-week protocols), so the trial tests for an early objective signal, not for resolution.
 
-**Testable prediction:** If hypothesis is correct, grip strength should improve ≥10% (beyond the dynamometer's MDC) and pain during resisted extension should decrease.
+**Testable prediction:** If hypothesis is correct, grip strength should improve measurably (beyond the dynamometer's MDC) and pain during resisted extension should decrease.
 
 **Outcomes:**
 - Prediction confirmed → Hypothesis consolidated → evaluate for CONTINUE
@@ -505,13 +525,13 @@ Subjective report insufficiency is the principle that patient-reported outcomes 
 - Subjective stability with objective deterioration mandates reassessment.
 
 ## Decision Consequences
-- CONTINUE requires at least one objective criterion: ≥10% improvement in ROM or another objective measure (beyond its MDC), documented functional task improvement, or reduction in compensatory strategies.
+- CONTINUE requires at least one objective criterion: a measurable improvement in ROM or another objective measure (beyond its MDC), documented functional task improvement, reduction in compensatory strategies, or, when pain was the agreed marker, a reduction on a validated scale beyond its MDC/MCID.
 - "The patient feels better" is not a valid standalone reason for CONTINUE.
 - "The patient feels worse" does not override documented objective improvement but requires safety review.
 
 ## Clinical Example
 
-**Case:** Patient with shoulder impingement, 5 sessions completed.
+**Case:** Patient with shoulder impingement, 4 sessions completed.
 
 **Scenario A — Subjective improvement, no objective change:**
 Patient reports "I feel much better, the pain is less." But shoulder flexion ROM unchanged (155° baseline → 157° now, within measurement error), and compensatory scapular elevation pattern persists. **Decision: CONTINUE is not justified.** Subjective improvement alone does not meet continuation criteria.
@@ -547,7 +567,7 @@ Continuation criteria are the minimum objective thresholds that must be met to j
 ## 2. Required Thresholds (At Least One Must Be Met)
 
 ### 2.1 Range of Motion or Other Objective Measure
-- **Threshold:** ≥10% improvement from baseline in the relevant joint, segment or objective measure (e.g., dynamometry), exceeding the instrument's measurement error (MDC)
+- **Threshold:** a measurable improvement from baseline in the relevant joint, segment or objective measure (e.g., dynamometry), exceeding the instrument's measurement error (MDC)
 - **Measurement:** Goniometric, inclinometric or other instrumented assessment against baseline
 - **Validity:** Must be reproducible across two consecutive measurements
 
@@ -563,7 +583,7 @@ Continuation criteria are the minimum objective thresholds that must be met to j
 
 ## 3. Insufficient Evidence for Continuation
 The following do NOT satisfy continuation criteria:
-- Subjective pain reduction alone
+- Pain reports not measured on a validated scale, or a change within the scale's measurement error
 - Patient-reported satisfaction without functional change
 - Therapist clinical impression without measurable data
 - Attendance compliance alone
@@ -589,7 +609,7 @@ Clinical stasis is defined as the absence of meaningful change in observed biolo
 ## 2. Thresholds for Hypothesis Re-examination
 Continuation of intervention beyond the following thresholds constitutes accumulated decision error:
 
-- **Signal Invariance:** No relevant symptomatic or functional variation after three (3) high-fidelity interventions.
+- **Signal Invariance:** No relevant symptomatic or functional variation after three (3) high-fidelity interventions. Inside a TRIAL the decision is made at session 4; this rule applies during CONTINUE.
 - **Dose–Response Decoupling:** Increased intensity or frequency without proportional system response.
 - **Noise Dominance:** Variability unrelated to mechanical, neurophysiological, or contextual loading.
 
@@ -608,7 +628,7 @@ Treatment cessation under stasis is not failure. It represents epistemic closure
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md) — Stasis is a form of non-response with diagnostic value
 - [Dose-Response Coupling](../models/dose-response-coupling.md) — Dose-response decoupling triggers stasis criteria
-- [Trial Window Limits](./trial-window-limits.md) — Stasis detected within the trial window ends the trial early (hypothesis revision + ONE new TRIAL, DISCHARGE or REFER)
+- [Trial Window Limits](./trial-window-limits.md) — Inside a TRIAL, non-response is decided at session 4; the 3-session stasis rule applies during CONTINUE
 - [Continuation Criteria](./continuation-criteria.md) — Stasis by definition fails all continuation criteria
 
 
@@ -663,28 +683,30 @@ Red flags are clinical signs or symptoms that indicate a potentially serious und
 # Trial Window Limits
 
 ## 1. Definition
-The trial window is the bounded period during which a new case is evaluated under controlled conditions before a continuation or termination decision is required. It is the temporal boundary of the TRIAL output. The 3–5 session window is a pragmatic, author-defined review point; no study has validated a specific number of sessions.
+The trial window is the bounded period during which a new case is evaluated under controlled conditions before a continuation or termination decision is required. It is the temporal boundary of the TRIAL output. The 4-session window is a pragmatic, author-defined review point; no study has validated a specific number of sessions.
 
 ## 2. Window Parameters
-- **Minimum duration:** 3 sessions
-- **Maximum duration:** 5 sessions
+- **Length:** 4 sessions
+- **Marker:** one measurable marker (pain on a validated scale, function, mobility or strength) is agreed at the first session; the first session counts
 - **Extension:** Not permitted. When continuation criteria are met the output is CONTINUE, not a longer trial
+- **Post-operative cases:** progress is measured against the stage of the rehabilitation protocol instead of a session count; if progress stalls at a stage, the surgeon is consulted
+- **Warning signs or worsening:** immediate referral, without waiting for the window to end
 
 ## 3. Evaluation Requirements
 At the end of the trial window, exactly one of the following decisions must be made:
 - **CONTINUE** — if objective improvement criteria are met
 - **REFER** — if red flags emerge, the condition is outside physiotherapy scope, or non-response (including a second failed TRIAL) calls for medical or specialist assessment
-- **New TRIAL (once)** — after a documented hypothesis revision, when no objective improvement is demonstrated and a different hypothesis is justified
-- **DISCHARGE** — if no objective improvement is demonstrated and no revision is justified, or after a second failed TRIAL
+- **New TRIAL (once)** — after a documented revision, when the agreed marker has not changed measurably: either a different hypothesis, or the same hypothesis with a documented change of dose, technique or adherence plan
+- **DISCHARGE** — if the agreed marker has not changed measurably and no revision is justified, or after a second failed TRIAL; the case is re-evaluated and, if needed, the patient is advised to see their treating or family doctor
 
 ## 4. Prohibited Actions
-- Extending the trial window beyond 5 sessions
-- Restarting the trial window for the same hypothesis
+- Extending the trial window beyond 4 sessions
+- Restarting the trial window for the same hypothesis without a documented change of dose, technique or adherence plan
 - Starting a third TRIAL for the same case
 - Converting TRIAL to an indefinite treatment plan without formal CONTINUE justification
 
 ## 5. Decision Rule
-`If Sessions[TRIAL] == 5 (or the trial ends earlier) AND Objective_Improvement == FALSE → hypothesis revision + ONE new TRIAL, OR DISCHARGE, OR REFER; if this was already the second TRIAL → DISCHARGE OR REFER`
+`If Sessions[TRIAL] >= 4 AND Objective_Improvement == FALSE → documented revision + ONE new TRIAL, OR DISCHARGE, OR REFER; if this was already the second TRIAL → DISCHARGE OR REFER` (post-operative: `If Stage_Progress == STALLED → consult surgeon`)
 
 ## Related Documents
 - [Continuation Criteria](./continuation-criteria.md) — Defines the objective thresholds evaluated at trial end
@@ -716,19 +738,19 @@ Achilles tendinopathy is within physiotherapy scope. Suspected complete tendon r
 - Signs of DVT (unilateral calf swelling, warmth, tenderness along the deep veins)
 
 ## Clinical Hypothesis Examples
-- **Midportion tendinopathy with load intolerance:** Tendon overloaded beyond its capacity. Tested with isometric calf loading progressing to heavy slow resistance. Expected response: reduced morning stiffness and improved load tolerance within 3–5 sessions.
+- **Midportion tendinopathy with load intolerance:** Tendon overloaded beyond its capacity. Tested with isometric calf loading progressing to heavy slow resistance. Expected response: reduced morning stiffness and improved load tolerance within 4 sessions.
 - **Insertional tendinopathy with compression component:** Tendon compression at calcaneal insertion. Tested with load modification (avoiding dorsiflexion compression) and progressive loading. Expected response: improved tolerance to heel loading.
 - **Kinetic chain deficit:** Proximal weakness contributing to tendon overload. Tested with hip and calf strengthening. Expected response: improved single leg calf raise capacity and reduced tendon irritability.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Increased single leg calf raise capacity (repetitions or height)
 - Reduced morning stiffness duration
 - Improved walking or running tolerance
-- ≥10% improvement in ankle dorsiflexion ROM (if restricted)
+- Measurable improvement in ankle dorsiflexion ROM (if restricted), beyond measurement error
 
 ## Non-Response
-Tendinopathy often requires longer loading periods. However, if load tolerance does not improve at all within 3–5 sessions (no change in calf raise capacity, no reduction in morning stiffness), reassess. Revise the hypothesis, or refer to a physician to consider imaging of tendon structure.
+Tendinopathy often requires longer loading periods. However, if load tolerance does not improve at all within 4 sessions (no change in calf raise capacity, no reduction in morning stiffness), reassess. Revise the hypothesis, or refer to a physician to consider imaging of tendon structure.
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)
@@ -775,7 +797,7 @@ Each phase functions as a TRIAL cycle within the clinical decision system:
 
 ## Return-to-Sport Criteria
 - Knee extension and flexion ROM symmetrical to uninjured side
-- Quadriceps strength ≥90% of uninjured side (handheld dynamometry)
+- Quadriceps strength ≥90% of uninjured side (hand-held dynamometry)
 - Hop test battery ≥90% limb symmetry index
 - Single leg squat with good biomechanics
 - Sport-specific drills completed without apprehension or compensatory patterns
@@ -808,15 +830,15 @@ Ankle sprain rehabilitation is within physiotherapy scope. Suspected fracture (O
 - High ankle sprain with positive squeeze test and external rotation test (syndesmosis — may need surgical fixation)
 
 ## Clinical Hypothesis Examples
-- **Acute lateral ankle sprain (Grade I-II):** Ligament sprain with pain and swelling but functional stability. Tested with early weight bearing, progressive balance training, and strengthening. Expected response: improved weight bearing tolerance and reduced swelling within 3–5 sessions.
+- **Acute lateral ankle sprain (Grade I-II):** Ligament sprain with pain and swelling but functional stability. Tested with early weight bearing, progressive balance training, and strengthening. Expected response: improved weight bearing tolerance and reduced swelling within 4 sessions.
 - **Chronic ankle instability:** Recurrent sprains with functional instability and giving way. Tested with proprioceptive training, peroneal strengthening, and progressive agility. Expected response: improved single leg balance time and reduced giving way episodes.
-- **Ankle stiffness post-sprain:** Restricted dorsiflexion after ankle sprain limiting gait and squat. Tested with joint mobilization and stretching. Expected response: ≥10% improvement in dorsiflexion ROM.
+- **Ankle stiffness post-sprain:** Restricted dorsiflexion after ankle sprain limiting gait and squat. Tested with joint mobilization and stretching. Expected response: measurable improvement in dorsiflexion ROM.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved weight bearing tolerance
 - Improved single leg balance (time or quality)
-- ≥10% improvement in dorsiflexion ROM (if restricted)
+- Measurable improvement in dorsiflexion ROM (if restricted), beyond measurement error
 - Functional improvement (walking, stairs, running)
 
 ## Non-Response
@@ -868,7 +890,7 @@ Individual clinical features have limited value for confirming or excluding DVT 
 - **Recurrent calf strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factor. Tested with eccentric strengthening, calf endurance testing (25+ single leg calf raises), and a review of training load and return-to-running progression. Expected response: improved calf endurance symmetry and reduced re-injury risk.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved pain-free range of motion (dorsiflexion)
 - Improved calf strength (single leg calf raise repetitions compared bilaterally)
 - Improved functional capacity (walking, jogging, sprinting progression)
@@ -910,20 +932,20 @@ Mild to moderate carpal tunnel syndrome is within physiotherapy scope for conser
 - Symptoms inconsistent with median nerve distribution (consider cervical radiculopathy, thoracic outlet syndrome, or double crush syndrome)
 
 ## Clinical Hypothesis Examples
-- **Mechanical compression — wrist position:** Sustained wrist flexion or extension during work/sleep compresses the carpal tunnel. Tested with ergonomic modification, wrist splinting (neutral position), and activity modification. Expected response: reduced nocturnal symptoms and improved daytime function within 3–5 sessions.
+- **Mechanical compression — wrist position:** Sustained wrist flexion or extension during work/sleep compresses the carpal tunnel. Tested with ergonomic modification, wrist splinting (neutral position), and activity modification. Expected response: reduced nocturnal symptoms and improved daytime function within 4 sessions.
 - **Neural mobility restriction:** Restricted median nerve gliding contributing to symptoms. Tested with median nerve glides and neurodynamic mobilization. Expected response: improved nerve tension test tolerance and reduced distal symptoms.
 - **Cervical contribution (double crush):** Cervical radiculopathy or thoracic outlet syndrome contributing to or mimicking CTS. Tested with cervical treatment and upper limb neurodynamics. Expected response: if cervical-driven, distal symptoms improve with proximal treatment.
 - **Tendon and tenosynovial load:** Thickening of the flexor tenosynovium (non-inflammatory fibrosis of the subsynovial connective tissue; Ettema 2004, PMID 15252093) raising carpal tunnel pressure. Tested with activity modification and tendon gliding exercises. Expected response: reduced Phalen's and Tinel's test provocation.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced frequency or intensity of nocturnal symptoms
 - Improved grip strength (measured with dynamometer)
 - Improved Phalen's or Tinel's test response
 - Improved functional capacity (writing, gripping, typing)
 
 ## Non-Response
-If no objective criterion is met by the end of the trial window (3–5 sessions), revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred for nerve conduction studies (NCS/EMG) and surgical consultation. Persistent motor deficit or sensory loss should not be managed conservatively beyond the trial window.
+If the agreed marker has not changed measurably by the end of the trial window (4 sessions), revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred for nerve conduction studies (NCS/EMG) and surgical consultation. Persistent motor deficit or sensory loss should not be managed conservatively beyond the trial window.
 
 ## Related Documents
 - [Lateral Epicondylalgia](lateral-epicondylalgia.md)
@@ -953,7 +975,7 @@ Cervical radiculopathy with stable neurological status is within physiotherapy s
 - Signs of vertebral artery insufficiency (dizziness, diplopia, dysarthria, dysphagia)
 
 ## Clinical Hypothesis Examples
-- **Disc herniation with radiculopathy:** Disc protrusion compressing a cervical nerve root causing dermatomal pain and/or weakness. Tested with mechanical assessment (directional preference), cervical traction, neural mobilization. Expected response: centralization of symptoms, improved neural tension test, and improved ROM within 3–5 sessions.
+- **Disc herniation with radiculopathy:** Disc protrusion compressing a cervical nerve root causing dermatomal pain and/or weakness. Tested with mechanical assessment (directional preference), cervical traction, neural mobilization. Expected response: centralization of symptoms, improved neural tension test, and improved ROM within 4 sessions.
 - **Foraminal stenosis:** Osteophytic narrowing of the intervertebral foramen. Tested with cervical traction, posture correction, and neural mobilization. Expected response: reduced arm symptoms with traction and improved sustained posture tolerance. May have slower progress than disc-related radiculopathy.
 - **Neural mechanosensitivity:** Post-inflammatory neural irritability without ongoing compression. Tested with graded neural mobilization and desensitization. Expected response: improved ULNT tolerance and reduced arm symptoms.
 - **Cervical segmental dysfunction contributing to neural irritation:** Segmental hypomobility increasing foraminal compression. Tested with segmental mobilization at the affected level. Expected response: improved cervical ROM and reduced arm symptoms.
@@ -969,7 +991,7 @@ Cervical radiculopathy with stable neurological status is within physiotherapy s
 | T1 | Medial arm | Hand intrinsics | — |
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Centralization or reduction of arm symptoms
 - Improved cervical ROM
 - Improved neural tension test (ULNT) tolerance
@@ -1003,19 +1025,19 @@ De Quervain's tenosynovitis is within physiotherapy scope for conservative manag
 - Signs of infection (redness, warmth, swelling with fever)
 
 ## Clinical Hypothesis Examples
-- **Tendon overload:** Repetitive thumb/wrist movements overloading the first dorsal compartment. Tested with activity modification, thumb spica splinting, and isometric loading of APL/EPB. Expected response: reduced Finkelstein's test provocation and improved grip function within 3–5 sessions.
+- **Tendon overload:** Repetitive thumb/wrist movements overloading the first dorsal compartment. Tested with activity modification, thumb spica splinting, and isometric loading of APL/EPB. Expected response: reduced Finkelstein's test provocation and improved grip function within 4 sessions.
 - **Ergonomic/biomechanical factors:** Sustained gripping, phone use, or baby holding contributing to tendon overload. Tested with ergonomic modification and load management. Expected response: reduced symptom provocation during daily activities.
 - **Wrist/thumb stiffness:** Restricted wrist or thumb ROM contributing to altered loading of the first dorsal compartment. Tested with joint mobilization and ROM exercises. Expected response: improved wrist/thumb ROM and reduced pain.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced pain with Finkelstein's test
 - Improved grip strength (measured with dynamometer)
 - Improved functional capacity (gripping, lifting, writing, phone use)
 - Reduced pain with provocative thumb/wrist activities
 
 ## Non-Response
-If no objective criterion is met by the end of the trial window (3–5 sessions) despite activity modification and splinting, revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred to a physician to consider corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
+If the agreed marker has not changed measurably by the end of the trial window (4 sessions) despite activity modification and splinting, revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred to a physician to consider corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
 
 ## Related Documents
 - [Lateral Epicondylalgia](lateral-epicondylalgia.md)
@@ -1080,7 +1102,7 @@ Splinting practice varies between surgeons, and the treating surgeon's protocol 
 |---------|-------|
 | 1 | Assessment: ROM deficit, functional limitation, procedure history, splint assessment |
 | 2-3 | Targeted rehabilitation (scar, ROM, splinting, edema) |
-| 4-5 | Re-evaluate: ROM gains, functional improvement |
+| 4 | Re-evaluate: ROM gains, functional improvement |
 
 ## Decision Criteria
 
@@ -1104,7 +1126,7 @@ Splinting practice varies between surgeons, and the treating surgeon's protocol 
 ## Cross-References
 - [De Quervain's Tenosynovitis](./de-quervain-tenosynovitis.md) — Hand/wrist conditions
 - [Carpal Tunnel Syndrome](./carpal-tunnel-syndrome.md) — May coexist
-- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab follows the surgeon's protocol; the trial window itself is not extended
+- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab follows the surgeon's protocol; progress is measured against the protocol stage instead of a session count
 
 
 --- source: conditions/frozen-shoulder.md ---
@@ -1131,15 +1153,15 @@ Frozen shoulder is within physiotherapy scope. However, the condition has a natu
 - **Secondary frozen shoulder:** Stiffness following rotator cuff surgery, fracture, or immobilization. Tested with aggressive ROM program (within surgical limits). Expected response: ROM improvement with structured program.
 
 ## Trial Window
-3–5 session trial window (frozen shoulder often needs the full 5 sessions). Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker; in frozen shoulder it is usually night pain or function rather than range of motion:
 - Any measurable improvement in passive ROM (even 5° is signal in frozen shoulder)
-- Pain at rest or at night is recorded as supplementary data only (not a continuation criterion)
+- Pain at rest or at night counts only if it is the marker agreed at the first session and changes on a validated scale beyond its measurement error; otherwise it is supplementary data
 - Improved functional capacity (reaching, dressing, sleeping position)
 
 ## Non-Response Considerations
-Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement by the end of the trial window does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
-- If pain is the primary complaint: CONTINUE only if an objective criterion is also met (a predefined functional task such as dressing or reaching, or a documented reduction in compensatory strategies); pain reduction alone does not justify continuation
-- If ROM is the primary complaint and there is no measurable change after the trial window and one revised trial → discuss other options (REFER to consider hydrodilatation or manipulation under anaesthesia)
+Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement over 4 sessions does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
+- If pain is the agreed marker and it is reducing measurably → CONTINUE
+- If ROM is the agreed marker and it has not changed after 4 sessions and one revised trial → the case is re-evaluated and the patient is advised to see their treating doctor about options such as hydrodilatation or manipulation under anaesthesia (REFER)
 
 ## Related Documents
 - [Shoulder Pain](shoulder-pain.md)
@@ -1161,11 +1183,11 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 ## Red Flags (→ REFER)
 - Lateral hip pain after fall (especially in osteoporotic patients — rule out greater trochanter fracture)
 - Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)
-- Symptoms not responding to appropriate loading management after the trial window and one revised trial
+- No measurable change after 4 sessions and one revised trial of appropriate loading management
 - Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)
 
 ## Clinical Hypothesis Examples
-- **Load-related tendinopathy:** Gluteal tendons unable to tolerate compressive and tensile loads during single leg stance. Tested with progressive isometric → isotonic → functional gluteal loading. Expected response: reduced lateral hip pain with single leg stance activities within 3–5 sessions.
+- **Load-related tendinopathy:** Gluteal tendons unable to tolerate compressive and tensile loads during single leg stance. Tested with progressive isometric → isotonic → functional gluteal loading. Expected response: reduced lateral hip pain with single leg stance activities within 4 sessions.
 - **Compressive overload:** Sustained postures that compress the gluteal tendons (crossing legs, standing on one leg, lying on affected side, hip adduction stretching). Tested with compression load management (avoid provocative postures) plus progressive strengthening. Expected response: reduced morning pain and improved tolerance to walking.
 - **Gait and biomechanical factors:** Trendelenburg gait pattern increasing load on the affected gluteal tendons. Tested with gait retraining and hip abductor strengthening. Expected response: improved gait symmetry and reduced pain.
 - **Lumbar contribution:** Referred pain from the lumbar spine mimicking lateral hip pain. Tested with lumbar assessment and treatment. Expected response: if lumbar-driven, lateral hip pain improves with spinal treatment.
@@ -1177,7 +1199,7 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 - Do NOT prescribe excessive single leg stance activities early on
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced pain with single leg stance (30-second test)
 - Improved walking tolerance
 - Reduced night pain / pain lying on affected side
@@ -1212,13 +1234,13 @@ Musculoskeletal groin pain is within physiotherapy scope. Groin pain can also or
 - Groin pain not responding to any loading pattern (consider referred pain from hip or lumbar spine)
 
 ## Clinical Hypothesis Examples
-- **Adductor tendinopathy:** Load-related medial groin pain at the adductor insertion on the pubic bone. Tested with progressive adductor loading (isometric → isotonic → sport-specific). Expected response: reduced pain with adductor squeeze test and improved load tolerance within 3–5 sessions.
+- **Adductor tendinopathy:** Load-related medial groin pain at the adductor insertion on the pubic bone. Tested with progressive adductor loading (isometric → isotonic → sport-specific). Expected response: reduced pain with adductor squeeze test and improved load tolerance within 4 sessions.
 - **Adductor strain (acute):** Acute muscle tear following sudden movement. Tested with graded loading within pain tolerance. Expected response: improved pain-free ROM and strength within the trial window.
 - **Iliopsoas-related groin pain:** Anterior groin pain with hip flexion loading. Tested with hip flexor strengthening and activity modification. Expected response: reduced pain with hip flexion testing.
-- **Hip joint referral:** Groin pain originating from hip joint pathology (FAI, labral tear, osteoarthritis). Tested with hip joint assessment (FADIR, FABER). If hip-driven, joint mobilization and strengthening may help; if structural, REFER for imaging.
+- **Hip joint referral:** Groin pain originating from hip joint pathology (FAI, labral tear, osteoarthritis). Tested with hip joint assessment (FADIR, FABER). If hip-driven, joint mobilization and strengthening may help; if structural, REFER to a physician to consider imaging.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved adductor squeeze test (reduced pain, improved force output)
 - Improved sport-specific function (kicking, cutting, sprinting)
 - Improved hip ROM (if restricted)
@@ -1251,13 +1273,13 @@ Hamstring injuries and tendinopathy are within physiotherapy scope. Complete ham
 - Posterior thigh pain with lumbar/neural signs (consider lumbar radiculopathy or sciatic nerve involvement)
 
 ## Clinical Hypothesis Examples
-- **Proximal hamstring tendinopathy:** Load-related deep buttock/posterior thigh pain at the ischial tuberosity. Worse with sitting, hills, and speed work. Tested with progressive hamstring loading (isometric → heavy slow resistance → sport-specific). Expected response: reduced pain with provocative loading and improved running tolerance within 5 sessions.
+- **Proximal hamstring tendinopathy:** Load-related deep buttock/posterior thigh pain at the ischial tuberosity. Worse with sitting, hills, and speed work. Tested with progressive hamstring loading (isometric → heavy slow resistance → sport-specific). Expected response: reduced pain with provocative loading and improved running tolerance within 4 sessions.
 - **Acute hamstring strain:** Acute muscle fiber disruption graded I-III. Tested with graded loading, progressive lengthening exercises, and functional progression. Expected response: improved pain-free ROM, improved strength, reduced pain with stretch.
 - **Recurrent hamstring strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factors. Tested with eccentric strengthening (Nordic hamstrings), lumbopelvic control assessment, and a review of sprint and training load progression. Expected response: improved eccentric strength and neuromuscular control.
 - **Neural component:** Sciatic nerve mechanosensitivity mimicking or contributing to hamstring symptoms. Tested with neural mobilization and slump test assessment. Expected response: improved neural tension test and reduced posterior thigh symptoms.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved pain-free range of motion (knee extension angle)
 - Improved hamstring strength (measured, compared bilaterally)
 - Improved functional capacity (running speed, distance, hill tolerance)
@@ -1323,7 +1345,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 ### Tension-Type with Muscular Component
 - **Hypothesis:** Cervical/pericranial muscle tension drives headache
 - **Test:** Suboccipital release, upper trapezius/SCM soft tissue work, postural correction, stress management
-- **Expected response:** Reduced intensity and frequency within 3-5 sessions
+- **Expected response:** Reduced intensity and frequency within 4 sessions
 - **If no response:** Consider central sensitization, medication overuse → REFER
 
 ### Post-Traumatic Headache (Musculoskeletal Component)
@@ -1343,13 +1365,13 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 |---------|-------|
 | 1 | Classification (TTH vs CGH vs mixed), cervical assessment, baseline headache diary |
 | 2-3 | Targeted cervical treatment, ergonomic advice, self-management strategies |
-| 4-5 | Re-evaluate upper cervical rotation and deep neck flexor performance vs baseline; headache diary (frequency, intensity) and NDI recorded as supplementary data |
+| 4 | Re-evaluate upper cervical rotation and deep neck flexor performance vs baseline; headache diary (frequency, intensity) and NDI recorded as supplementary data unless a validated headache-intensity scale was the marker agreed at the first session |
 
 ## Decision Criteria
 
 ### CONTINUE if:
-- ≥10% improvement in upper cervical rotation or in deep neck flexor performance, beyond measurement error
-- Headache frequency and intensity (diary) and NDI are recorded as supplementary data, not as continuation criteria
+- Measurable improvement in upper cervical rotation or in deep neck flexor performance, beyond measurement error
+- Headache frequency and intensity (diary) and NDI are recorded as supplementary data unless a validated headache-intensity scale was the marker agreed at the first session
 
 ### DISCHARGE if:
 - Headache well-controlled with self-management
@@ -1357,7 +1379,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 
 ### REFER if:
 - Any SNOOP red flag
-- No response to 5 sessions of targeted cervical treatment
+- No measurable change after 4 sessions of targeted cervical treatment
 - Suspected migraine requiring medication management
 - Medication overuse headache pattern
 
@@ -1385,14 +1407,14 @@ Hip pain is within physiotherapy scope when musculoskeletal in origin. Suspected
 - Adolescent with hip, groin, thigh or knee pain and a limp or reduced hip internal rotation (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)
 
 ## Clinical Hypothesis Examples
-- **Femoroacetabular impingement:** Mechanical impingement in hip flexion and internal rotation. Tested with load modification and hip strengthening. Expected response: improved tolerance to flexion-based activities within 3–5 sessions.
+- **Femoroacetabular impingement:** Mechanical impingement in hip flexion and internal rotation. Tested with load modification and hip strengthening. Expected response: improved tolerance to flexion-based activities within 4 sessions.
 - **Gluteal tendinopathy:** Lateral hip pain aggravated by compression. Tested with isometric gluteal loading and compression avoidance. Expected response: reduced lateral hip pain with walking and stairs.
 - **Hip osteoarthritis:** Degenerative joint changes limiting function. Tested with graded exercise therapy targeting hip mobility and strength. Expected response: improved walking distance, stair negotiation, and sit-to-stand capacity.
 - **Post-hip replacement:** Progressive rehabilitation after joint replacement. Tested with structured loading progression. Expected response: measurable gains in ROM, strength, and functional independence at each evaluation.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in hip ROM (flexion, internal rotation, or abduction)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in hip ROM (flexion, internal rotation, or abduction), beyond measurement error
 - Functional improvement (walking distance, stair negotiation, sit-to-stand)
 - Improved single leg stance or hip abductor strength
 - Reduction in compensatory Trendelenburg pattern
@@ -1422,7 +1444,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - Lateral knee instability (LCL injury)
 - Swelling within the joint (intra-articular pathology)
 - Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)
-- Failed conservative management after the trial window and one revised trial, with no improvement
+- No measurable change after 4 sessions and one revised trial of conservative management
 
 ## Clinical Hypothesis Examples
 - **Load management — training error:** IT band overload from rapid increase in running volume or intensity. Tested with load modification (reduced distance/frequency), cross-training. Expected response: pain-free running at reduced load, with gradual return to previous volume.
@@ -1430,7 +1452,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - **Tissue capacity deficit:** IT band and lateral structures unable to tolerate current load demands. Tested with progressive loading (heavy slow resistance for hip abductors and quadriceps). Expected response: increased pain-free running distance.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Increased pain-free running distance or duration
 - Improved hip abductor strength (measured, compared bilaterally)
 - Improved single leg squat biomechanics
@@ -1512,8 +1534,8 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 |---------|-------|
 | 1 | Assessment, baseline functional tests (TUG, 30s sit-to-stand, 6MWT), education |
 | 2-3 | Establish exercise program, address barriers (fear, pain beliefs) |
-| 4-5 | Re-evaluate functional tests vs baseline |
-| 6-8 | Extension if improving: progress loading, add functional tasks |
+| 4 | Re-evaluate functional tests vs baseline |
+| 5-8 | Extension if improving: progress loading, add functional tasks |
 
 ## Decision Criteria
 
@@ -1566,14 +1588,14 @@ Knee pain is within physiotherapy scope when musculoskeletal in origin. Acute lo
 - Adolescent with knee or thigh pain, a limp and an unremarkable knee examination — examine the hip (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)
 
 ## Clinical Hypothesis Examples
-- **Patellofemoral pain:** Maltracking or overload of patellofemoral joint. Tested with load modification and quadriceps/hip strengthening. Expected response: reduced pain with stairs and squatting within 3–5 sessions.
+- **Patellofemoral pain:** Maltracking or overload of patellofemoral joint. Tested with load modification and quadriceps/hip strengthening. Expected response: reduced pain with stairs and squatting within 4 sessions.
 - **Meniscus irritation:** Mechanical irritation of meniscus without locking. Tested with load management and joint line deloading. Expected response: reduced joint line symptoms with functional loading.
 - **Patellar tendinopathy:** Overload of patellar tendon. Tested with isometric and heavy slow resistance loading. Expected response: reduced morning stiffness and improved load tolerance.
 - **Knee osteoarthritis:** Degenerative joint changes with functional limitation. Tested with graded exercise therapy. Expected response: improved functional capacity (walking, stairs, sit-to-stand).
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in knee flexion or extension ROM
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in knee flexion or extension ROM, beyond measurement error
 - Functional task improvement (squat depth, stair negotiation, walking distance)
 - Improved single leg loading capacity
 - Reduction in compensatory movement patterns
@@ -1605,17 +1627,17 @@ Epicondylalgia is within physiotherapy scope when musculoskeletal in origin. Elb
 - Suspected fracture (point tenderness over bone after trauma)
 
 ## Clinical Hypothesis Examples
-- **Tendon overload (extensor origin):** Common extensor tendinopathy from repetitive gripping. Tested with eccentric wrist extension loading. Expected response: improved grip strength and reduced pain with gripping within 3–5 sessions.
+- **Tendon overload (extensor origin):** Common extensor tendinopathy from repetitive gripping. Tested with eccentric wrist extension loading. Expected response: improved grip strength and reduced pain with gripping within 4 sessions.
 - **Tendon overload (flexor origin):** Common flexor tendinopathy from repetitive wrist flexion/pronation. Tested with eccentric wrist flexion loading. Expected response: improved forearm strength and reduced medial elbow pain.
 - **Cervical contribution:** Referred pain or neural sensitivity from cervical spine contributing to lateral elbow pain. Tested with cervical mobilization. Expected response: if cervical-driven, elbow pain reduces with cervical treatment.
 - **Radial nerve sensitivity:** Neural mechanosensitivity contributing to lateral elbow pain. Tested with neural mobilization targeting radial nerve. Expected response: improved radial nerve tension tests.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved pain-free grip strength (measured with dynamometer)
 - Functional improvement (lifting, gripping, turning objects)
 - Reduced pain with resisted wrist extension or flexion
-- ≥10% improvement in grip strength measurement
+- Measurable improvement in grip strength measurement, beyond measurement error
 
 ## Non-Response
 If grip strength does not improve after eccentric loading protocol, reassess. Consider a cervical contribution (common in lateral epicondylalgia), or refer to a physician to consider imaging for structural tendon changes.
@@ -1654,8 +1676,8 @@ Low back pain is within physiotherapy scope when the presentation is musculoskel
 - **Neural sensitivity:** Heightened mechanosensitivity of neural structures. Tested with neural mobilization. Expected response: improved nerve mobility tests.
 
 ## Trial Window
-3–5 sessions. At least one objective criterion must be met:
-- ≥10% improvement in lumbar ROM (flexion, extension, or lateral flexion)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in lumbar ROM (flexion, extension, or lateral flexion), beyond measurement error
 - Documented functional task improvement (e.g., sit-to-stand, walking tolerance, lifting capacity)
 - Reduction in compensatory movement strategies
 
@@ -1684,7 +1706,7 @@ Lumbar spinal stenosis is within physiotherapy scope for conservative management
 - Cauda equina syndrome (bilateral leg symptoms, saddle anaesthesia, bowel/bladder dysfunction — emergency)
 - Progressive motor weakness in lower extremities
 - Rapidly worsening walking tolerance (weeks, not months)
-- Neurogenic claudication not improving after the 3–5 session trial window and one revised trial (surgical consultation)
+- Neurogenic claudication with no measurable change after 4 sessions and one revised trial (surgical consultation)
 - Severe stenosis with myelopathic signs (if thoracic/cervical involvement suspected)
 
 ## Differentiating Neurogenic from Vascular Claudication
@@ -1700,13 +1722,13 @@ Lumbar spinal stenosis is within physiotherapy scope for conservative management
 If vascular claudication is suspected → REFER to vascular specialist.
 
 ## Clinical Hypothesis Examples
-- **Flexion-biased stenosis:** Canal narrowing relieved by lumbar flexion, worsened by extension. Tested with flexion-based exercises, stationary cycling, and posture modification (avoiding sustained extension). Expected response: improved walking tolerance within 3–5 sessions.
+- **Flexion-biased stenosis:** Canal narrowing relieved by lumbar flexion, worsened by extension. Tested with flexion-based exercises, stationary cycling, and posture modification (avoiding sustained extension). Expected response: improved walking tolerance within 4 sessions.
 - **Dynamic stenosis with deconditioning:** Narrowing exacerbated by poor general fitness. Tested with cardiovascular conditioning in flexion-biased positions (stationary cycling) and lower limb strengthening. Expected response: improved walking distance and reduced leg symptoms.
 - **Stenosis with co-existing hip pathology:** Hip stiffness (especially extension deficit) increasing lumbar extension demand during gait. Tested with hip mobilization and hip flexor stretching. Expected response: improved gait mechanics and reduced stenotic symptoms.
 - **Fear-avoidance in stenosis:** Patient avoiding walking due to fear of symptoms, leading to further deconditioning. Tested with graded walking exposure and education. Expected response: improved confidence and walking tolerance.
 
 ## Trial Window
-3–5 session trial window; at its end, either a documented hypothesis revision with ONE new trial, or DISCHARGE/REFER (stenosis may respond more slowly and may use the full 5 sessions plus that one revised trial). Objective criteria:
+4 sessions; at their end, either a documented revision with ONE new trial, or DISCHARGE/REFER (stenosis may respond more slowly). One of these is agreed at the first session as the measurable marker:
 - Improved walking distance or duration before symptom onset
 - Improved standing tolerance
 - Reduced frequency or intensity of neurogenic claudication symptoms
@@ -1740,13 +1762,13 @@ Meniscus injuries are within physiotherapy scope for conservative management and
 - Recurrent effusion without clear mechanical cause
 
 ## Clinical Hypothesis Examples
-- **Traumatic meniscus tear — conservative management:** Acute meniscal tear without mechanical locking. Tested with progressive loading, quadriceps and hamstring strengthening, and proprioceptive training. Expected response: reduced effusion, improved ROM, improved weight bearing tolerance and function within 3–5 sessions.
+- **Traumatic meniscus tear — conservative management:** Acute meniscal tear without mechanical locking. Tested with progressive loading, quadriceps and hamstring strengthening, and proprioceptive training. Expected response: reduced effusion, improved ROM, improved weight bearing tolerance and function within 4 sessions.
 - **Degenerative meniscus tear:** Gradual onset meniscal symptoms in an older knee, often associated with early osteoarthritis. Tested with exercise therapy (quadriceps strengthening, general conditioning). Expected response: improved function and reduced symptoms. Evidence shows exercise therapy is as effective as arthroscopic surgery for degenerative tears.
 - **Post-meniscectomy rehabilitation:** After partial meniscectomy, progressive loading to restore function. Tested with early weight bearing, progressive strengthening, and functional training. Expected response: rapid return to function (typically 4–6 weeks).
 - **Post-meniscus repair rehabilitation:** After meniscus repair, slower progression with weight bearing restrictions. Tested with protected ROM and progressive loading per surgical protocol. Expected response: ROM and strength milestones met within each phase.
 
 ## Trial Window
-3–5 sessions for conservative management. Objective criteria:
+4 sessions for conservative management. One of these is agreed at the first session as the measurable marker:
 - Reduced joint effusion
 - Improved ROM (especially full extension)
 - Improved quadriceps strength
@@ -1787,9 +1809,9 @@ Neck pain is within physiotherapy scope when musculoskeletal in origin. Upper mo
 - **Cervicogenic headache:** Headache driven by upper cervical dysfunction. Tested with C1-C2 mobilization and suboccipital techniques. Expected response: reduced headache frequency and intensity.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in cervical ROM (rotation, flexion, extension)
-- For cervicogenic headache: improved upper cervical rotation (headache frequency is recorded as supplementary data)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in cervical ROM (rotation, flexion, extension), beyond measurement error
+- For cervicogenic headache: improved upper cervical rotation (headache frequency is recorded as supplementary data unless a validated headache-intensity scale was the marker agreed at the first session)
 - Centralization of arm symptoms (for radiculopathy)
 - Improved deep neck flexor endurance or motor control tests
 
@@ -1821,13 +1843,13 @@ Patellofemoral pain is within physiotherapy scope. The condition responds well t
 - Anterior knee pain with systemic symptoms in adolescents (consider osteosarcoma — rare but serious)
 
 ## Clinical Hypothesis Examples
-- **Quadriceps weakness — load capacity deficit:** Weak quadriceps unable to support patellofemoral loads during activity. Tested with progressive quadriceps strengthening (isometric → isotonic → functional). Expected response: reduced anterior knee pain with provocative activities and improved single leg squat within 3–5 sessions.
+- **Quadriceps weakness — load capacity deficit:** Weak quadriceps unable to support patellofemoral loads during activity. Tested with progressive quadriceps strengthening (isometric → isotonic → functional). Expected response: reduced anterior knee pain with provocative activities and improved single leg squat within 4 sessions.
 - **Hip weakness — dynamic valgus:** Gluteus medius weakness allowing knee valgus during loading, increasing lateral patellofemoral stress. Tested with hip abductor and external rotator strengthening. Expected response: improved dynamic knee alignment during squat and step-down.
 - **Load management — training error:** Rapid increase in running, jumping, or squatting volume exceeding tissue capacity. Tested with activity modification and graded return. Expected response: symptom reduction with load management, gradual return to previous volume.
 - **Patellar mobility restriction:** Restricted patellar glide (tight lateral retinaculum) contributing to patellofemoral pressure. Tested with patellar mobilization and stretching. Expected response: improved patellar mobility and reduced pain with compression tests.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced pain with provocative activities (stairs, squatting, running)
 - Improved single leg squat quality (reduced valgus, reduced pain)
 - Improved quadriceps strength (measured, compared bilaterally)
@@ -1869,12 +1891,12 @@ Piriformis syndrome is overdiagnosed. Before accepting this hypothesis, rule out
 - Referred pain from lumbar facet joints
 
 ## Clinical Hypothesis Examples
-- **Piriformis overactivity/tightness:** Piriformis muscle spasm or shortening irritating the sciatic nerve. Tested with piriformis stretching, soft tissue release, and hip external rotator rebalancing. Expected response: reduced deep gluteal pain and improved straight leg raise or slump test within 3–5 sessions.
+- **Piriformis overactivity/tightness:** Piriformis muscle spasm or shortening irritating the sciatic nerve. Tested with piriformis stretching, soft tissue release, and hip external rotator rebalancing. Expected response: reduced deep gluteal pain and improved straight leg raise or slump test within 4 sessions.
 - **Hip external rotator weakness:** Piriformis overloaded because the other hip external rotators (e.g., gluteus maximus) are weak. Tested with gluteal strengthening and hip external rotator program. Expected response: reduced piriformis irritability as load is shared.
 - **Sitting-related compression:** Prolonged sitting compresses the sciatic nerve in the deep gluteal space. Tested with sitting modification (cushion, posture changes, regular breaks). Expected response: reduced symptom provocation with sitting.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced deep gluteal pain with provocation tests
 - Improved neural tension test tolerance (if neural component present)
 - Improved sitting tolerance
@@ -1909,15 +1931,15 @@ Plantar heel pain is within physiotherapy scope when musculoskeletal in origin. 
 - Pain not related to weight bearing (non-mechanical pattern)
 
 ## Clinical Hypothesis Examples
-- **Plantar fascia overload:** Mechanical overload of plantar fascia from increased activity or load. Tested with load modification and calf/plantar fascia stretching. Expected response: reduced first-step pain and improved walking tolerance within 3–5 sessions.
+- **Plantar fascia overload:** Mechanical overload of plantar fascia from increased activity or load. Tested with load modification and calf/plantar fascia stretching. Expected response: reduced first-step pain and improved walking tolerance within 4 sessions.
 - **Calf tightness contributing to fascial load:** Restricted ankle dorsiflexion increasing plantar fascia strain. Tested with calf stretching and mobilization. Expected response: improved dorsiflexion ROM and reduced heel pain with walking.
 - **Intrinsic foot weakness:** Weak foot intrinsic muscles increasing fascial load. Tested with intrinsic foot strengthening (short foot exercise, towel curls). Expected response: improved arch control and reduced pain with prolonged standing.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced morning first-step pain severity
 - Improved walking tolerance (distance or duration)
-- ≥10% improvement in ankle dorsiflexion ROM (if restricted)
+- Measurable improvement in ankle dorsiflexion ROM (if restricted), beyond measurement error
 - Improved single leg calf raise capacity
 
 ## Non-Response
@@ -1948,20 +1970,20 @@ Post-surgical spinal rehabilitation is within physiotherapy scope when cleared b
 - Progressive deformity or instability at surgical level
 
 ## Clinical Hypothesis Examples
-- **Post-laminectomy deconditioning:** Weakness and reduced endurance from surgical recovery and pre-operative deconditioning. Tested with graded mobility and core stabilization. Expected response: improved walking distance and tolerance to upright postures within 3–5 sessions.
+- **Post-laminectomy deconditioning:** Weakness and reduced endurance from surgical recovery and pre-operative deconditioning. Tested with graded mobility and core stabilization. Expected response: improved walking distance and tolerance to upright postures within the first stage of the protocol.
 - **Post-fusion stiffness and deconditioning:** Reduced hip/thoracic mobility and trunk endurance after fusion; the levels adjacent to the fusion carry increased motion and load. Tested with hip and thoracic mobility work, graded trunk endurance and conditioning within surgeon restrictions (no targeted mobilization of the adjacent levels). Expected response: improved functional mobility and activity tolerance.
 - **Post-discectomy neural sensitivity:** Residual neural irritability following disc surgery. Tested with neural mobilization and graded loading. Expected response: reduced radicular symptoms and improved activity tolerance.
 - **Fear-avoidance after spinal surgery:** Kinesiophobia limiting functional recovery. Tested with graded exposure and progressive loading. Expected response: improved movement confidence and functional capacity.
 
 ## Trial Window
-3–5 sessions (initiated after surgical clearance). Objective criteria:
+Measured against the stage of the rehabilitation protocol, not a fixed number of sessions (initiated after surgical clearance). If progress stalls at a stage, the surgeon is consulted. Stage criteria:
 - Improved walking distance or duration
 - Reduced reliance on assistive devices
 - Improved functional independence (sit-to-stand, stair negotiation, dressing)
-- ≥10% improvement in available ROM
+- Measurable improvement in available ROM, beyond measurement error
 
 ## Non-Response
-If functional capacity does not improve within the trial window despite surgical clearance, reassess. Consider surgeon follow-up for evaluation of hardware position, incomplete decompression, or adjacent segment pathology.
+If functional capacity stalls at a protocol stage despite surgical clearance, reassess. Consider surgeon follow-up for evaluation of hardware position, incomplete decompression, or adjacent segment pathology.
 
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md)
@@ -2018,7 +2040,7 @@ Pain reproduced by palpation makes a cardiac cause less likely but never exclude
 ### Intercostal Strain
 - **Hypothesis:** Muscle or fascial strain from coughing, twisting, or overuse
 - **Test:** Breathing retraining, gentle mobilization, progressive loading
-- **Expected response:** Pain reduction with breathing and movement within 3-5 sessions
+- **Expected response:** Pain reduction with breathing and movement within 4 sessions
 
 ## Trial Protocol (TRIAL)
 | Session | Focus |
@@ -2026,7 +2048,7 @@ Pain reproduced by palpation makes a cardiac cause less likely but never exclude
 | 1 | RULE OUT non-musculoskeletal causes. Thorough screening. Palpation reproduction. Baseline |
 | 2 | Targeted mobilization or soft tissue based on hypothesis |
 | 3 | Re-evaluate: pain reproduction, movement quality, breathing |
-| 4-5 | Progress or exit |
+| 4 | Progress or exit |
 
 ## Decision Criteria
 
@@ -2042,7 +2064,7 @@ Pain reproduced by palpation makes a cardiac cause less likely but never exclude
 
 ### REFER if:
 - ANY cardiac, pulmonary, or GI red flags
-- No response to 3-5 sessions (consider alternative diagnosis)
+- No measurable change after 4 sessions (consider alternative diagnosis)
 - Recurrent costochondritis — rheumatological evaluation
 
 ## Cross-References
@@ -2116,9 +2138,9 @@ Sciatica is within physiotherapy scope when the presentation is consistent with 
 - **Foraminal stenosis:** Positional nerve root compression. Tested with flexion-based approaches and decompression. Expected response: reduced radicular symptoms in loaded positions.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Centralization or reduction of radicular symptoms
-- ≥10% improvement in straight leg raise or slump test range
+- Measurable improvement in straight leg raise or slump test range, beyond measurement error
 - Functional improvement (walking distance, sitting tolerance, stair negotiation)
 - Reduction in compensatory gait patterns
 
@@ -2167,7 +2189,7 @@ MTSS is within physiotherapy scope for management and prevention. Suspected stre
 - **Bone stress adaptation failure:** Insufficient recovery between training sessions preventing bone remodeling. Tested with adequate rest days, sleep optimization, and screening questions on diet and energy availability (refer to a physician for calcium/vitamin D testing if suspected). Expected response: gradual symptom resolution with appropriate recovery.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Reduced pain with palpation along tibial border
 - Improved running tolerance (distance or duration before symptom onset)
 - Improved calf endurance (single leg calf raise repetitions)
@@ -2231,7 +2253,7 @@ Shoulder instability rehabilitation is within physiotherapy scope. Acute disloca
 **Phase 4 (6–9 months):** Return to sport testing, plyometric loading, contact preparation if applicable. DISCHARGE when functional goals met and apprehension negative.
 
 ## Trial Window
-3–5 session trial window for initial conservative management; at its end, either a documented hypothesis revision with ONE new trial, or DISCHARGE/REFER. Objective criteria:
+4 sessions for initial conservative management; at their end, either a documented revision with ONE new trial, or DISCHARGE/REFER. One of these is agreed at the first session as the measurable marker:
 - Improved shoulder confidence (reduced apprehension)
 - Improved rotator cuff strength (measured, compared bilaterally)
 - Improved scapular control (observation, endurance tests)
@@ -2266,14 +2288,14 @@ Shoulder pain is within physiotherapy scope when musculoskeletal in origin. Susp
 - Night pain with unexplained weight loss (rule out malignancy)
 
 ## Clinical Hypothesis Examples
-- **Rotator cuff tendinopathy:** Subacromial tendon overload. Tested with graded rotator cuff loading (isometric → isotonic → functional). Expected response: improved pain-free arc and strength within 3–5 sessions.
+- **Rotator cuff tendinopathy:** Subacromial tendon overload. Tested with graded rotator cuff loading (isometric → isotonic → functional). Expected response: improved pain-free arc and strength within 4 sessions.
 - **Adhesive capsulitis:** Capsular restriction limiting passive ROM. Tested with sustained end-range mobilization and stretching. Expected response: measurable improvement in external rotation and flexion ROM.
 - **Subacromial impingement:** Mechanical compression in subacromial space. Tested with scapular motor control and thoracic mobility interventions. Expected response: reduced painful arc with overhead movements.
 - **Instability-related pain:** Excessive glenohumeral translation causing apprehension. Tested with stabilization and proprioceptive training. Expected response: reduced apprehension and improved confidence with arm use.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in shoulder ROM (flexion, abduction, or external rotation)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in shoulder ROM (flexion, abduction, or external rotation), beyond measurement error
 - Improved pain-free arc or functional overhead reach
 - Strength improvement on manual muscle testing or dynamometry
 - Reduction in compensatory scapular patterns (elevation, winging)
@@ -2321,13 +2343,13 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 ### Scalene-Mediated Compression
 - **Hypothesis:** Anterior/middle scalene tightness is compressing the brachial plexus
 - **Test:** Scalene stretching, soft tissue mobilization, postural correction
-- **Expected response:** Reduced arm symptoms with overhead activities within 3-5 sessions
+- **Expected response:** Reduced arm symptoms with overhead activities within 4 sessions
 - **If no response:** Consider first rib dysfunction or structural anomaly (cervical rib)
 
 ### Postural (Droopy Shoulder)
 - **Hypothesis:** Poor scapular posture narrows the costoclavicular space
 - **Test:** Scapular strengthening, postural retraining, workplace ergonomics
-- **Expected response:** Symptom reduction with improved posture within 3-5 sessions
+- **Expected response:** Symptom reduction with improved posture within 4 sessions
 - **If no response:** REFER to a physician to consider imaging (cervical rib, elongated C7 transverse process)
 
 ### First Rib Dysfunction
@@ -2342,7 +2364,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 | 1 | Differentiate neurogenic vs vascular, assess scalene/posture/first rib contributions |
 | 2 | Targeted intervention based on hypothesis (scalene, posture, first rib) |
 | 3 | Re-evaluate: Roos test duration, symptom reproduction threshold |
-| 4-5 | Progress or exit |
+| 4 | Progress or exit |
 
 ## Decision Criteria
 
@@ -2358,7 +2380,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 ### REFER if:
 - Vascular signs present at any point
 - Progressive weakness or wasting
-- No improvement after 5 sessions of targeted intervention
+- No measurable change after 4 sessions of targeted intervention
 - Suspected structural anomaly (cervical rib)
 
 ## Cross-References
@@ -2388,13 +2410,13 @@ Musculoskeletal thoracic pain is within physiotherapy scope. The thoracic region
 - Pain in an osteoporotic patient after minimal trauma or even coughing — consider compression fracture
 
 ## Clinical Hypothesis Examples
-- **Thoracic segmental dysfunction:** Hypomobility of one or more thoracic segments causing local pain and stiffness. Tested with segmental mobilization and thoracic extension exercises. Expected response: improved thoracic ROM and reduced local pain within 3–5 sessions.
+- **Thoracic segmental dysfunction:** Hypomobility of one or more thoracic segments causing local pain and stiffness. Tested with segmental mobilization and thoracic extension exercises. Expected response: improved thoracic ROM and reduced local pain within 4 sessions.
 - **Costovertebral joint dysfunction:** Pain at the costotransverse or costovertebral joints causing local and referred rib pain. Tested with specific rib mobilization and respiratory exercises. Expected response: reduced pain with deep breathing and trunk rotation.
 - **Postural thoracic pain:** Sustained thoracic flexion (desk work) causing muscular fatigue and joint stiffness. Tested with postural correction, thoracic extension strengthening, and ergonomic modification. Expected response: reduced end-of-day pain and improved sustained posture tolerance.
 - **Thoracic contribution to neck/shoulder pain:** Thoracic hypomobility contributing to cervical or shoulder dysfunction. Tested with thoracic mobilization. Expected response: if thoracic-driven, neck/shoulder symptoms improve with thoracic treatment.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved thoracic ROM (extension, rotation — measured)
 - Reduced local pain with movement or palpation
 - Improved functional tolerance (sitting, deep breathing, trunk rotation)
@@ -2429,13 +2451,13 @@ TMJ disorders with musculoskeletal origin are within physiotherapy scope. Suspec
 - Ear symptoms (hearing loss, persistent tinnitus) requiring ENT evaluation
 
 ## Clinical Hypothesis Examples
-- **Masticatory muscle myofascial pain:** Overactivity and trigger points in masseter, temporalis, or pterygoid muscles. Tested with manual therapy to masticatory muscles, jaw exercises, and habit modification (clenching awareness). Expected response: improved mouth opening and reduced pain with chewing within 3–5 sessions.
+- **Masticatory muscle myofascial pain:** Overactivity and trigger points in masseter, temporalis, or pterygoid muscles. Tested with manual therapy to masticatory muscles, jaw exercises, and habit modification (clenching awareness). Expected response: improved mouth opening and reduced pain with chewing within 4 sessions.
 - **TMJ disc displacement with reduction:** Click or pop during jaw opening with intermittent locking. Tested with jaw movement retraining and manual therapy. Expected response: reduced frequency of catching and improved jaw movement coordination.
 - **Acute closed lock (disc displacement without reduction, limited opening):** Tested with jaw mobilization and exercise. REFER if mouth opening does not improve within the trial window.
 - **Cervical contribution to TMJ pain:** Upper cervical dysfunction contributing to jaw pain and headache. Tested with cervical mobilization and deep neck flexor training. Expected response: if cervical-driven, jaw pain reduces with cervical treatment.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved mouth opening (measured in mm)
 - Reduced pain with chewing or jaw function
 - Reduced frequency of locking or clicking (if applicable)
@@ -2567,14 +2589,14 @@ WAD grades I-III are within physiotherapy scope. WAD grade IV (fracture or dislo
 - Progressive neurological deficit
 
 ## Clinical Hypothesis Examples
-- **WAD Grade I-II — cervical movement dysfunction:** Pain-limited cervical ROM without neurological deficit. Tested with graded active movement, manual therapy, and exercise. Expected response: improved cervical ROM and reduced pain with movement within 3–5 sessions.
+- **WAD Grade I-II — cervical movement dysfunction:** Pain-limited cervical ROM without neurological deficit. Tested with graded active movement, manual therapy, and exercise. Expected response: improved cervical ROM and reduced pain with movement within 4 sessions.
 - **WAD with cervicogenic headache:** Headache originating from upper cervical dysfunction following whiplash. Tested with C1-C2 mobilization and deep neck flexor retraining. Expected response: reduced headache frequency and intensity.
 - **WAD with kinesiophobia:** Fear of movement limiting recovery after whiplash injury. Tested with graded exposure, education, and progressive loading. Expected response: improved movement confidence and functional activity level.
 - **WAD with neural sensitivity:** Post-traumatic neural mechanosensitivity in cervical nerve roots. Tested with neural mobilization and desensitization. Expected response: reduced referred arm symptoms and improved neural tension tests.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in cervical ROM
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in cervical ROM, beyond measurement error
 - Reduced headache frequency or intensity (if present)
 - Improved functional capacity (driving tolerance, work activities, sleep quality)
 - Reduced fear-avoidance (measurable via questionnaire or functional task)

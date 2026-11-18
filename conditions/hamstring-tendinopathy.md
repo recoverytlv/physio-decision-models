@@ -2,7 +2,7 @@
 title: "Hamstring Tendinopathy / Hamstring Injury"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Proximal hamstring tendinopathy (high hamstring tendinopathy at the ischial tuberosity), acute hamstring strain, and chronic hamstring injuries. Common in runners, sprinters, and sports requiring high-speed running."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Sudden severe pain with audible pop and significant bruising (complete tear/avulsion — surgical consultation)"
   - "Inability to weight bear after hamstring injury (consider avulsion fracture)"
@@ -36,13 +36,13 @@ Hamstring injuries and tendinopathy are within physiotherapy scope. Complete ham
 - Posterior thigh pain with lumbar/neural signs (consider lumbar radiculopathy or sciatic nerve involvement)
 
 ## Clinical Hypothesis Examples
-- **Proximal hamstring tendinopathy:** Load-related deep buttock/posterior thigh pain at the ischial tuberosity. Worse with sitting, hills, and speed work. Tested with progressive hamstring loading (isometric → heavy slow resistance → sport-specific). Expected response: reduced pain with provocative loading and improved running tolerance within 5 sessions.
+- **Proximal hamstring tendinopathy:** Load-related deep buttock/posterior thigh pain at the ischial tuberosity. Worse with sitting, hills, and speed work. Tested with progressive hamstring loading (isometric → heavy slow resistance → sport-specific). Expected response: reduced pain with provocative loading and improved running tolerance within 4 sessions.
 - **Acute hamstring strain:** Acute muscle fiber disruption graded I-III. Tested with graded loading, progressive lengthening exercises, and functional progression. Expected response: improved pain-free ROM, improved strength, reduced pain with stretch.
 - **Recurrent hamstring strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factors. Tested with eccentric strengthening (Nordic hamstrings), lumbopelvic control assessment, and a review of sprint and training load progression. Expected response: improved eccentric strength and neuromuscular control.
 - **Neural component:** Sciatic nerve mechanosensitivity mimicking or contributing to hamstring symptoms. Tested with neural mobilization and slump test assessment. Expected response: improved neural tension test and reduced posterior thigh symptoms.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved pain-free range of motion (knee extension angle)
 - Improved hamstring strength (measured, compared bilaterally)
 - Improved functional capacity (running speed, distance, hill tolerance)

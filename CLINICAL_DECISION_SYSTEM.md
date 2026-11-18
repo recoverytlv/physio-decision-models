@@ -1,5 +1,5 @@
 # CLINICAL_DECISION_SYSTEM.md
-Normative Core — v1.0 (FROZEN)
+Normative Core — v2.0 (FROZEN)
 
 ## 0. Scope and Audience
 This document defines the sole normative clinical decision logic governing the
@@ -72,19 +72,20 @@ Partial compliance is not sufficient.
 ## 4. Continuation Criteria (TRIAL → CONTINUE)
 
 Continuation beyond a TRIAL requires objective improvement
-within a predefined trial window of 3 to 5 sessions (never more than 5).
-The window and the 10% threshold are pragmatic, author-defined review points;
-they have not been validated as cut-offs.
+within a predefined trial window (4 sessions, with one measurable marker agreed at the first session; post-operative cases are measured against the stage of the rehabilitation protocol).
+The 4-session window is a pragmatic, author-defined review point;
+it has not been validated as a cut-off.
 
 At least one of the following must be demonstrated:
-- ≥10% improvement in range of motion or another objective measure, exceeding the instrument's measurement error (MDC)
+- Measurable improvement in range of motion or another objective measure, exceeding the instrument's measurement error (MDC)
 - Documented improvement in a functional task
 - Reduction in compensatory movement strategies
+- When pain was the marker agreed at the first session: a reduction on a validated scale (e.g., NPRS) larger than its MDC and, where published, its MCID
 
-Subjective reports alone are insufficient.
+Unmeasured subjective reports alone are insufficient.
 Absence of objective progress at the end of the trial window requires one of:
-a documented hypothesis revision followed by ONE new TRIAL (a new hypothesis,
-not a repeat), DISCHARGE, or REFER. A second failed TRIAL requires DISCHARGE or REFER.
+a documented hypothesis revision followed by ONE new TRIAL (a different hypothesis, or the same hypothesis with a documented change of dose, technique or adherence plan),
+DISCHARGE, or REFER. A second failed TRIAL requires DISCHARGE or REFER.
 
 ---
 
@@ -117,7 +118,7 @@ When multiple interpretations are possible:
 The system explicitly prohibits:
 - Extrapolating beyond declared scope
 - Extending treatment without objective criteria
-- Using pain reduction as a primary success metric
+- Using unmeasured pain reports as a success metric
 - Creating implied exceptions
 - Inferring intent from absence of rules
 

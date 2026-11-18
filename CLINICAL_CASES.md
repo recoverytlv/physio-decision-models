@@ -58,14 +58,14 @@ Night pain with unexplained weight loss is a red flag requiring medical investig
 
 **Set Goals:** Run 10km pain-free, descend stairs without pain, restore quadriceps strength symmetry.
 
-**TRIAL (Sessions 1–5):**
+**TRIAL (Sessions 1–4):**
 - Isometric quad loading → progressive isotonic → single leg exercises
 - Session 3: Stair descent pain reduced 50%, single leg squat improved
-- Session 5: Running tolerance improved to 8km, quad strength improved 20%
+- Session 4: Running tolerance improved to 8km, quad strength improved 20%
 
-**Decision → CONTINUE** (≥10% improvement in measurable criteria)
+**Decision → CONTINUE** (measurable improvement in the agreed marker)
 
-**Sessions 6–10:**
+**Sessions 5–10:**
 - Plyometric loading, running retraining, progressive distance
 - Session 10: Running 12km pain-free, stairs pain-free, single leg squat normalized
 
@@ -83,14 +83,14 @@ Night pain with unexplained weight loss is a red flag requiring medical investig
 
 **Set Goals:** Walk 40 minutes pain-free, restore calf raise symmetry, reduce morning stiffness.
 
-**TRIAL (Sessions 1–5):**
+**TRIAL (Sessions 1–4):**
 - Isometric calf loading → heavy slow resistance
 - Session 3: Morning stiffness reduced to 5 minutes, calf raise improved to 10 reps
-- Session 5: Walking tolerance improved to 30 minutes
+- Session 4: Walking tolerance improved to 30 minutes
 
 **Decision → CONTINUE**
 
-**Sessions 6–10:**
+**Sessions 5–10:**
 - Progressive loading, eccentric emphasis
 - Session 6: Calf raise 12 reps
 - Session 8: Calf raise 12 reps (no change from session 6)
@@ -129,16 +129,16 @@ Bilateral upper extremity symptoms with hand dexterity deficit and gait disturba
 
 **Set Goals:** Maintain current ROM (prevent further loss), reduce night pain, improve functional capacity (dressing, reaching).
 
-**TRIAL (Sessions 1–5):**
+**TRIAL (Sessions 1–4):**
 - Gentle end-range mobilization, ROM exercises within tolerance, sleep position advice
 - Session 3: Night pain reduced 40%, ROM unchanged
-- Session 5: Night pain minimal, ROM unchanged (external rotation still 20°). Compensatory shoulder hitching and trunk side-bend during dressing and reaching within the available range reduced, with smoother scapulohumeral movement (observed and documented against session 1; judged as improved movement quality, not only less pain)
+- Session 4: Night pain minimal, ROM unchanged (external rotation still 20°). Compensatory shoulder hitching and trunk side-bend during dressing and reaching within the available range reduced, with smoother scapulohumeral movement (observed and documented against session 1; judged as improved movement quality, not only less pain)
 
-**Decision:** ROM is not improving, but this is expected in the frozen phase. The biology of frozen shoulder means ROM may not change for months. Pain reduction alone would not justify continuation under this system; the documented reduction in compensatory movement strategies during functional tasks does.
+**Decision:** ROM is not improving, but this is expected in the frozen phase. The biology of frozen shoulder means ROM may not change for months. Pain had not been the agreed marker, so pain reduction alone would not justify continuation under this system; the documented reduction in compensatory movement strategies during functional tasks does.
 
 **Decision → CONTINUE** (objective criterion met: reduction in compensatory strategies; pain improvement recorded as supplementary data only; explicit acknowledgment that ROM may plateau during frozen phase)
 
-**Sessions 6–12 (over 3 months):**
+**Sessions 5–12 (over 3 months):**
 - Session 8: First ROM change — external rotation 25° (+5°)
 - Session 10: External rotation 35°, flexion 130°
 - Session 12: External rotation 50°, flexion 150° — thawing phase confirmed
@@ -173,14 +173,14 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Revised Hypothesis:** Patellar tendinopathy — load exceeds tendon capacity. Previous treatment (stretching, foam rolling) was inappropriate for tendinopathy.
 
-**TRIAL (Sessions 1–5):**
+**TRIAL (Sessions 1–4):**
 - Heavy slow resistance protocol, running load management (reduced volume, no hills)
 - Session 3: VISA-P score 60 (+8 points), single leg decline pain reduced
-- Session 5: VISA-P score 68, running tolerance improved to 5km flat
+- Session 4: VISA-P score 68, running tolerance improved to 5km flat
 
 **Decision → CONTINUE**
 
-**Sessions 6–10:**
+**Sessions 5–10:**
 - Progressive loading, gradual reintroduction of hills
 - Session 10: VISA-P score 82, running 10km with hills, pain minimal
 
@@ -203,16 +203,16 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Set Goals:** 0° extension and 90° flexion by 6 weeks post-op. Independent walking with cane. Quad activation sufficient for straight leg raise without lag.
 
-**TRIAL (Sessions 1–5):**
+**TRIAL (post-operative: measured against the protocol stage, weeks 2–6 after surgery; re-evaluated at session 4):**
 - Pain neuroscience education: "Bending the knee will not damage the implant"
 - Graded flexion mobilization with patient controlling the pace
 - Quadriceps activation with biofeedback
 - Session 3: Extension 0°, flexion 80° (patient doing exercises at home now). Quad lag reduced.
-- Session 5: Flexion 92°. Walking with cane. Patient confident.
+- Session 4: Flexion 92°. Walking with cane. Patient confident.
 
 **Decision → CONTINUE** (ROM milestones met, fear-avoidance reducing)
 
-**Sessions 6–10:**
+**Sessions 5–10:**
 - Progressive strengthening, stair training, balance
 - Session 10: Flexion 115°, full extension, walking independently, stairs reciprocal
 
@@ -234,16 +234,16 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Set Goals:** Reduce night pain (lying on affected side), improve single leg stance tolerance, improve walking endurance.
 
-**TRIAL (Sessions 1–5):**
+**TRIAL (Sessions 1–4):**
 - STOP: stretches into hip adduction (e.g., ITB/lateral hip stretches), foam rolling lateral hip, side-lying exercises, crossing legs, standing on one leg
 - START: isometric gluteal loading (pain-free), standing abduction with band, gait retraining
 - Compression management education: sleep with pillow between knees, don't cross legs, don't hang on one hip
 - Session 3: Night pain reduced 60%, single leg stance improved to 20 seconds
-- Session 5: Walking tolerance doubled, single leg stance 30+ seconds
+- Session 4: Walking tolerance doubled, single leg stance 30+ seconds
 
 **Decision → CONTINUE**
 
-**Sessions 6–10:**
+**Sessions 5–10:**
 - Progressive isotonic loading, functional training
 - Session 10: Walking 40 minutes without pain, stairs pain-free, sleeping on left side
 
@@ -281,17 +281,17 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Goal:** TUG <12 seconds, sit-to-stand ≥10, walk 30 minutes without stopping.
 
-**TRIAL (Sessions 1-5):**
+**TRIAL (Sessions 1-4):**
 - Education: "Bone on bone does NOT mean exercise won't help. Strongest evidence in OA is exercise."
 - Progressive quad strengthening (seated knee extensions → step-ups)
 - Walking program: 10 minutes → 15 minutes daily
 - Aquatic exercise at a community pool 1x/week, self-managed (lower joint load)
 
-**Session 5 Re-evaluation:** TUG: 12.8 seconds (improved 1.4s). Sit-to-stand: 9 (improved 2). Pain during stairs reduced from 7/10 to 5/10.
+**Session 4 Re-evaluation:** TUG: 12.8 seconds (improved 1.4s). Sit-to-stand: 9 (improved 2). Pain during stairs reduced from 7/10 to 5/10.
 
-**Decision: CONTINUE** — Objective criterion met: 30-second sit-to-stand improved from 7 to 9 repetitions (more than 10%); TUG improved 1.4 s. Pain reduction recorded as supporting data.
+**Decision: CONTINUE** — Objective criterion met: 30-second sit-to-stand improved from 7 to 9 repetitions; TUG improved 1.4 s. Pain reduction recorded as supporting data.
 
-**Sessions 6-12:** Progressive loading. Added hip strengthening. Walking up to 25 minutes.
+**Sessions 5-12:** Progressive loading. Added hip strengthening. Walking up to 25 minutes.
 
 **Session 12 Re-evaluation:** TUG: 11.1 seconds. Sit-to-stand: 12. KOOS Pain: 61/100. Can walk 30 minutes. Doing stairs with alternating feet.
 
@@ -313,7 +313,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Goal:** Roos test tolerated >2 minutes. No arm symptoms during work.
 
-**TRIAL (Sessions 1-5):**
+**TRIAL (Sessions 1-4):**
 - Scalene soft tissue release and stretching
 - First rib mobilization
 - Scapular retractor strengthening (lower trapezius, serratus anterior)
@@ -321,7 +321,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Session 3:** Roos test tolerated for 1:30 (improved from 0:45). Reports 50% reduction in work-related symptoms.
 
-**Session 5 Re-evaluation:** Roos test: 2:15. End-of-day symptoms gone on most days. Maintaining ergonomic setup.
+**Session 4 Re-evaluation:** Roos test: 2:15. End-of-day symptoms gone on most days. Maintaining ergonomic setup.
 
 **Decision: CONTINUE** — Clear improvement with correct diagnosis.
 
@@ -349,18 +349,18 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Goals:** TUG <13.5 seconds. Berg >45. Independent community ambulation. Reduced fear of falling.
 
-**TRIAL (Sessions 1-5):**
+**TRIAL (Sessions 1-4):**
 - Progressive balance training: seated → standing → tandem → single leg (with safety)
 - Quad strengthening: chair squats, sit-to-stand practice, step-ups
 - Gait training: increase stride length, reduce base of support, outdoor walking
 - Education: fall prevention strategies, home safety
-- Letter to physician regarding lorazepam and fall risk
+- Patient advised to discuss lorazepam and fall risk with their treating physician
 
-**Session 5 Re-evaluation:** TUG: 15.1 seconds (improved 3.3s). Berg: 42 (improved 4 points). Sit-to-stand: 7. Physician reviewed her sleep medication and tapered lorazepam.
+**Session 4 Re-evaluation:** TUG: 15.1 seconds (improved 3.3s). Berg: 42 (improved 4 points). Sit-to-stand: 7. Physician reviewed her sleep medication and tapered lorazepam.
 
 **Decision: CONTINUE** — Meaningful improvement. Still above fall risk threshold.
 
-**Sessions 6-14:** Continued progressive balance and strength. Introduced outdoor walking with therapist, then independently. Community re-engagement (walks to market with rest stops).
+**Sessions 5-14:** Continued progressive balance and strength. Introduced outdoor walking with therapist, then independently. Community re-engagement (walks to market with rest stops).
 
 **Session 14:** TUG: 12.8 seconds (below fall risk threshold). Berg: 47. Sit-to-stand: 10. Single leg stance: 8 seconds bilateral. Walks to market independently. Visiting friends again. FES-I: 28 (improved from 42, still in the high-concern range; Delbaere 2010, PMID 20061508).
 
@@ -384,7 +384,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Goal:** Pain-free breathing and sleeping. Full trunk rotation.
 
-**TRIAL (Sessions 1-3):**
+**TRIAL (Sessions 1-4):**
 - Costovertebral mobilization T4-5
 - Thoracic extension mobilization
 - Breathing retraining (diaphragmatic, avoiding guarding pattern)

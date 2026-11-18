@@ -2,7 +2,7 @@
 title: "Shoulder Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Shoulder pain including rotator cuff tendinopathy, rotator cuff tears (partial/full), subacromial impingement, frozen shoulder (adhesive capsulitis), and shoulder instability."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Acute traumatic shoulder dislocation (first episode — orthopaedic assessment)"
   - "Significant acute weakness after trauma (possible acute rotator cuff tear)"
@@ -38,14 +38,14 @@ Shoulder pain is within physiotherapy scope when musculoskeletal in origin. Susp
 - Night pain with unexplained weight loss (rule out malignancy)
 
 ## Clinical Hypothesis Examples
-- **Rotator cuff tendinopathy:** Subacromial tendon overload. Tested with graded rotator cuff loading (isometric → isotonic → functional). Expected response: improved pain-free arc and strength within 3–5 sessions.
+- **Rotator cuff tendinopathy:** Subacromial tendon overload. Tested with graded rotator cuff loading (isometric → isotonic → functional). Expected response: improved pain-free arc and strength within 4 sessions.
 - **Adhesive capsulitis:** Capsular restriction limiting passive ROM. Tested with sustained end-range mobilization and stretching. Expected response: measurable improvement in external rotation and flexion ROM.
 - **Subacromial impingement:** Mechanical compression in subacromial space. Tested with scapular motor control and thoracic mobility interventions. Expected response: reduced painful arc with overhead movements.
 - **Instability-related pain:** Excessive glenohumeral translation causing apprehension. Tested with stabilization and proprioceptive training. Expected response: reduced apprehension and improved confidence with arm use.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
-- ≥10% improvement in shoulder ROM (flexion, abduction, or external rotation)
+4 sessions. One of these is agreed at the first session as the measurable marker:
+- Measurable improvement in shoulder ROM (flexion, abduction, or external rotation), beyond measurement error
 - Improved pain-free arc or functional overhead reach
 - Strength improvement on manual muscle testing or dynamometry
 - Reduction in compensatory scapular patterns (elevation, winging)

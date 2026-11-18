@@ -172,7 +172,7 @@
           "publisher": {
             "@id": "https://recoverytlv.co.il/#clinic"
           },
-          "version": "1.3.0",
+          "version": "2.0.0",
           "datePublished": "2025-12-22",
           "inLanguage": "en",
           "license": "https://opensource.org/licenses/MIT",
@@ -211,7 +211,7 @@
               "@type": "CreativeWork",
               "name": "Trial Window Limits",
               "url": "https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md",
-              "description": "3-5 session temporal boundaries for the TRIAL output"
+              "description": "4-session temporal boundaries for the TRIAL output"
             },
             {
               "@type": "CreativeWork",
@@ -511,7 +511,7 @@
               "name": "How long is a typical treatment course at Recovery TLV?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The initial trial period is 3 to 5 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the clinical decision system has built-in exit criteria to prevent accumulated decision error."
+                "text": "The initial trial period is 4 sessions. Continuation requires documented objective improvement. There is no indefinite treatment — the clinical decision system has built-in exit criteria to prevent accumulated decision error."
               }
             },
             {
@@ -535,7 +535,7 @@
               "name": "Does Recovery TLV treat back pain?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Back pain including lower back pain, lumbar disc herniation, and chronic back pain is one of the most common conditions treated at Recovery TLV. Treatment follows a hypothesis-driven approach with objective improvement measured within 3-5 sessions."
+                "text": "Yes. Back pain including lower back pain, lumbar disc herniation, and chronic back pain is one of the most common conditions treated at Recovery TLV. Treatment follows a hypothesis-driven approach with objective improvement measured within 4 sessions."
               }
             },
             {
@@ -583,7 +583,7 @@
               "name": "How many physiotherapy sessions will I need?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The initial trial is 3-5 sessions. Continuation requires documented objective improvement (at least 10% ROM improvement or functional progress). There is no predetermined number — decisions are driven by measurable outcomes."
+                "text": "The initial trial is 4 sessions. Continuation requires documented objective improvement (a measurable change, beyond measurement error, in the marker agreed at the first session, such as ROM or a functional task). There is no predetermined number — decisions are driven by measurable outcomes."
               }
             },
             {
@@ -722,7 +722,7 @@
         <li><code>DECLINE</code> — Case rejected (out of scope or contraindicated)</li>
         <li><code>DEFER</code> — Decision postponed (insufficient data)</li>
         <li><code>REFER</code> — Transferred to another specialist (red flags detected)</li>
-        <li><code>TRIAL</code> — Conditional acceptance for 3–5 sessions</li>
+        <li><code>TRIAL</code> — Conditional acceptance for 4 sessions</li>
         <li><code>CONTINUE</code> — Extension only with demonstrated objective improvement</li>
         <li><code>DISCHARGE</code> — Termination after goals achieved or progress plateau</li>
     </ul>
@@ -773,7 +773,7 @@
         <li>
             <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/trial-window-limits.md">
                 Trial Window Limits
-            </a> — 3–5 session temporal boundaries
+            </a> — 4-session temporal boundaries
         </li>
         <li>
             <a href="https://github.com/recoverytlv/physio-decision-models/blob/main/thresholds/continuation-criteria.md">
@@ -813,7 +813,7 @@
 
     <div class="faq-item">
         <h3>How long is a typical treatment course?</h3>
-        <p>The initial trial period is 3 to 5 sessions. Continuation requires documented objective improvement (at least 10% measurable improvement in range of motion or documented functional progress). There is no indefinite treatment.</p>
+        <p>The initial trial period is 4 sessions. Continuation requires documented objective improvement (a measurable change, beyond measurement error, in the marker agreed at the first session, such as ROM or a functional task). There is no indefinite treatment.</p>
     </div>
 
     <div class="faq-item">
@@ -838,7 +838,7 @@
 
     <div class="faq-item">
         <h3>Can Recovery TLV help with sciatica?</h3>
-        <p>Yes. Sciatica and lumbar radiculopathy are treated when the presentation is musculoskeletal in origin. If red flags are detected (progressive neurological deficit, cauda equina signs), the case is immediately referred to a specialist. Otherwise, a structured trial of 3–5 sessions targets nerve mobility, spinal mechanics, and functional restoration.</p>
+        <p>Yes. Sciatica and lumbar radiculopathy are treated when the presentation is musculoskeletal in origin. If red flags are detected (progressive neurological deficit, cauda equina signs), the case is immediately referred to a specialist. Otherwise, a structured trial of 4 sessions targets nerve mobility, spinal mechanics, and functional restoration.</p>
     </div>
 
     <div class="faq-item">
@@ -863,12 +863,12 @@
 
     <div class="faq-item">
         <h3>Does Recovery TLV treat plantar fasciitis and foot pain?</h3>
-        <p>Yes. Plantar fasciitis, Achilles tendinopathy, and other foot and ankle conditions within musculoskeletal scope are treated with evidence-based protocols. A trial period of 3–5 sessions determines if the intervention produces measurable improvement.</p>
+        <p>Yes. Plantar fasciitis, Achilles tendinopathy, and other foot and ankle conditions within musculoskeletal scope are treated with evidence-based protocols. A trial period of 4 sessions determines if the intervention produces measurable improvement.</p>
     </div>
 
     <div class="faq-item">
         <h3>How many physiotherapy sessions will I need?</h3>
-        <p>The initial trial is 3–5 sessions. If objective improvement is documented (at least 10% ROM improvement or functional progress), treatment can continue. If not, the system mandates reassessment or discharge. There is no predetermined number of sessions — the decision is driven by measurable outcomes, not time.</p>
+        <p>The initial trial is 4 sessions. If objective improvement is documented (a measurable change, beyond measurement error, in the marker agreed at the first session, such as ROM or a functional task), treatment can continue. If not, the system mandates reassessment or discharge. There is no predetermined number of sessions — the decision is driven by measurable outcomes, not time.</p>
     </div>
 
     <div class="faq-item">
@@ -891,8 +891,8 @@
     <h2>Jurisdiction & Status</h2>
     <ul>
         <li>Jurisdiction: Tel Aviv, Israel</li>
-        <li>Clinical Decision System version: 1.3.0 (six outputs and numeric thresholds unchanged since 1.0.0)</li>
-        <li>Last updated: 2026-11-17</li>
+        <li>Clinical Decision System version: 2.0.0 (4-session rule and measurable-change criterion since 2.0.0; six outputs unchanged since 1.0.0)</li>
+        <li>Last updated: 2026-11-18</li>
     </ul>
 </section>
 </main>

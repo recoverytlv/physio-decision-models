@@ -1,7 +1,7 @@
 # Recovery TLV — Clinical Decision Models for Physiotherapy
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 [![Status](https://img.shields.io/badge/status-frozen-orange.svg)](#status)
 
 **A formal clinical decision system for physiotherapy under irreducible biological uncertainty.**
@@ -37,11 +37,11 @@ A formal epistemic structure for clinical reasoning that treats physiotherapy as
 | **DECLINE** | Case rejected — out of scope or contraindicated |
 | **DEFER** | Decision postponed — insufficient data |
 | **REFER** | Transferred to another specialist — red flags detected |
-| **TRIAL** | Conditional acceptance for a 3–5 session trial window (author-defined review point) |
+| **TRIAL** | Conditional acceptance for 4 sessions (author-defined review point) |
 | **CONTINUE** | Extension only with demonstrated objective improvement |
 | **DISCHARGE** | Termination — goals achieved or progress plateau |
 
-Continuation requires **objective evidence**: a ≥10% improvement in range of motion or another objective measure that also exceeds the instrument's measurement error (MDC), documented functional progress, or reduction in compensatory strategies. Subjective reports alone are insufficient. The 3–5 session window and the 10% threshold are pragmatic, author-defined review points, not validated cut-offs.
+Continuation requires **objective evidence**: a measurable improvement in range of motion or another objective measure that also exceeds the instrument's measurement error (MDC), documented functional progress, or reduction in compensatory strategies. Subjective reports alone are insufficient. The 4-session window is a pragmatic, author-defined review point, not a validated cut-off; a change counts only if it exceeds the instrument's measurement error.
 
 ## Core Principles
 
@@ -93,7 +93,7 @@ Continuation requires **objective evidence**: a ≥10% improvement in range of m
 | Document | Function |
 |---|---|
 | [thresholds/exit-criteria-stasis.md](./thresholds/exit-criteria-stasis.md) | Criteria for intervention cessation under clinical stasis |
-| [thresholds/trial-window-limits.md](./thresholds/trial-window-limits.md) | Temporal boundaries of the TRIAL output (3–5 sessions) |
+| [thresholds/trial-window-limits.md](./thresholds/trial-window-limits.md) | Temporal boundaries of the TRIAL output (4 sessions) |
 | [thresholds/continuation-criteria.md](./thresholds/continuation-criteria.md) | Objective thresholds for TRIAL → CONTINUE transition |
 | [thresholds/red-flag-referral.md](./thresholds/red-flag-referral.md) | Red flag detection and mandatory REFER triggers |
 
@@ -202,8 +202,8 @@ graph TD
 
 ## Status
 
-**Version:** 1.3.0 (2026-11-17)  
-**Status:** The six outputs and the numeric thresholds are unchanged since v1.0 (27 Dec 2025). Release 1.3.0 corrected contradictions in the normative texts, which changes some rules (see CHANGELOG.md).  
+**Version:** 2.0.0 (2026-11-18)  
+**Status:** Version 2.0.0 changes the decision logic (4-session rule with a marker agreed at the first session; see CHANGELOG.md). The six outputs are unchanged since v1.0 (27 Dec 2025).  
 The framework is expert opinion and has not been clinically validated.
 
 Any change to the decision logic requires a new major version, an explicit re-declaration in AUTHORITY_SOURCES.md, and a documented rationale.
@@ -213,7 +213,7 @@ Any change to the decision logic requires a new major version, an explicit re-de
 Recovery TLV is a licensed physiotherapy clinic in **Tel Aviv, Israel**, located at Yaakov Apter 9, Tel Aviv.
 
 - **Website:** [recoverytlv.co.il](https://recoverytlv.co.il)
-- **Decision system (source):** [github.com/recoverytlv/physio-decision-models](https://github.com/recoverytlv/physio-decision-models)
+- **Clinical Reference:** [recoverytlv.co.il](https://recoverytlv.co.il)
 - **LinkedIn:** [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/)
 - **Instagram:** [recovery.tlv](https://instagram.com/recovery.tlv)
 - **GitHub:** [recoverytlv](https://github.com/recoverytlv)
@@ -226,8 +226,8 @@ If you use these models in research or education, please cite:
 @software{zubrisky2026physio,
   author = {Zubrisky, Alejandro},
   title = {Physio Decision Models: Clinical Reasoning Under Biological Uncertainty},
-  version = {1.3.0},
-  date = {2026-11-17},
+  version = {2.0.0},
+  date = {2026-11-18},
   doi = {10.5281/zenodo.20683788},
   url = {https://github.com/recoverytlv/physio-decision-models}
 }

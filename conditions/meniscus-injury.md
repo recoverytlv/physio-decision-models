@@ -2,7 +2,7 @@
 title: "Meniscus Injury"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Meniscal tears of the knee including traumatic tears (acute onset with mechanism of injury) and degenerative tears (gradual onset, associated with osteoarthritis). Medial and lateral meniscus. May be managed conservatively or surgically (partial meniscectomy, meniscus repair)."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Locked knee — inability to fully extend the knee (bucket-handle tear requiring surgery)"
   - "Significant effusion with inability to weight bear after acute injury (consider meniscus tear with associated ligament injury)"
@@ -38,13 +38,13 @@ Meniscus injuries are within physiotherapy scope for conservative management and
 - Recurrent effusion without clear mechanical cause
 
 ## Clinical Hypothesis Examples
-- **Traumatic meniscus tear — conservative management:** Acute meniscal tear without mechanical locking. Tested with progressive loading, quadriceps and hamstring strengthening, and proprioceptive training. Expected response: reduced effusion, improved ROM, improved weight bearing tolerance and function within 3–5 sessions.
+- **Traumatic meniscus tear — conservative management:** Acute meniscal tear without mechanical locking. Tested with progressive loading, quadriceps and hamstring strengthening, and proprioceptive training. Expected response: reduced effusion, improved ROM, improved weight bearing tolerance and function within 4 sessions.
 - **Degenerative meniscus tear:** Gradual onset meniscal symptoms in an older knee, often associated with early osteoarthritis. Tested with exercise therapy (quadriceps strengthening, general conditioning). Expected response: improved function and reduced symptoms. Evidence shows exercise therapy is as effective as arthroscopic surgery for degenerative tears.
 - **Post-meniscectomy rehabilitation:** After partial meniscectomy, progressive loading to restore function. Tested with early weight bearing, progressive strengthening, and functional training. Expected response: rapid return to function (typically 4–6 weeks).
 - **Post-meniscus repair rehabilitation:** After meniscus repair, slower progression with weight bearing restrictions. Tested with protected ROM and progressive loading per surgical protocol. Expected response: ROM and strength milestones met within each phase.
 
 ## Trial Window
-3–5 sessions for conservative management. Objective criteria:
+4 sessions for conservative management. One of these is agreed at the first session as the measurable marker:
 - Reduced joint effusion
 - Improved ROM (especially full extension)
 - Improved quadriceps strength

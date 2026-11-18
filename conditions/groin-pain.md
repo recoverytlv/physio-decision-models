@@ -2,7 +2,7 @@
 title: "Groin Pain / Adductor Tendinopathy"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Groin pain of musculoskeletal origin including adductor tendinopathy, adductor strain, pubic-related groin pain (osteitis pubis), and iliopsoas-related groin pain. Common in sports involving kicking, cutting, and change of direction."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Groin lump or swelling (inguinal or femoral hernia)"
   - "Groin pain with urinary symptoms (genitourinary pathology)"
@@ -40,13 +40,13 @@ Musculoskeletal groin pain is within physiotherapy scope. Groin pain can also or
 - Groin pain not responding to any loading pattern (consider referred pain from hip or lumbar spine)
 
 ## Clinical Hypothesis Examples
-- **Adductor tendinopathy:** Load-related medial groin pain at the adductor insertion on the pubic bone. Tested with progressive adductor loading (isometric → isotonic → sport-specific). Expected response: reduced pain with adductor squeeze test and improved load tolerance within 3–5 sessions.
+- **Adductor tendinopathy:** Load-related medial groin pain at the adductor insertion on the pubic bone. Tested with progressive adductor loading (isometric → isotonic → sport-specific). Expected response: reduced pain with adductor squeeze test and improved load tolerance within 4 sessions.
 - **Adductor strain (acute):** Acute muscle tear following sudden movement. Tested with graded loading within pain tolerance. Expected response: improved pain-free ROM and strength within the trial window.
 - **Iliopsoas-related groin pain:** Anterior groin pain with hip flexion loading. Tested with hip flexor strengthening and activity modification. Expected response: reduced pain with hip flexion testing.
-- **Hip joint referral:** Groin pain originating from hip joint pathology (FAI, labral tear, osteoarthritis). Tested with hip joint assessment (FADIR, FABER). If hip-driven, joint mobilization and strengthening may help; if structural, REFER for imaging.
+- **Hip joint referral:** Groin pain originating from hip joint pathology (FAI, labral tear, osteoarthritis). Tested with hip joint assessment (FADIR, FABER). If hip-driven, joint mobilization and strengthening may help; if structural, REFER to a physician to consider imaging.
 
 ## Trial Window
-3–5 sessions. Objective criteria:
+4 sessions. One of these is agreed at the first session as the measurable marker:
 - Improved adductor squeeze test (reduced pain, improved force output)
 - Improved sport-specific function (kicking, cutting, sprinting)
 - Improved hip ROM (if restricted)

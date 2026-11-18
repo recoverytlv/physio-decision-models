@@ -17,8 +17,8 @@ Older adults (≥65 years) present unique clinical considerations that affect as
 
 ### 2. Timelines Are Different
 - Recovery is slower due to reduced tissue healing capacity
-- Older adults often need the full 5 sessions and the one permitted revised trial; the window itself is not extended
-- Progress should still be measurable — just allow more time between assessments
+- The trial window is the same 4 sessions; expect smaller changes, which still count if they are measurable. The window itself is not extended
+- Progress should still be measurable; space sessions as needed, but the decision is still made at session 4
 - The decision logic is the same: no improvement → hypothesis revision → exit
 
 ### 3. Comorbidities Affect Everything
@@ -109,8 +109,8 @@ Required if cardiac history, uncontrolled hypertension, or new exercise program 
 
 ## Decision Criteria — Geriatric Adaptation
 
-### TRIAL (3–5 sessions; one revised trial if no objective criterion is met)
-- Allow more time for adaptation to exercise
+### TRIAL (4 sessions — same rule; one revised trial if the agreed marker has not changed)
+- Allow more time for adaptation to exercise within each session; the trial decision is still made at session 4
 - Measure same outcomes but expect smaller magnitudes of change
 - Functional measures (TUG, sit-to-stand) are most relevant
 

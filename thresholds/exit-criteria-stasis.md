@@ -6,7 +6,7 @@ Clinical stasis is defined as the absence of meaningful change in observed biolo
 ## 2. Thresholds for Hypothesis Re-examination
 Continuation of intervention beyond the following thresholds constitutes accumulated decision error:
 
-- **Signal Invariance:** No relevant symptomatic or functional variation after three (3) high-fidelity interventions.
+- **Signal Invariance:** No relevant symptomatic or functional variation after three (3) high-fidelity interventions. Inside a TRIAL the decision is made at session 4; this rule applies during CONTINUE.
 - **Dose–Response Decoupling:** Increased intensity or frequency without proportional system response.
 - **Noise Dominance:** Variability unrelated to mechanical, neurophysiological, or contextual loading.
 
@@ -25,5 +25,5 @@ Treatment cessation under stasis is not failure. It represents epistemic closure
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md) — Stasis is a form of non-response with diagnostic value
 - [Dose-Response Coupling](../models/dose-response-coupling.md) — Dose-response decoupling triggers stasis criteria
-- [Trial Window Limits](./trial-window-limits.md) — Stasis detected within the trial window ends the trial early (hypothesis revision + ONE new TRIAL, DISCHARGE or REFER)
+- [Trial Window Limits](./trial-window-limits.md) — Inside a TRIAL, non-response is decided at session 4; the 3-session stasis rule applies during CONTINUE
 - [Continuation Criteria](./continuation-criteria.md) — Stasis by definition fails all continuation criteria

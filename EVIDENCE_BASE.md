@@ -39,11 +39,11 @@ The system requires objective functional improvement for treatment continuation,
 - Hefford C, Abbott JH, Arnold R, Baxter GD. "The Patient-Specific Functional Scale: validity, reliability, and responsiveness in patients with upper extremity musculoskeletal problems." *Journal of Orthopaedic & Sports Physical Therapy*. 2012;42(2):56-65.
 - Jaeschke R, Singer J, Guyatt GH. "Measurement of health status. Ascertaining the minimal clinically important difference." *Controlled Clinical Trials*. 1989;10(4):407-415. DOI: 10.1016/0197-2456(89)90005-6. PMID: 2691207. **[verified]**
 
-**System application:** Patient-reported outcomes are supplementary but insufficient for continuation decisions. The ≥10% threshold is an author-defined decision heuristic. It borrows the logic of the minimal clinically important difference (Jaeschke 1989; Copay 2007) but has not been validated as an MCID for range of motion. A change counts only if it also exceeds the measurement error (MDC) of the instrument.
+**System application:** Patient-reported outcomes are supplementary but insufficient for continuation decisions. The continuation criterion is a measurable change in the marker agreed at the first session. It borrows the logic of the minimal clinically important difference (Jaeschke 1989; Copay 2007) without fixing a percentage; a change counts only if it also exceeds the measurement error (MDC) of the instrument.
 
 ### 4. Time-Limited Treatment Trials
 
-The 3–5 session trial window is a pragmatic, author-defined review point. The literature below informs it but does not validate a specific number of sessions.
+The 4-session trial window is a pragmatic, author-defined review point. The literature below informs it but does not validate a specific number of sessions.
 
 **Supporting literature:**
 - Qaseem A, Wilt TJ, McLean RM, Forciea MA. "Noninvasive treatments for acute, subacute, and chronic low back pain: a clinical practice guideline from the American College of Physicians." *Annals of Internal Medicine*. 2017;166(7):514-530. DOI: 10.7326/M16-2367. **[verified]**
@@ -51,7 +51,7 @@ The 3–5 session trial window is a pragmatic, author-defined review point. The 
 - Hancock MJ, Maher CG, Latimer J, et al. "Can rate of recovery be predicted in patients with acute low back pain? Development of a clinical prediction rule." *European Journal of Pain*. 2009;13(1):51-55. PMID: 18448369. **[verified]**
 - Hill JC, Whitehurst DG, Lewis M, et al. "Comparison of stratified primary care management for low back pain with current best practice (STarT Back): a randomised controlled trial." *The Lancet*. 2011;378(9802):1560-1571.
 
-**System application:** The 3–5 session trial window is a pragmatic, expert-opinion choice. It follows guideline advice to review response before escalating care (Qaseem 2017) and draws on classification and prognostic research (Delitto 1995; Hancock 2009; Hill 2011), but no study has validated a specific number of sessions. It is a review point, not an evidence-based cut-off.
+**System application:** The 4-session trial window is a pragmatic, expert-opinion choice. It follows guideline advice to review response before escalating care (Qaseem 2017) and draws on classification and prognostic research (Delitto 1995; Hancock 2009; Hill 2011), but no study has validated a specific number of sessions. It is a review point, not an evidence-based cut-off.
 
 ### 5. Red Flag Screening
 
@@ -188,7 +188,7 @@ Contextual factors (therapeutic alliance, expectation, setting) measurably shape
 
 ## Thresholds and Measurement Error
 
-The ≥10% threshold is an author-defined decision heuristic, not an MCID. Goniometric measurement error can exceed 10% of a small range (for example, a minimal detectable change of 5.0–7.7° for weight-bearing ankle dorsiflexion measured with a goniometer; Konor et al. 2012, PMID 22666642), so a change counts only if it also exceeds the MDC of the instrument used. For patient-reported low back pain measures, an international consensus proposes a 30% improvement from baseline as clinically meaningful (Ostelo et al. 2008, PMID 18165753).
+Versions up to 1.3.0 used a ≥10% threshold as an author-defined heuristic; version 2.0.0 drops the fixed percentage because goniometric measurement error can exceed 10% of a small range (for example, a minimal detectable change of 5.0–7.7° for weight-bearing ankle dorsiflexion measured with a goniometer; Konor et al. 2012, PMID 22666642), so a change counts only if it also exceeds the MDC of the instrument used. For patient-reported low back pain measures, an international consensus proposes a 30% improvement from baseline as clinically meaningful (Ostelo et al. 2008, PMID 18165753).
 
 ## Philosophical Foundations
 
@@ -238,7 +238,7 @@ Author, year, title, journal and identifier were checked for the following refer
 
 This evidence base is not a systematic review. It maps system concepts to supporting literature to demonstrate that the Recovery TLV decision system is built on established principles, not invented from scratch.
 
-The system itself is a clinical framework, not a clinical trial. It has not been validated in a randomized controlled trial or any other clinical study; its thresholds (3–5 sessions; ≥10% objective change) are author-defined. Its claims are:
+The system itself is a clinical framework, not a clinical trial. It has not been validated in a randomized controlled trial or any other clinical study; its thresholds (4 sessions; a measurable change, beyond measurement error, in the marker agreed at the first session) are author-defined. Its claims are:
 1. Decisions should be explicit, documented, and auditable
 2. Continuation should require objective evidence
 3. Non-response should trigger hypothesis revision, not repetition

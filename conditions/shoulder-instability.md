@@ -2,7 +2,7 @@
 title: "Shoulder Instability"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.3.0
+version: 2.0.0
 status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
@@ -10,8 +10,8 @@ author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
 summary: "Glenohumeral joint instability ranging from traumatic dislocation (anterior, posterior, or multidirectional) to atraumatic instability (generalized hypermobility, repetitive microtrauma). Includes first-time dislocations, recurrent instability, subluxation, and post-surgical stabilization rehabilitation."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
-trial_window: "3-5 sessions"
-continuation_threshold: ">=10% objective functional improvement"
+trial_window: "4 sessions"
+continuation_threshold: "measurable change in the marker agreed at the first session, beyond measurement error"
 red_flags:
   - "Acute dislocation that has not been reduced (emergency — immediate referral for reduction)"
   - "Suspected fracture with dislocation (large Hill-Sachs lesion, bony Bankart, greater tuberosity fracture)"
@@ -61,7 +61,7 @@ Shoulder instability rehabilitation is within physiotherapy scope. Acute disloca
 **Phase 4 (6–9 months):** Return to sport testing, plyometric loading, contact preparation if applicable. DISCHARGE when functional goals met and apprehension negative.
 
 ## Trial Window
-3–5 session trial window for initial conservative management; at its end, either a documented hypothesis revision with ONE new trial, or DISCHARGE/REFER. Objective criteria:
+4 sessions for initial conservative management; at their end, either a documented revision with ONE new trial, or DISCHARGE/REFER. One of these is agreed at the first session as the measurable marker:
 - Improved shoulder confidence (reduced apprehension)
 - Improved rotator cuff strength (measured, compared bilaterally)
 - Improved scapular control (observation, endurance tests)
