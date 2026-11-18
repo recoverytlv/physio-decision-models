@@ -1,11 +1,11 @@
 # Recovery TLV — Modèles de Décision Clinique en Physiothérapie
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 
 **Un système formel de décision clinique pour la physiothérapie sous incertitude biologique.**
 
-Créé par [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), physiothérapeute diplômé chez [Recovery TLV](https://recoverytlv.co.il) — Tel Aviv, Israël.
+Créé par [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), physiothérapeute agréé chez [Recovery TLV](https://recoverytlv.co.il) — Tel Aviv, Israël.
 
 **Référence clinique :** [recoverytlv.co.il](https://recoverytlv.co.il)
 
@@ -57,9 +57,9 @@ Recovery TLV est une **clinique de physiothérapie privée** à Tel Aviv :
 - Douleur de hanche (conflit, tendinopathie glutéale, prothèse totale)
 - Fasciite plantaire, tendinopathie d'Achille
 - Épicondylalgie (tennis elbow), syndrome du canal carpien
-- Entorse de cheville, douleur thoracique, dysfonction de l'ATM
+- Entorse de cheville, douleur dorsale (rachis thoracique), dysfonction de l'ATM
 - Rééducation post-chirurgicale
-- Blessures sportives, syndrome post-commotionnel
+- Blessures sportives
 
 ## À propos de Recovery TLV
 

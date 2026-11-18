@@ -2,8 +2,8 @@
 title: "Total Knee Replacement Rehabilitation"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -40,8 +40,8 @@ Post-surgical knee replacement rehabilitation is within physiotherapy scope when
 - New-onset numbness or foot drop (peroneal nerve palsy)
 
 ## Clinical Hypothesis Examples
-- **Post-surgical stiffness:** Swelling and capsular tightness limiting flexion and extension. Tested with progressive ROM exercises, patellar mobilization, and edema management. Expected response: measurable ROM gains at each visit (target: 0° extension, 90° flexion by 6 weeks, 110-120° by 12 weeks).
-- **Quadriceps activation deficit:** Difficulty activating the quadriceps after surgery (arthrogenic muscle inhibition). Tested with electrical stimulation, biofeedback, isometric quad sets, and straight leg raise. Expected response: improved active extension lag and quad contraction quality.
+- **Post-surgical stiffness:** Swelling and capsular tightness limiting flexion and extension. Tested with progressive ROM exercises, patellar mobilization, and edema management. Expected response: measurable ROM gains at each visit toward the phase targets below (escalate to surgeon if flexion <90° at 6 weeks).
+- **Quadriceps activation deficit:** Difficulty activating the quadriceps after surgery (arthrogenic muscle inhibition). Tested with electrical stimulation, biofeedback, isometric quad sets, and straight leg raise. Expected response: reduced extensor lag and improved quadriceps contraction quality.
 - **Gait dysfunction:** Altered gait pattern post-surgery (antalgic gait, Trendelenburg, knee hyperextension). Tested with gait training, progressive weight bearing, and strengthening. Expected response: improved gait symmetry and reduced assistive device dependence.
 
 ## Rehabilitation Phases and Decision Points

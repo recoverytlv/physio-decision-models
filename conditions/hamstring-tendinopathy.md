@@ -2,8 +2,8 @@
 title: "Hamstring Tendinopathy / Hamstring Injury"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -38,7 +38,7 @@ Hamstring injuries and tendinopathy are within physiotherapy scope. Complete ham
 ## Clinical Hypothesis Examples
 - **Proximal hamstring tendinopathy:** Load-related deep buttock/posterior thigh pain at the ischial tuberosity. Worse with sitting, hills, and speed work. Tested with progressive hamstring loading (isometric → heavy slow resistance → sport-specific). Expected response: reduced pain with provocative loading and improved running tolerance within 5 sessions.
 - **Acute hamstring strain:** Acute muscle fiber disruption graded I-III. Tested with graded loading, progressive lengthening exercises, and functional progression. Expected response: improved pain-free ROM, improved strength, reduced pain with stretch.
-- **Recurrent hamstring strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factors. Tested with eccentric strengthening (Nordic hamstrings), lumbopelvic control assessment, and running biomechanics analysis. Expected response: improved eccentric strength and neuromuscular control.
+- **Recurrent hamstring strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factors. Tested with eccentric strengthening (Nordic hamstrings), lumbopelvic control assessment, and a review of sprint and training load progression. Expected response: improved eccentric strength and neuromuscular control.
 - **Neural component:** Sciatic nerve mechanosensitivity mimicking or contributing to hamstring symptoms. Tested with neural mobilization and slump test assessment. Expected response: improved neural tension test and reduced posterior thigh symptoms.
 
 ## Trial Window
@@ -49,7 +49,7 @@ Hamstring injuries and tendinopathy are within physiotherapy scope. Complete ham
 - Reduced provocation with single leg bridge or hamstring loading tests
 
 ## Non-Response
-If hamstring symptoms persist despite progressive loading, reassess. Consider MRI for proximal hamstring tendinopathy to evaluate tendon structure. For recurrent strains, consider biomechanical video analysis and lumbopelvic assessment. Complete tendon avulsion requires surgical opinion.
+If hamstring symptoms persist despite progressive loading, reassess. For proximal hamstring tendinopathy, refer to a physician to consider imaging (MRI) of tendon structure. For recurrent strains, reassess lumbopelvic control and training load. Complete tendon avulsion requires surgical opinion.
 
 ## Related Documents
 - [Sciatica](sciatica.md)

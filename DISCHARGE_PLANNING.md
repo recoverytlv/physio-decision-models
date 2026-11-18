@@ -74,7 +74,7 @@ Clear guidance on when to come back:
 - New symptoms develop (different location, different quality)
 - Significant regression after flare-up that doesn't resolve in 2 weeks
 - New injury
-- Pre-planned follow-up (for conditions like scoliosis, post-surgical)
+- Pre-planned follow-up (for example, after surgery)
 - Want to progress to new functional goals (e.g., return to sport after basic rehab)
 
 **Don't come back for:**
@@ -92,7 +92,7 @@ Clear guidance on when to come back:
 | No follow-up | Clear simple cases, goals fully met | Standard discharge |
 | Phone/email check-in at 4 weeks | Chronic pain, complex cases | Confirm self-management working |
 | Booster session at 6-8 weeks | Post-surgical, return-to-sport | Progress exercise program |
-| Planned reassessment at 3-6 months | Scoliosis, chronic conditions | Monitor for regression |
+| Planned reassessment at 3-6 months | Chronic conditions | Monitor for regression |
 
 ## Common Discharge Mistakes
 

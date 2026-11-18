@@ -2,8 +2,8 @@
 title: "Achilles Tendinopathy"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -17,7 +17,7 @@ red_flags:
   - "Palpable gap in tendon"
   - "Positive Thompson test (no plantarflexion with calf squeeze)"
   - "Inability to perform single leg heel raise"
-  - "Signs of DVT (calf swelling, warmth, Homan's sign)"
+  - "Signs of DVT (unilateral calf swelling, warmth, tenderness along the deep veins)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/achilles-tendinopathy.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -28,14 +28,14 @@ clinic: "https://recoverytlv.co.il"
 Achilles tendinopathy including midportion tendinopathy and insertional tendinopathy. Distinct from acute Achilles tendon rupture.
 
 ## Scope Check
-Achilles tendinopathy is within physiotherapy scope. Suspected complete tendon rupture (positive Thompson test, palpable gap, inability to plantarflex against resistance) triggers REFER for surgical assessment.
+Achilles tendinopathy is within physiotherapy scope. Suspected complete tendon rupture (positive calf-squeeze [Simmonds–Thompson] test, altered resting ankle angle with the knee flexed in prone [Matles test], palpable gap; Maffulli 1998, PMID 9548122) triggers REFER for urgent orthopaedic assessment. Some active plantarflexion is often preserved after a rupture and does not exclude it.
 
 ## Red Flags (→ REFER)
 - Sudden onset of severe calf pain with audible pop (suspected rupture)
 - Palpable gap in tendon
 - Positive Thompson test (no plantarflexion with calf squeeze)
 - Inability to perform single leg heel raise
-- Signs of DVT (calf swelling, warmth, Homan's sign)
+- Signs of DVT (unilateral calf swelling, warmth, tenderness along the deep veins)
 
 ## Clinical Hypothesis Examples
 - **Midportion tendinopathy with load intolerance:** Tendon overloaded beyond its capacity. Tested with isometric calf loading progressing to heavy slow resistance. Expected response: reduced morning stiffness and improved load tolerance within 3–5 sessions.
@@ -50,7 +50,7 @@ Achilles tendinopathy is within physiotherapy scope. Suspected complete tendon r
 - ≥10% improvement in ankle dorsiflexion ROM (if restricted)
 
 ## Non-Response
-Tendinopathy often requires longer loading periods. However, if load tolerance does not improve at all within 3–5 sessions (no change in calf raise capacity, no reduction in morning stiffness), reassess. Consider imaging to evaluate tendon structure or hypothesis revision.
+Tendinopathy often requires longer loading periods. However, if load tolerance does not improve at all within 3–5 sessions (no change in calf raise capacity, no reduction in morning stiffness), reassess. Revise the hypothesis, or refer to a physician to consider imaging of tendon structure.
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)

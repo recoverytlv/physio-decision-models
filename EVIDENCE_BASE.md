@@ -2,7 +2,7 @@
 
 The Recovery TLV clinical decision system is built on established principles from clinical research, decision science, and philosophy of science. This document maps system concepts to their academic foundations.
 
-> **Verification note:** The references marked **[verified]** were confirmed against PubMed, journal records, and DOI/PMID identifiers in June 2026. This document is a concept-to-literature map, not a systematic review (see *Limitations*).
+> **Verification note:** For references marked **[verified]**, bibliographic details (authors, year, title, journal, identifiers) were checked against PubMed (June 2026; re-checked 22 October 2026). The marker does not mean that the source tests or validates this framework. This document is a concept-to-literature map, not a systematic review (see *Limitations*).
 
 ## Core Principles and Supporting Evidence
 
@@ -25,9 +25,9 @@ The system treats treatment non-response as high-value diagnostic information ra
 - Delitto A, Erhard RE, Bowling RW. "A treatment-based classification approach to low back syndrome: identifying and staging patients for conservative treatment." *Physical Therapy*. 1995;75(6):470-485. PMID: 7770494. **[verified]**
 - Fritz JM, Cleland JA, Childs JD. "Subgrouping patients with low back pain: evolution of a classification approach to physical therapy." *Journal of Orthopaedic & Sports Physical Therapy*. 2007;37(6):290-302. DOI: 10.2519/jospt.2007.2498. **[verified]**
 - Hicks GE, Fritz JM, Delitto A, McGill SM. "Preliminary development of a clinical prediction rule for determining which patients with low back pain will respond to a stabilization exercise program." *Archives of Physical Medicine and Rehabilitation*. 2005;86(9):1753-1762.
-- Childs JD, Fritz JM, Flynn TW, et al. "A clinical prediction rule to identify patients with low back pain most likely to benefit from spinal manipulation." *Annals of Internal Medicine*. 2004;141(12):920-928.
+- Childs JD, Fritz JM, Flynn TW, et al. "A clinical prediction rule to identify patients with low back pain most likely to benefit from spinal manipulation: a validation study." *Annals of Internal Medicine*. 2004;141(12):920-928. PMID: 15611489. **[verified]**
 
-**System application:** Classification and clinical prediction rules define *who should respond* to a given intervention. When a patient predicted to respond does not improve, this constrains the hypothesis space more powerfully than partial improvement. Non-response tells you what the problem is *not*.
+**System application:** Classification and clinical prediction rules define *who should respond* to a given intervention. When a patient predicted to respond does not improve, and dose, time and adherence were adequate, this is evidence against the working hypothesis. That a clear negative result is more informative than partial improvement is the author's untested proposal.
 
 ### 3. Objective Outcome Measurement
 
@@ -37,20 +37,21 @@ The system requires objective functional improvement for treatment continuation,
 - Copay AG, Subach BR, Glassman SD, Polly DW Jr, Schuler TC. "Understanding the minimum clinically important difference: a review of concepts and methods." *The Spine Journal*. 2007;7(5):541-546. DOI: 10.1016/j.spinee.2007.01.008. PMID: 17448732. **[verified]**
 - Kamper SJ, Maher CG, Mackay G. "Global rating of change scales: a review of strengths and weaknesses and considerations for design." *Journal of Manual & Manipulative Therapy*. 2009;17(3):163-170.
 - Hefford C, Abbott JH, Arnold R, Baxter GD. "The Patient-Specific Functional Scale: validity, reliability, and responsiveness in patients with upper extremity musculoskeletal problems." *Journal of Orthopaedic & Sports Physical Therapy*. 2012;42(2):56-65.
+- Jaeschke R, Singer J, Guyatt GH. "Measurement of health status. Ascertaining the minimal clinically important difference." *Controlled Clinical Trials*. 1989;10(4):407-415. DOI: 10.1016/0197-2456(89)90005-6. PMID: 2691207. **[verified]**
 
-**System application:** Patient-reported outcomes are supplementary but insufficient for continuation decisions. The ≥10% ROM improvement threshold is grounded in the MCID concept formalized by Copay et al. and applied across musculoskeletal rehabilitation.
+**System application:** Patient-reported outcomes are supplementary but insufficient for continuation decisions. The ≥10% threshold is an author-defined decision heuristic. It borrows the logic of the minimal clinically important difference (Jaeschke 1989; Copay 2007) but has not been validated as an MCID for range of motion. A change counts only if it also exceeds the measurement error (MDC) of the instrument.
 
 ### 4. Time-Limited Treatment Trials
 
-The 3–5 session trial window is based on evidence about early treatment response, prediction, and guideline-recommended review periods.
+The 3–5 session trial window is a pragmatic, author-defined review point. The literature below informs it but does not validate a specific number of sessions.
 
 **Supporting literature:**
 - Qaseem A, Wilt TJ, McLean RM, Forciea MA. "Noninvasive treatments for acute, subacute, and chronic low back pain: a clinical practice guideline from the American College of Physicians." *Annals of Internal Medicine*. 2017;166(7):514-530. DOI: 10.7326/M16-2367. **[verified]**
 - National Institute for Health and Care Excellence (NICE). "Low back pain and sciatica in over 16s: assessment and management." *NICE Guideline NG59*. 2016 (updated 2020). https://www.nice.org.uk/guidance/ng59 **[verified]**
-- Hancock MJ, Maher CG, Latimer J, et al. "Can rate of recovery be predicted in patients with acute low back pain? Development of a clinical prediction model." *European Journal of Pain*. 2009;13(1):51-55.
+- Hancock MJ, Maher CG, Latimer J, et al. "Can rate of recovery be predicted in patients with acute low back pain? Development of a clinical prediction rule." *European Journal of Pain*. 2009;13(1):51-55. PMID: 18448369. **[verified]**
 - Hill JC, Whitehurst DG, Lewis M, et al. "Comparison of stratified primary care management for low back pain with current best practice (STarT Back): a randomised controlled trial." *The Lancet*. 2011;378(9802):1560-1571.
 
-**System application:** Guidelines recommend review of response before escalation, and research consistently shows that early response (within the first 2–5 sessions) predicts overall outcome. Patients who show no measurable change in this window are unlikely to benefit from continued identical treatment.
+**System application:** The 3–5 session trial window is a pragmatic, expert-opinion choice. It follows guideline advice to review response before escalating care (Qaseem 2017) and draws on classification and prognostic research (Delitto 1995; Hancock 2009; Hill 2011), but no study has validated a specific number of sessions. It is a review point, not an evidence-based cut-off.
 
 ### 5. Red Flag Screening
 
@@ -60,9 +61,9 @@ Systematic red flag screening at every encounter, not just intake.
 - Henschke N, Maher CG, Refshauge KM, et al. "Prevalence of and screening for serious spinal pathology in patients presenting to primary care settings with acute low back pain." *Arthritis & Rheumatism*. 2009;60(10):3072-3080. DOI: 10.1002/art.24853. PMID: 19790051. **[verified]**
 - Downie A, Williams CM, Henschke N, et al. "Red flags to screen for malignancy and fracture in patients with low back pain: systematic review." *BMJ*. 2013;347:f7095. DOI: 10.1136/bmj.f7095. PMID: 24335669. **[verified]**
 - Greenhalgh S, Selfe J. *Red Flags: A Guide to Identifying Serious Pathology of the Spine*. Churchill Livingstone, 2006.
-- Cook CE, George SZ, Reiman MP. "Red flag screening for low back pain: nothing to see here, move along." *British Journal of Sports Medicine*. 2018;52(8):493-495.
+- Cook CE, George SZ, Reiman MP. "Red flag screening for low back pain: nothing to see here, move along: a narrative review." *British Journal of Sports Medicine*. 2018;52(8):493-496. DOI: 10.1136/bjsports-2017-098352. PMID: 28923844. **[verified]** — a critical perspective on routine red-flag screening.
 
-**System application:** While individual red flags have low sensitivity (Henschke 2009; Downie 2013), clusters of red flags and red flags in context significantly increase clinical utility. The system enforces mandatory REFER when red flags are detected, regardless of other clinical findings.
+**System application:** In acute low back pain, some red flags have very high false-positive rates and, used in isolation, little diagnostic value (Henschke 2009); only a small subset are informative for fracture or malignancy, and the probability of fracture is higher when several are present (Downie 2013). These data concern low back pain; they do not lower the weight of emergency signs, where a single finding is enough to act. The system therefore refers when a clinically significant red flag, or a combination of flags, raises suspicion of serious pathology in context. Cook et al. (2018) offer a critical perspective on routine red-flag screening.
 
 ### 6. Dose-Response Relationships and Progressive Loading
 
@@ -72,9 +73,9 @@ The system monitors whether changes in intervention dose produce proportional cl
 - Cook JL, Purdam CR. "Is tendon pathology a continuum? A pathology model to explain the clinical presentation of load-induced tendinopathy." *British Journal of Sports Medicine*. 2009;43(6):409-416. DOI: 10.1136/bjsm.2008.051193. PMID: 18812414. **[verified]**
 - Alfredson H, Pietilä T, Jonsson P, Lorentzon R. "Heavy-load eccentric calf muscle training for the treatment of chronic Achilles tendinosis." *The American Journal of Sports Medicine*. 1998;26(3):360-366. DOI: 10.1177/03635465980260030301. PMID: 9617396. **[verified]**
 - Beyer R, Kongsgaard M, Hougs Kjær B, et al. "Heavy Slow Resistance Versus Eccentric Training as Treatment for Achilles Tendinopathy: A Randomized Controlled Trial." *The American Journal of Sports Medicine*. 2015;43(7):1704-1711. DOI: 10.1177/0363546515584760. PMID: 26018970. **[verified]**
-- Malliaras P, Barton CJ, Reeves ND, Langberg H. "Achilles and patellar tendinopathy loading programmes: a systematic review." *Sports Medicine*. 2013;43(4):267-286.
+- Malliaras P, Barton CJ, Reeves ND, Langberg H. "Achilles and patellar tendinopathy loading programmes: a systematic review comparing clinical outcomes and identifying potential mechanisms for effectiveness." *Sports Medicine*. 2013;43(4):267-286. PMID: 23494258. **[verified]**
 
-**System application:** The tendinopathy continuum (Cook & Purdam) and loading trials (Alfredson; Beyer) demonstrate that tissue response is load-dependent and time-dependent. If increasing the dose of an intervention produces no proportional improvement, this signals dose-response decoupling — a strong indicator that the hypothesis driving intervention selection may be incorrect.
+**System application:** The tendinopathy continuum (Cook & Purdam) and loading trials (Alfredson; Beyer, both 12-week protocols) show that tendon response is load- and time-dependent. Reading dose-response decoupling (no proportional improvement despite an adequate increase in dose over an adequate time) as a sign that the working hypothesis may be wrong is the author's extrapolation, not a finding of these studies.
 
 ### 7. Biopsychosocial Framework
 
@@ -85,7 +86,7 @@ The system incorporates psychosocial factors (yellow flags) as barriers to recov
 - Waddell G. "1987 Volvo Award in Clinical Sciences. A new clinical model for the treatment of low-back pain." *Spine*. 1987;12(7):632-644. PMID: 2961080. **[verified]**
 - Vlaeyen JWS, Linton SJ. "Fear-avoidance and its consequences in chronic musculoskeletal pain: a state of the art." *Pain*. 2000;85(3):317-332. DOI: 10.1016/S0304-3959(99)00242-0. PMID: 10781906. **[verified]**
 - Linton SJ, Shaw WS. "Impact of psychological factors in the experience of pain." *Physical Therapy*. 2011;91(5):700-711.
-- Main CJ, George SZ. "Psychologically informed practice for management of low back pain." *Physical Therapy*. 2011;91(5):820-824.
+- Main CJ, George SZ. "Psychologically informed practice for management of low back pain: future directions in practice and research." *Physical Therapy*. 2011;91(5):820-824. PMID: 21451091. **[verified]**
 
 **System application:** Engel's biopsychosocial model and Waddell's application to low back pain establish that disability is not explained by tissue pathology alone. Fear-avoidance, catastrophizing, and external locus of control are identified during the Listen phase and addressed as modifiable barriers within physiotherapy scope.
 
@@ -99,7 +100,7 @@ The formal decision structure (DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE
 - Kahneman D, Tversky A. "Prospect Theory: An Analysis of Decision under Risk." *Econometrica*. 1979;47(2):263-291.
 - Sox HC, Higgins MC, Owens DK. *Medical Decision Making*. 2nd ed. Wiley-Blackwell, 2013.
 
-**System application:** The six outputs function as formal decision states that eliminate ambiguity. Drawing on Croskerry's work on cognitive error, the system defaults to DECLINE or DEFER under uncertainty (precautionary principle), requires evidence for continuation (avoiding status quo bias), and mandates exit under stasis (avoiding sunk-cost fallacy).
+**System application:** The six outputs function as formal decision states that make each decision explicit. Croskerry's catalogue of cognitive biases and debiasing strategies motivates explicit exit criteria. The system's choices — defaulting to DECLINE or DEFER under uncertainty (precautionary principle), requiring evidence for continuation (to counter status-quo bias) and mandating exit under stasis (to counter sunk-cost reasoning) — are the author's design choices, not recommendations of the cited work.
 
 ## Extended Evidence Domains
 
@@ -185,32 +186,21 @@ Contextual factors (therapeutic alliance, expectation, setting) measurably shape
 
 **System application:** Because contextual effects can produce short-term subjective improvement without functional change, the system deliberately requires *objective* criteria for CONTINUE — guarding against mistaking a contextual response for a genuine treatment effect.
 
-## Minimal Clinically Important Difference (MCID) Reference
+## Thresholds and Measurement Error
 
-The ≥10% ROM improvement threshold is informed by the MCID concept (Copay et al. 2007 [verified]) and approximate values reported across the literature:
-
-| Joint/Region | Measure | Approximate MCID |
-|---|---|---|
-| Lumbar spine flexion | Goniometry | 5–10° |
-| Cervical rotation | Goniometry | 5–7° |
-| Shoulder flexion | Goniometry | 8–15° |
-| Knee flexion (post-TKA) | Goniometry | 6–12° |
-| Hip flexion | Goniometry | 5–8° |
-| Ankle dorsiflexion | Goniometry | 3–5° |
-
-The 10% threshold provides a generalizable rule across joints while remaining consistent with published MCID values. It is a decision heuristic, not a measurement standard for any single instrument.
+The ≥10% threshold is an author-defined decision heuristic, not an MCID. Goniometric measurement error can exceed 10% of a small range (for example, a minimal detectable change of 5.0–7.7° for weight-bearing ankle dorsiflexion measured with a goniometer; Konor et al. 2012, PMID 22666642), so a change counts only if it also exceeds the MDC of the instrument used. For patient-reported low back pain measures, an international consensus proposes a 30% improvement from baseline as clinically meaningful (Ostelo et al. 2008, PMID 18165753).
 
 ## Philosophical Foundations
 
 The system is informed by:
 - **Falsificationism (Popper):** Interventions must be falsifiable — if you cannot define what non-response looks like, the hypothesis is not testable.
-- **Bayesian updating:** Clinical probability is updated with each treatment response. Non-response provides stronger constraint than partial response.
+- **Bayesian updating:** Clinical probability is updated with each treatment response. Non-response, once dose, time and adherence are confirmed adequate, is evidence against the working hypothesis.
 - **Precautionary principle:** Under uncertainty, the system defaults to non-action (DECLINE or DEFER) rather than treatment.
 - **Epistemic humility:** The system acknowledges that biological uncertainty is irreducible and designs exit criteria around this fact.
 
-## Verified Key References (June 2026)
+## Key References (bibliographic details checked against PubMed, June 2026; re-checked 22 October 2026)
 
-The following landmark references were independently verified against PubMed/journal records (author, year, title, journal, identifier):
+Author, year, title, journal and identifier were checked for the following references; this does not imply that each source validates the framework:
 
 1. Jones MA. *Phys Ther*. 1992;72(12):875-884. PMID: 1454863.
 2. Edwards I, et al. *Phys Ther*. 2004;84(4):312-330. PMID: 15049726.
@@ -248,7 +238,7 @@ The following landmark references were independently verified against PubMed/jou
 
 This evidence base is not a systematic review. It maps system concepts to supporting literature to demonstrate that the Recovery TLV decision system is built on established principles, not invented from scratch.
 
-The system itself is a clinical framework, not a clinical trial. It has not been validated in a randomized controlled trial. Its claims are:
+The system itself is a clinical framework, not a clinical trial. It has not been validated in a randomized controlled trial or any other clinical study; its thresholds (3–5 sessions; ≥10% objective change) are author-defined. Its claims are:
 1. Decisions should be explicit, documented, and auditable
 2. Continuation should require objective evidence
 3. Non-response should trigger hypothesis revision, not repetition

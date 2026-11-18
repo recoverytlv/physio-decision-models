@@ -6,7 +6,7 @@ Return-to-sport (RTS) decisions are among the highest-stakes clinical decisions 
 
 ## The Three Stages of Return-to-Sport
 
-Based on the 2016 Consensus Statement on Return to Sport (Ardern et al.):
+Adapted from the return-to-sport continuum in the 2016 Consensus Statement (Ardern et al., Br J Sports Med 2016;50(14):853-864); the stage definitions below are the author's operational paraphrase:
 
 | Stage | Definition | Key Question |
 |-------|-----------|--------------|
@@ -15,6 +15,8 @@ Based on the 2016 Consensus Statement on Return to Sport (Ardern et al.):
 | Return to Performance | Can perform at pre-injury level | "Can they compete?" |
 
 ## Criteria-Based Progression
+
+Percentages and repetition counts below are author-defined guides, not validated cut-offs, unless a source is cited.
 
 ### Stage 1: Return to Participation
 
@@ -36,7 +38,7 @@ Based on the 2016 Consensus Statement on Return to Sport (Ardern et al.):
 - [ ] Strength ≥80% of uninjured side (≥90% for ACL)
 - [ ] Sport-specific movements without symptoms
 - [ ] Hop test ≥90% limb symmetry index (lower limb)
-- [ ] Y-Balance Test ≤4 cm asymmetry
+- [ ] Y-Balance Test: anterior reach asymmetry ≤4 cm (cut-off derived with the Star Excursion Balance Test in high-school basketball players; Plisky 2006)
 - [ ] Can complete sport-specific training session
 - [ ] No next-day symptom increase
 
@@ -46,7 +48,7 @@ Based on the 2016 Consensus Statement on Return to Sport (Ardern et al.):
 - [ ] Can tolerate sport-specific load (distance, duration, intensity)
 
 **Psychological Criteria:**
-- [ ] ACL-RSI ≥56 (for ACL injuries)
+- [ ] ACL-RSI ≥56 (for ACL injuries; threshold not validated; used as a guide)
 - [ ] Confident in injured limb during sport-specific tasks
 - [ ] No movement compensation observed
 
@@ -61,11 +63,11 @@ Based on the 2016 Consensus Statement on Return to Sport (Ardern et al.):
 
 ## Condition-Specific RTS Timelines
 
-These are **minimum** timelines. Criteria must also be met — time alone is insufficient.
+These are **minimum** timelines (not validated; used as a guide). Criteria must also be met — time alone is insufficient.
 
 | Condition | Minimum Timeline | Key Test |
 |-----------|-----------------|----------|
-| ACL reconstruction | 9-12 months | Hop tests ≥90% LSI, quad strength ≥90%, ACL-RSI ≥56 |
+| ACL reconstruction | 9-12 months | Hop tests ≥90% LSI, quad strength ≥90%, ACL-RSI ≥56 (guide) |
 | Hamstring strain (Grade I) | 1-3 weeks | Pain-free sprinting, full ROM, ≥90% strength |
 | Hamstring strain (Grade II) | 3-6 weeks | Same as Grade I + sport-specific drills |
 | Hamstring strain (Grade III) | 6-12+ weeks | Post-surgical criteria if operated |
@@ -77,7 +79,7 @@ These are **minimum** timelines. Criteria must also be met — time alone is ins
 
 ## Running-Specific Return Protocol
 
-For runners returning from lower limb injury:
+For runners returning from lower limb injury (progression used as a guide; not a validated protocol):
 
 | Week | Program | Volume |
 |------|---------|--------|
@@ -101,13 +103,13 @@ For runners returning from lower limb injury:
 
 Psychological readiness is as important as physical readiness. Key factors:
 
-1. **Fear of re-injury** — The strongest predictor of not returning to sport
+1. **Fear of re-injury** — the most common reason athletes give for not returning to sport after ACL reconstruction (Ardern 2011)
 2. **Confidence** — In the injured body part during sport-specific tasks
 3. **Motivation** — Internal vs external (athlete's own desire vs coach/team pressure)
 4. **Identity** — Athletes who define themselves solely by sport may rush return
 
 ### Validated Tools
-- **ACL-RSI** (ACL-Return to Sport after Injury): Score ≥56 associated with successful return
+- **ACL-RSI** (ACL-Return to Sport after Injury): higher scores are associated with returning to sport; in competitive athletes, a cut-off of 55 points at 6 months predicted return at 1 year (Kitaguchi 2020). The ≥56 threshold used here is a guide, not a validated cut-off.
 - **Tampa Scale of Kinesiophobia (TSK)**: High scores indicate fear of movement
 - **Injury-Psychological Readiness to Return to Sport (I-PRRS)**: General readiness scale
 
@@ -155,6 +157,10 @@ DISCHARGE (full return to performance)
 - Do not ignore psychological readiness
 - Do not skip graded exposure — full sport from zero is high risk
 - Do not ignore asymmetry — "it doesn't hurt" is not the same as "it's ready"
+
+## Sources
+
+Ardern CL et al. Br J Sports Med 2016;50(14):853-864 (PMID 27226389) · Ardern CL et al. Br J Sports Med 2011;45(7):596-606 (PMID 21398310) · Grindem H et al. Br J Sports Med 2016;50(13):804-808 (PMID 27162233) · Plisky PJ et al. JOSPT 2006;36(12):911-919 (PMID 17193868) · Kitaguchi T et al. Knee Surg Sports Traumatol Arthrosc 2020;28(7):2203-2212 (PMID 31679068).
 
 ---
 

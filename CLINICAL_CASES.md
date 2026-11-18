@@ -15,16 +15,16 @@ Fictional examples demonstrating how the clinical decision system works in pract
 **Set Goals:** Reduce sitting intolerance, restore flexion ROM to symmetrical, reduce pain with prolonged sitting.
 
 **TRIAL (Sessions 1–4):**
-- Segmental mobilization L4-L5, motor control retraining, graded sitting exposure
+- Segmental mobilization L4-L5, motor control retraining
 - Session 4 re-evaluation: No change in sitting tolerance, no ROM improvement, pain unchanged
 
 **Decision — Non-Response as Signal:**
 Hypothesis revised. Segmental mobilization did not produce expected response. Re-examine.
 
-**New Hypothesis:** Hip flexor tightness and anterior pelvic tilt increasing lumbar load during sitting.
+**New Hypothesis:** Low tolerance to sustained lumbar flexion loading in sitting (load–capacity mismatch).
 
 **TRIAL (Sessions 5–8):**
-- Hip flexor stretching, gluteal strengthening, seated posture modification
+- Seated posture variation, graded sitting exposure, gluteal and trunk endurance training
 - Session 6: Sitting tolerance improved from 30 to 50 minutes
 - Session 8: ROM improved 15%, sitting tolerance 60+ minutes
 
@@ -92,6 +92,7 @@ Night pain with unexplained weight loss is a red flag requiring medical investig
 
 **Sessions 6–10:**
 - Progressive loading, eccentric emphasis
+- Session 6: Calf raise 12 reps
 - Session 8: Calf raise 12 reps (no change from session 6)
 - Session 10: Walking tolerance 30 minutes (no change), morning stiffness 5 minutes (no change)
 
@@ -100,9 +101,9 @@ Night pain with unexplained weight loss is a red flag requiring medical investig
 **Options evaluated:**
 1. Dose-response decoupling? Increased load intensity at session 7, no proportional response → Yes
 2. Hypothesis still valid? Tendon loading is appropriate treatment, but plateau reached
-3. Further investigation needed? Consider imaging to evaluate tendon structure
+3. Further investigation needed? Referral to a physician to consider imaging of tendon structure
 
-**Decision → REFER** for imaging. If structural changes confirmed, continue modified loading program with realistic expectations. If no structural changes, hypothesis revision needed.
+**Decision → REFER** to a physician to consider imaging. If structural changes are confirmed, continue modified loading program with realistic expectations. If no structural changes, hypothesis revision needed.
 
 ---
 
@@ -115,8 +116,6 @@ Night pain with unexplained weight loss is a red flag requiring medical investig
 **Decision → DECLINE**
 
 Bilateral upper extremity symptoms with hand dexterity deficit and gait disturbance suggest possible cervical myelopathy. This is outside physiotherapy scope for initial management. Patient referred urgently to physician/neurologist. Physiotherapy may be appropriate after medical clearance.
-
----
 
 ---
 
@@ -133,11 +132,11 @@ Bilateral upper extremity symptoms with hand dexterity deficit and gait disturba
 **TRIAL (Sessions 1–5):**
 - Gentle end-range mobilization, ROM exercises within tolerance, sleep position advice
 - Session 3: Night pain reduced 40%, ROM unchanged
-- Session 5: Night pain minimal, ROM unchanged (external rotation still 20°)
+- Session 5: Night pain minimal, ROM unchanged (external rotation still 20°). Compensatory shoulder hitching and trunk side-bend during dressing and reaching within the available range reduced, with smoother scapulohumeral movement (observed and documented against session 1; judged as improved movement quality, not only less pain)
 
-**Decision:** ROM is not improving, but this is expected in the frozen phase. Pain reduction IS an objective improvement. The biology of frozen shoulder means ROM may not change for months.
+**Decision:** ROM is not improving, but this is expected in the frozen phase. The biology of frozen shoulder means ROM may not change for months. Pain reduction alone would not justify continuation under this system; the documented reduction in compensatory movement strategies during functional tasks does.
 
-**Decision → CONTINUE** (pain improvement documented, with explicit acknowledgment that ROM may plateau during frozen phase)
+**Decision → CONTINUE** (objective criterion met: reduction in compensatory strategies; pain improvement recorded as supplementary data only; explicit acknowledgment that ROM may plateau during frozen phase)
 
 **Sessions 6–12 (over 3 months):**
 - Session 8: First ROM change — external rotation 25° (+5°)
@@ -152,7 +151,7 @@ Bilateral upper extremity symptoms with hand dexterity deficit and gait disturba
 
 **Decision → DISCHARGE** (goals met)
 
-**Key lesson:** Frozen shoulder has a biological timeline. The system adapted — pain improvement justified continuation even when ROM was static. Patience is not the same as inertia, as long as some objective signal exists.
+**Key lesson:** Frozen shoulder has a biological timeline. The system adapted — an objective non-ROM signal (reduced compensation during functional tasks) justified continuation while ROM was static; pain improvement was recorded but was not the basis of the decision. Patience is not the same as inertia, as long as some objective signal exists.
 
 ---
 
@@ -168,7 +167,7 @@ Bilateral upper extremity symptoms with hand dexterity deficit and gait disturba
 
 The patient reports "patellofemoral pain" but the examination suggests patellar tendinopathy, not patellofemoral syndrome. These require different interventions. Need to confirm the hypothesis before starting treatment.
 
-**Re-assessment:** Single leg decline squat provokes exact pain at inferior pole. VISA-P score: 52/100. Ultrasound imaging requested.
+**Re-assessment:** Single leg decline squat provokes exact pain at inferior pole. VISA-P score: 52/100. Patient referred to their physician, who arranged an ultrasound (the clinic does not order imaging).
 
 **Imaging confirms:** Patellar tendinopathy with tendon thickening.
 
@@ -236,7 +235,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 **Set Goals:** Reduce night pain (lying on affected side), improve single leg stance tolerance, improve walking endurance.
 
 **TRIAL (Sessions 1–5):**
-- STOP: adductor stretching, foam rolling lateral hip, side-lying exercises, crossing legs, standing on one leg
+- STOP: stretches into hip adduction (e.g., ITB/lateral hip stretches), foam rolling lateral hip, side-lying exercises, crossing legs, standing on one leg
 - START: isometric gluteal loading (pain-free), standing abduction with band, gait retraining
 - Compression management education: sleep with pillow between knees, don't cross legs, don't hang on one hip
 - Session 3: Night pain reduced 60%, single leg stance improved to 20 seconds
@@ -250,7 +249,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Decision → DISCHARGE**
 
-**Key lesson:** Sometimes the previous treatment IS the problem. Identifying what NOT to do was more important than what TO do. Gluteal tendinopathy is one of the most commonly mistreated conditions — adductor stretching and foam rolling compress the tendon and make it worse.
+**Key lesson:** Sometimes the previous treatment IS the problem. Identifying what NOT to do was more important than what TO do. Gluteal tendinopathy is one of the most commonly mistreated conditions — stretches into hip adduction and foam rolling the lateral hip compress the tendon and make it worse.
 
 ---
 
@@ -263,7 +262,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 | Case 3 | TRIAL → CONTINUE → DISCHARGE | Objective improvement drives continuation |
 | Case 4 | CONTINUE → Stasis → REFER | Exit criteria enforce honest termination |
 | Case 5 | DECLINE before any treatment | Scope check prevents unsafe treatment |
-| Case 6 | CONTINUE despite ROM plateau | Biology must be respected; pain improvement counts |
+| Case 6 | CONTINUE despite ROM plateau | Biology must be respected; a non-ROM objective signal counts |
 | Case 7 | DEFER → reassess → correct TRIAL | Wrong hypothesis wastes time; DEFER is valid |
 | Case 8 | Address fear-avoidance alongside stiffness | Yellow flags are as important as physical findings |
 | Case 9 | Previous treatment was the problem | Knowing what NOT to do matters |
@@ -276,7 +275,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Listen:** Patient describes pain with stairs and prolonged walking. Fear: "My knee is bone on bone — can exercise really help?" Previous advice was rest and avoid stairs. Currently very sedentary.
 
-**Evaluate:** Bilateral genu varum. Mild effusion left knee. ROM: -5° extension, 115° flexion bilaterally. Quad strength 3+/5 bilaterally. TUG: 14.2 seconds. 30-second sit-to-stand: 7 repetitions. 6MWT: 320 meters. NDI/ODI not applicable — KOOS Pain: 42/100.
+**Evaluate:** Bilateral genu varum. Mild effusion left knee. ROM: -5° extension, 115° flexion bilaterally. Quad strength 3+/5 bilaterally. TUG: 14.2 seconds. 30-second sit-to-stand: 7 repetitions. 6MWT: 320 meters. KOOS Pain: 42/100.
 
 **Hypothesis:** Quad weakness and deconditioning are major contributors to functional limitation. Radiographic severity does not predict exercise response.
 
@@ -290,7 +289,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Session 5 Re-evaluation:** TUG: 12.8 seconds (improved 1.4s). Sit-to-stand: 9 (improved 2). Pain during stairs reduced from 7/10 to 5/10.
 
-**Decision: CONTINUE** — All measures improving. Not yet at MCID for TUG but trending positive.
+**Decision: CONTINUE** — Objective criterion met: 30-second sit-to-stand improved from 7 to 9 repetitions (more than 10%); TUG improved 1.4 s. Pain reduction recorded as supporting data.
 
 **Sessions 6-12:** Progressive loading. Added hip strengthening. Walking up to 25 minutes.
 
@@ -340,7 +339,7 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 **Listen:** Fell getting out of bath. This was her third fall in 6 months (two previous unreported). Now uses furniture to walk around apartment. Stopped going to market. Stopped visiting friends. "I'm afraid I'll fall and break something and nobody will find me." Medications: amlodipine, metformin, omeprazole, lorazepam (0.5mg nightly for sleep).
 
-**Evaluate:** Hip ROM limited but consistent with age and guarding, not structural pathology. Gait: shuffling, wide base, uses hands on furniture. TUG: 18.4 seconds (high fall risk, cut-off 13.5s). Berg Balance Scale: 38/56 (fall risk). 30-second sit-to-stand: 4. Single leg stance: 2 seconds (right), 3 seconds (left). Quad strength: 3/5 bilateral. Fear of falling (FES-I): 42 (severe fear).
+**Evaluate:** Hip ROM limited but consistent with age and guarding, not structural pathology. Gait: shuffling, wide base, uses hands on furniture. TUG: 18.4 seconds (high fall risk, cut-off 13.5s). Berg Balance Scale: 38/56 (fall risk). 30-second sit-to-stand: 4. Single leg stance: 2 seconds (right), 3 seconds (left). Quad strength: 3/5 bilateral. Fear of falling (FES-I): 42 (high concern).
 
 **Red flag assessment:** Lorazepam is a benzodiazepine — known fall risk factor. Recommend discussion with prescribing physician about alternatives.
 
@@ -348,22 +347,22 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 **Hypothesis 2:** Fear of falling causes activity avoidance, which worsens deconditioning (fear-avoidance cycle).
 **Hypothesis 3:** Lorazepam contributes to balance impairment.
 
-**Goals:** TUG <14 seconds. Berg >45. Independent community ambulation. Reduced fear of falling.
+**Goals:** TUG <13.5 seconds. Berg >45. Independent community ambulation. Reduced fear of falling.
 
-**TRIAL (Sessions 1-6, extended for geriatric):**
+**TRIAL (Sessions 1-5):**
 - Progressive balance training: seated → standing → tandem → single leg (with safety)
 - Quad strengthening: chair squats, sit-to-stand practice, step-ups
 - Gait training: increase stride length, reduce base of support, outdoor walking
 - Education: fall prevention strategies, home safety
 - Letter to physician regarding lorazepam and fall risk
 
-**Session 6 Re-evaluation:** TUG: 15.1 seconds (improved 3.3s). Berg: 42 (improved 4 points). Sit-to-stand: 7. Physician tapered lorazepam, started trazodone for sleep.
+**Session 5 Re-evaluation:** TUG: 15.1 seconds (improved 3.3s). Berg: 42 (improved 4 points). Sit-to-stand: 7. Physician reviewed her sleep medication and tapered lorazepam.
 
 **Decision: CONTINUE** — Meaningful improvement. Still above fall risk threshold.
 
-**Sessions 7-14:** Continued progressive balance and strength. Introduced outdoor walking with therapist, then independently. Community re-engagement (walks to market with rest stops).
+**Sessions 6-14:** Continued progressive balance and strength. Introduced outdoor walking with therapist, then independently. Community re-engagement (walks to market with rest stops).
 
-**Session 14:** TUG: 12.8 seconds (below fall risk threshold). Berg: 47. Sit-to-stand: 10. Single leg stance: 8 seconds bilateral. Walks to market independently. Visiting friends again. FES-I: 28 (moderate fear, improved from severe).
+**Session 14:** TUG: 12.8 seconds (below fall risk threshold). Berg: 47. Sit-to-stand: 10. Single leg stance: 8 seconds bilateral. Walks to market independently. Visiting friends again. FES-I: 28 (improved from 42, still in the high-concern range; Delbaere 2010, PMID 20061508).
 
 **Decision: DISCHARGE** — All goals met. Community-dwelling independence restored. Home exercise program established. Follow-up recommended in 3 months.
 
@@ -401,16 +400,16 @@ The patient reports "patellofemoral pain" but the examination suggests patellar 
 
 ---
 
-## Summary Table (All 15 Cases)
+## Summary Table (All 13 Cases)
 
 | Case | Condition | Key Decision | Teaching Point |
 |------|-----------|-------------|----------------|
 | Case 1 | Low back pain | Hypothesis revision | Non-response drives hypothesis change, not more of the same |
 | Case 2 | Shoulder pain | REFER for red flags | Safety first — red flags override treatment plans |
-| Case 3 | Knee meniscus | TRIAL → CONTINUE → DISCHARGE | Objective improvement drives continuation |
+| Case 3 | Patellofemoral pain | TRIAL → CONTINUE → DISCHARGE | Objective improvement drives continuation |
 | Case 4 | Achilles tendinopathy | CONTINUE → Stasis → REFER | Exit criteria enforce honest termination |
 | Case 5 | Neck pain | DECLINE before any treatment | Scope check prevents unsafe treatment |
-| Case 6 | Frozen shoulder | CONTINUE despite ROM plateau | Biology must be respected; pain improvement counts |
+| Case 6 | Frozen shoulder | CONTINUE despite ROM plateau | Biology must be respected; a non-ROM objective signal counts |
 | Case 7 | Runner's knee | DEFER → reassess → correct TRIAL | Wrong hypothesis wastes time; DEFER is valid |
 | Case 8 | Post-TKR | Address fear-avoidance alongside stiffness | Yellow flags are as important as physical findings |
 | Case 9 | Lateral hip | Previous treatment was the problem | Knowing what NOT to do matters |

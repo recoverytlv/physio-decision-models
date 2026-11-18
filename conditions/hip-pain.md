@@ -2,8 +2,8 @@
 title: "Hip Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -18,6 +18,7 @@ red_flags:
   - "Night pain with unexplained weight loss"
   - "Rapidly progressive pain with reduced ROM in young adults (avascular necrosis)"
   - "Acute severe pain with locked hip (loose body)"
+  - "Adolescent with hip, groin, thigh or knee pain and a limp or reduced hip internal rotation (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/hip-pain.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -36,6 +37,7 @@ Hip pain is within physiotherapy scope when musculoskeletal in origin. Suspected
 - Night pain with unexplained weight loss
 - Rapidly progressive pain with reduced ROM in young adults (avascular necrosis)
 - Acute severe pain with locked hip (loose body)
+- Adolescent with hip, groin, thigh or knee pain and a limp or reduced hip internal rotation (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)
 
 ## Clinical Hypothesis Examples
 - **Femoroacetabular impingement:** Mechanical impingement in hip flexion and internal rotation. Tested with load modification and hip strengthening. Expected response: improved tolerance to flexion-based activities within 3–5 sessions.
@@ -51,7 +53,7 @@ Hip pain is within physiotherapy scope when musculoskeletal in origin. Suspected
 - Reduction in compensatory Trendelenburg pattern
 
 ## Non-Response
-If functional capacity does not improve, reassess the hypothesis. Consider imaging referral for intra-articular pathology. Hip OA patients with declining function despite appropriate exercise may need orthopaedic consultation.
+If functional capacity does not improve, reassess the hypothesis. Refer to a physician to consider imaging for intra-articular pathology. Hip OA patients with declining function despite appropriate exercise may need orthopaedic consultation.
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)

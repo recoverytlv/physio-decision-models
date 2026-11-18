@@ -2,7 +2,7 @@
 
 ## Definition
 
-Chronic pain: Pain persisting beyond normal tissue healing time (generally >3 months). In chronic pain, the relationship between tissue pathology and pain experience is often decoupled — pain persists after tissues have healed.
+Chronic pain: pain that persists or recurs for more than 3 months (IASP classification for ICD-11: Treede 2019, PMID 30586067; Perrot 2019, PMID 30586074). The relationship between tissue pathology and pain experience is often weak — pain can persist after tissues have healed, and nociceptive, neuropathic and nociplastic mechanisms may coexist.
 
 ## Scope Boundaries
 
@@ -15,13 +15,13 @@ Chronic pain: Pain persisting beyond normal tissue healing time (generally >3 mo
 |---------|-----------|-------------|
 | Duration | <3 months | >3 months |
 | Tissue correlation | Usually proportional | Often decoupled |
-| Primary driver | Peripheral (tissue injury) | Central (nervous system sensitization) |
+| Main mechanisms | Mostly nociceptive (tissue injury) | Mixed — nociceptive, neuropathic and/or nociplastic; nervous system sensitization may contribute |
 | Treatment focus | Tissue healing, protection | Nervous system calming, function restoration |
 | Exercise approach | Protect → load gradually | Graded exposure, pacing, confidence |
 | Goal | Full recovery | Functional restoration, self-management |
 | Timeline expectations | Weeks | Months |
 | Patient education | Injury-specific | Pain neuroscience education |
-| Trial window | Standard 3-5 sessions | Extended 6-10 sessions |
+| Trial window | 3–5 sessions | 3–5 sessions; if no objective criterion is met, one revised trial of 3–5 sessions |
 
 ## The Chronic Pain Assessment Framework
 
@@ -57,7 +57,7 @@ Chronic pain: Pain persisting beyond normal tissue healing time (generally >3 mo
 - **Presentation:** High FABQ, avoidance of specific movements/activities, disproportionate pain behavior
 - **Test:** Pain neuroscience education + graded exposure to feared movements
 - **Expected response:** Reduced FABQ scores, increased willingness to engage in activities
-- **MCID:** FABQ reduction ≥4 points, PSFS improvement ≥2 points
+- **Reference values:** FABQ physical activity subscale reduction ≥4 points and work subscale ≥7 points (Monticone 2020, PMID 32420712); PSFS thresholds vary by population (see OUTCOME_MEASURES.md)
 
 ### Hypothesis 3: Central Sensitization as Primary Driver
 - **Presentation:** Widespread pain, allodynia, hyperalgesia, pain disproportionate to findings
@@ -114,8 +114,8 @@ Chronic pain: Pain persisting beyond normal tissue healing time (generally >3 mo
 
 ## Decision Criteria — Adapted for Chronic Pain
 
-### Extended TRIAL (6-10 sessions)
-Standard 3-5 session trial is often insufficient for chronic pain. Extended trial is justified when:
+### TRIAL (3–5 sessions; one revised trial if no objective criterion is met)
+Chronic pain often needs the full 5 sessions and the one permitted revised trial; the window itself is not extended. Plan for both when:
 - Pain duration >6 months
 - Multiple contributing factors identified
 - Patient needs time to build trust and understand the approach

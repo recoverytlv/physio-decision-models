@@ -53,9 +53,9 @@ Recovery TLV operates under a published clinical decision system. Every case fol
 | Output | When It Happens |
 |---|---|
 | **DECLINE** | Condition is outside physiotherapy scope or contraindicated. We inform you why. |
-| **DEFER** | Insufficient data to make a clinical decision. We may request imaging or further medical information. |
+| **DEFER** | Insufficient data to make a clinical decision. We may ask the referring physician for further information or to consider imaging. |
 | **REFER** | Red flags detected. We refer back to you or to an appropriate specialist with documented findings. |
-| **TRIAL** | Condition accepted for a 3–5 session trial with objective criteria for continuation. |
+| **TRIAL** | Condition accepted for a 3–5 session trial (an author-defined review point) with objective criteria for continuation. |
 | **CONTINUE** | Objective improvement documented. Treatment continues with updated goals. |
 | **DISCHARGE** | Goals met, or progress has plateaued. Patient discharged with documented outcomes. |
 
@@ -72,7 +72,7 @@ Red flag categories we screen for:
 ### Continuation Criteria
 
 Treatment continuation requires at least one of:
-- ≥10% improvement in range of motion
+- ≥10% improvement in range of motion or another objective measure, beyond its measurement error (MDC)
 - Documented functional progress (measurable)
 - Reduction in compensatory movement strategies
 
@@ -82,7 +82,7 @@ Subjective reports alone do not justify continuation.
 
 If a patient does not improve within 3–5 sessions, we:
 1. Revise our clinical hypothesis
-2. Test the revised hypothesis with a new trial
+2. Test the revised hypothesis with ONE new trial (or discharge or refer directly when a revision is not justified)
 3. If the revised hypothesis also fails → DISCHARGE or REFER back with documented findings
 
 We do not treat indefinitely without results.
@@ -93,7 +93,7 @@ For post-operative patients, we follow surgeon-specific protocols when provided.
 
 - **ACL reconstruction:** Phase-based with return-to-sport testing (hop tests, strength symmetry)
 - **Rotator cuff repair:** Phase-based with ROM and strength milestones per surgical approach
-- **Total knee replacement:** ROM targets (0° extension, 90° flexion by 6 weeks, 120° by 12 weeks)
+- **Total knee replacement:** ROM targets (0° extension, 90° flexion by 6 weeks, 120° by 12 weeks; used as a guide — surgeon protocols take precedence)
 - **Total hip replacement:** Approach-specific precautions (posterior, anterior, lateral)
 - **Spinal surgery:** Post-laminectomy, discectomy, and fusion protocols
 

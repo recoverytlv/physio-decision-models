@@ -22,9 +22,9 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 
 **Hypothesis:** Pain is driven by extensor tendon overload at the lateral epicondyle.
 
-**Controlled perturbation:** Eccentric wrist extension loading protocol, 3 sessions over 10 days.
+**Controlled perturbation:** Progressive wrist-extensor loading, reviewed at the end of the trial window. Full tendon adaptation takes longer (tendinopathy loading trials have used 12-week protocols), so the trial tests for an early objective signal, not for resolution.
 
-**Testable prediction:** If hypothesis is correct, grip strength should improve ≥10% and pain during resisted extension should decrease.
+**Testable prediction:** If hypothesis is correct, grip strength should improve ≥10% (beyond the dynamometer's MDC) and pain during resisted extension should decrease.
 
 **Outcomes:**
 - Prediction confirmed → Hypothesis consolidated → evaluate for CONTINUE
@@ -33,7 +33,7 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 
 ## Relationship to Outputs
 - A hypothesis that survives testing supports CONTINUE.
-- A hypothesis that is falsified mandates reassessment: DEFER, REFER, or DISCHARGE.
+- A hypothesis that is falsified mandates reassessment: a revised hypothesis with ONE new TRIAL, REFER, or DISCHARGE.
 - A hypothesis that cannot be tested mandates DEFER until testable conditions exist.
 
 ## Related Documents

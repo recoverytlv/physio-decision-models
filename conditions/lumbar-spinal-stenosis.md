@@ -2,8 +2,8 @@
 title: "Lumbar Spinal Stenosis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -16,7 +16,7 @@ red_flags:
   - "Cauda equina syndrome (bilateral leg symptoms, saddle anaesthesia, bowel/bladder dysfunction — emergency)"
   - "Progressive motor weakness in lower extremities"
   - "Rapidly worsening walking tolerance (weeks, not months)"
-  - "Neurogenic claudication not responding to 8+ sessions of conservative management"
+  - "Neurogenic claudication not improving after the 3–5 session trial window and one revised trial (surgical consultation)"
   - "Severe stenosis with myelopathic signs (if thoracic/cervical involvement suspected)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/lumbar-spinal-stenosis.md"
 clinic: "https://recoverytlv.co.il"
@@ -34,7 +34,7 @@ Lumbar spinal stenosis is within physiotherapy scope for conservative management
 - Cauda equina syndrome (bilateral leg symptoms, saddle anaesthesia, bowel/bladder dysfunction — emergency)
 - Progressive motor weakness in lower extremities
 - Rapidly worsening walking tolerance (weeks, not months)
-- Neurogenic claudication not responding to 8+ sessions of conservative management
+- Neurogenic claudication not improving after the 3–5 session trial window and one revised trial (surgical consultation)
 - Severe stenosis with myelopathic signs (if thoracic/cervical involvement suspected)
 
 ## Differentiating Neurogenic from Vascular Claudication
@@ -50,20 +50,20 @@ Lumbar spinal stenosis is within physiotherapy scope for conservative management
 If vascular claudication is suspected → REFER to vascular specialist.
 
 ## Clinical Hypothesis Examples
-- **Flexion-biased stenosis:** Canal narrowing relieved by lumbar flexion, worsened by extension. Tested with flexion-based exercises, cycling, aquatic therapy, and posture modification (avoiding sustained extension). Expected response: improved walking tolerance within 3–5 sessions.
-- **Dynamic stenosis with deconditioning:** Narrowing exacerbated by poor general fitness. Tested with cardiovascular conditioning in flexion-biased positions (cycling, swimming) and lower limb strengthening. Expected response: improved walking distance and reduced leg symptoms.
+- **Flexion-biased stenosis:** Canal narrowing relieved by lumbar flexion, worsened by extension. Tested with flexion-based exercises, stationary cycling, and posture modification (avoiding sustained extension). Expected response: improved walking tolerance within 3–5 sessions.
+- **Dynamic stenosis with deconditioning:** Narrowing exacerbated by poor general fitness. Tested with cardiovascular conditioning in flexion-biased positions (stationary cycling) and lower limb strengthening. Expected response: improved walking distance and reduced leg symptoms.
 - **Stenosis with co-existing hip pathology:** Hip stiffness (especially extension deficit) increasing lumbar extension demand during gait. Tested with hip mobilization and hip flexor stretching. Expected response: improved gait mechanics and reduced stenotic symptoms.
 - **Fear-avoidance in stenosis:** Patient avoiding walking due to fear of symptoms, leading to further deconditioning. Tested with graded walking exposure and education. Expected response: improved confidence and walking tolerance.
 
 ## Trial Window
-5 sessions (stenosis may respond more slowly). Objective criteria:
+3–5 session trial window; at its end, either a documented hypothesis revision with ONE new trial, or DISCHARGE/REFER (stenosis may respond more slowly and may use the full 5 sessions plus that one revised trial). Objective criteria:
 - Improved walking distance or duration before symptom onset
 - Improved standing tolerance
 - Reduced frequency or intensity of neurogenic claudication symptoms
 - Improved lower extremity strength
 
 ## Non-Response
-If walking tolerance does not improve despite flexion-based management and conditioning, refer for imaging (MRI) and surgical consultation. Decompressive surgery (laminectomy) may be indicated for severe stenosis with significant functional limitation.
+If walking tolerance does not improve despite flexion-based management and conditioning, refer to a physician to consider imaging (MRI) and surgical consultation. Decompressive surgery (laminectomy) may be indicated for severe stenosis with significant functional limitation.
 
 ## Related Documents
 - [Low Back Pain](low-back-pain.md)

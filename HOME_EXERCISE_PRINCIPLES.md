@@ -2,7 +2,7 @@
 
 ## Why Home Exercise Matters
 
-Physiotherapy sessions are 30-60 minutes. There are 168 hours in a week. What you do between sessions determines your recovery more than what happens during sessions. Home exercise is not optional — it is the treatment.
+Physiotherapy sessions at this clinic last 50–60 minutes. There are 168 hours in a week. What you do between sessions determines your recovery more than what happens during sessions. Home exercise is not optional — it is the treatment.
 
 ## Core Principles
 

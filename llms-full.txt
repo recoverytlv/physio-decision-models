@@ -10,11 +10,11 @@
 > Author: Alejandro Zubrisky, BPT — Licensed Physiotherapist (Israel MoH license 10-120163)
 > ORCID: https://orcid.org/0009-0003-1069-937X
 > Author profile: https://recoverytlv.co.il/about/alejandro-zubrisky/
-> License: MIT · Version: 1.0.1 · Decision logic: FROZEN at 1.0.0
+> License: MIT · Version: 1.3.0 · Six outputs and numeric thresholds unchanged since 1.0.0
 >
 > WHAT THIS IS: A formal, auditable decision system that treats every
-> intervention as a hypothesis test under biological uncertainty. Every case
-> terminates in one of six canonical outputs:
+> intervention as a hypothesis test under biological uncertainty. At each decision
+> point, every case is assigned one of six canonical outputs:
 > DECLINE · DEFER · REFER · TRIAL · CONTINUE · DISCHARGE.
 
 
@@ -43,7 +43,7 @@ Silence, absence of instruction, or ambiguity do not grant permission.
 
 ## 1. Canonical Decision Outputs (Closed Set)
 
-Every case handled by the system MUST terminate with exactly one of the following outputs.
+At each decision point, every case handled by the system MUST be assigned exactly one of the following outputs.
 No other outputs are valid or permitted.
 
 | Output      | Definition                                              | Trigger Condition |
@@ -67,14 +67,13 @@ The system applies exclusively to outpatient physiotherapy involving:
 - Musculoskeletal dysfunction (pain, stiffness, weakness)
 - Post-injury rehabilitation
 - Post-operative rehabilitation
-- Neuromotor re-education within physiotherapy scope
 - Functional restoration for activities of daily living
 
 ### 2.2 Out-of-Scope Domain (Automatic DECLINE or REFER)
 
 The following are explicitly excluded:
 - Non-musculoskeletal pain (visceral, systemic, malignant origin)
-- Medical emergencies (e.g. chest pain, acute neurological deficit, fracture)
+- Medical emergencies (e.g. chest pain, acute neurological deficit, acute unmanaged fracture)
 - Unstable medical conditions (infection, uncontrolled systemic disease)
 - Primary psychiatric conditions where physiotherapy is not adjunctive
 - Requests beyond evidence-based physiotherapy practice
@@ -100,24 +99,28 @@ Partial compliance is not sufficient.
 
 ## 4. Continuation Criteria (TRIAL → CONTINUE)
 
-Continuation beyond a TRIAL requires objective functional improvement
-within a predefined trial window (maximum 3–5 sessions).
+Continuation beyond a TRIAL requires objective improvement
+within a predefined trial window of 3 to 5 sessions (never more than 5).
+The window and the 10% threshold are pragmatic, author-defined review points;
+they have not been validated as cut-offs.
 
 At least one of the following must be demonstrated:
-- ≥10% measurable improvement in range of motion
+- ≥10% improvement in range of motion or another objective measure, exceeding the instrument's measurement error (MDC)
 - Documented improvement in a functional task
 - Reduction in compensatory movement strategies
 
 Subjective reports alone are insufficient.
-Absence of progress mandates DISCHARGE or REFER.
+Absence of objective progress at the end of the trial window requires one of:
+a documented hypothesis revision followed by ONE new TRIAL (a new hypothesis,
+not a repeat), DISCHARGE, or REFER. A second failed TRIAL requires DISCHARGE or REFER.
 
 ---
 
 ## 5. Conservative Decision Rule (Fail-Safe)
 
-In the absence of clear, objective data supporting continuation:
+When data are insufficient to decide (documented absence of progress is governed by §4):
 
-DEFAULT OUTPUT = DEFER or DECLINE
+DEFAULT OUTPUT = DECLINE (before acceptance) or DEFER (active case)
 
 Principles:
 - Uncertainty favors non-action
@@ -168,7 +171,7 @@ This document is declared **FROZEN**.
 Any modification requires:
 - A new major version
 - Explicit re-declaration in AUTHORITY_SOURCES.md
-- Formal multi-LLM consensus validation
+- A documented rationale
 
 Absent these conditions, all changes are invalid.
 
@@ -180,8 +183,8 @@ Enforcement Layer v1.0 — FROZEN
 ## 1. Enforcement Principles
 The enforcement layer converts normative decisions into coercive actions.
 It does not interpret or modify logic — it executes.
-- **Default to termination**: Non-action outputs (DECLINE, DEFER, REFER, DISCHARGE)
-  are enforced immediately and irreversibly.
+- **Default to termination**: DECLINE, REFER and DISCHARGE are enforced immediately.
+  DEFER is a temporary hold, enforced immediately and lifted only on explicit resolution.
 - **No overrides**: Patient preference, commercial pressure, or operational
   convenience do not supersede system outputs.
 - **Traceability**: All enforcement actions are logged and auditable
@@ -193,8 +196,8 @@ It does not interpret or modify logic — it executes.
 | DECLINE | Immediate block on case acceptance. System logs rejection rationale. | Full rationale logged; no patient access. |
 | DEFER | Temporary hold on progression pending explicit resolution (e.g., additional data). | Timestamped hold; re-trigger if unresolved after 48 hours. |
 | REFER | Forced referral protocol. Generate referral note and terminate physio involvement. | Referral note logged; follow-up check in 7 days. |
-| TRIAL | Time-bound initiation. Maximum 5 sessions. Auto-evaluate at trial end. | Session logs + objective metrics required. |
-| CONTINUE | Conditional extension only if criteria met. Maximum 3 extensions total. | Metrics logged per extension; auto-terminate if criteria fail. |
+| TRIAL | Time-bound initiation. Trial window of 3–5 sessions (maximum 5; author-defined review point). Evaluate at trial end. | Session logs + objective metrics required. |
+| CONTINUE | Conditional extension only if criteria met; criteria re-checked at each documented review. | Metrics logged per review; extension ends if criteria fail. |
 | DISCHARGE | Immediate termination. Close case and issue discharge summary (functional only). | Summary logged; case cannot reopen without new evaluation. |
 ---
 ## 3. Coercive Triggers
@@ -202,17 +205,18 @@ It does not interpret or modify logic — it executes.
   Automatic REFER if red-flag symptoms emerge
   (e.g., acute neurological deficit, unexplained severe pain).
 - **Progress failure**
-  Auto-DISCHARGE if no measurable functional change after trial
-  (e.g., <10% objective improvement).
+  If none of the continuation criteria (CLINICAL_DECISION_SYSTEM.md §4) is met at trial end:
+  documented hypothesis revision followed by ONE new TRIAL, or DISCHARGE, or REFER.
+  A second failed TRIAL requires DISCHARGE or REFER.
 - **Scope violation**
   Immediate DECLINE if the case drifts outside defined scope
   (e.g., non-musculoskeletal request).
-- **Uncertainty threshold**
-  DEFER if data confidence is below 80%
+- **Uncertainty**
+  DEFER when the data are insufficient for a decision
   (e.g., incomplete history or conflicting findings).
 ---
 ## 4. Execution Invariants
-- All actions are system-enforced; manual override is prohibited.
+- Outputs follow the rules above. A clinician may depart from them only with a documented clinical rationale, which is logged for audit.
 - Enforcement logs are immutable and traceable to AUTHORITY_SOURCES.md.
 - No grace periods for continuation: criteria must be met strictly.
 - Metric evaluation may use automated calculation tools when applicable
@@ -229,7 +233,7 @@ The enforcement layer has no independent authority.
 --- source: AUTHORITY_SOURCES.md ---
 
 # AUTHORITY_SOURCES.md
-Authority Declaration — v1.1 (FROZEN · BLINDADO)
+Authority Declaration — v1.1 (FROZEN · LOCKED)
 
 ## 1. Authority Statement
 This document declares the sole and exclusive authoritative sources
@@ -247,6 +251,9 @@ This declaration is binding for:
 
 No external consensus, industry standard, best practice, or implied
 authority applies unless explicitly incorporated here.
+
+One exception is incorporated: this framework is used alongside current clinical
+guidelines, and where they conflict on patient safety, the guideline prevails.
 
 ---
 
@@ -301,11 +308,11 @@ The following are explicitly non-authoritative:
 - Drafts, notes, or simulations
 - README files or explanatory materials
 - LLM-generated summaries or interpretations
-- External guidelines or consensus statements
+- External guidelines or consensus statements (they do not define this system, but prevail on patient safety; see §1)
 - Translations (unless explicitly declared normative)
 
-These materials may explain but can never define, modify,
-extend, or override the system.
+These materials may explain but can never define, modify
+or extend the system, nor override it except as stated in §1.
 
 ---
 
@@ -337,7 +344,7 @@ This authority set is declared **FROZEN**.
 Any modification requires:
 - A new major version
 - Explicit re-declaration of authority
-- Formal consensus validation from multiple LLMs
+- A documented rationale
 
 Absent these conditions, all changes are invalid.
 
@@ -373,9 +380,9 @@ Dose-response coupling is the measurable relationship between intervention inten
 - **Inverse response:** Increased dose produces worsening — hypothesis is falsified or safety boundary is reached.
 
 ## Decision Consequences
-- Dose-response decoupling is a signal of hypothesis failure, not insufficient dosage.
+- Persistent decoupling, after dose adequacy, time and adherence are confirmed, weakens the hypothesis.
 - Escalating intensity without proportional response increases iatrogenic risk without diagnostic value.
-- Persistent decoupling after parameter adjustment mandates exit or referral.
+- Persistent decoupling after parameter adjustment requires hypothesis revision (ONE new TRIAL), DISCHARGE or REFER.
 
 ## Clinical Example
 
@@ -383,12 +390,12 @@ Dose-response coupling is the measurable relationship between intervention inten
 
 **Coupled response (hypothesis supported):** Increasing squat depth from 60° to 90° over 2 weeks produces proportional improvement in knee flexion ROM (110° → 125°) and functional task performance (stair descent confidence improves). Dose increase → proportional response. CONTINUE.
 
-**Decoupled response (hypothesis weakened):** Increasing exercise frequency from 2x/week to 4x/week produces no change in ROM or functional scores after 3 weeks. More dose → same response. This is not "needs more time" — it signals that the current approach has reached its informative limit. Reassess hypothesis or exit.
+**Decoupled response (hypothesis weakened):** Increasing exercise frequency from 2x/week to 4x/week produces no change in ROM or functional scores after 3 weeks. More dose → same response. If dose, time and adherence were adequate, this suggests that the current approach has reached its informative limit. Reassess hypothesis or exit.
 
 **Inverse response (hypothesis falsified):** Adding plyometric loading produces increased joint effusion and decreased ROM. More dose → worsening. Safety boundary reached. Reduce intensity, reassess, or REFER.
 
 ## Threshold Integration
-When dose-response decoupling persists across two or more intervention cycles, exit criteria as defined in `thresholds/exit-criteria-stasis.md` are triggered.
+When dose-response decoupling persists across three consecutive measurements, exit criteria as defined in `thresholds/exit-criteria-stasis.md` are triggered.
 
 ## Related Documents
 - [Non-Response as Signal](./non-response-as-signal.md) — Decoupling as a specific non-response pattern
@@ -423,9 +430,9 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 
 **Hypothesis:** Pain is driven by extensor tendon overload at the lateral epicondyle.
 
-**Controlled perturbation:** Eccentric wrist extension loading protocol, 3 sessions over 10 days.
+**Controlled perturbation:** Progressive wrist-extensor loading, reviewed at the end of the trial window. Full tendon adaptation takes longer (tendinopathy loading trials have used 12-week protocols), so the trial tests for an early objective signal, not for resolution.
 
-**Testable prediction:** If hypothesis is correct, grip strength should improve ≥10% and pain during resisted extension should decrease.
+**Testable prediction:** If hypothesis is correct, grip strength should improve ≥10% (beyond the dynamometer's MDC) and pain during resisted extension should decrease.
 
 **Outcomes:**
 - Prediction confirmed → Hypothesis consolidated → evaluate for CONTINUE
@@ -434,7 +441,7 @@ An intervention is not a routine to repeat indefinitely. It is a deliberate inpu
 
 ## Relationship to Outputs
 - A hypothesis that survives testing supports CONTINUE.
-- A hypothesis that is falsified mandates reassessment: DEFER, REFER, or DISCHARGE.
+- A hypothesis that is falsified mandates reassessment: a revised hypothesis with ONE new TRIAL, REFER, or DISCHARGE.
 - A hypothesis that cannot be tested mandates DEFER until testable conditions exist.
 
 ## Related Documents
@@ -455,7 +462,7 @@ In biological systems, lack of response is not absence of information.
 Non-response is defined as the absence of meaningful system change following a controlled perturbation within an expected temporal window.
 
 ## Clinical Interpretation
-Non-response constrains the hypothesis space more strongly than partial improvement.
+Once dose, time and adherence are confirmed adequate, non-response is evidence against the working hypothesis. We propose, but have not tested, that a clear negative result is often more informative than vague partial improvement.
 
 ## Decision Consequences
 - Repetition without hypothesis revision increases decision error.
@@ -468,7 +475,7 @@ Non-response constrains the hypothesis space more strongly than partial improvem
 
 **Observed:** No change in lumbar flexion ROM, no reduction in functional limitation (sit-to-stand unchanged), pain report stable.
 
-**Interpretation:** The absence of response after 4 controlled perturbations is not "the patient isn't trying hard enough." It is diagnostic data indicating that the current hypothesis (segmental hypomobility as primary driver) is unlikely to be valid.
+**Interpretation:** The absence of response after 4 controlled perturbations is not "the patient isn't trying hard enough." It is diagnostic data: provided dose and adherence were adequate, it makes the current hypothesis (segmental hypomobility as primary driver) less likely.
 
 **Decision consequence:** Non-response constrains the hypothesis space — the clinician must revise the hypothesis (consider neural, muscular, or psychosocial drivers) or exit (DISCHARGE or REFER).
 
@@ -498,7 +505,7 @@ Subjective report insufficiency is the principle that patient-reported outcomes 
 - Subjective stability with objective deterioration mandates reassessment.
 
 ## Decision Consequences
-- CONTINUE requires at least one objective criterion: ≥10% ROM improvement, documented functional task improvement, or reduction in compensatory strategies.
+- CONTINUE requires at least one objective criterion: ≥10% improvement in ROM or another objective measure (beyond its MDC), documented functional task improvement, or reduction in compensatory strategies.
 - "The patient feels better" is not a valid standalone reason for CONTINUE.
 - "The patient feels worse" does not override documented objective improvement but requires safety review.
 
@@ -535,18 +542,18 @@ Subjective reports are subject to placebo effects, expectation bias, therapeutic
 # Continuation Criteria Thresholds
 
 ## 1. Definition
-Continuation criteria are the minimum objective thresholds that must be met to justify extending treatment beyond the initial trial window. They are the gateway from TRIAL to CONTINUE.
+Continuation criteria are the minimum objective thresholds that must be met to justify extending treatment beyond the initial trial window. They are the gateway from TRIAL to CONTINUE. They are pragmatic, author-defined review points and have not been validated as cut-offs.
 
 ## 2. Required Thresholds (At Least One Must Be Met)
 
-### 2.1 Range of Motion Improvement
-- **Threshold:** ≥10% measurable improvement in the relevant joint or segment
-- **Measurement:** Goniometric or inclinometric assessment against baseline
+### 2.1 Range of Motion or Other Objective Measure
+- **Threshold:** ≥10% improvement from baseline in the relevant joint, segment or objective measure (e.g., dynamometry), exceeding the instrument's measurement error (MDC)
+- **Measurement:** Goniometric, inclinometric or other instrumented assessment against baseline
 - **Validity:** Must be reproducible across two consecutive measurements
 
 ### 2.2 Functional Task Improvement
 - **Threshold:** Documented improvement in at least one predefined functional task
-- **Measurement:** Standardized functional outcome measure or observable task performance
+- **Measurement:** Observed or timed task performance, or a performance-based test; patient-reported scores support but do not by themselves satisfy this criterion
 - **Validity:** Must be specific to the patient's declared functional goals
 
 ### 2.3 Compensatory Strategy Reduction
@@ -563,7 +570,7 @@ The following do NOT satisfy continuation criteria:
 
 ## 4. Decision Rule
 `If Objective_Criteria_Met >= 1 → CONTINUE PERMITTED`
-`If Objective_Criteria_Met == 0 → DISCHARGE OR REFER`
+`If Objective_Criteria_Met == 0 → documented hypothesis revision + ONE new TRIAL, OR DISCHARGE, OR REFER (after a second failed TRIAL: DISCHARGE OR REFER)`
 
 ## Related Documents
 - [Trial Window Limits](./trial-window-limits.md) — Continuation criteria are evaluated at trial window end
@@ -577,9 +584,9 @@ The following do NOT satisfy continuation criteria:
 # Criteria for Intervention Cessation in Clinical Stasis
 
 ## 1. Definition of Stasis
-Clinical stasis is defined as the absence of meaningful change in observed biological signals following a finite sequence of controlled perturbations. Stasis is not neutral; it is an informative boundary that invalidates the current working hypothesis.
+Clinical stasis is defined as the absence of meaningful change in observed biological signals following a finite sequence of controlled perturbations. Stasis is not neutral; once dose, time and adherence are confirmed adequate, it is an informative boundary that weakens the current working hypothesis and requires it to be re-examined.
 
-## 2. Thresholds for Hypothesis Invalidation
+## 2. Thresholds for Hypothesis Re-examination
 Continuation of intervention beyond the following thresholds constitutes accumulated decision error:
 
 - **Signal Invariance:** No relevant symptomatic or functional variation after three (3) high-fidelity interventions.
@@ -590,18 +597,18 @@ Continuation of intervention beyond the following thresholds constitutes accumul
 Intervention must be suspended when:
 - Further perturbation increases dependency risk without trajectory modification.
 - Observed signals remain within baseline biological noise.
-- The cost of continuation exceeds the probability of a non-linear system shift.
+- The expected cost of continuing exceeds its expected benefit.
 
 ## 4. Epistemic Status of Exit
 Treatment cessation under stasis is not failure. It represents epistemic closure of the current hypothesis and mandates re-evaluation, redirection, or referral.
 
 ## 5. Decision Rule
-`If Perturbation[n] == Signal_Baseline AND Perturbation[n+1] == Signal_Baseline → HALT_INTERVENTION`
+`If Signal[n-2], Signal[n-1] AND Signal[n] are all within baseline measurement error → END_CURRENT_BLOCK (hypothesis revision + ONE new TRIAL, DISCHARGE or REFER)`
 
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md) — Stasis is a form of non-response with diagnostic value
 - [Dose-Response Coupling](../models/dose-response-coupling.md) — Dose-response decoupling triggers stasis criteria
-- [Trial Window Limits](./trial-window-limits.md) — Stasis detected within trial window mandates DISCHARGE or REFER
+- [Trial Window Limits](./trial-window-limits.md) — Stasis detected within the trial window ends the trial early (hypothesis revision + ONE new TRIAL, DISCHARGE or REFER)
 - [Continuation Criteria](./continuation-criteria.md) — Stasis by definition fails all continuation criteria
 
 
@@ -610,7 +617,7 @@ Treatment cessation under stasis is not failure. It represents epistemic closure
 # Red Flag Detection and Mandatory Referral
 
 ## 1. Definition
-Red flags are clinical signs or symptoms that indicate a potentially serious underlying pathology requiring assessment beyond physiotherapy scope. Detection of any red flag triggers mandatory REFER or DECLINE.
+Red flags are clinical signs or symptoms that indicate a potentially serious underlying pathology requiring assessment beyond physiotherapy scope. In acute low back pain, some red flags have very high false-positive rates and, used in isolation, little diagnostic value (Henschke 2009); only a small subset are informative for fracture or malignancy, and the probability of fracture is higher when several are present (Downie 2013). These data concern low back pain; they do not lower the weight of emergency signs, where a single finding is enough to act. A clinically significant red flag, or a combination of flags, that raises suspicion of serious pathology in context triggers mandatory REFER.
 
 ## 2. Red Flag Categories
 
@@ -620,7 +627,7 @@ Red flags are clinical signs or symptoms that indicate a potentially serious und
 - Upper motor neuron signs inconsistent with musculoskeletal origin
 
 ### 2.2 Systemic Red Flags
-- Unexplained weight loss (>5% body weight in 3 months)
+- Unexplained weight loss
 - Night pain unrelated to mechanical loading
 - Fever or systemic illness concurrent with musculoskeletal complaint
 - History of malignancy with new onset pain
@@ -638,11 +645,11 @@ Red flags are clinical signs or symptoms that indicate a potentially serious und
 ## 3. Decision Consequences
 - Red flag detection overrides all other decision logic
 - No trial period is initiated when red flags are present
-- The system output is REFER (to appropriate medical specialist) or DECLINE
+- The system output is REFER (to the appropriate medical specialist; emergencies to the ER)
 - Documentation must specify the red flag identified and the referral destination
 
 ## 4. Decision Rule
-`If Red_Flag_Detected == TRUE → REFER OR DECLINE (immediate)`
+`If Clinically_Significant_Red_Flag == TRUE → REFER (immediate)`
 
 ## Related Documents
 - [Trial Window Limits](./trial-window-limits.md) — Red flags override trial window and prevent TRIAL initiation
@@ -656,26 +663,28 @@ Red flags are clinical signs or symptoms that indicate a potentially serious und
 # Trial Window Limits
 
 ## 1. Definition
-The trial window is the bounded period during which a new case is evaluated under controlled conditions before a continuation or termination decision is required. It is the temporal boundary of the TRIAL output.
+The trial window is the bounded period during which a new case is evaluated under controlled conditions before a continuation or termination decision is required. It is the temporal boundary of the TRIAL output. The 3–5 session window is a pragmatic, author-defined review point; no study has validated a specific number of sessions.
 
 ## 2. Window Parameters
 - **Minimum duration:** 3 sessions
 - **Maximum duration:** 5 sessions
-- **Extension:** Not permitted without meeting continuation criteria
+- **Extension:** Not permitted. When continuation criteria are met the output is CONTINUE, not a longer trial
 
 ## 3. Evaluation Requirements
 At the end of the trial window, exactly one of the following decisions must be made:
 - **CONTINUE** — if objective improvement criteria are met
-- **REFER** — if red flags emerge or the condition is outside physiotherapy scope
-- **DISCHARGE** — if no objective improvement is demonstrated
+- **REFER** — if red flags emerge, the condition is outside physiotherapy scope, or non-response (including a second failed TRIAL) calls for medical or specialist assessment
+- **New TRIAL (once)** — after a documented hypothesis revision, when no objective improvement is demonstrated and a different hypothesis is justified
+- **DISCHARGE** — if no objective improvement is demonstrated and no revision is justified, or after a second failed TRIAL
 
 ## 4. Prohibited Actions
-- Extending the trial window beyond 5 sessions without documented objective improvement
+- Extending the trial window beyond 5 sessions
 - Restarting the trial window for the same hypothesis
+- Starting a third TRIAL for the same case
 - Converting TRIAL to an indefinite treatment plan without formal CONTINUE justification
 
 ## 5. Decision Rule
-`If Sessions[TRIAL] > 5 AND Objective_Improvement == FALSE → DISCHARGE OR REFER`
+`If Sessions[TRIAL] == 5 (or the trial ends earlier) AND Objective_Improvement == FALSE → hypothesis revision + ONE new TRIAL, OR DISCHARGE, OR REFER; if this was already the second TRIAL → DISCHARGE OR REFER`
 
 ## Related Documents
 - [Continuation Criteria](./continuation-criteria.md) — Defines the objective thresholds evaluated at trial end
@@ -697,14 +706,14 @@ At the end of the trial window, exactly one of the following decisions must be m
 Achilles tendinopathy including midportion tendinopathy and insertional tendinopathy. Distinct from acute Achilles tendon rupture.
 
 ## Scope Check
-Achilles tendinopathy is within physiotherapy scope. Suspected complete tendon rupture (positive Thompson test, palpable gap, inability to plantarflex against resistance) triggers REFER for surgical assessment.
+Achilles tendinopathy is within physiotherapy scope. Suspected complete tendon rupture (positive calf-squeeze [Simmonds–Thompson] test, altered resting ankle angle with the knee flexed in prone [Matles test], palpable gap; Maffulli 1998, PMID 9548122) triggers REFER for urgent orthopaedic assessment. Some active plantarflexion is often preserved after a rupture and does not exclude it.
 
 ## Red Flags (→ REFER)
 - Sudden onset of severe calf pain with audible pop (suspected rupture)
 - Palpable gap in tendon
 - Positive Thompson test (no plantarflexion with calf squeeze)
 - Inability to perform single leg heel raise
-- Signs of DVT (calf swelling, warmth, Homan's sign)
+- Signs of DVT (unilateral calf swelling, warmth, tenderness along the deep veins)
 
 ## Clinical Hypothesis Examples
 - **Midportion tendinopathy with load intolerance:** Tendon overloaded beyond its capacity. Tested with isometric calf loading progressing to heavy slow resistance. Expected response: reduced morning stiffness and improved load tolerance within 3–5 sessions.
@@ -719,7 +728,7 @@ Achilles tendinopathy is within physiotherapy scope. Suspected complete tendon r
 - ≥10% improvement in ankle dorsiflexion ROM (if restricted)
 
 ## Non-Response
-Tendinopathy often requires longer loading periods. However, if load tolerance does not improve at all within 3–5 sessions (no change in calf raise capacity, no reduction in morning stiffness), reassess. Consider imaging to evaluate tendon structure or hypothesis revision.
+Tendinopathy often requires longer loading periods. However, if load tolerance does not improve at all within 3–5 sessions (no change in calf raise capacity, no reduction in morning stiffness), reassess. Revise the hypothesis, or refer to a physician to consider imaging of tendon structure.
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)
@@ -792,8 +801,8 @@ Lateral ankle sprain (anterior talofibular ligament, calcaneofibular ligament), 
 Ankle sprain rehabilitation is within physiotherapy scope. Suspected fracture (Ottawa ankle rules positive), syndesmosis disruption requiring surgical fixation, or vascular compromise triggers REFER.
 
 ## Red Flags (→ REFER)
-- Inability to weight bear (4 steps) after injury (Ottawa rules — suspect fracture)
-- Point tenderness over posterior edge of medial/lateral malleolus or base of 5th metatarsal
+- Unable to bear weight for four steps both immediately after the injury and at assessment (Ottawa ankle rules — refer to a physician to consider radiographs)
+- Bone tenderness at the posterior edge or tip of the lateral or medial malleolus, at the base of the fifth metatarsal, or at the navicular (Ottawa ankle rules — refer to a physician to consider radiographs)
 - Gross instability with visible deformity
 - Signs of vascular compromise (absent pedal pulse, severe swelling with tight compartment)
 - High ankle sprain with positive squeeze test and external rotation test (syndesmosis — may need surgical fixation)
@@ -811,7 +820,7 @@ Ankle sprain rehabilitation is within physiotherapy scope. Suspected fracture (O
 - Functional improvement (walking, stairs, running)
 
 ## Non-Response
-If weight bearing tolerance and balance do not improve within the trial window, reassess. Consider imaging to rule out osteochondral lesion, undiagnosed fracture, or peroneal tendon injury. Chronic instability not responding to rehabilitation may require orthopaedic consultation for surgical stabilization.
+If weight bearing tolerance and balance do not improve within the trial window, reassess. Refer to a physician to consider imaging to rule out osteochondral lesion, undiagnosed fracture, or peroneal tendon injury. Chronic instability not responding to rehabilitation may require orthopaedic consultation for surgical stabilization.
 
 ## Related Documents
 - [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md)
@@ -835,7 +844,7 @@ Calf strains are within physiotherapy scope. Suspected deep vein thrombosis (DVT
 - Palpable gap in the muscle with complete loss of function (grade III / complete rupture — surgical consultation)
 - Positive Thompson test (Achilles tendon rupture, not calf strain)
 - Calf pain with recent surgery, immobilization, or long-haul travel (DVT risk factors)
-- Recurrent calf strains in the same location (consider underlying vascular pathology — popliteal artery entrapment)
+- Exertional calf pain or cramping in a young athlete that recurs at a predictable workload and settles with rest (consider popliteal artery entrapment — refer for vascular assessment)
 
 ## Differentiating Calf Strain from DVT
 
@@ -846,15 +855,17 @@ Calf strains are within physiotherapy scope. Suspected deep vein thrombosis (DVT
 | Swelling | Localized to muscle | Diffuse, entire lower leg |
 | Warmth | Localized | Diffuse |
 | Bruising | May appear 24-48h post-injury | Rarely |
-| Homan's sign | Negative | May be positive |
+| Homans' sign | Unreliable — not used | Unreliable — not used |
 | Risk factors | Athletic activity | Immobility, surgery, travel, clotting disorders |
 
-**If DVT cannot be confidently ruled out → REFER for D-dimer and ultrasound. Do not treat as a calf strain.**
+Individual clinical features have limited value for confirming or excluding DVT (Goodacre et al. 2005, PMID 16027455).
+
+**If DVT is suspected or cannot be confidently excluded → REFER for same-day medical assessment (probability scoring, D-dimer and ultrasound are medical decisions). Do not treat as a calf strain.**
 
 ## Clinical Hypothesis Examples
 - **Gastrocnemius strain (acute):** Sudden onset during push-off or change of direction. Tested with progressive loading: isometric → eccentric → concentric → plyometric. Expected response: improved pain-free range and strength within each session, full recovery 2–8 weeks depending on grade.
 - **Soleus strain:** More gradual onset, worse with knee-bent calf raises, common in runners. Tested with bent-knee calf loading and progressive running exposure. Expected response: reduced pain with soleus-specific tests and improved running tolerance.
-- **Recurrent calf strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factor. Tested with eccentric strengthening, calf endurance testing (25+ single leg calf raises), and gait/running analysis. Expected response: improved calf endurance symmetry and reduced re-injury risk.
+- **Recurrent calf strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factor. Tested with eccentric strengthening, calf endurance testing (25+ single leg calf raises), and a review of training load and return-to-running progression. Expected response: improved calf endurance symmetry and reduced re-injury risk.
 
 ## Trial Window
 3–5 sessions. Objective criteria:
@@ -871,7 +882,7 @@ Before clearance for full sport:
 - No pain with sport-specific movements
 
 ## Non-Response
-If calf symptoms persist despite appropriate loading progression, consider imaging (ultrasound) to assess tear extent. Persistent symptoms at the musculotendinous junction may indicate partial Achilles involvement. Recurrent strains in young athletes should raise suspicion of popliteal artery entrapment (REFER for vascular assessment).
+If calf symptoms persist despite appropriate loading progression, refer to a physician to consider imaging (ultrasound) to assess tear extent. Persistent symptoms at the musculotendinous junction may indicate partial Achilles involvement. Exertional calf pain in a young athlete that recurs at a predictable workload and settles with rest should raise suspicion of popliteal artery entrapment (REFER for vascular assessment).
 
 ## Related Documents
 - [Achilles Tendinopathy](achilles-tendinopathy.md)
@@ -902,7 +913,7 @@ Mild to moderate carpal tunnel syndrome is within physiotherapy scope for conser
 - **Mechanical compression — wrist position:** Sustained wrist flexion or extension during work/sleep compresses the carpal tunnel. Tested with ergonomic modification, wrist splinting (neutral position), and activity modification. Expected response: reduced nocturnal symptoms and improved daytime function within 3–5 sessions.
 - **Neural mobility restriction:** Restricted median nerve gliding contributing to symptoms. Tested with median nerve glides and neurodynamic mobilization. Expected response: improved nerve tension test tolerance and reduced distal symptoms.
 - **Cervical contribution (double crush):** Cervical radiculopathy or thoracic outlet syndrome contributing to or mimicking CTS. Tested with cervical treatment and upper limb neurodynamics. Expected response: if cervical-driven, distal symptoms improve with proximal treatment.
-- **Tendon overload:** Flexor tendon inflammation increasing carpal tunnel pressure. Tested with activity modification, tendon glides, and anti-inflammatory strategies. Expected response: reduced Phalen's and Tinel's test provocation.
+- **Tendon and tenosynovial load:** Thickening of the flexor tenosynovium (non-inflammatory fibrosis of the subsynovial connective tissue; Ettema 2004, PMID 15252093) raising carpal tunnel pressure. Tested with activity modification and tendon gliding exercises. Expected response: reduced Phalen's and Tinel's test provocation.
 
 ## Trial Window
 3–5 sessions. Objective criteria:
@@ -912,7 +923,7 @@ Mild to moderate carpal tunnel syndrome is within physiotherapy scope for conser
 - Improved functional capacity (writing, gripping, typing)
 
 ## Non-Response
-If symptoms do not improve within 5 sessions of conservative management, refer for nerve conduction studies (NCS/EMG) and surgical consultation. Persistent motor deficit or sensory loss should not be managed conservatively beyond the trial window.
+If no objective criterion is met by the end of the trial window (3–5 sessions), revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred for nerve conduction studies (NCS/EMG) and surgical consultation. Persistent motor deficit or sensory loss should not be managed conservatively beyond the trial window.
 
 ## Related Documents
 - [Lateral Epicondylalgia](lateral-epicondylalgia.md)
@@ -926,7 +937,7 @@ If symptoms do not improve within 5 sessions of conservative management, refer f
 # Cervical Radiculopathy
 
 ## Condition
-Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. Most commonly C5-C6, C6-C7, and C7-T1 levels.
+Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. The C7 root (C6–C7 level) is affected most often, followed by the C6 root (C5–C6 level).
 
 ## Scope Check
 Cervical radiculopathy with stable neurological status is within physiotherapy scope for conservative management. Progressive neurological deficit, bilateral symptoms, or signs of cervical myelopathy require immediate REFER.
@@ -965,7 +976,7 @@ Cervical radiculopathy with stable neurological status is within physiotherapy s
 - Stable or improving neurological status (strength, sensation, reflexes)
 
 ## Non-Response
-If radicular symptoms do not improve or neurological status worsens within the trial window, refer for imaging (MRI) and specialist consultation. Large disc herniations with significant motor deficit may require surgical intervention. Persistent radicular pain without motor deficit may benefit from epidural injection (REFER to pain specialist).
+If radicular symptoms do not improve or neurological status worsens within the trial window, refer to a physician to consider imaging (MRI) and specialist consultation. Large disc herniations with significant motor deficit may require surgical intervention. Persistent radicular pain without motor deficit may benefit from epidural injection (REFER to pain specialist).
 
 ## Related Documents
 - [Neck Pain](neck-pain.md)
@@ -1004,7 +1015,7 @@ De Quervain's tenosynovitis is within physiotherapy scope for conservative manag
 - Reduced pain with provocative thumb/wrist activities
 
 ## Non-Response
-If symptoms do not improve within 5 sessions of conservative management with activity modification and splinting, refer for corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
+If no objective criterion is met by the end of the trial window (3–5 sessions) despite activity modification and splinting, revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred to a physician to consider corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
 
 ## Related Documents
 - [Lateral Epicondylalgia](lateral-epicondylalgia.md)
@@ -1018,14 +1029,14 @@ If symptoms do not improve within 5 sessions of conservative management with act
 # Dupuytren's Contracture — Physiotherapy Scope
 
 ## Definition
-Progressive fibroproliferative disorder of the palmar fascia causing flexion contracture of the fingers, most commonly ring and little fingers. Not inflammatory — pathological collagen deposition.
+Progressive fibroproliferative disorder of the palmar fascia causing flexion contracture of the fingers, most commonly ring and little fingers. Characterised by myofibroblast proliferation and pathological collagen deposition.
 
 ## Scope Boundaries
 - **IN scope:** Pre-surgical optimization, post-surgical rehabilitation (fasciectomy, needle aponeurotomy, collagenase injection), splinting for contracture management, functional hand rehabilitation
 - **OUT of scope:** Surgical decision-making, injection procedures
 
 ## Important Context
-Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The role of physiotherapy is to optimize hand function, manage post-procedural recovery, and maintain gains from surgical/procedural intervention.
+Dupuytren's has a strong hereditary component; heavy manual work and exposure to vibration are associated with a higher risk (Descatha 2011, PMID 21575231; Mathieu 2020, PMID 32061740). It cannot be "cured" by physiotherapy. The role of physiotherapy is to optimize hand function, manage post-procedural recovery, and maintain gains from surgical/procedural intervention.
 
 ## Red Flags → REFER
 - Rapidly progressing contracture → surgical/procedural evaluation
@@ -1042,10 +1053,10 @@ Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The
 - **If no response:** Consider wound complication, nerve injury, or recurrence → REFER back to surgeon
 
 ### Post-Needle Aponeurotomy / Collagenase
-- **Hypothesis:** Extension gained from procedure needs to be maintained with splinting and exercise
-- **Test:** Night extension splinting (3-6 months), active exercise program, functional hand use
+- **Hypothesis:** Extension gained from procedure needs to be maintained with exercise, and with splinting when indicated
+- **Test:** Active exercise program and functional hand use; night extension splinting when extension is being lost or when the treating surgeon prescribes it
 - **Expected response:** Maintained extension gains, improved functional hand use
-- **If losing extension:** Reassess splinting compliance, consider recurrence
+- **If losing extension:** Start or review night splinting, consider recurrence
 
 ### Early/Mild Dupuytren's (No Procedure Done)
 - **Hypothesis:** Physiotherapy can maintain hand function and monitor progression
@@ -1057,10 +1068,12 @@ Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The
 
 | Phase | Timeframe | Splinting | Exercise |
 |-------|-----------|-----------|----------|
-| Phase 1 | 0-2 weeks | Full-time extension splint (except for exercises and hygiene) | Gentle AROM within comfort |
-| Phase 2 | 2-6 weeks | Night splint + daytime for protection | Progressive AROM/PROM, scar massage, edema management |
-| Phase 3 | 6-12 weeks | Night splint only | Grip strengthening, functional tasks, full ROM exercises |
+| Phase 1 | 0-2 weeks | Per surgeon's protocol | Gentle AROM within comfort |
+| Phase 2 | 2-6 weeks | Per surgeon's protocol; night splint if extension is being lost | Progressive AROM/PROM, scar massage, edema management |
+| Phase 3 | 6-12 weeks | Night splint if extension is being lost | Grip strengthening, functional tasks, full ROM exercises |
 | Phase 4 | 3-6 months | Night splint if needed | Full function, monitor for recurrence |
+
+Splinting practice varies between surgeons, and the treating surgeon's protocol takes precedence. In a randomised trial, routine night splinting after fasciectomy or dermofasciectomy added no benefit to hand therapy alone (Jerosch-Herold et al. 2011, PMID 21693044); the timeline above is a guide, not a validated protocol.
 
 ## Trial Protocol (TRIAL)
 | Session | Focus |
@@ -1091,7 +1104,7 @@ Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The
 ## Cross-References
 - [De Quervain's Tenosynovitis](./de-quervain-tenosynovitis.md) — Hand/wrist conditions
 - [Carpal Tunnel Syndrome](./carpal-tunnel-syndrome.md) — May coexist
-- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab may justify extended window
+- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab follows the surgeon's protocol; the trial window itself is not extended
 
 
 --- source: conditions/frozen-shoulder.md ---
@@ -1118,15 +1131,15 @@ Frozen shoulder is within physiotherapy scope. However, the condition has a natu
 - **Secondary frozen shoulder:** Stiffness following rotator cuff surgery, fracture, or immobilization. Tested with aggressive ROM program (within surgical limits). Expected response: ROM improvement with structured program.
 
 ## Trial Window
-5 sessions (frozen shoulder typically requires longer observation). Objective criteria:
+3–5 session trial window (frozen shoulder often needs the full 5 sessions). Objective criteria:
 - Any measurable improvement in passive ROM (even 5° is signal in frozen shoulder)
-- Reduced pain at rest or at night
+- Pain at rest or at night is recorded as supplementary data only (not a continuation criterion)
 - Improved functional capacity (reaching, dressing, sleeping position)
 
 ## Non-Response Considerations
-Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement over 5 sessions does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
-- If pain is the primary complaint and pain is reducing → CONTINUE
-- If ROM is the primary complaint and no change in 8+ sessions → discuss surgical options (REFER for hydrodilatation or MUA)
+Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement by the end of the trial window does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
+- If pain is the primary complaint: CONTINUE only if an objective criterion is also met (a predefined functional task such as dressing or reaching, or a documented reduction in compensatory strategies); pain reduction alone does not justify continuation
+- If ROM is the primary complaint and there is no measurable change after the trial window and one revised trial → discuss other options (REFER to consider hydrodilatation or manipulation under anaesthesia)
 
 ## Related Documents
 - [Shoulder Pain](shoulder-pain.md)
@@ -1148,7 +1161,7 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 ## Red Flags (→ REFER)
 - Lateral hip pain after fall (especially in osteoporotic patients — rule out greater trochanter fracture)
 - Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)
-- Symptoms not responding to 8+ sessions of appropriate loading management
+- Symptoms not responding to appropriate loading management after the trial window and one revised trial
 - Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)
 
 ## Clinical Hypothesis Examples
@@ -1171,7 +1184,7 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 - Improved hip abductor strength (measured)
 
 ## Non-Response
-If symptoms do not respond to load management and progressive strengthening, consider imaging (ultrasound or MRI) to assess tendon structure. Severe tears or calcific tendinopathy may require injection (corticosteroid or PRP — REFER) or surgical consultation in refractory cases.
+If symptoms do not respond to load management and progressive strengthening, refer to a physician to consider imaging (ultrasound or MRI) of tendon structure. Severe tears or calcific tendinopathy may require injection (corticosteroid or PRP — REFER) or surgical consultation in refractory cases.
 
 ## Related Documents
 - [Hip Pain](hip-pain.md)
@@ -1194,7 +1207,8 @@ Musculoskeletal groin pain is within physiotherapy scope. Groin pain can also or
 - Groin lump or swelling (inguinal or femoral hernia)
 - Groin pain with urinary symptoms (genitourinary pathology)
 - Groin pain with fever or systemic illness (infection — septic arthritis, osteomyelitis)
-- Severe, sudden groin pain after trauma in elderly patients (stress fracture, avulsion fracture)
+- Severe groin pain or inability to bear weight after a fall, especially in older adults (suspected hip fracture — emergency referral)
+- Activity-related groin pain in a runner or military recruit, worse with impact or present at night (suspected femoral neck stress fracture — no weight bearing on that leg (crutches) until a physician has excluded it; same-day referral)
 - Groin pain not responding to any loading pattern (consider referred pain from hip or lumbar spine)
 
 ## Clinical Hypothesis Examples
@@ -1211,7 +1225,7 @@ Musculoskeletal groin pain is within physiotherapy scope. Groin pain can also or
 - Reduced pain with provocative loading
 
 ## Non-Response
-If groin pain does not respond to loading management within the trial window, refer for imaging (MRI) to investigate pubic bone stress injury, labral tear, inguinal pathology, or other structural causes. Chronic groin pain in athletes may require multidisciplinary approach.
+If groin pain does not respond to loading management within the trial window, refer to a physician to consider imaging (MRI) to investigate pubic bone stress injury, labral tear, inguinal pathology, or other structural causes. Chronic groin pain in athletes may require multidisciplinary approach.
 
 ## Related Documents
 - [Hip Pain](hip-pain.md)
@@ -1239,7 +1253,7 @@ Hamstring injuries and tendinopathy are within physiotherapy scope. Complete ham
 ## Clinical Hypothesis Examples
 - **Proximal hamstring tendinopathy:** Load-related deep buttock/posterior thigh pain at the ischial tuberosity. Worse with sitting, hills, and speed work. Tested with progressive hamstring loading (isometric → heavy slow resistance → sport-specific). Expected response: reduced pain with provocative loading and improved running tolerance within 5 sessions.
 - **Acute hamstring strain:** Acute muscle fiber disruption graded I-III. Tested with graded loading, progressive lengthening exercises, and functional progression. Expected response: improved pain-free ROM, improved strength, reduced pain with stretch.
-- **Recurrent hamstring strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factors. Tested with eccentric strengthening (Nordic hamstrings), lumbopelvic control assessment, and running biomechanics analysis. Expected response: improved eccentric strength and neuromuscular control.
+- **Recurrent hamstring strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factors. Tested with eccentric strengthening (Nordic hamstrings), lumbopelvic control assessment, and a review of sprint and training load progression. Expected response: improved eccentric strength and neuromuscular control.
 - **Neural component:** Sciatic nerve mechanosensitivity mimicking or contributing to hamstring symptoms. Tested with neural mobilization and slump test assessment. Expected response: improved neural tension test and reduced posterior thigh symptoms.
 
 ## Trial Window
@@ -1250,7 +1264,7 @@ Hamstring injuries and tendinopathy are within physiotherapy scope. Complete ham
 - Reduced provocation with single leg bridge or hamstring loading tests
 
 ## Non-Response
-If hamstring symptoms persist despite progressive loading, reassess. Consider MRI for proximal hamstring tendinopathy to evaluate tendon structure. For recurrent strains, consider biomechanical video analysis and lumbopelvic assessment. Complete tendon avulsion requires surgical opinion.
+If hamstring symptoms persist despite progressive loading, reassess. For proximal hamstring tendinopathy, refer to a physician to consider imaging (MRI) of tendon structure. For recurrent strains, reassess lumbopelvic control and training load. Complete tendon avulsion requires surgical opinion.
 
 ## Related Documents
 - [Sciatica](sciatica.md)
@@ -1270,7 +1284,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 - **IN scope:** TTH with cervical/muscular contributors, CGH with identifiable cervical dysfunction, post-traumatic headache (musculoskeletal component)
 - **OUT of scope:** Migraine management (beyond cervical contribution), cluster headache, medication overuse headache, secondary headaches from intracranial pathology
 
-## Red Flags → REFER or DECLINE (SNOOP Mnemonic)
+## Red Flags → REFER (SNOOP Mnemonic)
 - **S**ystemic symptoms (fever, weight loss, cancer history)
 - **N**eurological signs (papilledema, focal deficit, altered consciousness)
 - **O**nset sudden ("thunderclap" — worst headache of life)
@@ -1282,6 +1296,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 - New daily persistent headache
 - Headache with jaw claudication (giant cell arteritis → REFER urgently)
 - Seizure with headache
+- New, severe or unusual headache or neck pain, especially after recent neck trauma or with transient neurological symptoms (suspected cervical artery dissection — emergency referral; screen for vascular pathology of the neck before any cervical manual technique — Rushton et al. 2023, PMID 36099171)
 
 ## Differentiation Table
 
@@ -1302,7 +1317,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 ### Cervicogenic Headache
 - **Hypothesis:** Upper cervical joint dysfunction (C0-C3) is producing referred headache
 - **Test:** Upper cervical mobilization, deep neck flexor retraining, C1-2 rotation assessment
-- **Expected response:** Headache frequency reduction ≥50% within 4-6 treatments
+- **Expected response:** Measurable gains in upper cervical rotation and deep neck flexor performance within the trial window; reduction in headache frequency is expected over several weeks (in Jull et al. 2002, PMID 12221344, a 6-week programme of manipulative therapy and/or exercise reduced headache frequency)
 - **If no response:** Consider other headache type, medication overuse, or psychosocial factors
 
 ### Tension-Type with Muscular Component
@@ -1328,14 +1343,13 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 |---------|-------|
 | 1 | Classification (TTH vs CGH vs mixed), cervical assessment, baseline headache diary |
 | 2-3 | Targeted cervical treatment, ergonomic advice, self-management strategies |
-| 4-5 | Re-evaluate headache frequency and intensity vs baseline |
+| 4-5 | Re-evaluate upper cervical rotation and deep neck flexor performance vs baseline; headache diary (frequency, intensity) and NDI recorded as supplementary data |
 
 ## Decision Criteria
 
 ### CONTINUE if:
-- Headache frequency reduced ≥30%
-- Headache intensity reduced ≥2/10 VAS
-- Improved cervical function (ROM, NDI)
+- ≥10% improvement in upper cervical rotation or in deep neck flexor performance, beyond measurement error
+- Headache frequency and intensity (diary) and NDI are recorded as supplementary data, not as continuation criteria
 
 ### DISCHARGE if:
 - Headache well-controlled with self-management
@@ -1368,6 +1382,7 @@ Hip pain is within physiotherapy scope when musculoskeletal in origin. Suspected
 - Night pain with unexplained weight loss
 - Rapidly progressive pain with reduced ROM in young adults (avascular necrosis)
 - Acute severe pain with locked hip (loose body)
+- Adolescent with hip, groin, thigh or knee pain and a limp or reduced hip internal rotation (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)
 
 ## Clinical Hypothesis Examples
 - **Femoroacetabular impingement:** Mechanical impingement in hip flexion and internal rotation. Tested with load modification and hip strengthening. Expected response: improved tolerance to flexion-based activities within 3–5 sessions.
@@ -1383,7 +1398,7 @@ Hip pain is within physiotherapy scope when musculoskeletal in origin. Suspected
 - Reduction in compensatory Trendelenburg pattern
 
 ## Non-Response
-If functional capacity does not improve, reassess the hypothesis. Consider imaging referral for intra-articular pathology. Hip OA patients with declining function despite appropriate exercise may need orthopaedic consultation.
+If functional capacity does not improve, reassess the hypothesis. Refer to a physician to consider imaging for intra-articular pathology. Hip OA patients with declining function despite appropriate exercise may need orthopaedic consultation.
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)
@@ -1397,7 +1412,7 @@ If functional capacity does not improve, reassess the hypothesis. Consider imagi
 # Iliotibial Band Syndrome (IT Band Syndrome)
 
 ## Condition
-Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically onset at a reproducible distance or duration of activity.
+Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically starts at a reproducible distance or duration of activity.
 
 ## Scope Check
 IT band syndrome is within physiotherapy scope. Suspected lateral meniscus pathology, lateral collateral ligament injury, or referred pain from the hip requires differential diagnosis and possible REFER.
@@ -1407,7 +1422,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - Lateral knee instability (LCL injury)
 - Swelling within the joint (intra-articular pathology)
 - Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)
-- Failed conservative management after 8+ sessions with no improvement
+- Failed conservative management after the trial window and one revised trial, with no improvement
 
 ## Clinical Hypothesis Examples
 - **Load management — training error:** IT band overload from rapid increase in running volume or intensity. Tested with load modification (reduced distance/frequency), cross-training. Expected response: pain-free running at reduced load, with gradual return to previous volume.
@@ -1422,7 +1437,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - Reduced provocation on compression test
 
 ## Non-Response
-If pain-free activity distance does not improve despite load modification and hip strengthening, reassess. Consider imaging to rule out lateral meniscus pathology, distal IT band bursitis, or other lateral knee pathology. May require corticosteroid injection for refractory cases (REFER).
+If pain-free activity distance does not improve despite load modification and hip strengthening, reassess. Refer to a physician to consider imaging to rule out lateral meniscus pathology, distal IT band bursitis, or other lateral knee pathology. May require corticosteroid injection for refractory cases (REFER).
 
 ## Related Documents
 - [Knee Pain](knee-pain.md)
@@ -1461,7 +1476,7 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 ### Load Management Hypothesis
 - **Hypothesis:** Knee pain is driven by load exceeding tissue capacity
 - **Test:** Graded exercise program (quad strengthening, functional training), activity modification
-- **Expected response:** Pain reduction with activity, improved walk distance/stair ability within 6-8 sessions
+- **Expected response:** Pain reduction with activity, improved walk distance/stair ability, with a first measurable change within the trial window
 - **If no response:** Consider biomechanical factors, central sensitization, or surgical candidacy
 
 ### Quadriceps Weakness Hypothesis
@@ -1482,7 +1497,7 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 | Quadriceps strengthening | Strong | 3x/week, progressive loading |
 | Hip abductor strengthening | Strong | 3x/week |
 | Aerobic exercise (walking, cycling, swimming) | Strong | 150 min/week |
-| Aquatic therapy | Moderate | 2-3x/week if land-based too painful |
+| Aquatic exercise (self-managed at a community pool; not provided at this clinic) | Moderate | 2-3x/week if land-based exercise is too painful |
 | Balance/proprioception | Moderate | Integrated into program |
 | Flexibility (hamstrings, calves, quads) | Moderate | Daily |
 
@@ -1520,7 +1535,7 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 - Significant psychological barriers → psychology
 
 ## Pre-Surgical Prehabilitation
-If surgery is planned (TKA), prehab improves post-surgical outcomes:
+If surgery is planned (TKA), prehabilitation can improve function and strength before surgery; its effect on post-surgical outcomes is modest (Punnoose 2023, PMID 37052919; Hayashi 2023, PMID 37172124):
 - 4-6 weeks pre-surgery: quad strengthening, ROM optimization, aerobic fitness
 - Education about post-surgical expectations
 - See [Total Knee Replacement Rehab](./total-knee-replacement-rehab.md) for post-surgical protocol
@@ -1548,6 +1563,7 @@ Knee pain is within physiotherapy scope when musculoskeletal in origin. Acute lo
 - Gross valgus/varus instability suggesting complete ligament rupture
 - Signs of infection (hot, red, swollen joint with fever)
 - Suspected fracture (unable to weight bear, point tenderness over bone)
+- Adolescent with knee or thigh pain, a limp and an unremarkable knee examination — examine the hip (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)
 
 ## Clinical Hypothesis Examples
 - **Patellofemoral pain:** Maltracking or overload of patellofemoral joint. Tested with load modification and quadriceps/hip strengthening. Expected response: reduced pain with stairs and squatting within 3–5 sessions.
@@ -1563,7 +1579,7 @@ Knee pain is within physiotherapy scope when musculoskeletal in origin. Acute lo
 - Reduction in compensatory movement patterns
 
 ## Non-Response
-If functional loading capacity does not improve within the trial window, reassess the hypothesis. Consider imaging referral for mechanical pathology or hypothesis revision (e.g., from patellofemoral to hip-driven knee pain).
+If functional loading capacity does not improve within the trial window, reassess the hypothesis. Refer to a physician to consider imaging for mechanical pathology, or revise the hypothesis (e.g., from patellofemoral to hip-driven knee pain).
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)
@@ -1602,7 +1618,7 @@ Epicondylalgia is within physiotherapy scope when musculoskeletal in origin. Elb
 - ≥10% improvement in grip strength measurement
 
 ## Non-Response
-If grip strength does not improve after eccentric loading protocol, reassess. Consider cervical contribution (common in lateral epicondylalgia) or imaging for structural tendon changes.
+If grip strength does not improve after eccentric loading protocol, reassess. Consider a cervical contribution (common in lateral epicondylalgia), or refer to a physician to consider imaging for structural tendon changes.
 
 ## Related Documents
 - [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md)
@@ -1629,6 +1645,7 @@ Low back pain is within physiotherapy scope when the presentation is musculoskel
 - Night pain unrelated to position
 - History of malignancy with new back pain
 - Fever with spinal pain
+- Sudden back pain after a fall or minor trauma in an older adult, or with osteoporosis or prolonged corticosteroid use (suspected vertebral fracture)
 
 ## Clinical Hypothesis Examples
 - **Segmental hypomobility:** Restricted intersegmental motion at a specific level. Tested with mobilization. Expected response: improved ROM within 2–3 sessions.
@@ -1667,7 +1684,7 @@ Lumbar spinal stenosis is within physiotherapy scope for conservative management
 - Cauda equina syndrome (bilateral leg symptoms, saddle anaesthesia, bowel/bladder dysfunction — emergency)
 - Progressive motor weakness in lower extremities
 - Rapidly worsening walking tolerance (weeks, not months)
-- Neurogenic claudication not responding to 8+ sessions of conservative management
+- Neurogenic claudication not improving after the 3–5 session trial window and one revised trial (surgical consultation)
 - Severe stenosis with myelopathic signs (if thoracic/cervical involvement suspected)
 
 ## Differentiating Neurogenic from Vascular Claudication
@@ -1683,20 +1700,20 @@ Lumbar spinal stenosis is within physiotherapy scope for conservative management
 If vascular claudication is suspected → REFER to vascular specialist.
 
 ## Clinical Hypothesis Examples
-- **Flexion-biased stenosis:** Canal narrowing relieved by lumbar flexion, worsened by extension. Tested with flexion-based exercises, cycling, aquatic therapy, and posture modification (avoiding sustained extension). Expected response: improved walking tolerance within 3–5 sessions.
-- **Dynamic stenosis with deconditioning:** Narrowing exacerbated by poor general fitness. Tested with cardiovascular conditioning in flexion-biased positions (cycling, swimming) and lower limb strengthening. Expected response: improved walking distance and reduced leg symptoms.
+- **Flexion-biased stenosis:** Canal narrowing relieved by lumbar flexion, worsened by extension. Tested with flexion-based exercises, stationary cycling, and posture modification (avoiding sustained extension). Expected response: improved walking tolerance within 3–5 sessions.
+- **Dynamic stenosis with deconditioning:** Narrowing exacerbated by poor general fitness. Tested with cardiovascular conditioning in flexion-biased positions (stationary cycling) and lower limb strengthening. Expected response: improved walking distance and reduced leg symptoms.
 - **Stenosis with co-existing hip pathology:** Hip stiffness (especially extension deficit) increasing lumbar extension demand during gait. Tested with hip mobilization and hip flexor stretching. Expected response: improved gait mechanics and reduced stenotic symptoms.
 - **Fear-avoidance in stenosis:** Patient avoiding walking due to fear of symptoms, leading to further deconditioning. Tested with graded walking exposure and education. Expected response: improved confidence and walking tolerance.
 
 ## Trial Window
-5 sessions (stenosis may respond more slowly). Objective criteria:
+3–5 session trial window; at its end, either a documented hypothesis revision with ONE new trial, or DISCHARGE/REFER (stenosis may respond more slowly and may use the full 5 sessions plus that one revised trial). Objective criteria:
 - Improved walking distance or duration before symptom onset
 - Improved standing tolerance
 - Reduced frequency or intensity of neurogenic claudication symptoms
 - Improved lower extremity strength
 
 ## Non-Response
-If walking tolerance does not improve despite flexion-based management and conditioning, refer for imaging (MRI) and surgical consultation. Decompressive surgery (laminectomy) may be indicated for severe stenosis with significant functional limitation.
+If walking tolerance does not improve despite flexion-based management and conditioning, refer to a physician to consider imaging (MRI) and surgical consultation. Decompressive surgery (laminectomy) may be indicated for severe stenosis with significant functional limitation.
 
 ## Related Documents
 - [Low Back Pain](low-back-pain.md)
@@ -1737,7 +1754,7 @@ Meniscus injuries are within physiotherapy scope for conservative management and
 - Reduced mechanical symptoms (catching, locking)
 
 ## Non-Response
-If mechanical symptoms persist (locking, catching) despite rehabilitation, refer for MRI and surgical consultation. Persistent effusion without improvement may indicate associated pathology (chondral damage, ligament injury). Degenerative tears with worsening symptoms despite exercise therapy may need joint injection or orthopaedic review.
+If mechanical symptoms persist (locking, catching) despite rehabilitation, refer to a physician to consider imaging (MRI) and surgical consultation. Persistent effusion without improvement may indicate associated pathology (chondral damage, ligament injury). Degenerative tears with worsening symptoms despite exercise therapy may need joint injection or orthopaedic review.
 
 ## Related Documents
 - [Knee Pain](knee-pain.md)
@@ -1758,7 +1775,7 @@ Neck pain is within physiotherapy scope when musculoskeletal in origin. Upper mo
 
 ## Red Flags (→ REFER)
 - Upper limb progressive weakness or bilateral symptoms (myelopathy)
-- Drop attacks, diplopia, dysarthria, dysphagia, dizziness with cervical movement (vertebrobasilar insufficiency)
+- Drop attacks, diplopia, dysarthria, dysphagia, facial numbness, nystagmus or ataxia, with or without dizziness, or a new severe headache/neck pain unlike any previous one (suspected vascular pathology of the neck — cervical arterial dysfunction; emergency referral). Dizziness provoked by neck movement with none of these features is not a red flag by itself and is assessed as possible cervicogenic dizziness
 - Trauma with suspected cervical fracture or instability
 - Signs of spinal cord compression (gait disturbance, hyperreflexia, clonus)
 - Fever with neck stiffness (meningitis)
@@ -1772,12 +1789,12 @@ Neck pain is within physiotherapy scope when musculoskeletal in origin. Upper mo
 ## Trial Window
 3–5 sessions. Objective criteria:
 - ≥10% improvement in cervical ROM (rotation, flexion, extension)
-- Reduced headache frequency (for cervicogenic headache)
+- For cervicogenic headache: improved upper cervical rotation (headache frequency is recorded as supplementary data)
 - Centralization of arm symptoms (for radiculopathy)
 - Improved deep neck flexor endurance or motor control tests
 
 ## Non-Response
-If cervical ROM does not improve or neurological symptoms progress, refer for specialist assessment. Persistent radiculopathy without centralization may require imaging.
+If cervical ROM does not improve or neurological symptoms progress, refer for specialist assessment. Persistent radiculopathy without centralization: refer to a physician to consider imaging.
 
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md)
@@ -1804,7 +1821,7 @@ Patellofemoral pain is within physiotherapy scope. The condition responds well t
 - Anterior knee pain with systemic symptoms in adolescents (consider osteosarcoma — rare but serious)
 
 ## Clinical Hypothesis Examples
-- **Quadriceps weakness — load capacity deficit:** Weak quadriceps (especially VMO) unable to support patellofemoral loads during activity. Tested with progressive quadriceps strengthening (isometric → isotonic → functional). Expected response: reduced anterior knee pain with provocative activities and improved single leg squat within 3–5 sessions.
+- **Quadriceps weakness — load capacity deficit:** Weak quadriceps unable to support patellofemoral loads during activity. Tested with progressive quadriceps strengthening (isometric → isotonic → functional). Expected response: reduced anterior knee pain with provocative activities and improved single leg squat within 3–5 sessions.
 - **Hip weakness — dynamic valgus:** Gluteus medius weakness allowing knee valgus during loading, increasing lateral patellofemoral stress. Tested with hip abductor and external rotator strengthening. Expected response: improved dynamic knee alignment during squat and step-down.
 - **Load management — training error:** Rapid increase in running, jumping, or squatting volume exceeding tissue capacity. Tested with activity modification and graded return. Expected response: symptom reduction with load management, gradual return to previous volume.
 - **Patellar mobility restriction:** Restricted patellar glide (tight lateral retinaculum) contributing to patellofemoral pressure. Tested with patellar mobilization and stretching. Expected response: improved patellar mobility and reduced pain with compression tests.
@@ -1817,7 +1834,7 @@ Patellofemoral pain is within physiotherapy scope. The condition responds well t
 - Improved functional capacity (stair descent, running distance)
 
 ## Non-Response
-If symptoms do not improve with quadriceps and hip strengthening within the trial window, reassess. Consider imaging to rule out osteochondral lesion, plica syndrome, or other intra-articular pathology. Persistent patellar instability may require orthopaedic consultation for medial patellofemoral ligament (MPFL) reconstruction.
+If symptoms do not improve with quadriceps and hip strengthening within the trial window, reassess. Refer to a physician to consider imaging to rule out osteochondral lesion, plica syndrome, or other intra-articular pathology. Persistent patellar instability may require orthopaedic consultation for medial patellofemoral ligament (MPFL) reconstruction.
 
 ## Related Documents
 - [Knee Pain](knee-pain.md)
@@ -1834,7 +1851,7 @@ If symptoms do not improve with quadriceps and hip strengthening within the tria
 Deep gluteal pain with or without sciatic nerve irritation, attributed to the piriformis muscle compressing or irritating the sciatic nerve. A diagnosis of exclusion — lumbar pathology must be ruled out first.
 
 ## Scope Check
-Piriformis syndrome is within physiotherapy scope when lumbar spine pathology has been excluded. If neurological deficit is progressive or symptoms are bilateral, REFER for imaging and specialist assessment.
+Piriformis syndrome is within physiotherapy scope when lumbar spine pathology has been excluded. If neurological deficit is progressive or symptoms are bilateral, REFER to a physician to consider imaging and specialist assessment.
 
 ## Red Flags (→ REFER)
 - Progressive neurological deficit (worsening weakness, expanding numbness)
@@ -1853,7 +1870,7 @@ Piriformis syndrome is overdiagnosed. Before accepting this hypothesis, rule out
 
 ## Clinical Hypothesis Examples
 - **Piriformis overactivity/tightness:** Piriformis muscle spasm or shortening irritating the sciatic nerve. Tested with piriformis stretching, soft tissue release, and hip external rotator rebalancing. Expected response: reduced deep gluteal pain and improved straight leg raise or slump test within 3–5 sessions.
-- **Hip external rotator weakness:** Piriformis overloaded as primary hip external rotator due to weakness of synergists. Tested with gluteal strengthening and hip external rotator program. Expected response: reduced piriformis irritability as load is shared.
+- **Hip external rotator weakness:** Piriformis overloaded because the other hip external rotators (e.g., gluteus maximus) are weak. Tested with gluteal strengthening and hip external rotator program. Expected response: reduced piriformis irritability as load is shared.
 - **Sitting-related compression:** Prolonged sitting compresses the sciatic nerve in the deep gluteal space. Tested with sitting modification (cushion, posture changes, regular breaks). Expected response: reduced symptom provocation with sitting.
 
 ## Trial Window
@@ -1864,7 +1881,7 @@ Piriformis syndrome is overdiagnosed. Before accepting this hypothesis, rule out
 - Improved hip ROM and strength
 
 ## Non-Response
-If symptoms do not improve within the trial window despite appropriate treatment, the hypothesis of piriformis syndrome should be questioned. Refer for imaging (MRI of lumbar spine and pelvis) to investigate alternative diagnoses. Consider lumbar radiculopathy, hip pathology, or deep gluteal space pathology.
+If symptoms do not improve within the trial window despite appropriate treatment, the hypothesis of piriformis syndrome should be questioned. Refer to a physician to consider imaging (MRI of lumbar spine and pelvis) to investigate alternative diagnoses. Consider lumbar radiculopathy, hip pathology, or deep gluteal space pathology.
 
 ## Related Documents
 - [Sciatica](sciatica.md)
@@ -1904,7 +1921,7 @@ Plantar heel pain is within physiotherapy scope when musculoskeletal in origin. 
 - Improved single leg calf raise capacity
 
 ## Non-Response
-If first-step pain and walking tolerance do not improve within the trial window, reassess. Consider imaging to evaluate fascial thickness or calcaneal stress fracture. Consider referral for investigation of systemic causes if bilateral.
+If first-step pain and walking tolerance do not improve within the trial window, reassess. Refer to a physician to consider imaging to evaluate fascial thickness or calcaneal stress fracture. Consider referral for investigation of systemic causes if bilateral.
 
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md)
@@ -1932,7 +1949,7 @@ Post-surgical spinal rehabilitation is within physiotherapy scope when cleared b
 
 ## Clinical Hypothesis Examples
 - **Post-laminectomy deconditioning:** Weakness and reduced endurance from surgical recovery and pre-operative deconditioning. Tested with graded mobility and core stabilization. Expected response: improved walking distance and tolerance to upright postures within 3–5 sessions.
-- **Post-fusion stiffness:** Reduced mobility at adjacent segments compensating for fused levels. Tested with adjacent segment mobilization and flexibility exercises. Expected response: improved overall spinal mobility within available range.
+- **Post-fusion stiffness and deconditioning:** Reduced hip/thoracic mobility and trunk endurance after fusion; the levels adjacent to the fusion carry increased motion and load. Tested with hip and thoracic mobility work, graded trunk endurance and conditioning within surgeon restrictions (no targeted mobilization of the adjacent levels). Expected response: improved functional mobility and activity tolerance.
 - **Post-discectomy neural sensitivity:** Residual neural irritability following disc surgery. Tested with neural mobilization and graded loading. Expected response: reduced radicular symptoms and improved activity tolerance.
 - **Fear-avoidance after spinal surgery:** Kinesiophobia limiting functional recovery. Tested with graded exposure and progressive loading. Expected response: improved movement confidence and functional capacity.
 
@@ -1963,24 +1980,26 @@ Musculoskeletal chest wall pain originating from costovertebral joints, costocho
 ## Critical Safety Note
 Chest pain MUST be screened for cardiac, pulmonary, and gastrointestinal causes before musculoskeletal diagnosis. When in doubt → REFER.
 
-## Red Flags → REFER or DECLINE (IMMEDIATE)
+## Red Flags → REFER (IMMEDIATE)
 - **Cardiac:** Chest pain with exertion, radiation to arm/jaw, shortness of breath, diaphoresis, history of cardiac disease → ER
 - **Pulmonary:** Pleuritic pain with fever, cough, dyspnea → medical evaluation
 - **Pulmonary embolism:** Sudden onset chest pain + dyspnea, recent surgery/immobilization, calf pain → ER
 - **Aortic dissection:** Tearing chest pain radiating to back → ER
 - **GI:** Pain worse with eating, reflux symptoms → gastroenterology
-- **Fracture:** Trauma history with point tenderness, crepitus → imaging
+- **Fracture:** Trauma history with point tenderness, crepitus → refer to a physician to consider imaging
 - **Malignancy:** Unexplained weight loss, night pain, history of cancer → medical evaluation
 
 ## Differentiation Table
 
 | Feature | Musculoskeletal | Cardiac | Pulmonary | GI |
 |---------|----------------|---------|-----------|-----|
-| Reproducible with palpation | Yes | No | Rarely | No |
+| Reproducible with palpation | Yes | Usually no — does NOT exclude cardiac pain | Rarely | No |
 | Movement-related | Yes | With exertion | With breathing | No |
 | Position-dependent | Often | Rarely | Sometimes | Sometimes |
-| Response to manual Tx | Yes | No | No | No |
+| Response to manual Tx | Yes | Not diagnostic | No | No |
 | Onset | Often gradual or after strain | Sudden or exertional | Variable | After eating/reflux |
+
+Pain reproduced by palpation makes a cardiac cause less likely but never excludes it; relief after manual therapy has no diagnostic value. Screen first; when in doubt, REFER.
 
 ## Clinical Hypothesis Framework
 
@@ -2065,7 +2084,7 @@ Each phase functions as a TRIAL cycle:
 **Phase 4 (6–12 months):** Return to full function, sport-specific loading if applicable. DISCHARGE when functional goals met.
 
 ## Non-Response
-If ROM or strength milestones are not met within expected timeframes, communicate with surgeon. Persistent stiffness may require manipulation under anesthesia or arthroscopic capsular release. Persistent weakness may indicate re-tear requiring imaging.
+If ROM or strength milestones are not met within expected timeframes, communicate with surgeon. Persistent stiffness may require manipulation under anesthesia or arthroscopic capsular release. Persistent weakness may indicate re-tear: refer to a physician (the operating surgeon) to consider imaging.
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)
@@ -2121,12 +2140,12 @@ If radicular symptoms do not centralize or neurological signs progress, the case
 Exercise-induced pain along the posteromedial border of the tibia. Most common overuse injury in runners and military recruits. Represents a continuum from periosteal stress reaction to tibial stress fracture. Must be differentiated from chronic exertional compartment syndrome and stress fracture.
 
 ## Scope Check
-MTSS is within physiotherapy scope for management and prevention. Suspected stress fracture (focal tenderness, pain at rest, pain with single leg hop) or chronic exertional compartment syndrome (pain with specific exercise duration that resolves with rest, neurological symptoms) requires REFER for imaging/testing.
+MTSS is within physiotherapy scope for management and prevention. Suspected stress fracture (focal tenderness, pain at rest, pain with single leg hop) or chronic exertional compartment syndrome (pain with specific exercise duration that resolves with rest, neurological symptoms) requires REFER to a physician to consider imaging/testing.
 
 ## Red Flags (→ REFER)
 - Focal point tenderness on the tibia (stress fracture — not diffuse as in MTSS)
 - Pain at rest that doesn't resolve (stress fracture or more serious pathology)
-- Pain with single leg hop test (stress fracture)
+- Focal pain with single-leg hopping (suspected stress fracture — refer to a physician to consider imaging)
 - Neurological symptoms in the lower leg during exercise (numbness, weakness — compartment syndrome)
 - Pain that occurs at a consistent time during exercise and resolves completely with rest (compartment syndrome)
 - Night pain (rule out tumour or infection)
@@ -2137,15 +2156,15 @@ MTSS is within physiotherapy scope for management and prevention. Suspected stre
 |---|---|---|
 | Pain location | Diffuse along tibial border (>5cm) | Focal point (<5cm) |
 | Pain at rest | Usually absent | Present in later stages |
-| Single leg hop | Usually tolerable | Painful |
+| Single leg hop | May be painful | Often painful and focal — raises suspicion; refer to a physician to consider imaging |
 | Imaging | Periosteal reaction (MRI) | Fracture line or focal marrow edema |
 | Pain with palpation | Diffuse tenderness | Focal, sharp tenderness |
 
 ## Clinical Hypothesis Examples
 - **Training load error:** Rapid increase in running volume, frequency, or intensity exceeding bone and soft tissue adaptation rate. Tested with load modification (reduce volume 30-50%), cross-training, and gradual return. Expected response: reduced symptoms within 2–4 weeks with appropriate load management.
-- **Biomechanical overload:** Excessive pronation, narrow step width, or overstriding increasing tibial stress. Tested with gait retraining (increased cadence, wider step width), foot orthoses if indicated. Expected response: reduced symptom provocation during running.
+- **Biomechanical overload:** Excessive pronation, narrow step width, or overstriding increasing tibial stress. Tested with simple running cues (shorter, quicker steps; slightly wider step width) during a graded return to running, and foot orthoses if indicated (formal running or video gait analysis is not performed at this clinic). Expected response: reduced symptom provocation during running.
 - **Calf and soleus weakness:** Weak plantar flexors unable to absorb impact, transferring load to bone. Tested with progressive calf strengthening (gastrocnemius and soleus). Expected response: improved calf endurance and reduced tibial symptoms with running.
-- **Bone stress adaptation failure:** Insufficient recovery between training sessions preventing bone remodeling. Tested with adequate rest days, calcium/vitamin D assessment, and sleep optimization. Expected response: gradual symptom resolution with appropriate recovery.
+- **Bone stress adaptation failure:** Insufficient recovery between training sessions preventing bone remodeling. Tested with adequate rest days, sleep optimization, and screening questions on diet and energy availability (refer to a physician for calcium/vitamin D testing if suspected). Expected response: gradual symptom resolution with appropriate recovery.
 
 ## Trial Window
 3–5 sessions. Objective criteria:
@@ -2158,11 +2177,11 @@ MTSS is within physiotherapy scope for management and prevention. Suspected stre
 1. Pain-free walking for 30 minutes
 2. Walk-run intervals (1 min run / 4 min walk, progress ratio)
 3. Continuous running at easy pace (start 50% of pre-injury volume)
-4. Gradual volume increase (no more than 10% per week)
+4. Gradual, symptom-guided volume increase (the common '10% per week' rule is a convention, not evidence-based)
 5. Reintroduce speed and hills last
 
 ## Non-Response
-If symptoms persist despite 4+ weeks of appropriate load management, or if pain progresses to focal/point tenderness, refer for MRI to rule out stress fracture. Female athletes with MTSS should be screened for relative energy deficiency in sport (RED-S) and the female athlete triad (REFER to sports physician if suspected).
+If symptoms persist despite 4+ weeks of appropriate load management, or if pain progresses to focal/point tenderness, refer to a physician to consider imaging (MRI) to rule out stress fracture. Female athletes with MTSS should be screened for relative energy deficiency in sport (RED-S) and the female athlete triad (REFER to sports physician if suspected).
 
 ## Related Documents
 - [Ankle Sprain](ankle-sprain.md)
@@ -2183,7 +2202,7 @@ Shoulder instability rehabilitation is within physiotherapy scope. Acute disloca
 
 ## Red Flags (→ REFER)
 - Acute dislocation that has not been reduced (emergency — immediate referral for reduction)
-- Suspected fracture with dislocation (Hill-Sachs, Bankart, greater tuberosity fracture)
+- Suspected fracture with dislocation (large Hill-Sachs lesion, bony Bankart, greater tuberosity fracture)
 - Neurovascular deficit after dislocation (axillary nerve palsy — deltoid weakness, regimental badge numbness)
 - Recurrent dislocations (>2 episodes) despite comprehensive rehabilitation (surgical stabilization consultation)
 - First-time dislocation in a young athlete (<25 years) with high recurrence risk (early surgical consultation may be appropriate)
@@ -2212,7 +2231,7 @@ Shoulder instability rehabilitation is within physiotherapy scope. Acute disloca
 **Phase 4 (6–9 months):** Return to sport testing, plyometric loading, contact preparation if applicable. DISCHARGE when functional goals met and apprehension negative.
 
 ## Trial Window
-5 sessions for initial conservative management. Objective criteria:
+3–5 session trial window for initial conservative management; at its end, either a documented hypothesis revision with ONE new trial, or DISCHARGE/REFER. Objective criteria:
 - Improved shoulder confidence (reduced apprehension)
 - Improved rotator cuff strength (measured, compared bilaterally)
 - Improved scapular control (observation, endurance tests)
@@ -2260,7 +2279,7 @@ Shoulder pain is within physiotherapy scope when musculoskeletal in origin. Susp
 - Reduction in compensatory scapular patterns (elevation, winging)
 
 ## Non-Response
-If ROM or strength do not improve within the trial window, reassess. Consider imaging referral (ultrasound or MRI for rotator cuff integrity). Frozen shoulder may require extended timeline — document objective ROM gains at each evaluation to justify CONTINUE.
+If ROM or strength do not improve within the trial window, reassess. Refer to a physician to consider imaging (ultrasound or MRI for rotator cuff integrity). Frozen shoulder may require extended timeline — document objective ROM gains at each evaluation to justify CONTINUE.
 
 ## Related Documents
 - [Subjective Report Insufficiency](../models/subjective-report-insufficiency.md)
@@ -2274,13 +2293,13 @@ If ROM or strength do not improve within the trial window, reassess. Consider im
 # Thoracic Outlet Syndrome (TOS)
 
 ## Definition
-Compression of neurovascular structures (brachial plexus, subclavian artery/vein) in the thoracic outlet region. Three types: neurogenic (95%), venous (3%), arterial (2%). Physiotherapy primarily manages neurogenic TOS.
+Compression of neurovascular structures (brachial plexus, subclavian artery/vein) in the thoracic outlet region. Three types: neurogenic (~95%), venous (~2–3%), arterial (~1%). Physiotherapy primarily manages neurogenic TOS.
 
 ## Scope Boundaries
 - **IN scope:** Neurogenic TOS with musculoskeletal contributors (scalene tightness, poor posture, first rib dysfunction)
 - **OUT of scope:** Vascular TOS (venous/arterial) → REFER to vascular surgery
 
-## Red Flags → REFER or DECLINE
+## Red Flags → REFER
 - Arm swelling, cyanosis, or color changes (venous TOS)
 - Absent or diminished radial pulse with positional changes (arterial TOS)
 - Hand ischemia or pallor
@@ -2292,7 +2311,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 | Feature | Neurogenic TOS | Cervical Radiculopathy | Carpal Tunnel |
 |---------|---------------|----------------------|---------------|
 | Distribution | C8-T1 (ulnar side) most common | Dermatomal | Median nerve (thumb-index-middle) |
-| Provocative | Roos test, EAST, arm elevation | Spurling's, ULTT | Phalen's, Tinel's |
+| Provocative | Roos test (elevated arm stress test, EAST), arm elevation — low specificity (often positive in carpal tunnel syndrome) | Spurling's, ULTT | Phalen's, Tinel's |
 | Posture effect | Worse with arms overhead | Variable | Not typically postural |
 | Vascular signs | Possible (pulse changes) | No | No |
 | Night symptoms | Variable | Common | Very common |
@@ -2309,7 +2328,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 - **Hypothesis:** Poor scapular posture narrows the costoclavicular space
 - **Test:** Scapular strengthening, postural retraining, workplace ergonomics
 - **Expected response:** Symptom reduction with improved posture within 3-5 sessions
-- **If no response:** REFER for imaging (cervical rib, elongated C7 transverse process)
+- **If no response:** REFER to a physician to consider imaging (cervical rib, elongated C7 transverse process)
 
 ### First Rib Dysfunction
 - **Hypothesis:** Elevated or hypomobile first rib reduces the thoracic outlet space
@@ -2403,7 +2422,7 @@ Temporomandibular disorders including myofascial pain of the masticatory muscles
 TMJ disorders with musculoskeletal origin are within physiotherapy scope. Suspected fracture, dislocation that does not self-reduce, dental malocclusion requiring orthodontic intervention, or intra-articular pathology requiring surgical management triggers REFER.
 
 ## Red Flags (→ REFER)
-- Locked jaw that does not self-reduce (acute disc displacement without reduction — may need specialist intervention)
+- Jaw stuck open and unable to close (TMJ dislocation / open lock — urgent reduction, REFER)
 - TMJ pain after facial trauma (suspected fracture)
 - Progressive inability to open mouth with swelling (possible infection or tumour)
 - Sudden change in bite alignment (possible condylar fracture or pathology)
@@ -2412,6 +2431,7 @@ TMJ disorders with musculoskeletal origin are within physiotherapy scope. Suspec
 ## Clinical Hypothesis Examples
 - **Masticatory muscle myofascial pain:** Overactivity and trigger points in masseter, temporalis, or pterygoid muscles. Tested with manual therapy to masticatory muscles, jaw exercises, and habit modification (clenching awareness). Expected response: improved mouth opening and reduced pain with chewing within 3–5 sessions.
 - **TMJ disc displacement with reduction:** Click or pop during jaw opening with intermittent locking. Tested with jaw movement retraining and manual therapy. Expected response: reduced frequency of catching and improved jaw movement coordination.
+- **Acute closed lock (disc displacement without reduction, limited opening):** Tested with jaw mobilization and exercise. REFER if mouth opening does not improve within the trial window.
 - **Cervical contribution to TMJ pain:** Upper cervical dysfunction contributing to jaw pain and headache. Tested with cervical mobilization and deep neck flexor training. Expected response: if cervical-driven, jaw pain reduces with cervical treatment.
 
 ## Trial Window
@@ -2501,8 +2521,8 @@ Post-surgical knee replacement rehabilitation is within physiotherapy scope when
 - New-onset numbness or foot drop (peroneal nerve palsy)
 
 ## Clinical Hypothesis Examples
-- **Post-surgical stiffness:** Swelling and capsular tightness limiting flexion and extension. Tested with progressive ROM exercises, patellar mobilization, and edema management. Expected response: measurable ROM gains at each visit (target: 0° extension, 90° flexion by 6 weeks, 110-120° by 12 weeks).
-- **Quadriceps activation deficit:** Difficulty activating the quadriceps after surgery (arthrogenic muscle inhibition). Tested with electrical stimulation, biofeedback, isometric quad sets, and straight leg raise. Expected response: improved active extension lag and quad contraction quality.
+- **Post-surgical stiffness:** Swelling and capsular tightness limiting flexion and extension. Tested with progressive ROM exercises, patellar mobilization, and edema management. Expected response: measurable ROM gains at each visit toward the phase targets below (escalate to surgeon if flexion <90° at 6 weeks).
+- **Quadriceps activation deficit:** Difficulty activating the quadriceps after surgery (arthrogenic muscle inhibition). Tested with electrical stimulation, biofeedback, isometric quad sets, and straight leg raise. Expected response: reduced extensor lag and improved quadriceps contraction quality.
 - **Gait dysfunction:** Altered gait pattern post-surgery (antalgic gait, Trendelenburg, knee hyperextension). Tested with gait training, progressive weight bearing, and strengthening. Expected response: improved gait symmetry and reduced assistive device dependence.
 
 ## Rehabilitation Phases and Decision Points
@@ -2543,7 +2563,7 @@ WAD grades I-III are within physiotherapy scope. WAD grade IV (fracture or dislo
 - Signs of cervical fracture or dislocation (Canadian C-spine rules positive)
 - Signs of vertebral artery dissection (severe headache, dizziness, visual disturbance, dysphagia following neck trauma)
 - Upper motor neuron signs (hyperreflexia, clonus, bilateral symptoms)
-- Concussion symptoms that are worsening (confusion, vomiting, loss of consciousness)
+- Any signs of concussion or head injury (confusion, amnesia, vomiting, loss of consciousness) — REFER; worsening symptoms — emergency
 - Progressive neurological deficit
 
 ## Clinical Hypothesis Examples
@@ -2560,7 +2580,7 @@ WAD grades I-III are within physiotherapy scope. WAD grade IV (fracture or dislo
 - Reduced fear-avoidance (measurable via questionnaire or functional task)
 
 ## Non-Response
-If ROM and function do not improve within the trial window, reassess. Consider imaging for structural injury. Persistent symptoms beyond expected recovery timelines may indicate prognostic factors (high initial pain, high distress, cold hyperalgesia) requiring multidisciplinary approach.
+If ROM and function do not improve within the trial window, reassess. Refer to a physician to consider imaging for structural injury. Persistent symptoms are more likely when early prognostic factors were present (high initial pain and disability, post-traumatic stress, cold hyperalgesia); these patients may need a multidisciplinary approach.
 
 ## Related Documents
 - [Neck Pain](neck-pain.md)

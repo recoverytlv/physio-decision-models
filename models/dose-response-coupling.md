@@ -12,9 +12,9 @@ Dose-response coupling is the measurable relationship between intervention inten
 - **Inverse response:** Increased dose produces worsening — hypothesis is falsified or safety boundary is reached.
 
 ## Decision Consequences
-- Dose-response decoupling is a signal of hypothesis failure, not insufficient dosage.
+- Persistent decoupling, after dose adequacy, time and adherence are confirmed, weakens the hypothesis.
 - Escalating intensity without proportional response increases iatrogenic risk without diagnostic value.
-- Persistent decoupling after parameter adjustment mandates exit or referral.
+- Persistent decoupling after parameter adjustment requires hypothesis revision (ONE new TRIAL), DISCHARGE or REFER.
 
 ## Clinical Example
 
@@ -22,12 +22,12 @@ Dose-response coupling is the measurable relationship between intervention inten
 
 **Coupled response (hypothesis supported):** Increasing squat depth from 60° to 90° over 2 weeks produces proportional improvement in knee flexion ROM (110° → 125°) and functional task performance (stair descent confidence improves). Dose increase → proportional response. CONTINUE.
 
-**Decoupled response (hypothesis weakened):** Increasing exercise frequency from 2x/week to 4x/week produces no change in ROM or functional scores after 3 weeks. More dose → same response. This is not "needs more time" — it signals that the current approach has reached its informative limit. Reassess hypothesis or exit.
+**Decoupled response (hypothesis weakened):** Increasing exercise frequency from 2x/week to 4x/week produces no change in ROM or functional scores after 3 weeks. More dose → same response. If dose, time and adherence were adequate, this suggests that the current approach has reached its informative limit. Reassess hypothesis or exit.
 
 **Inverse response (hypothesis falsified):** Adding plyometric loading produces increased joint effusion and decreased ROM. More dose → worsening. Safety boundary reached. Reduce intensity, reassess, or REFER.
 
 ## Threshold Integration
-When dose-response decoupling persists across two or more intervention cycles, exit criteria as defined in `thresholds/exit-criteria-stasis.md` are triggered.
+When dose-response decoupling persists across three consecutive measurements, exit criteria as defined in `thresholds/exit-criteria-stasis.md` are triggered.
 
 ## Related Documents
 - [Non-Response as Signal](./non-response-as-signal.md) — Decoupling as a specific non-response pattern

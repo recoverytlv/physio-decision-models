@@ -88,7 +88,7 @@ If there's no measurable improvement after the trial period, that's not failure 
 ### When Treatment Ends
 
 Treatment ends when:
-- Your goals are met (success — this is the most common outcome)
+- Your goals are met (success)
 - Progress has plateaued and further treatment won't add value (honest exit)
 - We detect something that needs a different specialist (we refer you with full documentation)
 

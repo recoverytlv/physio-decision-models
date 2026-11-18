@@ -120,6 +120,8 @@ Standing desks are not automatically better than sitting. The key is **variation
 6. Don't lift above shoulder height if possible
 7. Ask for help with heavy or awkward loads
 
+Training in lifting technique, with or without assistive devices, has not been shown to prevent back pain (Cochrane review: Verbeek et al. 2011, PMID 21678349). These principles make heavy or awkward loads easier to handle; reducing load, varying tasks and building physical capacity matter more than a single "correct" technique.
+
 ### Load Limits (General Guidelines)
 | Situation | Recommended Limit |
 |-----------|------------------|
@@ -148,7 +150,7 @@ Standing desks are not automatically better than sitting. The key is **variation
 - Core strengthening as injury prevention
 
 ### Manual Laborers
-- Proper lifting technique education
+- Load management: lighter and less frequent loads where possible, handling aids (technique training alone has not been shown to prevent back pain)
 - Tool handles at appropriate height
 - Job rotation to vary physical demands
 - Pre-shift warm-up routine

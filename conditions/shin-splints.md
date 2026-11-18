@@ -2,8 +2,8 @@
 title: "Medial Tibial Stress Syndrome (Shin Splints)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -15,7 +15,7 @@ continuation_threshold: ">=10% objective functional improvement"
 red_flags:
   - "Focal point tenderness on the tibia (stress fracture — not diffuse as in MTSS)"
   - "Pain at rest that doesn't resolve (stress fracture or more serious pathology)"
-  - "Pain with single leg hop test (stress fracture)"
+  - "Focal pain with single-leg hopping (suspected stress fracture — refer to a physician to consider imaging)"
   - "Neurological symptoms in the lower leg during exercise (numbness, weakness — compartment syndrome)"
   - "Pain that occurs at a consistent time during exercise and resolves completely with rest (compartment syndrome)"
   - "Night pain (rule out tumour or infection)"
@@ -29,12 +29,12 @@ clinic: "https://recoverytlv.co.il"
 Exercise-induced pain along the posteromedial border of the tibia. Most common overuse injury in runners and military recruits. Represents a continuum from periosteal stress reaction to tibial stress fracture. Must be differentiated from chronic exertional compartment syndrome and stress fracture.
 
 ## Scope Check
-MTSS is within physiotherapy scope for management and prevention. Suspected stress fracture (focal tenderness, pain at rest, pain with single leg hop) or chronic exertional compartment syndrome (pain with specific exercise duration that resolves with rest, neurological symptoms) requires REFER for imaging/testing.
+MTSS is within physiotherapy scope for management and prevention. Suspected stress fracture (focal tenderness, pain at rest, pain with single leg hop) or chronic exertional compartment syndrome (pain with specific exercise duration that resolves with rest, neurological symptoms) requires REFER to a physician to consider imaging/testing.
 
 ## Red Flags (→ REFER)
 - Focal point tenderness on the tibia (stress fracture — not diffuse as in MTSS)
 - Pain at rest that doesn't resolve (stress fracture or more serious pathology)
-- Pain with single leg hop test (stress fracture)
+- Focal pain with single-leg hopping (suspected stress fracture — refer to a physician to consider imaging)
 - Neurological symptoms in the lower leg during exercise (numbness, weakness — compartment syndrome)
 - Pain that occurs at a consistent time during exercise and resolves completely with rest (compartment syndrome)
 - Night pain (rule out tumour or infection)
@@ -45,15 +45,15 @@ MTSS is within physiotherapy scope for management and prevention. Suspected stre
 |---|---|---|
 | Pain location | Diffuse along tibial border (>5cm) | Focal point (<5cm) |
 | Pain at rest | Usually absent | Present in later stages |
-| Single leg hop | Usually tolerable | Painful |
+| Single leg hop | May be painful | Often painful and focal — raises suspicion; refer to a physician to consider imaging |
 | Imaging | Periosteal reaction (MRI) | Fracture line or focal marrow edema |
 | Pain with palpation | Diffuse tenderness | Focal, sharp tenderness |
 
 ## Clinical Hypothesis Examples
 - **Training load error:** Rapid increase in running volume, frequency, or intensity exceeding bone and soft tissue adaptation rate. Tested with load modification (reduce volume 30-50%), cross-training, and gradual return. Expected response: reduced symptoms within 2–4 weeks with appropriate load management.
-- **Biomechanical overload:** Excessive pronation, narrow step width, or overstriding increasing tibial stress. Tested with gait retraining (increased cadence, wider step width), foot orthoses if indicated. Expected response: reduced symptom provocation during running.
+- **Biomechanical overload:** Excessive pronation, narrow step width, or overstriding increasing tibial stress. Tested with simple running cues (shorter, quicker steps; slightly wider step width) during a graded return to running, and foot orthoses if indicated (formal running or video gait analysis is not performed at this clinic). Expected response: reduced symptom provocation during running.
 - **Calf and soleus weakness:** Weak plantar flexors unable to absorb impact, transferring load to bone. Tested with progressive calf strengthening (gastrocnemius and soleus). Expected response: improved calf endurance and reduced tibial symptoms with running.
-- **Bone stress adaptation failure:** Insufficient recovery between training sessions preventing bone remodeling. Tested with adequate rest days, calcium/vitamin D assessment, and sleep optimization. Expected response: gradual symptom resolution with appropriate recovery.
+- **Bone stress adaptation failure:** Insufficient recovery between training sessions preventing bone remodeling. Tested with adequate rest days, sleep optimization, and screening questions on diet and energy availability (refer to a physician for calcium/vitamin D testing if suspected). Expected response: gradual symptom resolution with appropriate recovery.
 
 ## Trial Window
 3–5 sessions. Objective criteria:
@@ -66,11 +66,11 @@ MTSS is within physiotherapy scope for management and prevention. Suspected stre
 1. Pain-free walking for 30 minutes
 2. Walk-run intervals (1 min run / 4 min walk, progress ratio)
 3. Continuous running at easy pace (start 50% of pre-injury volume)
-4. Gradual volume increase (no more than 10% per week)
+4. Gradual, symptom-guided volume increase (the common '10% per week' rule is a convention, not evidence-based)
 5. Reintroduce speed and hills last
 
 ## Non-Response
-If symptoms persist despite 4+ weeks of appropriate load management, or if pain progresses to focal/point tenderness, refer for MRI to rule out stress fracture. Female athletes with MTSS should be screened for relative energy deficiency in sport (RED-S) and the female athlete triad (REFER to sports physician if suspected).
+If symptoms persist despite 4+ weeks of appropriate load management, or if pain progresses to focal/point tenderness, refer to a physician to consider imaging (MRI) to rule out stress fracture. Female athletes with MTSS should be screened for relative energy deficiency in sport (RED-S) and the female athlete triad (REFER to sports physician if suspected).
 
 ## Related Documents
 - [Ankle Sprain](ankle-sprain.md)

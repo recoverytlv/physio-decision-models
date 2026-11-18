@@ -2,8 +2,8 @@
 title: "Meniscus Injury"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -52,7 +52,7 @@ Meniscus injuries are within physiotherapy scope for conservative management and
 - Reduced mechanical symptoms (catching, locking)
 
 ## Non-Response
-If mechanical symptoms persist (locking, catching) despite rehabilitation, refer for MRI and surgical consultation. Persistent effusion without improvement may indicate associated pathology (chondral damage, ligament injury). Degenerative tears with worsening symptoms despite exercise therapy may need joint injection or orthopaedic review.
+If mechanical symptoms persist (locking, catching) despite rehabilitation, refer to a physician to consider imaging (MRI) and surgical consultation. Persistent effusion without improvement may indicate associated pathology (chondral damage, ligament injury). Degenerative tears with worsening symptoms despite exercise therapy may need joint injection or orthopaedic review.
 
 ## Related Documents
 - [Knee Pain](knee-pain.md)

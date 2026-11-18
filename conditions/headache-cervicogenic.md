@@ -2,25 +2,27 @@
 title: "Tension-Type Headache & Cervicogenic Headache"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Tension-type headache and cervicogenic headache with a musculoskeletal contribution from the neck. Red flags for secondary headache are screened first."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
 red_flags:
-  - "**S**ystemic symptoms (fever, weight loss, cancer history)"
-  - "**N**eurological signs (papilledema, focal deficit, altered consciousness)"
-  - "**O**nset sudden ('thunderclap' — worst headache of life)"
-  - "**O**lder age (new headache >50 years — giant cell arteritis)"
-  - "**P**ositional pattern change, progressive pattern, precipitated by Valsalva"
+  - "Systemic symptoms (fever, weight loss, cancer history)"
+  - "Neurological signs (papilledema, focal deficit, altered consciousness)"
+  - "Onset sudden ('thunderclap' — worst headache of life)"
+  - "Older age (new headache >50 years — giant cell arteritis)"
+  - "Positional pattern change, progressive pattern, precipitated by Valsalva"
   - "Headache after head trauma with cognitive changes → REFER (concussion care is not provided at this clinic)"
   - "New daily persistent headache"
   - "Headache with jaw claudication (giant cell arteritis → REFER urgently)"
   - "Seizure with headache"
+  - "New, severe or unusual headache or neck pain, especially after recent neck trauma or with transient neurological symptoms (suspected cervical artery dissection — emergency referral)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/headache-cervicogenic.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -34,7 +36,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 - **IN scope:** TTH with cervical/muscular contributors, CGH with identifiable cervical dysfunction, post-traumatic headache (musculoskeletal component)
 - **OUT of scope:** Migraine management (beyond cervical contribution), cluster headache, medication overuse headache, secondary headaches from intracranial pathology
 
-## Red Flags → REFER or DECLINE (SNOOP Mnemonic)
+## Red Flags → REFER (SNOOP Mnemonic)
 - **S**ystemic symptoms (fever, weight loss, cancer history)
 - **N**eurological signs (papilledema, focal deficit, altered consciousness)
 - **O**nset sudden ("thunderclap" — worst headache of life)
@@ -46,6 +48,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 - New daily persistent headache
 - Headache with jaw claudication (giant cell arteritis → REFER urgently)
 - Seizure with headache
+- New, severe or unusual headache or neck pain, especially after recent neck trauma or with transient neurological symptoms (suspected cervical artery dissection — emergency referral; screen for vascular pathology of the neck before any cervical manual technique — Rushton et al. 2023, PMID 36099171)
 
 ## Differentiation Table
 
@@ -66,7 +69,7 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 ### Cervicogenic Headache
 - **Hypothesis:** Upper cervical joint dysfunction (C0-C3) is producing referred headache
 - **Test:** Upper cervical mobilization, deep neck flexor retraining, C1-2 rotation assessment
-- **Expected response:** Headache frequency reduction ≥50% within 4-6 treatments
+- **Expected response:** Measurable gains in upper cervical rotation and deep neck flexor performance within the trial window; reduction in headache frequency is expected over several weeks (in Jull et al. 2002, PMID 12221344, a 6-week programme of manipulative therapy and/or exercise reduced headache frequency)
 - **If no response:** Consider other headache type, medication overuse, or psychosocial factors
 
 ### Tension-Type with Muscular Component
@@ -92,14 +95,13 @@ Headaches with musculoskeletal contribution. Tension-type headache (TTH): bilate
 |---------|-------|
 | 1 | Classification (TTH vs CGH vs mixed), cervical assessment, baseline headache diary |
 | 2-3 | Targeted cervical treatment, ergonomic advice, self-management strategies |
-| 4-5 | Re-evaluate headache frequency and intensity vs baseline |
+| 4-5 | Re-evaluate upper cervical rotation and deep neck flexor performance vs baseline; headache diary (frequency, intensity) and NDI recorded as supplementary data |
 
 ## Decision Criteria
 
 ### CONTINUE if:
-- Headache frequency reduced ≥30%
-- Headache intensity reduced ≥2/10 VAS
-- Improved cervical function (ROM, NDI)
+- ≥10% improvement in upper cervical rotation or in deep neck flexor performance, beyond measurement error
+- Headache frequency and intensity (diary) and NDI are recorded as supplementary data, not as continuation criteria
 
 ### DISCHARGE if:
 - Headache well-controlled with self-management

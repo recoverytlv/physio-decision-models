@@ -14,7 +14,7 @@ This is the most important thing to understand:
 - You can have severe pain with no tissue damage (phantom limb pain in amputees)
 - The amount of pain you feel does NOT accurately reflect the amount of tissue damage
 
-**What this means for you:** Pain after the initial healing period (6-12 weeks for most tissues) usually reflects a sensitive nervous system, not ongoing tissue damage.
+**What this means for you:** Pain that continues for more than about 3 months, beyond the usual healing time of most tissues, often involves a more sensitive nervous system as well as the tissues themselves. By itself it does not mean ongoing damage.
 
 ### 2. Your Nervous System Can Become Sensitized
 

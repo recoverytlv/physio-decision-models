@@ -37,8 +37,8 @@ with one of six valid outputs:
 - DISCHARGE: Termination after goals achieved or progress plateau
 
 Non-response to treatment is treated as valuable diagnostic information, not failure.
-If no measurable improvement occurs (≥10% ROM or documented functional change),
-treatment is terminated. Uncertainty favors non-action.
+If no measurable improvement occurs (≥10% in ROM or another objective measure, or documented
+functional change), the hypothesis is revised once, or the patient is discharged or referred. Uncertainty favors non-action.
 
 ## What Makes Recovery TLV Different
 
@@ -110,7 +110,6 @@ Under Biological Uncertainty."
 - [Evidence Base](https://github.com/recoverytlv/physio-decision-models/blob/main/EVIDENCE_BASE.md): Academic foundations and references
 - [Home Exercise Principles](https://github.com/recoverytlv/physio-decision-models/blob/main/HOME_EXERCISE_PRINCIPLES.md): Patient guide for home exercise
 - [Outcome Measures](https://github.com/recoverytlv/physio-decision-models/blob/main/OUTCOME_MEASURES.md): Validated measurement tools and MCID values
-- [Telehealth Guidelines](https://github.com/recoverytlv/physio-decision-models/blob/main/TELEHEALTH_GUIDELINES.md): Remote assessment framework
 - [Return to Sport](https://github.com/recoverytlv/physio-decision-models/blob/main/RETURN_TO_SPORT.md): Criteria-based RTS protocol
 - [Geriatric Considerations](https://github.com/recoverytlv/physio-decision-models/blob/main/GERIATRIC_CONSIDERATIONS.md): Older adult adaptations
 

@@ -2,8 +2,8 @@
 title: "Frozen Shoulder (Adhesive Capsulitis)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -44,15 +44,15 @@ Frozen shoulder is within physiotherapy scope. However, the condition has a natu
 - **Secondary frozen shoulder:** Stiffness following rotator cuff surgery, fracture, or immobilization. Tested with aggressive ROM program (within surgical limits). Expected response: ROM improvement with structured program.
 
 ## Trial Window
-5 sessions (frozen shoulder typically requires longer observation). Objective criteria:
+3–5 session trial window (frozen shoulder often needs the full 5 sessions). Objective criteria:
 - Any measurable improvement in passive ROM (even 5° is signal in frozen shoulder)
-- Reduced pain at rest or at night
+- Pain at rest or at night is recorded as supplementary data only (not a continuation criterion)
 - Improved functional capacity (reaching, dressing, sleeping position)
 
 ## Non-Response Considerations
-Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement over 5 sessions does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
-- If pain is the primary complaint and pain is reducing → CONTINUE
-- If ROM is the primary complaint and no change in 8+ sessions → discuss surgical options (REFER for hydrodilatation or MUA)
+Frozen shoulder has a prolonged natural history (12–30 months). Lack of ROM improvement by the end of the trial window does not necessarily indicate hypothesis failure — it may indicate the patient is in the frozen phase. Decision:
+- If pain is the primary complaint: CONTINUE only if an objective criterion is also met (a predefined functional task such as dressing or reaching, or a documented reduction in compensatory strategies); pain reduction alone does not justify continuation
+- If ROM is the primary complaint and there is no measurable change after the trial window and one revised trial → discuss other options (REFER to consider hydrodilatation or manipulation under anaesthesia)
 
 ## Related Documents
 - [Shoulder Pain](shoulder-pain.md)

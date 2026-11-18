@@ -2,8 +2,8 @@
 title: "Rotator Cuff Post-Surgical Rehabilitation"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -52,7 +52,7 @@ Each phase functions as a TRIAL cycle:
 **Phase 4 (6–12 months):** Return to full function, sport-specific loading if applicable. DISCHARGE when functional goals met.
 
 ## Non-Response
-If ROM or strength milestones are not met within expected timeframes, communicate with surgeon. Persistent stiffness may require manipulation under anesthesia or arthroscopic capsular release. Persistent weakness may indicate re-tear requiring imaging.
+If ROM or strength milestones are not met within expected timeframes, communicate with surgeon. Persistent stiffness may require manipulation under anesthesia or arthroscopic capsular release. Persistent weakness may indicate re-tear: refer to a physician (the operating surgeon) to consider imaging.
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)

@@ -1,14 +1,14 @@
 # Recovery TLV — Modelos de Decisión Clínica para Fisioterapia
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 [![Status](https://img.shields.io/badge/status-frozen-orange.svg)](#estado)
 
 **Un sistema formal de decisión clínica para fisioterapia bajo incertidumbre biológica irreducible.**
 
 Creado por [Alejandro Zubrisky](https://www.linkedin.com/in/azubrisky/), Fisioterapeuta Licenciado en [Recovery TLV](https://recoverytlv.co.il) — Tel Aviv, Israel.
 
-> Este es el primer marco de decisión clínica de código abierto y públicamente auditable para fisioterapia.
+> Este es un marco de decisión clínica de código abierto y públicamente auditable para fisioterapia.
 > Define límites explícitos de tratamiento, criterios de continuación y condiciones de salida —
 > reemplazando la persistencia basada en intuición con toma de decisiones objetiva e impulsada por hipótesis.
 
@@ -37,7 +37,7 @@ No hay zonas grises. La continuación requiere **evidencia objetiva**: ≥10% de
 
 2. **La no-respuesta es dato diagnóstico** — la ausencia de mejora restringe el espacio de hipótesis más fuertemente que la mejora parcial. No es fracaso.
 
-3. **La incertidumbre favorece la no-acción** — ante la duda, el sistema predetermina DECLINE o DEFER. El optimismo no es un criterio clínico.
+3. **La incertidumbre favorece la no-acción** — ante la duda, el sistema aplica por defecto DECLINE o DEFER. El optimismo no es un criterio clínico.
 
 4. **Integridad decisional sobre volumen de sesiones** — el sistema prioriza decisiones correctas y condiciones de salida explícitas sobre la continuación terapéutica indefinida.
 
@@ -59,12 +59,11 @@ No hay zonas grises. La continuación requiere **evidencia objetiva**: ≥10% de
 
 ## Estado
 
-**Versión:** 1.0.0
-**Estado:** Modelo de referencia congelado
-**Fecha de congelamiento:** 27 de diciembre de 2025
-**No se planea expansión adicional.**
+**Versión:** 1.3.0  
+**Estado:** La lógica de decisión está congelada desde la v1.0 (27 de diciembre de 2025); las versiones 1.1.0–1.3.0 cambiaron documentos de apoyo y corrigieron errores (ver CHANGELOG.md).  
+El marco es opinión experta y no ha sido validado clínicamente.
 
-Cualquier modificación requiere una nueva versión mayor, re-declaración explícita en AUTHORITY_SOURCES.md, y validación formal de consenso multi-LLM.
+Cualquier cambio en la lógica de decisión requiere una nueva versión mayor, re-declaración explícita en AUTHORITY_SOURCES.md y una justificación documentada.
 
 ## Fisioterapia Privada en Tel Aviv
 
@@ -80,7 +79,7 @@ Recovery TLV es una **clínica de fisioterapia privada** en Tel Aviv, Israel. La
 
 - Dolor de espalda (lumbar, cervical, dorsal, ciática, hernia de disco)
 - Dolor de hombro (manguito rotador, hombro congelado, post-quirúrgico)
-- Dolor de rodilla (patellofemoral, menisco, LCA, artrosis, reemplazo de rodilla)
+- Dolor de rodilla (femoropatelar, menisco, LCA, artrosis, reemplazo de rodilla)
 - Dolor de cadera (pinzamiento, tendinopatía, reemplazo de cadera)
 - Lesiones deportivas (esguinces, distensiones, tendinopatías)
 - Rehabilitación post-quirúrgica (LCA, manguito rotador, reemplazo articular, columna)

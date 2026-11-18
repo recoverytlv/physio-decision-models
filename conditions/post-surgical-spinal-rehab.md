@@ -2,8 +2,8 @@
 title: "Post-Surgical Spinal Rehabilitation"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -39,7 +39,7 @@ Post-surgical spinal rehabilitation is within physiotherapy scope when cleared b
 
 ## Clinical Hypothesis Examples
 - **Post-laminectomy deconditioning:** Weakness and reduced endurance from surgical recovery and pre-operative deconditioning. Tested with graded mobility and core stabilization. Expected response: improved walking distance and tolerance to upright postures within 3–5 sessions.
-- **Post-fusion stiffness:** Reduced mobility at adjacent segments compensating for fused levels. Tested with adjacent segment mobilization and flexibility exercises. Expected response: improved overall spinal mobility within available range.
+- **Post-fusion stiffness and deconditioning:** Reduced hip/thoracic mobility and trunk endurance after fusion; the levels adjacent to the fusion carry increased motion and load. Tested with hip and thoracic mobility work, graded trunk endurance and conditioning within surgeon restrictions (no targeted mobilization of the adjacent levels). Expected response: improved functional mobility and activity tolerance.
 - **Post-discectomy neural sensitivity:** Residual neural irritability following disc surgery. Tested with neural mobilization and graded loading. Expected response: reduced radicular symptoms and improved activity tolerance.
 - **Fear-avoidance after spinal surgery:** Kinesiophobia limiting functional recovery. Tested with graded exposure and progressive loading. Expected response: improved movement confidence and functional capacity.
 

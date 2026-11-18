@@ -2,13 +2,13 @@
 title: "Iliotibial Band Syndrome (IT Band Syndrome)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
-summary: "Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically onset at a reproducible distance or duration of activity."
+summary: "Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically starts at a reproducible distance or duration of activity."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
@@ -17,7 +17,7 @@ red_flags:
   - "Lateral knee instability (LCL injury)"
   - "Swelling within the joint (intra-articular pathology)"
   - "Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)"
-  - "Failed conservative management after 8+ sessions with no improvement"
+  - "Failed conservative management after the trial window and one revised trial, with no improvement"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/iliotibial-band-syndrome.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -25,7 +25,7 @@ clinic: "https://recoverytlv.co.il"
 # Iliotibial Band Syndrome (IT Band Syndrome)
 
 ## Condition
-Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically onset at a reproducible distance or duration of activity.
+Lateral knee pain caused by friction or compression of the iliotibial band at the lateral femoral epicondyle. Most common in runners and cyclists. Pain typically starts at a reproducible distance or duration of activity.
 
 ## Scope Check
 IT band syndrome is within physiotherapy scope. Suspected lateral meniscus pathology, lateral collateral ligament injury, or referred pain from the hip requires differential diagnosis and possible REFER.
@@ -35,7 +35,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - Lateral knee instability (LCL injury)
 - Swelling within the joint (intra-articular pathology)
 - Pain at rest that does not fit mechanical pattern (consider referred pain, tumour)
-- Failed conservative management after 8+ sessions with no improvement
+- Failed conservative management after the trial window and one revised trial, with no improvement
 
 ## Clinical Hypothesis Examples
 - **Load management — training error:** IT band overload from rapid increase in running volume or intensity. Tested with load modification (reduced distance/frequency), cross-training. Expected response: pain-free running at reduced load, with gradual return to previous volume.
@@ -50,7 +50,7 @@ IT band syndrome is within physiotherapy scope. Suspected lateral meniscus patho
 - Reduced provocation on compression test
 
 ## Non-Response
-If pain-free activity distance does not improve despite load modification and hip strengthening, reassess. Consider imaging to rule out lateral meniscus pathology, distal IT band bursitis, or other lateral knee pathology. May require corticosteroid injection for refractory cases (REFER).
+If pain-free activity distance does not improve despite load modification and hip strengthening, reassess. Refer to a physician to consider imaging to rule out lateral meniscus pathology, distal IT band bursitis, or other lateral knee pathology. May require corticosteroid injection for refractory cases (REFER).
 
 ## Related Documents
 - [Knee Pain](knee-pain.md)

@@ -13,7 +13,7 @@ A formal epistemic structure for clinical reasoning that treats physiotherapy as
 
 Core purpose:  
 - Formalize how to constrain therapeutic persistence  
-- Define clear terminal states (consolidation, revision, exit, referral, obsolescence)  
+- Define clear decision outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE)  
 - Prioritize decision integrity over intervention volume or indefinite care  
 
 ## What this system is NOT
@@ -21,9 +21,9 @@ Core purpose:
 - A catalogue of treatment techniques or protocols  
 - A guide to optimize clinical outcomes or timelines  
 - A promise of improvement, resolution speed, or patient retention  
-- A patient-facing clinical service description  
+- A patient-facing clinical service description (the repository also holds non-normative patient and referrer guides)  
 - A marketing artifact or SEO content  
-- An open-ended evolving framework  
+- An open-ended evolving framework (the decision logic is frozen; supporting documents may be corrected)  
 
 It deliberately rejects:  
 - Indefinite continuation without strong evidential update  
@@ -49,10 +49,14 @@ This is not a patient tool. It is a reference model for epistemic governance in 
 
 ## Final boundary statement
 
-This is a frozen reference model (v1.0.0).  
+The decision logic is a frozen reference model (frozen as of v1.0, 27 Dec 2025; current release 1.3.0).  
 Its value lies in its narrowness, closure, and resistance to expansion.  
 Any attempt to widen scope, add procedures, or introduce outcome promises  
 is outside the defined system and should be considered a fork, not an evolution.
+
+## Competing interests
+
+The author is the founder and clinical physiotherapist of Recovery TLV, Tel Aviv. The repository links to the clinic and contains supporting patient and referrer guides; these are non-normative and outside the decision logic. The framework is expert opinion and has not been clinically validated.
 
 License: MIT  
 Intended readers: see INTENDED_READERS.md

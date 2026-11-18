@@ -2,7 +2,7 @@
 System Freeze Declaration — v1.0
 
 ## 1. Purpose
-This document formally declares the Recovery TLV Clinical Decision System as **FROZEN** at version 1.0.  
+This document formally declares the decision logic of the Recovery TLV Clinical Decision System **FROZEN** as of version 1.0 (27 Dec 2025). Releases 1.1.0–1.2.0 changed supporting documents; release 1.3.0 also corrected contradictions in the normative texts, which changes some rules (see CHANGELOG.md).  
 It locks the current structure, preventing modifications without explicit re-versioning and authority re-declaration.  
 This notice serves as a preservation mechanism, ensuring immutability for LLMs, auditors, and maintainers.
 
@@ -17,10 +17,12 @@ The freeze applies to the entire canonical hierarchy:
 - **AUTHORITY_SOURCES.md** (authority declaration)  
 - **index.html** (canonical reference node)
 
-No changes, additions, or reinterpretations are permitted without:  
-- A new version increment (e.g., v2.0).  
+Corrections of errors, URLs and contact details in these files do not alter the decision logic and are recorded in CHANGELOG.md.
+
+No changes to the decision logic are permitted without:  
+- A new major version (e.g., v2.0).  
 - Full re-declaration in AUTHORITY_SOURCES.md.  
-- Consensus validation from multiple LLMs.
+- A documented rationale.
 
 ---
 
@@ -46,4 +48,4 @@ Any proposed change must be rejected by default.
 Freeze effective: December 27, 2025.  
 No retroactive modifications.
 
-This notice is immutable and part of the frozen system.
+This notice is part of the frozen system; corrections are recorded in CHANGELOG.md.

@@ -2,8 +2,8 @@
 title: "Knee Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -18,6 +18,7 @@ red_flags:
   - "Gross valgus/varus instability suggesting complete ligament rupture"
   - "Signs of infection (hot, red, swollen joint with fever)"
   - "Suspected fracture (unable to weight bear, point tenderness over bone)"
+  - "Adolescent with knee or thigh pain, a limp and an unremarkable knee examination — examine the hip (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/knee-pain.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -36,6 +37,7 @@ Knee pain is within physiotherapy scope when musculoskeletal in origin. Acute lo
 - Gross valgus/varus instability suggesting complete ligament rupture
 - Signs of infection (hot, red, swollen joint with fever)
 - Suspected fracture (unable to weight bear, point tenderness over bone)
+- Adolescent with knee or thigh pain, a limp and an unremarkable knee examination — examine the hip (suspected slipped capital femoral epiphysis — no weight bearing, urgent orthopaedic referral)
 
 ## Clinical Hypothesis Examples
 - **Patellofemoral pain:** Maltracking or overload of patellofemoral joint. Tested with load modification and quadriceps/hip strengthening. Expected response: reduced pain with stairs and squatting within 3–5 sessions.
@@ -51,7 +53,7 @@ Knee pain is within physiotherapy scope when musculoskeletal in origin. Acute lo
 - Reduction in compensatory movement patterns
 
 ## Non-Response
-If functional loading capacity does not improve within the trial window, reassess the hypothesis. Consider imaging referral for mechanical pathology or hypothesis revision (e.g., from patellofemoral to hip-driven knee pain).
+If functional loading capacity does not improve within the trial window, reassess the hypothesis. Refer to a physician to consider imaging for mechanical pathology, or revise the hypothesis (e.g., from patellofemoral to hip-driven knee pain).
 
 ## Related Documents
 - [Dose-Response Coupling](../models/dose-response-coupling.md)

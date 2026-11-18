@@ -2,12 +2,13 @@
 title: "Thoracic Outlet Syndrome (TOS)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Compression of the brachial plexus or subclavian vessels in the thoracic outlet. Physiotherapy manages neurogenic TOS; venous and arterial TOS are referred to vascular surgery."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
@@ -24,13 +25,13 @@ clinic: "https://recoverytlv.co.il"
 # Thoracic Outlet Syndrome (TOS)
 
 ## Definition
-Compression of neurovascular structures (brachial plexus, subclavian artery/vein) in the thoracic outlet region. Three types: neurogenic (95%), venous (3%), arterial (2%). Physiotherapy primarily manages neurogenic TOS.
+Compression of neurovascular structures (brachial plexus, subclavian artery/vein) in the thoracic outlet region. Three types: neurogenic (~95%), venous (~2–3%), arterial (~1%). Physiotherapy primarily manages neurogenic TOS.
 
 ## Scope Boundaries
 - **IN scope:** Neurogenic TOS with musculoskeletal contributors (scalene tightness, poor posture, first rib dysfunction)
 - **OUT of scope:** Vascular TOS (venous/arterial) → REFER to vascular surgery
 
-## Red Flags → REFER or DECLINE
+## Red Flags → REFER
 - Arm swelling, cyanosis, or color changes (venous TOS)
 - Absent or diminished radial pulse with positional changes (arterial TOS)
 - Hand ischemia or pallor
@@ -42,7 +43,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 | Feature | Neurogenic TOS | Cervical Radiculopathy | Carpal Tunnel |
 |---------|---------------|----------------------|---------------|
 | Distribution | C8-T1 (ulnar side) most common | Dermatomal | Median nerve (thumb-index-middle) |
-| Provocative | Roos test, EAST, arm elevation | Spurling's, ULTT | Phalen's, Tinel's |
+| Provocative | Roos test (elevated arm stress test, EAST), arm elevation — low specificity (often positive in carpal tunnel syndrome) | Spurling's, ULTT | Phalen's, Tinel's |
 | Posture effect | Worse with arms overhead | Variable | Not typically postural |
 | Vascular signs | Possible (pulse changes) | No | No |
 | Night symptoms | Variable | Common | Very common |
@@ -59,7 +60,7 @@ Compression of neurovascular structures (brachial plexus, subclavian artery/vein
 - **Hypothesis:** Poor scapular posture narrows the costoclavicular space
 - **Test:** Scapular strengthening, postural retraining, workplace ergonomics
 - **Expected response:** Symptom reduction with improved posture within 3-5 sessions
-- **If no response:** REFER for imaging (cervical rib, elongated C7 transverse process)
+- **If no response:** REFER to a physician to consider imaging (cervical rib, elongated C7 transverse process)
 
 ### First Rib Dysfunction
 - **Hypothesis:** Elevated or hypomobile first rib reduces the thoracic outlet space

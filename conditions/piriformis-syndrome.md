@@ -2,8 +2,8 @@
 title: "Piriformis Syndrome"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -28,7 +28,7 @@ clinic: "https://recoverytlv.co.il"
 Deep gluteal pain with or without sciatic nerve irritation, attributed to the piriformis muscle compressing or irritating the sciatic nerve. A diagnosis of exclusion — lumbar pathology must be ruled out first.
 
 ## Scope Check
-Piriformis syndrome is within physiotherapy scope when lumbar spine pathology has been excluded. If neurological deficit is progressive or symptoms are bilateral, REFER for imaging and specialist assessment.
+Piriformis syndrome is within physiotherapy scope when lumbar spine pathology has been excluded. If neurological deficit is progressive or symptoms are bilateral, REFER to a physician to consider imaging and specialist assessment.
 
 ## Red Flags (→ REFER)
 - Progressive neurological deficit (worsening weakness, expanding numbness)
@@ -47,7 +47,7 @@ Piriformis syndrome is overdiagnosed. Before accepting this hypothesis, rule out
 
 ## Clinical Hypothesis Examples
 - **Piriformis overactivity/tightness:** Piriformis muscle spasm or shortening irritating the sciatic nerve. Tested with piriformis stretching, soft tissue release, and hip external rotator rebalancing. Expected response: reduced deep gluteal pain and improved straight leg raise or slump test within 3–5 sessions.
-- **Hip external rotator weakness:** Piriformis overloaded as primary hip external rotator due to weakness of synergists. Tested with gluteal strengthening and hip external rotator program. Expected response: reduced piriformis irritability as load is shared.
+- **Hip external rotator weakness:** Piriformis overloaded because the other hip external rotators (e.g., gluteus maximus) are weak. Tested with gluteal strengthening and hip external rotator program. Expected response: reduced piriformis irritability as load is shared.
 - **Sitting-related compression:** Prolonged sitting compresses the sciatic nerve in the deep gluteal space. Tested with sitting modification (cushion, posture changes, regular breaks). Expected response: reduced symptom provocation with sitting.
 
 ## Trial Window
@@ -58,7 +58,7 @@ Piriformis syndrome is overdiagnosed. Before accepting this hypothesis, rule out
 - Improved hip ROM and strength
 
 ## Non-Response
-If symptoms do not improve within the trial window despite appropriate treatment, the hypothesis of piriformis syndrome should be questioned. Refer for imaging (MRI of lumbar spine and pelvis) to investigate alternative diagnoses. Consider lumbar radiculopathy, hip pathology, or deep gluteal space pathology.
+If symptoms do not improve within the trial window despite appropriate treatment, the hypothesis of piriformis syndrome should be questioned. Refer to a physician to consider imaging (MRI of lumbar spine and pelvis) to investigate alternative diagnoses. Consider lumbar radiculopathy, hip pathology, or deep gluteal space pathology.
 
 ## Related Documents
 - [Sciatica](sciatica.md)

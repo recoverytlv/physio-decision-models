@@ -1,18 +1,18 @@
 # Continuation Criteria Thresholds
 
 ## 1. Definition
-Continuation criteria are the minimum objective thresholds that must be met to justify extending treatment beyond the initial trial window. They are the gateway from TRIAL to CONTINUE.
+Continuation criteria are the minimum objective thresholds that must be met to justify extending treatment beyond the initial trial window. They are the gateway from TRIAL to CONTINUE. They are pragmatic, author-defined review points and have not been validated as cut-offs.
 
 ## 2. Required Thresholds (At Least One Must Be Met)
 
-### 2.1 Range of Motion Improvement
-- **Threshold:** ≥10% measurable improvement in the relevant joint or segment
-- **Measurement:** Goniometric or inclinometric assessment against baseline
+### 2.1 Range of Motion or Other Objective Measure
+- **Threshold:** ≥10% improvement from baseline in the relevant joint, segment or objective measure (e.g., dynamometry), exceeding the instrument's measurement error (MDC)
+- **Measurement:** Goniometric, inclinometric or other instrumented assessment against baseline
 - **Validity:** Must be reproducible across two consecutive measurements
 
 ### 2.2 Functional Task Improvement
 - **Threshold:** Documented improvement in at least one predefined functional task
-- **Measurement:** Standardized functional outcome measure or observable task performance
+- **Measurement:** Observed or timed task performance, or a performance-based test; patient-reported scores support but do not by themselves satisfy this criterion
 - **Validity:** Must be specific to the patient's declared functional goals
 
 ### 2.3 Compensatory Strategy Reduction
@@ -29,7 +29,7 @@ The following do NOT satisfy continuation criteria:
 
 ## 4. Decision Rule
 `If Objective_Criteria_Met >= 1 → CONTINUE PERMITTED`
-`If Objective_Criteria_Met == 0 → DISCHARGE OR REFER`
+`If Objective_Criteria_Met == 0 → documented hypothesis revision + ONE new TRIAL, OR DISCHARGE, OR REFER (after a second failed TRIAL: DISCHARGE OR REFER)`
 
 ## Related Documents
 - [Trial Window Limits](./trial-window-limits.md) — Continuation criteria are evaluated at trial window end

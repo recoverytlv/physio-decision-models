@@ -2,13 +2,13 @@
 title: "Cervical Radiculopathy"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
-summary: "Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. Most commonly C5-C6, C6-C7, and C7-T1 levels."
+summary: "Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. The C7 root (C6–C7 level) is affected most often, followed by the C6 root (C5–C6 level)."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
@@ -28,7 +28,7 @@ clinic: "https://recoverytlv.co.il"
 # Cervical Radiculopathy
 
 ## Condition
-Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. Most commonly C5-C6, C6-C7, and C7-T1 levels.
+Compression or irritation of a cervical nerve root causing radicular pain, numbness, tingling, or weakness in a dermatomal/myotomal distribution in the upper extremity. The C7 root (C6–C7 level) is affected most often, followed by the C6 root (C5–C6 level).
 
 ## Scope Check
 Cervical radiculopathy with stable neurological status is within physiotherapy scope for conservative management. Progressive neurological deficit, bilateral symptoms, or signs of cervical myelopathy require immediate REFER.
@@ -67,7 +67,7 @@ Cervical radiculopathy with stable neurological status is within physiotherapy s
 - Stable or improving neurological status (strength, sensation, reflexes)
 
 ## Non-Response
-If radicular symptoms do not improve or neurological status worsens within the trial window, refer for imaging (MRI) and specialist consultation. Large disc herniations with significant motor deficit may require surgical intervention. Persistent radicular pain without motor deficit may benefit from epidural injection (REFER to pain specialist).
+If radicular symptoms do not improve or neurological status worsens within the trial window, refer to a physician to consider imaging (MRI) and specialist consultation. Large disc herniations with significant motor deficit may require surgical intervention. Persistent radicular pain without motor deficit may benefit from epidural injection (REFER to pain specialist).
 
 ## Related Documents
 - [Neck Pain](neck-pain.md)

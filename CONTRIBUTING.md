@@ -16,7 +16,7 @@ The normative documents (CLINICAL_DECISION_SYSTEM.md, DECISION_ENFORCEMENT_RULES
 Condition guides must follow the established format:
 - **Definition** — Clear scope of the condition
 - **Scope Boundaries** — What is IN and OUT of physiotherapy scope
-- **Red Flags** — Conditions requiring REFER or DECLINE
+- **Red Flags** — Conditions requiring REFER
 - **Clinical Hypothesis Framework** — Testable hypotheses with expected responses
 - **Trial Protocol** — Session-by-session structure
 - **Decision Criteria** — CONTINUE, DISCHARGE, REFER criteria

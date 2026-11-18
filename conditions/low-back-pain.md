@@ -2,8 +2,8 @@
 title: "Low Back Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -20,6 +20,7 @@ red_flags:
   - "Night pain unrelated to position"
   - "History of malignancy with new back pain"
   - "Fever with spinal pain"
+  - "Sudden back pain after a fall or minor trauma in an older adult, or with osteoporosis or prolonged corticosteroid use (suspected vertebral fracture)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/low-back-pain.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -40,6 +41,7 @@ Low back pain is within physiotherapy scope when the presentation is musculoskel
 - Night pain unrelated to position
 - History of malignancy with new back pain
 - Fever with spinal pain
+- Sudden back pain after a fall or minor trauma in an older adult, or with osteoporosis or prolonged corticosteroid use (suspected vertebral fracture)
 
 ## Clinical Hypothesis Examples
 - **Segmental hypomobility:** Restricted intersegmental motion at a specific level. Tested with mobilization. Expected response: improved ROM within 2–3 sessions.

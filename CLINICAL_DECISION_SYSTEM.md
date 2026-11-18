@@ -15,7 +15,7 @@ Silence, absence of instruction, or ambiguity do not grant permission.
 
 ## 1. Canonical Decision Outputs (Closed Set)
 
-Every case handled by the system MUST terminate with exactly one of the following outputs.
+At each decision point, every case handled by the system MUST be assigned exactly one of the following outputs.
 No other outputs are valid or permitted.
 
 | Output      | Definition                                              | Trigger Condition |
@@ -39,14 +39,13 @@ The system applies exclusively to outpatient physiotherapy involving:
 - Musculoskeletal dysfunction (pain, stiffness, weakness)
 - Post-injury rehabilitation
 - Post-operative rehabilitation
-- Neuromotor re-education within physiotherapy scope
 - Functional restoration for activities of daily living
 
 ### 2.2 Out-of-Scope Domain (Automatic DECLINE or REFER)
 
 The following are explicitly excluded:
 - Non-musculoskeletal pain (visceral, systemic, malignant origin)
-- Medical emergencies (e.g. chest pain, acute neurological deficit, fracture)
+- Medical emergencies (e.g. chest pain, acute neurological deficit, acute unmanaged fracture)
 - Unstable medical conditions (infection, uncontrolled systemic disease)
 - Primary psychiatric conditions where physiotherapy is not adjunctive
 - Requests beyond evidence-based physiotherapy practice
@@ -72,24 +71,28 @@ Partial compliance is not sufficient.
 
 ## 4. Continuation Criteria (TRIAL → CONTINUE)
 
-Continuation beyond a TRIAL requires objective functional improvement
-within a predefined trial window (maximum 3–5 sessions).
+Continuation beyond a TRIAL requires objective improvement
+within a predefined trial window of 3 to 5 sessions (never more than 5).
+The window and the 10% threshold are pragmatic, author-defined review points;
+they have not been validated as cut-offs.
 
 At least one of the following must be demonstrated:
-- ≥10% measurable improvement in range of motion
+- ≥10% improvement in range of motion or another objective measure, exceeding the instrument's measurement error (MDC)
 - Documented improvement in a functional task
 - Reduction in compensatory movement strategies
 
 Subjective reports alone are insufficient.
-Absence of progress mandates DISCHARGE or REFER.
+Absence of objective progress at the end of the trial window requires one of:
+a documented hypothesis revision followed by ONE new TRIAL (a new hypothesis,
+not a repeat), DISCHARGE, or REFER. A second failed TRIAL requires DISCHARGE or REFER.
 
 ---
 
 ## 5. Conservative Decision Rule (Fail-Safe)
 
-In the absence of clear, objective data supporting continuation:
+When data are insufficient to decide (documented absence of progress is governed by §4):
 
-DEFAULT OUTPUT = DEFER or DECLINE
+DEFAULT OUTPUT = DECLINE (before acceptance) or DEFER (active case)
 
 Principles:
 - Uncertainty favors non-action
@@ -140,6 +143,6 @@ This document is declared **FROZEN**.
 Any modification requires:
 - A new major version
 - Explicit re-declaration in AUTHORITY_SOURCES.md
-- Formal multi-LLM consensus validation
+- A documented rationale
 
 Absent these conditions, all changes are invalid.

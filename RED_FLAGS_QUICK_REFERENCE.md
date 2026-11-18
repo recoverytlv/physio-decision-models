@@ -1,6 +1,6 @@
 # Red Flags Quick Reference — All Conditions
 
-A consolidated reference of ALL red flags across all condition guides. When any red flag is present → REFER or DECLINE immediately. Do not initiate TRIAL.
+A consolidated reference of red flags across all condition guides. In acute low back pain, some red flags have very high false-positive rates and, used in isolation, little diagnostic value (Henschke 2009); only a small subset are informative for fracture or malignancy, and the probability of fracture is higher when several are present (Downie 2013). These data concern low back pain; they do not lower the weight of emergency signs, where a single finding is enough to act. When a clinically significant red flag, or a combination of flags, raises suspicion of serious pathology in context → REFER (emergencies → ER). Do not initiate or continue TRIAL.
 
 ## Universal Red Flags (Apply to ALL Conditions)
 
@@ -14,7 +14,7 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 | Bilateral neurological signs | Central lesion | REFER urgently |
 | Bowel/bladder dysfunction (new onset) | Cauda equina syndrome | ER immediately |
 | Saddle anesthesia | Cauda equina syndrome | ER immediately |
-| Recent significant trauma + severe pain | Fracture | Imaging first |
+| Recent significant trauma + severe pain | Fracture | REFER to physician (imaging decision) |
 | Immune suppression + musculoskeletal symptoms | Infection risk | REFER |
 | IV drug use + spine/joint pain | Infection (osteomyelitis, discitis) | REFER |
 | Corticosteroid use + acute joint pain | Avascular necrosis, fracture | REFER |
@@ -24,8 +24,8 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 
 | Red Flag | Concern |
 |----------|---------|
-| Upper motor neuron signs (hyperreflexia, clonus, Babinski, gait ataxia) | Cervical myelopathy → DECLINE |
-| Bilateral hand numbness/clumsiness | Cervical myelopathy → DECLINE |
+| Upper motor neuron signs (hyperreflexia, clonus, Babinski, gait ataxia) | Cervical myelopathy → REFER urgently (spinal specialist; ER if rapidly progressive) |
+| Bilateral hand numbness/clumsiness | Cervical myelopathy → REFER urgently (spinal specialist; ER if rapidly progressive) |
 | Lhermitte's sign (electric shock down spine with neck flexion) | Spinal cord involvement → REFER |
 | Drop attacks | Vertebrobasilar insufficiency → REFER |
 | Dysphagia, dysarthria, diplopia with cervical movement | VBI → REFER |
@@ -40,8 +40,8 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 | Progressive bilateral leg weakness | Cauda equina or cord compression → ER |
 | Urinary retention or incontinence (new) | Cauda equina → ER |
 | Fecal incontinence (new) | Cauda equina → ER |
-| Age <20 with significant back pain | Tumor, infection, spondylolisthesis → imaging |
-| Age >55 with new onset back pain | Malignancy, fracture (osteoporotic) → imaging |
+| Age <20 with significant back pain | Tumor, infection, spondylolisthesis → REFER to physician (imaging decision) |
+| Age >55 with new onset back pain | Malignancy, fracture (osteoporotic) → REFER to physician (imaging decision) |
 | Structurally significant spondylolisthesis with neurological signs | Surgical assessment → REFER |
 
 ## Shoulder
@@ -60,7 +60,7 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 |----------|---------|
 | Acute hot, swollen, red joint + fever | Septic arthritis → ER |
 | Locked knee (mechanical block to extension) | Loose body → orthopedic REFER |
-| Acute hemarthrosis after trauma | ACL rupture, fracture, patellar dislocation → imaging |
+| Acute hemarthrosis after trauma | ACL rupture, fracture, patellar dislocation → REFER to physician (imaging decision) |
 | Knee giving way + instability after injury | Ligament rupture → REFER |
 | Rapid progressive joint destruction | Charcot joint, aggressive OA → REFER |
 
@@ -78,8 +78,8 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 
 | Red Flag | Concern |
 |----------|---------|
-| Ottawa Rules positive (unable to bear weight, bone tenderness) | Fracture → imaging |
-| Calf pain + swelling + warmth + recent immobilization | DVT → REFER urgently |
+| Ottawa Rules positive (unable to bear weight, bone tenderness) | Fracture → REFER to physician (imaging decision) |
+| Calf pain + swelling + warmth + recent immobilization | DVT → same-day emergency assessment |
 | Acute Achilles pop + inability to plantarflex | Achilles rupture → orthopedic REFER |
 | Foot drop (new onset) | Peroneal nerve palsy or L5 radiculopathy → REFER |
 
@@ -103,7 +103,7 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 | **O**nset sudden ("thunderclap" — worst headache of life) | SAH, aneurysm → ER immediately |
 | **O**lder age (new headache >50 years) | Giant cell arteritis → REFER urgently |
 | **P**ositional change, progressive pattern, precipitated by Valsalva | Raised ICP → REFER |
-| Jaw claudication + headache >50 years | Giant cell arteritis → REFER urgently + ESR |
+| Jaw claudication + headache >50 years | Giant cell arteritis → REFER urgently (same-day physician assessment) |
 | Seizure with headache | Intracranial lesion → REFER |
 | Headache after head strike (especially on anticoagulants) | Subdural hematoma → ER |
 
@@ -130,10 +130,10 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 
 | Red Flag | Concern |
 |----------|---------|
-| Limb swelling + warmth + pain (especially calf) | DVT → REFER urgently |
+| Limb swelling + warmth + pain (especially calf) | DVT → same-day emergency assessment |
 | Absent/diminished distal pulses | Arterial insufficiency → REFER |
 | Cyanosis or pallor of extremity | Vascular compromise → REFER |
-| Pitting edema (new, unilateral) | DVT → REFER |
+| Pitting edema (new, unilateral) | DVT → same-day emergency assessment |
 | Cold extremity + pain | Arterial occlusion → ER |
 | Claudication (vascular) — pain with walking, relieved by standing still | Peripheral arterial disease → REFER |
 
@@ -144,9 +144,9 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 | Fall with head strike (especially on anticoagulants) | Subdural hematoma → ER |
 | New confusion or cognitive decline | Infection, stroke, medication effect → REFER |
 | Sudden onset unilateral weakness | Stroke/TIA → ER immediately |
-| Progressive bilateral leg weakness | Spinal cord compression → REFER urgently |
-| Unexplained weight loss >5% in 6 months | Malignancy, depression, malnutrition → REFER |
-| New incontinence | Cauda equina, neurological condition → REFER |
+| Progressive bilateral leg weakness | Spinal cord compression → ER |
+| Unexplained weight loss | Malignancy, depression, malnutrition → REFER |
+| New incontinence | Cauda equina, neurological condition → ER |
 
 ## Psychological Red Flags (Yellow → Orange → Red)
 
@@ -162,7 +162,7 @@ A consolidated reference of ALL red flags across all condition guides. When any 
 ## Decision Rule
 
 ```
-Red flag detected at ANY point in assessment or treatment
+Clinically significant red flag (or combination) at ANY point in assessment or treatment
                     ↓
     Is it an emergency? (cardiac, cauda equina, stroke, DVT)
          │                          │
@@ -173,6 +173,8 @@ Red flag detected at ANY point in assessment or treatment
 ```
 
 **The cost of missing a red flag is always higher than the cost of an unnecessary referral.**
+
+Sources: Henschke N et al. Arthritis Rheum 2009;60(10):3072-3080 (PMID 19790051) · Downie A et al. BMJ 2013;347:f7095 (PMID 24335669).
 
 ---
 

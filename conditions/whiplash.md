@@ -2,8 +2,8 @@
 title: "Whiplash-Associated Disorder"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -16,7 +16,7 @@ red_flags:
   - "Signs of cervical fracture or dislocation (Canadian C-spine rules positive)"
   - "Signs of vertebral artery dissection (severe headache, dizziness, visual disturbance, dysphagia following neck trauma)"
   - "Upper motor neuron signs (hyperreflexia, clonus, bilateral symptoms)"
-  - "Concussion symptoms that are worsening (confusion, vomiting, loss of consciousness)"
+  - "Any signs of concussion or head injury (confusion, amnesia, vomiting, loss of consciousness) — REFER; worsening symptoms — emergency"
   - "Progressive neurological deficit"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/whiplash.md"
 clinic: "https://recoverytlv.co.il"
@@ -34,7 +34,7 @@ WAD grades I-III are within physiotherapy scope. WAD grade IV (fracture or dislo
 - Signs of cervical fracture or dislocation (Canadian C-spine rules positive)
 - Signs of vertebral artery dissection (severe headache, dizziness, visual disturbance, dysphagia following neck trauma)
 - Upper motor neuron signs (hyperreflexia, clonus, bilateral symptoms)
-- Concussion symptoms that are worsening (confusion, vomiting, loss of consciousness)
+- Any signs of concussion or head injury (confusion, amnesia, vomiting, loss of consciousness) — REFER; worsening symptoms — emergency
 - Progressive neurological deficit
 
 ## Clinical Hypothesis Examples
@@ -51,7 +51,7 @@ WAD grades I-III are within physiotherapy scope. WAD grade IV (fracture or dislo
 - Reduced fear-avoidance (measurable via questionnaire or functional task)
 
 ## Non-Response
-If ROM and function do not improve within the trial window, reassess. Consider imaging for structural injury. Persistent symptoms beyond expected recovery timelines may indicate prognostic factors (high initial pain, high distress, cold hyperalgesia) requiring multidisciplinary approach.
+If ROM and function do not improve within the trial window, reassess. Refer to a physician to consider imaging for structural injury. Persistent symptoms are more likely when early prognostic factors were present (high initial pain and disability, post-traumatic stress, cold hyperalgesia); these patients may need a multidisciplinary approach.
 
 ## Related Documents
 - [Neck Pain](neck-pain.md)

@@ -2,12 +2,13 @@
 title: "Knee Osteoarthritis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Knee osteoarthritis managed with education, exercise therapy and load management, including prehabilitation before total knee replacement."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
@@ -49,7 +50,7 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 ### Load Management Hypothesis
 - **Hypothesis:** Knee pain is driven by load exceeding tissue capacity
 - **Test:** Graded exercise program (quad strengthening, functional training), activity modification
-- **Expected response:** Pain reduction with activity, improved walk distance/stair ability within 6-8 sessions
+- **Expected response:** Pain reduction with activity, improved walk distance/stair ability, with a first measurable change within the trial window
 - **If no response:** Consider biomechanical factors, central sensitization, or surgical candidacy
 
 ### Quadriceps Weakness Hypothesis
@@ -70,7 +71,7 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 | Quadriceps strengthening | Strong | 3x/week, progressive loading |
 | Hip abductor strengthening | Strong | 3x/week |
 | Aerobic exercise (walking, cycling, swimming) | Strong | 150 min/week |
-| Aquatic therapy | Moderate | 2-3x/week if land-based too painful |
+| Aquatic exercise (self-managed at a community pool; not provided at this clinic) | Moderate | 2-3x/week if land-based exercise is too painful |
 | Balance/proprioception | Moderate | Integrated into program |
 | Flexibility (hamstrings, calves, quads) | Moderate | Daily |
 
@@ -108,7 +109,7 @@ International guidelines (OARSI, NICE, EULAR) consistently recommend exercise th
 - Significant psychological barriers → psychology
 
 ## Pre-Surgical Prehabilitation
-If surgery is planned (TKA), prehab improves post-surgical outcomes:
+If surgery is planned (TKA), prehabilitation can improve function and strength before surgery; its effect on post-surgical outcomes is modest (Punnoose 2023, PMID 37052919; Hayashi 2023, PMID 37172124):
 - 4-6 weeks pre-surgery: quad strengthening, ROM optimization, aerobic fitness
 - Education about post-surgical expectations
 - See [Total Knee Replacement Rehab](./total-knee-replacement-rehab.md) for post-surgical protocol

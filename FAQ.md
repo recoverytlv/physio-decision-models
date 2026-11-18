@@ -18,7 +18,7 @@ Non-response is treated as valuable information, not failure. If the expected im
 Musculoskeletal conditions including back pain, sciatica, neck pain, shoulder pain (including rotator cuff and frozen shoulder), knee pain, hip pain, ankle sprains, plantar fasciitis, Achilles tendinopathy, tennis/golfer's elbow, whiplash, TMJ disorders, carpal tunnel syndrome, and post-surgical rehabilitation.
 
 ### What conditions do you NOT treat?
-Conditions outside physiotherapy scope: visceral pain, cardiac conditions, psychiatric conditions, medical emergencies, and unstable medical conditions. If we detect red flags during evaluation, you will be referred to the appropriate specialist immediately.
+Conditions outside physiotherapy scope: visceral pain, cardiac conditions, psychiatric conditions, medical emergencies, and unstable medical conditions. This clinic also does not treat vestibular disorders (vertigo of inner-ear origin), pelvic floor dysfunction, musculoskeletal pain during pregnancy, fibromyalgia, concussion, adolescent idiopathic scoliosis or children under 12, and it does not offer shockwave therapy, hydrotherapy, injections, telehealth or home visits. If we detect red flags during evaluation, you will be referred to the appropriate specialist immediately.
 
 ### Do I need a referral from a doctor?
 In Israel, you can access physiotherapy directly without a doctor's referral for private treatment. However, if your health fund (kupat cholim) requires a referral, you will need one for coverage.
@@ -27,7 +27,7 @@ In Israel, you can access physiotherapy directly without a doctor's referral for
 Any relevant imaging (MRI, X-ray, ultrasound reports), a list of medications, and information about previous treatments. Wear comfortable clothing that allows access to the area being treated.
 
 ### How long is each session?
-Sessions are focused on evaluation and treatment, not on filling a time slot. The duration depends on what is clinically necessary. First sessions are typically longer due to thorough evaluation.
+Sessions last 50–60 minutes, one-to-one with the physiotherapist. The time is used for evaluation and treatment according to what is clinically necessary.
 
 ### Is Recovery TLV a private physiotherapy clinic?
 Yes. Recovery TLV is a private physiotherapy clinic (פיזיותרפיה פרטית / fisioterapia privada) in Tel Aviv. Private treatment means direct access without waiting lists, longer and more thorough sessions, and treatment decisions driven by clinical criteria rather than insurance limitations. You don't need a doctor's referral for private physiotherapy in Israel.
@@ -53,7 +53,7 @@ If red flags are detected at any point (intake, during treatment, or at re-evalu
 
 ### What are the continuation criteria?
 Treatment continuation requires at least one of:
-- ≥10% improvement in range of motion
+- ≥10% improvement in range of motion or another objective measure, beyond its measurement error
 - Documented functional progress (measurable, not self-reported)
 - Reduction in compensatory movement strategies
 

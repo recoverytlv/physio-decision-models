@@ -3,8 +3,8 @@ Enforcement Layer v1.0 — FROZEN
 ## 1. Enforcement Principles
 The enforcement layer converts normative decisions into coercive actions.
 It does not interpret or modify logic — it executes.
-- **Default to termination**: Non-action outputs (DECLINE, DEFER, REFER, DISCHARGE)
-  are enforced immediately and irreversibly.
+- **Default to termination**: DECLINE, REFER and DISCHARGE are enforced immediately.
+  DEFER is a temporary hold, enforced immediately and lifted only on explicit resolution.
 - **No overrides**: Patient preference, commercial pressure, or operational
   convenience do not supersede system outputs.
 - **Traceability**: All enforcement actions are logged and auditable
@@ -16,8 +16,8 @@ It does not interpret or modify logic — it executes.
 | DECLINE | Immediate block on case acceptance. System logs rejection rationale. | Full rationale logged; no patient access. |
 | DEFER | Temporary hold on progression pending explicit resolution (e.g., additional data). | Timestamped hold; re-trigger if unresolved after 48 hours. |
 | REFER | Forced referral protocol. Generate referral note and terminate physio involvement. | Referral note logged; follow-up check in 7 days. |
-| TRIAL | Time-bound initiation. Maximum 5 sessions. Auto-evaluate at trial end. | Session logs + objective metrics required. |
-| CONTINUE | Conditional extension only if criteria met. Maximum 3 extensions total. | Metrics logged per extension; auto-terminate if criteria fail. |
+| TRIAL | Time-bound initiation. Trial window of 3–5 sessions (maximum 5; author-defined review point). Evaluate at trial end. | Session logs + objective metrics required. |
+| CONTINUE | Conditional extension only if criteria met; criteria re-checked at each documented review. | Metrics logged per review; extension ends if criteria fail. |
 | DISCHARGE | Immediate termination. Close case and issue discharge summary (functional only). | Summary logged; case cannot reopen without new evaluation. |
 ---
 ## 3. Coercive Triggers
@@ -25,17 +25,18 @@ It does not interpret or modify logic — it executes.
   Automatic REFER if red-flag symptoms emerge
   (e.g., acute neurological deficit, unexplained severe pain).
 - **Progress failure**
-  Auto-DISCHARGE if no measurable functional change after trial
-  (e.g., <10% objective improvement).
+  If none of the continuation criteria (CLINICAL_DECISION_SYSTEM.md §4) is met at trial end:
+  documented hypothesis revision followed by ONE new TRIAL, or DISCHARGE, or REFER.
+  A second failed TRIAL requires DISCHARGE or REFER.
 - **Scope violation**
   Immediate DECLINE if the case drifts outside defined scope
   (e.g., non-musculoskeletal request).
-- **Uncertainty threshold**
-  DEFER if data confidence is below 80%
+- **Uncertainty**
+  DEFER when the data are insufficient for a decision
   (e.g., incomplete history or conflicting findings).
 ---
 ## 4. Execution Invariants
-- All actions are system-enforced; manual override is prohibited.
+- Outputs follow the rules above. A clinician may depart from them only with a documented clinical rationale, which is logged for audit.
 - Enforcement logs are immutable and traceable to AUTHORITY_SOURCES.md.
 - No grace periods for continuation: criteria must be met strictly.
 - Metric evaluation may use automated calculation tools when applicable

@@ -2,8 +2,8 @@
 title: "Patellofemoral Pain Syndrome"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -38,7 +38,7 @@ Patellofemoral pain is within physiotherapy scope. The condition responds well t
 - Anterior knee pain with systemic symptoms in adolescents (consider osteosarcoma — rare but serious)
 
 ## Clinical Hypothesis Examples
-- **Quadriceps weakness — load capacity deficit:** Weak quadriceps (especially VMO) unable to support patellofemoral loads during activity. Tested with progressive quadriceps strengthening (isometric → isotonic → functional). Expected response: reduced anterior knee pain with provocative activities and improved single leg squat within 3–5 sessions.
+- **Quadriceps weakness — load capacity deficit:** Weak quadriceps unable to support patellofemoral loads during activity. Tested with progressive quadriceps strengthening (isometric → isotonic → functional). Expected response: reduced anterior knee pain with provocative activities and improved single leg squat within 3–5 sessions.
 - **Hip weakness — dynamic valgus:** Gluteus medius weakness allowing knee valgus during loading, increasing lateral patellofemoral stress. Tested with hip abductor and external rotator strengthening. Expected response: improved dynamic knee alignment during squat and step-down.
 - **Load management — training error:** Rapid increase in running, jumping, or squatting volume exceeding tissue capacity. Tested with activity modification and graded return. Expected response: symptom reduction with load management, gradual return to previous volume.
 - **Patellar mobility restriction:** Restricted patellar glide (tight lateral retinaculum) contributing to patellofemoral pressure. Tested with patellar mobilization and stretching. Expected response: improved patellar mobility and reduced pain with compression tests.
@@ -51,7 +51,7 @@ Patellofemoral pain is within physiotherapy scope. The condition responds well t
 - Improved functional capacity (stair descent, running distance)
 
 ## Non-Response
-If symptoms do not improve with quadriceps and hip strengthening within the trial window, reassess. Consider imaging to rule out osteochondral lesion, plica syndrome, or other intra-articular pathology. Persistent patellar instability may require orthopaedic consultation for medial patellofemoral ligament (MPFL) reconstruction.
+If symptoms do not improve with quadriceps and hip strengthening within the trial window, reassess. Refer to a physician to consider imaging to rule out osteochondral lesion, plica syndrome, or other intra-articular pathology. Persistent patellar instability may require orthopaedic consultation for medial patellofemoral ligament (MPFL) reconstruction.
 
 ## Related Documents
 - [Knee Pain](knee-pain.md)

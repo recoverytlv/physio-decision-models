@@ -1,11 +1,11 @@
 # Recovery TLV — מודלים לקבלת החלטות קליניות בפיזיותרפיה
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 
 **מערכת קבלת החלטות קלינית לפיזיותרפיה תחת אי-ודאות ביולוגית.**
 
-נוצר על ידי [אלחנדרו זובריצקי](https://www.linkedin.com/in/azubrisky/), פיזיותרפיסט מוסמך ב-[Recovery TLV](https://recoverytlv.co.il) — תל אביב, ישראל.
+נוצר על ידי [אלחנדרו זובריסקי](https://www.linkedin.com/in/azubrisky/), פיזיותרפיסט מוסמך ב-[Recovery TLV](https://recoverytlv.co.il) — תל אביב, ישראל.
 
 **קישור:** [recoverytlv.co.il](https://recoverytlv.co.il)
 
@@ -21,8 +21,8 @@
 
 | מוצא | משמעות |
 |---|---|
-| **DECLINE** | דחייה — מחוץ לתחום הפיזיותרפיה |
-| **DEFER** | דחייה — אין מספיק מידע להחלטה |
+| **DECLINE** | אי-קבלה לטיפול — מחוץ לתחום הפיזיותרפיה |
+| **DEFER** | השהיה — אין מספיק מידע להחלטה |
 | **REFER** | הפניה — דגלים אדומים שדורשים רופא מומחה |
 | **TRIAL** | קבלה מותנית ל-3–5 טיפולים |
 | **CONTINUE** | המשך — רק עם שיפור אובייקטיבי מתועד |
@@ -74,7 +74,7 @@ Recovery TLV היא **קליניקת פיזיותרפיה פרטית** בתל א
 - **תעלה קרפלית** (סינדרום התעלה הקרפלית)
 - **כאב מפשעה** (טנדינופתיה של מקרבי הירך)
 - **טנדינופתיה של שרירי ירך אחוריים**
-- **כאב גב עליון** (כאב בית החזה)
+- **כאב גב עליון** (כאב בעמוד השדרה הגבי)
 - **כתף קפואה** (דלקת קפסולרית)
 - **שיקום אחרי החלפת ברך**
 - **שיקום אחרי החלפת ירך**

@@ -90,7 +90,7 @@ If the patient only improves during the session but returns to baseline by next 
 
 ### Cervical Spine
 - **Canadian C-Spine Rule** before any cervical manual therapy after trauma
-- **VBI screening** before upper cervical techniques
+- **Screening for vascular pathology of the neck** before cervical manual therapy, following the IFOMPT framework (Rushton et al. 2023, PMID 36099171). Positional "VBI tests" alone are not sufficient
 - **No high-velocity manipulation** without specific training and informed consent
 - **Cervical myelopathy → absolute contraindication** to cervical manipulation
 
@@ -108,7 +108,7 @@ If the patient only improves during the session but returns to baseline by next 
 
 | Parameter | Acute/Irritable | Subacute | Chronic/Stiff |
 |-----------|----------------|----------|---------------|
-| Grade | I-II (pain-free range) | II-III (into resistance) | III-IV (into resistance/stiffness) |
+| Grade | I-II (pain-free range) | II-III (up to and into early resistance) | III-IV (into resistance/stiffness) |
 | Duration | 30-60 seconds per technique | 1-2 minutes per technique | 2+ minutes per technique |
 | Repetitions | 2-3 sets | 3-4 sets | 4-6 sets |
 | Reassess after | Each set | Each technique | End of session |

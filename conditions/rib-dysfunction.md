@@ -2,23 +2,24 @@
 title: "Rib Dysfunction & Costochondritis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Musculoskeletal chest wall pain from costovertebral/costotransverse joints, costochondral junctions or intercostal structures, including costochondritis. Cardiac, pulmonary and gastrointestinal causes must be screened first."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
 red_flags:
-  - "**Cardiac:** Chest pain with exertion, radiation to arm/jaw, shortness of breath, diaphoresis, history of cardiac disease → ER"
-  - "**Pulmonary:** Pleuritic pain with fever, cough, dyspnea → medical evaluation"
-  - "**Pulmonary embolism:** Sudden onset chest pain + dyspnea, recent surgery/immobilization, calf pain → ER"
-  - "**Aortic dissection:** Tearing chest pain radiating to back → ER"
-  - "**GI:** Pain worse with eating, reflux symptoms → gastroenterology"
-  - "**Fracture:** Trauma history with point tenderness, crepitus → imaging"
-  - "**Malignancy:** Unexplained weight loss, night pain, history of cancer → medical evaluation"
+  - "Cardiac: Chest pain with exertion, radiation to arm/jaw, shortness of breath, diaphoresis, history of cardiac disease → ER"
+  - "Pulmonary: Pleuritic pain with fever, cough, dyspnea → medical evaluation"
+  - "Pulmonary embolism: Sudden onset chest pain + dyspnea, recent surgery/immobilization, calf pain → ER"
+  - "Aortic dissection: Tearing chest pain radiating to back → ER"
+  - "GI: Pain worse with eating, reflux symptoms → gastroenterology"
+  - "Fracture: Trauma history with point tenderness, crepitus → refer to a physician to consider imaging"
+  - "Malignancy: Unexplained weight loss, night pain, history of cancer → medical evaluation"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/rib-dysfunction.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -31,24 +32,26 @@ Musculoskeletal chest wall pain originating from costovertebral joints, costocho
 ## Critical Safety Note
 Chest pain MUST be screened for cardiac, pulmonary, and gastrointestinal causes before musculoskeletal diagnosis. When in doubt → REFER.
 
-## Red Flags → REFER or DECLINE (IMMEDIATE)
+## Red Flags → REFER (IMMEDIATE)
 - **Cardiac:** Chest pain with exertion, radiation to arm/jaw, shortness of breath, diaphoresis, history of cardiac disease → ER
 - **Pulmonary:** Pleuritic pain with fever, cough, dyspnea → medical evaluation
 - **Pulmonary embolism:** Sudden onset chest pain + dyspnea, recent surgery/immobilization, calf pain → ER
 - **Aortic dissection:** Tearing chest pain radiating to back → ER
 - **GI:** Pain worse with eating, reflux symptoms → gastroenterology
-- **Fracture:** Trauma history with point tenderness, crepitus → imaging
+- **Fracture:** Trauma history with point tenderness, crepitus → refer to a physician to consider imaging
 - **Malignancy:** Unexplained weight loss, night pain, history of cancer → medical evaluation
 
 ## Differentiation Table
 
 | Feature | Musculoskeletal | Cardiac | Pulmonary | GI |
 |---------|----------------|---------|-----------|-----|
-| Reproducible with palpation | Yes | No | Rarely | No |
+| Reproducible with palpation | Yes | Usually no — does NOT exclude cardiac pain | Rarely | No |
 | Movement-related | Yes | With exertion | With breathing | No |
 | Position-dependent | Often | Rarely | Sometimes | Sometimes |
-| Response to manual Tx | Yes | No | No | No |
+| Response to manual Tx | Yes | Not diagnostic | No | No |
 | Onset | Often gradual or after strain | Sudden or exertional | Variable | After eating/reflux |
+
+Pain reproduced by palpation makes a cardiac cause less likely but never excludes it; relief after manual therapy has no diagnostic value. Screen first; when in doubt, REFER.
 
 ## Clinical Hypothesis Framework
 

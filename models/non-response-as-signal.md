@@ -7,7 +7,7 @@ In biological systems, lack of response is not absence of information.
 Non-response is defined as the absence of meaningful system change following a controlled perturbation within an expected temporal window.
 
 ## Clinical Interpretation
-Non-response constrains the hypothesis space more strongly than partial improvement.
+Once dose, time and adherence are confirmed adequate, non-response is evidence against the working hypothesis. We propose, but have not tested, that a clear negative result is often more informative than vague partial improvement.
 
 ## Decision Consequences
 - Repetition without hypothesis revision increases decision error.
@@ -20,7 +20,7 @@ Non-response constrains the hypothesis space more strongly than partial improvem
 
 **Observed:** No change in lumbar flexion ROM, no reduction in functional limitation (sit-to-stand unchanged), pain report stable.
 
-**Interpretation:** The absence of response after 4 controlled perturbations is not "the patient isn't trying hard enough." It is diagnostic data indicating that the current hypothesis (segmental hypomobility as primary driver) is unlikely to be valid.
+**Interpretation:** The absence of response after 4 controlled perturbations is not "the patient isn't trying hard enough." It is diagnostic data: provided dose and adherence were adequate, it makes the current hypothesis (segmental hypomobility as primary driver) less likely.
 
 **Decision consequence:** Non-response constrains the hypothesis space — the clinician must revise the hypothesis (consider neural, muscular, or psychosocial drivers) or exit (DISCHARGE or REFER).
 

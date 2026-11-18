@@ -2,8 +2,8 @@
 title: "De Quervain's Tenosynovitis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -48,7 +48,7 @@ De Quervain's tenosynovitis is within physiotherapy scope for conservative manag
 - Reduced pain with provocative thumb/wrist activities
 
 ## Non-Response
-If symptoms do not improve within 5 sessions of conservative management with activity modification and splinting, refer for corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
+If no objective criterion is met by the end of the trial window (3–5 sessions) despite activity modification and splinting, revise the hypothesis once or refer. Symptoms that have not responded after 6–8 weeks of conservative management are referred to a physician to consider corticosteroid injection. Persistent symptoms after injection may require surgical first dorsal compartment release.
 
 ## Related Documents
 - [Lateral Epicondylalgia](lateral-epicondylalgia.md)

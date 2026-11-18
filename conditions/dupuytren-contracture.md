@@ -2,12 +2,13 @@
 title: "Dupuytren's Contracture — Physiotherapy Scope"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
 organization: "Recovery TLV, Tel Aviv, Israel"
+summary: "Progressive fibroproliferative disorder of the palmar fascia causing finger flexion contracture. Physiotherapy does not reverse it; the role is hand function, post-procedural rehabilitation and timely referral."
 decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
@@ -23,14 +24,14 @@ clinic: "https://recoverytlv.co.il"
 # Dupuytren's Contracture — Physiotherapy Scope
 
 ## Definition
-Progressive fibroproliferative disorder of the palmar fascia causing flexion contracture of the fingers, most commonly ring and little fingers. Not inflammatory — pathological collagen deposition.
+Progressive fibroproliferative disorder of the palmar fascia causing flexion contracture of the fingers, most commonly ring and little fingers. Characterised by myofibroblast proliferation and pathological collagen deposition.
 
 ## Scope Boundaries
 - **IN scope:** Pre-surgical optimization, post-surgical rehabilitation (fasciectomy, needle aponeurotomy, collagenase injection), splinting for contracture management, functional hand rehabilitation
 - **OUT of scope:** Surgical decision-making, injection procedures
 
 ## Important Context
-Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The role of physiotherapy is to optimize hand function, manage post-procedural recovery, and maintain gains from surgical/procedural intervention.
+Dupuytren's has a strong hereditary component; heavy manual work and exposure to vibration are associated with a higher risk (Descatha 2011, PMID 21575231; Mathieu 2020, PMID 32061740). It cannot be "cured" by physiotherapy. The role of physiotherapy is to optimize hand function, manage post-procedural recovery, and maintain gains from surgical/procedural intervention.
 
 ## Red Flags → REFER
 - Rapidly progressing contracture → surgical/procedural evaluation
@@ -47,10 +48,10 @@ Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The
 - **If no response:** Consider wound complication, nerve injury, or recurrence → REFER back to surgeon
 
 ### Post-Needle Aponeurotomy / Collagenase
-- **Hypothesis:** Extension gained from procedure needs to be maintained with splinting and exercise
-- **Test:** Night extension splinting (3-6 months), active exercise program, functional hand use
+- **Hypothesis:** Extension gained from procedure needs to be maintained with exercise, and with splinting when indicated
+- **Test:** Active exercise program and functional hand use; night extension splinting when extension is being lost or when the treating surgeon prescribes it
 - **Expected response:** Maintained extension gains, improved functional hand use
-- **If losing extension:** Reassess splinting compliance, consider recurrence
+- **If losing extension:** Start or review night splinting, consider recurrence
 
 ### Early/Mild Dupuytren's (No Procedure Done)
 - **Hypothesis:** Physiotherapy can maintain hand function and monitor progression
@@ -62,10 +63,12 @@ Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The
 
 | Phase | Timeframe | Splinting | Exercise |
 |-------|-----------|-----------|----------|
-| Phase 1 | 0-2 weeks | Full-time extension splint (except for exercises and hygiene) | Gentle AROM within comfort |
-| Phase 2 | 2-6 weeks | Night splint + daytime for protection | Progressive AROM/PROM, scar massage, edema management |
-| Phase 3 | 6-12 weeks | Night splint only | Grip strengthening, functional tasks, full ROM exercises |
+| Phase 1 | 0-2 weeks | Per surgeon's protocol | Gentle AROM within comfort |
+| Phase 2 | 2-6 weeks | Per surgeon's protocol; night splint if extension is being lost | Progressive AROM/PROM, scar massage, edema management |
+| Phase 3 | 6-12 weeks | Night splint if extension is being lost | Grip strengthening, functional tasks, full ROM exercises |
 | Phase 4 | 3-6 months | Night splint if needed | Full function, monitor for recurrence |
+
+Splinting practice varies between surgeons, and the treating surgeon's protocol takes precedence. In a randomised trial, routine night splinting after fasciectomy or dermofasciectomy added no benefit to hand therapy alone (Jerosch-Herold et al. 2011, PMID 21693044); the timeline above is a guide, not a validated protocol.
 
 ## Trial Protocol (TRIAL)
 | Session | Focus |
@@ -96,4 +99,4 @@ Dupuytren's is not caused by overuse and cannot be "cured" by physiotherapy. The
 ## Cross-References
 - [De Quervain's Tenosynovitis](./de-quervain-tenosynovitis.md) — Hand/wrist conditions
 - [Carpal Tunnel Syndrome](./carpal-tunnel-syndrome.md) — May coexist
-- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab may justify extended window
+- [Trial Window Limits](../thresholds/trial-window-limits.md) — Post-surgical rehab follows the surgeon's protocol; the trial window itself is not extended

@@ -2,8 +2,8 @@
 title: "Neck Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -14,7 +14,7 @@ trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
 red_flags:
   - "Upper limb progressive weakness or bilateral symptoms (myelopathy)"
-  - "Drop attacks, diplopia, dysarthria, dysphagia, dizziness with cervical movement (vertebrobasilar insufficiency)"
+  - "Drop attacks, diplopia, dysarthria, dysphagia, facial numbness, nystagmus or ataxia, with or without dizziness, or a new severe headache/neck pain unlike any previous one (suspected vascular pathology of the neck — cervical arterial dysfunction; emergency referral). Dizziness provoked by neck movement with none of these features is not a red flag by itself and is assessed as possible cervicogenic dizziness"
   - "Trauma with suspected cervical fracture or instability"
   - "Signs of spinal cord compression (gait disturbance, hyperreflexia, clonus)"
   - "Fever with neck stiffness (meningitis)"
@@ -32,7 +32,7 @@ Neck pain is within physiotherapy scope when musculoskeletal in origin. Upper mo
 
 ## Red Flags (→ REFER)
 - Upper limb progressive weakness or bilateral symptoms (myelopathy)
-- Drop attacks, diplopia, dysarthria, dysphagia, dizziness with cervical movement (vertebrobasilar insufficiency)
+- Drop attacks, diplopia, dysarthria, dysphagia, facial numbness, nystagmus or ataxia, with or without dizziness, or a new severe headache/neck pain unlike any previous one (suspected vascular pathology of the neck — cervical arterial dysfunction; emergency referral). Dizziness provoked by neck movement with none of these features is not a red flag by itself and is assessed as possible cervicogenic dizziness
 - Trauma with suspected cervical fracture or instability
 - Signs of spinal cord compression (gait disturbance, hyperreflexia, clonus)
 - Fever with neck stiffness (meningitis)
@@ -46,12 +46,12 @@ Neck pain is within physiotherapy scope when musculoskeletal in origin. Upper mo
 ## Trial Window
 3–5 sessions. Objective criteria:
 - ≥10% improvement in cervical ROM (rotation, flexion, extension)
-- Reduced headache frequency (for cervicogenic headache)
+- For cervicogenic headache: improved upper cervical rotation (headache frequency is recorded as supplementary data)
 - Centralization of arm symptoms (for radiculopathy)
 - Improved deep neck flexor endurance or motor control tests
 
 ## Non-Response
-If cervical ROM does not improve or neurological symptoms progress, refer for specialist assessment. Persistent radiculopathy without centralization may require imaging.
+If cervical ROM does not improve or neurological symptoms progress, refer for specialist assessment. Persistent radiculopathy without centralization: refer to a physician to consider imaging.
 
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md)

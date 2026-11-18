@@ -2,8 +2,8 @@
 title: "Shoulder Instability"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -14,7 +14,7 @@ trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
 red_flags:
   - "Acute dislocation that has not been reduced (emergency — immediate referral for reduction)"
-  - "Suspected fracture with dislocation (Hill-Sachs, Bankart, greater tuberosity fracture)"
+  - "Suspected fracture with dislocation (large Hill-Sachs lesion, bony Bankart, greater tuberosity fracture)"
   - "Neurovascular deficit after dislocation (axillary nerve palsy — deltoid weakness, regimental badge numbness)"
   - "Recurrent dislocations (>2 episodes) despite comprehensive rehabilitation (surgical stabilization consultation)"
   - "First-time dislocation in a young athlete (<25 years) with high recurrence risk (early surgical consultation may be appropriate)"
@@ -32,7 +32,7 @@ Shoulder instability rehabilitation is within physiotherapy scope. Acute disloca
 
 ## Red Flags (→ REFER)
 - Acute dislocation that has not been reduced (emergency — immediate referral for reduction)
-- Suspected fracture with dislocation (Hill-Sachs, Bankart, greater tuberosity fracture)
+- Suspected fracture with dislocation (large Hill-Sachs lesion, bony Bankart, greater tuberosity fracture)
 - Neurovascular deficit after dislocation (axillary nerve palsy — deltoid weakness, regimental badge numbness)
 - Recurrent dislocations (>2 episodes) despite comprehensive rehabilitation (surgical stabilization consultation)
 - First-time dislocation in a young athlete (<25 years) with high recurrence risk (early surgical consultation may be appropriate)
@@ -61,7 +61,7 @@ Shoulder instability rehabilitation is within physiotherapy scope. Acute disloca
 **Phase 4 (6–9 months):** Return to sport testing, plyometric loading, contact preparation if applicable. DISCHARGE when functional goals met and apprehension negative.
 
 ## Trial Window
-5 sessions for initial conservative management. Objective criteria:
+3–5 session trial window for initial conservative management; at its end, either a documented hypothesis revision with ONE new trial, or DISCHARGE/REFER. Objective criteria:
 - Improved shoulder confidence (reduced apprehension)
 - Improved rotator cuff strength (measured, compared bilaterally)
 - Improved scapular control (observation, endurance tests)

@@ -2,8 +2,8 @@
 title: "Lateral Epicondylalgia (Tennis Elbow)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -49,7 +49,7 @@ Epicondylalgia is within physiotherapy scope when musculoskeletal in origin. Elb
 - ≥10% improvement in grip strength measurement
 
 ## Non-Response
-If grip strength does not improve after eccentric loading protocol, reassess. Consider cervical contribution (common in lateral epicondylalgia) or imaging for structural tendon changes.
+If grip strength does not improve after eccentric loading protocol, reassess. Consider a cervical contribution (common in lateral epicondylalgia), or refer to a physician to consider imaging for structural tendon changes.
 
 ## Related Documents
 - [Hypothesis-Driven Intervention](../models/hypothesis-driven-intervention.md)

@@ -2,8 +2,8 @@
 title: "Plantar Fasciitis"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -50,7 +50,7 @@ Plantar heel pain is within physiotherapy scope when musculoskeletal in origin. 
 - Improved single leg calf raise capacity
 
 ## Non-Response
-If first-step pain and walking tolerance do not improve within the trial window, reassess. Consider imaging to evaluate fascial thickness or calcaneal stress fracture. Consider referral for investigation of systemic causes if bilateral.
+If first-step pain and walking tolerance do not improve within the trial window, reassess. Refer to a physician to consider imaging to evaluate fascial thickness or calcaneal stress fracture. Consider referral for investigation of systemic causes if bilateral.
 
 ## Related Documents
 - [Non-Response as Signal](../models/non-response-as-signal.md)

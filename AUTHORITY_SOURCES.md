@@ -1,5 +1,5 @@
 # AUTHORITY_SOURCES.md
-Authority Declaration — v1.1 (FROZEN · BLINDADO)
+Authority Declaration — v1.1 (FROZEN · LOCKED)
 
 ## 1. Authority Statement
 This document declares the sole and exclusive authoritative sources
@@ -17,6 +17,9 @@ This declaration is binding for:
 
 No external consensus, industry standard, best practice, or implied
 authority applies unless explicitly incorporated here.
+
+One exception is incorporated: this framework is used alongside current clinical
+guidelines, and where they conflict on patient safety, the guideline prevails.
 
 ---
 
@@ -71,11 +74,11 @@ The following are explicitly non-authoritative:
 - Drafts, notes, or simulations
 - README files or explanatory materials
 - LLM-generated summaries or interpretations
-- External guidelines or consensus statements
+- External guidelines or consensus statements (they do not define this system, but prevail on patient safety; see §1)
 - Translations (unless explicitly declared normative)
 
-These materials may explain but can never define, modify,
-extend, or override the system.
+These materials may explain but can never define, modify
+or extend the system, nor override it except as stated in §1.
 
 ---
 
@@ -107,7 +110,7 @@ This authority set is declared **FROZEN**.
 Any modification requires:
 - A new major version
 - Explicit re-declaration of authority
-- Formal consensus validation from multiple LLMs
+- A documented rationale
 
 Absent these conditions, all changes are invalid.
 

@@ -2,8 +2,8 @@
 title: "Gluteal Tendinopathy"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -15,7 +15,7 @@ continuation_threshold: ">=10% objective functional improvement"
 red_flags:
   - "Lateral hip pain after fall (especially in osteoporotic patients — rule out greater trochanter fracture)"
   - "Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)"
-  - "Symptoms not responding to 8+ sessions of appropriate loading management"
+  - "Symptoms not responding to appropriate loading management after the trial window and one revised trial"
   - "Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/gluteal-tendinopathy.md"
 clinic: "https://recoverytlv.co.il"
@@ -32,7 +32,7 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 ## Red Flags (→ REFER)
 - Lateral hip pain after fall (especially in osteoporotic patients — rule out greater trochanter fracture)
 - Lateral hip pain with groin pain and restricted hip ROM (hip joint pathology — FAI, labral tear, OA)
-- Symptoms not responding to 8+ sessions of appropriate loading management
+- Symptoms not responding to appropriate loading management after the trial window and one revised trial
 - Bilateral lateral hip pain with systemic symptoms (consider inflammatory condition)
 
 ## Clinical Hypothesis Examples
@@ -55,7 +55,7 @@ Gluteal tendinopathy is within physiotherapy scope. Exercise-based management is
 - Improved hip abductor strength (measured)
 
 ## Non-Response
-If symptoms do not respond to load management and progressive strengthening, consider imaging (ultrasound or MRI) to assess tendon structure. Severe tears or calcific tendinopathy may require injection (corticosteroid or PRP — REFER) or surgical consultation in refractory cases.
+If symptoms do not respond to load management and progressive strengthening, refer to a physician to consider imaging (ultrasound or MRI) of tendon structure. Severe tears or calcific tendinopathy may require injection (corticosteroid or PRP — REFER) or surgical consultation in refractory cases.
 
 ## Related Documents
 - [Hip Pain](hip-pain.md)

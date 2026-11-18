@@ -2,8 +2,8 @@
 title: "Shoulder Pain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -51,7 +51,7 @@ Shoulder pain is within physiotherapy scope when musculoskeletal in origin. Susp
 - Reduction in compensatory scapular patterns (elevation, winging)
 
 ## Non-Response
-If ROM or strength do not improve within the trial window, reassess. Consider imaging referral (ultrasound or MRI for rotator cuff integrity). Frozen shoulder may require extended timeline — document objective ROM gains at each evaluation to justify CONTINUE.
+If ROM or strength do not improve within the trial window, reassess. Refer to a physician to consider imaging (ultrasound or MRI for rotator cuff integrity). Frozen shoulder may require extended timeline — document objective ROM gains at each evaluation to justify CONTINUE.
 
 ## Related Documents
 - [Subjective Report Insufficiency](../models/subjective-report-insufficiency.md)

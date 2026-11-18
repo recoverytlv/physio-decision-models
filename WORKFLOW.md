@@ -79,7 +79,7 @@ Define what success looks like — before starting treatment. Goals are a contra
 Goals must be:
 - **Specific:** "Improve lumbar flexion ROM from 40° to 60°" not "reduce stiffness"
 - **Measurable:** Linked to objective tests that can be repeated at re-evaluation
-- **Time-bound:** Evaluated within the trial window (3–5 sessions)
+- **Time-bound:** Evaluated within the trial window (3–5 treatment sessions; an author-defined review point)
 - **Functional:** Connected to the patient's real-world needs (not just clinical measures)
 - **Agreed upon:** The patient must understand and accept the goals
 
@@ -145,14 +145,14 @@ Repeat objective measures at defined intervals. Re-evaluation is the most import
 **Re-evaluation protocol:**
 - Same tests as initial evaluation (consistency is critical — different tests produce incomparable data)
 - Same conditions (time of day, warm-up status, instruction to patient)
-- Compare to baseline: is there ≥10% improvement in ROM? Functional progress? Reduced compensation?
+- Compare to baseline: is there a ≥10% improvement in ROM or another objective measure, beyond its MDC? Functional progress? Reduced compensation?
 - Document the comparison explicitly: "Baseline: 40° flexion. Today: 48°. Change: +20%."
 
 **What to assess at re-evaluation:**
 
 | Signal | Meaning |
 |---|---|
-| ≥10% improvement in objective measure | Hypothesis supported → CONTINUE |
+| ≥10% improvement in an objective measure, beyond its MDC | Hypothesis supported → CONTINUE |
 | Functional milestone achieved | Progress → update goals or DISCHARGE |
 | No change in any measure | Non-response → revise hypothesis |
 | Same signal for 3+ sessions | Stasis → exit criteria triggered |
@@ -182,9 +182,9 @@ Apply the decision system. This is not intuition. It is a structured determinati
 | Red flags detected at any point | → **REFER** |
 | Insufficient data to decide | → **DEFER** |
 | Outside physiotherapy scope | → **DECLINE** |
-| ≥10% objective improvement within trial | → **CONTINUE** |
+| ≥10% objective improvement (beyond MDC) within trial | → **CONTINUE** |
 | Goals fully met | → **DISCHARGE** |
-| No improvement after trial window | → Revise hypothesis or **DISCHARGE** |
+| No improvement after trial window | → Documented hypothesis revision + ONE new **TRIAL**, or **DISCHARGE**, or **REFER** |
 | Non-response after hypothesis revision | → **REFER** or **DISCHARGE** |
 | Patient choosing to discontinue | → **DISCHARGE** (document) |
 
@@ -197,7 +197,7 @@ Before discharging for non-response, ask:
 4. Are there confounding factors? (poor sleep, high stress, medication changes, non-compliance)
 5. Is there a barrier I missed during listening? (fear, beliefs, secondary gain)
 
-If a revised hypothesis is generated → new TRIAL (3–5 sessions). If revision also fails → DISCHARGE or REFER.
+If a revised hypothesis is generated → ONE new TRIAL (3–5 sessions). If this second trial also fails → DISCHARGE or REFER.
 
 Then the cycle restarts: Listen to the patient again. What has changed? How do they feel? Re-evaluate. Decide.
 
@@ -206,11 +206,11 @@ Then the cycle restarts: Listen to the patient again. What has changed? How do t
 ## Decision Points by Session
 
 ```
-Session 1:    Listen + Evaluate + Set Goals + Formulate Hypothesis
-Session 2:    Begin TRIAL → Treat + Monitor Immediate Response
-Session 3-5:  Re-evaluate → CONTINUE or Revise Hypothesis or DISCHARGE
-Session 6-10: Re-evaluate every 2-3 sessions → CONTINUE or DISCHARGE
-Session 10+:  Strong justification required — documented improvement at every checkpoint
+Session 1:            Listen + Evaluate + Set Goals + Formulate Hypothesis
+TRIAL (3–5 sessions): Treat + Monitor Immediate Response; re-evaluate at the end of the window
+End of TRIAL:         CONTINUE, or documented hypothesis revision + ONE new TRIAL, or DISCHARGE / REFER
+After CONTINUE:       Re-evaluate every 2-3 sessions → CONTINUE or DISCHARGE
+Beyond 10 sessions:   Strong justification required — documented improvement at every checkpoint
 ```
 
 ## The Non-Negotiables
@@ -238,7 +238,7 @@ Session 10+:  Strong justification required — documented improvement at every 
 
 ## When the Patient Doesn't Improve
 
-Non-response is the most informative clinical situation. It tells you more than improvement does.
+Non-response is an informative clinical situation: once dose, time and adherence are confirmed adequate, it is evidence against the working hypothesis.
 
 ```
 Non-Response
@@ -252,7 +252,7 @@ Was the hypothesis tested fairly?
                                 └── No → DISCHARGE or REFER
 ```
 
-**Key principle:** If two revised hypotheses both fail to produce improvement, the case is likely beyond the current treatment scope. REFER or DISCHARGE — do not continue searching for a third hypothesis without strong justification.
+**Key principle:** If the original hypothesis and one revised hypothesis both fail to produce improvement, the case is likely beyond the current treatment scope. REFER or DISCHARGE — do not start a third trial.
 
 ## Related Documents
 

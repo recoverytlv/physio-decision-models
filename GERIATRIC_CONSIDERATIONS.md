@@ -17,7 +17,7 @@ Older adults (≥65 years) present unique clinical considerations that affect as
 
 ### 2. Timelines Are Different
 - Recovery is slower due to reduced tissue healing capacity
-- Trial window may need extension (5-8 sessions instead of 3-5)
+- Older adults often need the full 5 sessions and the one permitted revised trial; the window itself is not extended
 - Progress should still be measurable — just allow more time between assessments
 - The decision logic is the same: no improvement → hypothesis revision → exit
 
@@ -64,7 +64,7 @@ Falls are the leading cause of injury-related hospitalization in older adults. E
 | Component | Recommendation | Frequency | Evidence |
 |-----------|---------------|-----------|---------|
 | Strength training | Progressive resistance, major muscle groups | 2-3x/week | Strong — reduces fall risk, improves function |
-| Balance training | Static → dynamic → reactive, dual-task | 3x/week (≥3 hours total) | Strong — strongest fall prevention evidence |
+| Balance training | Static → dynamic → reactive, dual-task | 3x/week or more (largest effect in programmes that challenge balance and total more than 3 hours of exercise per week; Sherrington 2017, PMID 27707740) | Strong — strongest fall prevention evidence |
 | Aerobic | Walking, cycling, swimming | 150 min/week moderate | Strong — cardiovascular health, endurance |
 | Flexibility | Major joints, hold 30-60 seconds | Daily if possible | Moderate — maintains ROM for function |
 | Functional training | Transfers, stairs, reaching, lifting | Integrated into program | Strong — most directly translates to independence |
@@ -76,7 +76,7 @@ Falls are the leading cause of injury-related hospitalization in older adults. E
 - **Chair-based options** for patients with severe balance or mobility limitations
 - **Seated to standing progression** for strength exercises
 
-### Vitale Signs Monitoring During Exercise
+### Vital Signs Monitoring During Exercise
 Required if cardiac history, uncontrolled hypertension, or new exercise program in sedentary patient:
 - Rest before exercise: HR, BP
 - Stop exercise if: HR >80% age-predicted max, systolic BP >200, new chest pain, dizziness, undue breathlessness
@@ -99,7 +99,7 @@ Required if cardiac history, uncontrolled hypertension, or new exercise program 
 
 | Red Flag | Concern | Action |
 |----------|---------|--------|
-| Unexplained weight loss >5% in 6 months | Malignancy, depression, malnutrition | REFER to physician |
+| Unexplained weight loss | Malignancy, depression, malnutrition | REFER to physician |
 | New confusion or cognitive decline | Infection, medication side effects, stroke | REFER urgently |
 | Fall with head strike | Subdural hematoma (especially on anticoagulants) | REFER to ER |
 | Sudden onset unilateral weakness | Stroke/TIA | REFER to ER immediately |
@@ -109,14 +109,14 @@ Required if cardiac history, uncontrolled hypertension, or new exercise program 
 
 ## Decision Criteria — Geriatric Adaptation
 
-### TRIAL (Extended: 5-8 sessions)
+### TRIAL (3–5 sessions; one revised trial if no objective criterion is met)
 - Allow more time for adaptation to exercise
 - Measure same outcomes but expect smaller magnitudes of change
 - Functional measures (TUG, sit-to-stand) are most relevant
 
 ### CONTINUE if:
 - Functional improvement documented (even small gains are meaningful)
-- TUG improvement ≥2.5 seconds
+- TUG improvement larger than the test's measurement error in the patient's population and of clinically important size (major clinically important improvement of 0.8–1.4 seconds reported in hip OA — Wright 2011, PMID 21335930; other populations differ)
 - Sit-to-stand improvement ≥2 repetitions
 - Improved confidence / reduced fear of falling
 - Better performance with daily tasks (reported AND observed)

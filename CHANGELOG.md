@@ -6,14 +6,18 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
-## [1.3.0] — 2026-10-15
+## [1.3.0] — 2026-11-17
 
-Scope correction. **No decision logic changed.** The six canonical outputs, thresholds and enforcement
-rules remain identical. This release removes guides for conditions the clinic does not treat, so that
-readers and language models are not told otherwise.
+Scope correction and evidence audit. The six canonical outputs and the numeric thresholds (3–5 session
+trial window; ≥10% objective change) are unchanged. Normative texts were corrected where they contradicted
+each other (see *Corrected*); in particular, the end-of-trial rule now matches WORKFLOW.md and REFERRAL_GUIDE.md.
+This release also removes guides for conditions the clinic does not treat, so that readers and language
+models are not told otherwise.
 
-Numbering note: commit `485ec55` was labelled "v1.0.2" by mistake. Versions 1.1.0 and 1.2.0 were published
-on Zenodo on 2026-06-13, so this scope correction is **1.3.0**.
+Numbering note: commit `485ec55` was labelled "v1.0.2" by mistake. Versions 1.1.0 and 1.2.0 were deposited
+on Zenodo in June 2026, so this release is **1.3.0**. Release 1.0.1 (2026-06-13) was a maintenance release
+applied after 1.1.0; its number does not follow semantic ordering. Some condition guides present by 1.0.1
+were added without a changelog entry.
 
 ### Removed
 - `conditions/fibromyalgia.md`, `conditions/pelvic-floor-dysfunction.md` and `conditions/scoliosis.md`
@@ -21,6 +25,12 @@ on Zenodo on 2026-06-13, so this scope correction is **1.3.0**.
 - `conditions/post-concussion.md` and the concussion case — concussion (including its vestibular component)
   is not treated at this clinic; post-traumatic neck pain is covered by the whiplash and neck pain guides.
 - `CLINICAL_CASES.md` fibromyalgia and concussion cases; remaining 13 cases renumbered 1–13.
+- `TELEHEALTH_GUIDELINES.md` (the clinic does not provide telehealth) and `SITE_INTEGRATION_BRIEF.md`.
+- `SCOPING_REVIEW_PROTOCOL.md` and `ECOSYSTEM_MAP.md` (present in the 1.2.0 deposit) are not part of this release.
+
+### Restored
+- `NON_RESPONSE_FRAMEWORK.md` and `TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md` (from the 1.2.0 deposit), corrected and
+  mapped to the six canonical outputs.
 
 ### Changed
 - `PREGNANCY_MUSCULOSKELETAL.md` rewritten as a scope-and-referral note: musculoskeletal care during pregnancy
@@ -28,9 +38,38 @@ on Zenodo on 2026-06-13, so this scope correction is **1.3.0**.
 - `index.html`: booking, WhatsApp and phone links; practitioner credentials (MoH license 10-120163, ORCID);
   address normalised to Yaakov Apter 9, Tel Aviv (all files); neuromotor re-education removed from service lists.
 - ACL return-to-sport strength criterion: handheld dynamometry (no isokinetic testing at this clinic).
-- Case 11: aquatic exercise is self-managed at a community pool (the clinic has no pool).
+- Case 10: aquatic exercise is self-managed at a community pool (the clinic has no pool).
 - Indexes updated: `README.md`, `llms.txt`, `llms-ctx.txt`, `llms-full.txt`, `sitemap.xml`, `index.html`
   JSON-LD, `codemeta.json`, `.zenodo.json` (42 → 38 condition guides).
+
+### Corrected (evidence audit 2026-10-22)
+- Trial window and 10% threshold described as author-defined review points, not evidence-based cut-offs; the
+  ≥10% criterion applies to ROM or another objective measure and must exceed the instrument's MDC.
+- End-of-trial rule unified across normative and supporting files: documented hypothesis revision + ONE new TRIAL,
+  or DISCHARGE, or REFER; a second failed TRIAL → DISCHARGE or REFER. Off-by-one in the trial-window rule, the
+  stasis count (3 vs 2) and workflow session numbering fixed; DEFER described as a temporary hold; undefined
+  "80% confidence" and "3 extensions" removed; documented clinician judgement allowed.
+- Red flags: wording aligned with Henschke 2009 and Downie 2013; myelopathy → REFER; weight-loss criterion unified;
+  imaging actions rewritten as referral to a physician.
+- Outcome measures: published values corrected and sourced; unsourced goniometry MCID table removed; LSI ≥90% and
+  Y-Balance 4 cm labelled as criteria/cut-offs; unverified thresholds labelled as guides.
+- Attributions corrected (MCID origin, Croskerry, dose-response decoupling, Cook et al. 2018, fear of re-injury);
+  bibliographic titles and pages corrected; "[verified]" defined as a bibliographic check against PubMed.
+- Scope and metadata: neuromotor re-education removed from the in-scope list; telehealth references removed;
+  "multi-LLM consensus validation" removed; guideline-prevails statement added; tendinopathy framework states that
+  shockwave, injections and percutaneous electrolysis are outside the framework (shockwave and injections are not
+  provided at this clinic); versions, dates and
+  metadata aligned (README.md, CITATION.cff, codemeta.json, .zenodo.json).
+
+---
+
+## [1.2.0] — 2026-06-14
+
+Entry reconstructed in 1.3.0 (it was missing). Files present in the 1.2.0 deposit and not recorded
+elsewhere in this changelog:
+- `NON_RESPONSE_FRAMEWORK.md` — the MSK Physiotherapy Non-Response Decision Framework (proposed).
+- `TENDINOPATHY_NON_RESPONSE_FRAMEWORK.md` — tendinopathy branch of that framework.
+- `SCOPING_REVIEW_PROTOCOL.md` and `ECOSYSTEM_MAP.md`.
 
 ---
 
@@ -69,7 +108,7 @@ that logic exactly; it corrects broken URLs and adds non-normative metadata only
 
 ---
 
-## [1.1.0] — 2025-12-23
+## [1.1.0] — 2025-12-23 (deposited on Zenodo in June 2026)
 
 ### Added
 

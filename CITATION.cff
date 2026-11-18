@@ -8,7 +8,8 @@ abstract: >-
   Defines six canonical decision outputs (DECLINE, DEFER, REFER, TRIAL, CONTINUE,
   DISCHARGE), objective continuation criteria, and explicit exit conditions. Designed
   to replace intuition-based therapeutic persistence with auditable, hypothesis-driven
-  decision-making.
+  decision-making. The framework is expert opinion and has not been clinically
+  validated.
 authors:
   - family-names: "Zubrisky"
     given-names: "Alejandro"
@@ -19,7 +20,7 @@ identifiers:
     value: "10.5281/zenodo.20683788"
     description: "Concept DOI (all versions)"
 version: 1.3.0
-date-released: 2026-10-15
+date-released: 2026-11-17
 license: MIT
 url: "https://github.com/recoverytlv/physio-decision-models"
 repository-code: "https://github.com/recoverytlv/physio-decision-models"

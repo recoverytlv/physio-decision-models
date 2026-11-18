@@ -2,8 +2,8 @@
 title: "Calf Strain"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -17,7 +17,7 @@ red_flags:
   - "Palpable gap in the muscle with complete loss of function (grade III / complete rupture — surgical consultation)"
   - "Positive Thompson test (Achilles tendon rupture, not calf strain)"
   - "Calf pain with recent surgery, immobilization, or long-haul travel (DVT risk factors)"
-  - "Recurrent calf strains in the same location (consider underlying vascular pathology — popliteal artery entrapment)"
+  - "Exertional calf pain or cramping in a young athlete that recurs at a predictable workload and settles with rest (consider popliteal artery entrapment — refer for vascular assessment)"
 canonical: "https://github.com/recoverytlv/physio-decision-models/blob/main/conditions/calf-strain.md"
 clinic: "https://recoverytlv.co.il"
 ---
@@ -35,7 +35,7 @@ Calf strains are within physiotherapy scope. Suspected deep vein thrombosis (DVT
 - Palpable gap in the muscle with complete loss of function (grade III / complete rupture — surgical consultation)
 - Positive Thompson test (Achilles tendon rupture, not calf strain)
 - Calf pain with recent surgery, immobilization, or long-haul travel (DVT risk factors)
-- Recurrent calf strains in the same location (consider underlying vascular pathology — popliteal artery entrapment)
+- Exertional calf pain or cramping in a young athlete that recurs at a predictable workload and settles with rest (consider popliteal artery entrapment — refer for vascular assessment)
 
 ## Differentiating Calf Strain from DVT
 
@@ -46,15 +46,17 @@ Calf strains are within physiotherapy scope. Suspected deep vein thrombosis (DVT
 | Swelling | Localized to muscle | Diffuse, entire lower leg |
 | Warmth | Localized | Diffuse |
 | Bruising | May appear 24-48h post-injury | Rarely |
-| Homan's sign | Negative | May be positive |
+| Homans' sign | Unreliable — not used | Unreliable — not used |
 | Risk factors | Athletic activity | Immobility, surgery, travel, clotting disorders |
 
-**If DVT cannot be confidently ruled out → REFER for D-dimer and ultrasound. Do not treat as a calf strain.**
+Individual clinical features have limited value for confirming or excluding DVT (Goodacre et al. 2005, PMID 16027455).
+
+**If DVT is suspected or cannot be confidently excluded → REFER for same-day medical assessment (probability scoring, D-dimer and ultrasound are medical decisions). Do not treat as a calf strain.**
 
 ## Clinical Hypothesis Examples
 - **Gastrocnemius strain (acute):** Sudden onset during push-off or change of direction. Tested with progressive loading: isometric → eccentric → concentric → plyometric. Expected response: improved pain-free range and strength within each session, full recovery 2–8 weeks depending on grade.
 - **Soleus strain:** More gradual onset, worse with knee-bent calf raises, common in runners. Tested with bent-knee calf loading and progressive running exposure. Expected response: reduced pain with soleus-specific tests and improved running tolerance.
-- **Recurrent calf strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factor. Tested with eccentric strengthening, calf endurance testing (25+ single leg calf raises), and gait/running analysis. Expected response: improved calf endurance symmetry and reduced re-injury risk.
+- **Recurrent calf strain:** Repeated injury suggesting incomplete rehabilitation or biomechanical factor. Tested with eccentric strengthening, calf endurance testing (25+ single leg calf raises), and a review of training load and return-to-running progression. Expected response: improved calf endurance symmetry and reduced re-injury risk.
 
 ## Trial Window
 3–5 sessions. Objective criteria:
@@ -71,7 +73,7 @@ Before clearance for full sport:
 - No pain with sport-specific movements
 
 ## Non-Response
-If calf symptoms persist despite appropriate loading progression, consider imaging (ultrasound) to assess tear extent. Persistent symptoms at the musculotendinous junction may indicate partial Achilles involvement. Recurrent strains in young athletes should raise suspicion of popliteal artery entrapment (REFER for vascular assessment).
+If calf symptoms persist despite appropriate loading progression, refer to a physician to consider imaging (ultrasound) to assess tear extent. Persistent symptoms at the musculotendinous junction may indicate partial Achilles involvement. Exertional calf pain in a young athlete that recurs at a predictable workload and settles with rest should raise suspicion of popliteal artery entrapment (REFER for vascular assessment).
 
 ## Related Documents
 - [Achilles Tendinopathy](achilles-tendinopathy.md)

@@ -2,8 +2,8 @@
 title: "Temporomandibular Joint Disorder (TMJ/TMD)"
 type: clinical-decision-guide
 system: "Recovery TLV Clinical Decision System"
-version: 1.0.0
-status: frozen
+version: 1.3.0
+status: supporting-guide
 license: MIT
 author: "Alejandro Zubrisky, PT"
 author_orcid: "0009-0003-1069-937X"
@@ -13,7 +13,7 @@ decision_outputs: [DECLINE, DEFER, REFER, TRIAL, CONTINUE, DISCHARGE]
 trial_window: "3-5 sessions"
 continuation_threshold: ">=10% objective functional improvement"
 red_flags:
-  - "Locked jaw that does not self-reduce (acute disc displacement without reduction — may need specialist intervention)"
+  - "Jaw stuck open and unable to close (TMJ dislocation / open lock — urgent reduction, REFER)"
   - "TMJ pain after facial trauma (suspected fracture)"
   - "Progressive inability to open mouth with swelling (possible infection or tumour)"
   - "Sudden change in bite alignment (possible condylar fracture or pathology)"
@@ -31,7 +31,7 @@ Temporomandibular disorders including myofascial pain of the masticatory muscles
 TMJ disorders with musculoskeletal origin are within physiotherapy scope. Suspected fracture, dislocation that does not self-reduce, dental malocclusion requiring orthodontic intervention, or intra-articular pathology requiring surgical management triggers REFER.
 
 ## Red Flags (→ REFER)
-- Locked jaw that does not self-reduce (acute disc displacement without reduction — may need specialist intervention)
+- Jaw stuck open and unable to close (TMJ dislocation / open lock — urgent reduction, REFER)
 - TMJ pain after facial trauma (suspected fracture)
 - Progressive inability to open mouth with swelling (possible infection or tumour)
 - Sudden change in bite alignment (possible condylar fracture or pathology)
@@ -40,6 +40,7 @@ TMJ disorders with musculoskeletal origin are within physiotherapy scope. Suspec
 ## Clinical Hypothesis Examples
 - **Masticatory muscle myofascial pain:** Overactivity and trigger points in masseter, temporalis, or pterygoid muscles. Tested with manual therapy to masticatory muscles, jaw exercises, and habit modification (clenching awareness). Expected response: improved mouth opening and reduced pain with chewing within 3–5 sessions.
 - **TMJ disc displacement with reduction:** Click or pop during jaw opening with intermittent locking. Tested with jaw movement retraining and manual therapy. Expected response: reduced frequency of catching and improved jaw movement coordination.
+- **Acute closed lock (disc displacement without reduction, limited opening):** Tested with jaw mobilization and exercise. REFER if mouth opening does not improve within the trial window.
 - **Cervical contribution to TMJ pain:** Upper cervical dysfunction contributing to jaw pain and headache. Tested with cervical mobilization and deep neck flexor training. Expected response: if cervical-driven, jaw pain reduces with cervical treatment.
 
 ## Trial Window

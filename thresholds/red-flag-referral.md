@@ -1,7 +1,7 @@
 # Red Flag Detection and Mandatory Referral
 
 ## 1. Definition
-Red flags are clinical signs or symptoms that indicate a potentially serious underlying pathology requiring assessment beyond physiotherapy scope. Detection of any red flag triggers mandatory REFER or DECLINE.
+Red flags are clinical signs or symptoms that indicate a potentially serious underlying pathology requiring assessment beyond physiotherapy scope. In acute low back pain, some red flags have very high false-positive rates and, used in isolation, little diagnostic value (Henschke 2009); only a small subset are informative for fracture or malignancy, and the probability of fracture is higher when several are present (Downie 2013). These data concern low back pain; they do not lower the weight of emergency signs, where a single finding is enough to act. A clinically significant red flag, or a combination of flags, that raises suspicion of serious pathology in context triggers mandatory REFER.
 
 ## 2. Red Flag Categories
 
@@ -11,7 +11,7 @@ Red flags are clinical signs or symptoms that indicate a potentially serious und
 - Upper motor neuron signs inconsistent with musculoskeletal origin
 
 ### 2.2 Systemic Red Flags
-- Unexplained weight loss (>5% body weight in 3 months)
+- Unexplained weight loss
 - Night pain unrelated to mechanical loading
 - Fever or systemic illness concurrent with musculoskeletal complaint
 - History of malignancy with new onset pain
@@ -29,11 +29,11 @@ Red flags are clinical signs or symptoms that indicate a potentially serious und
 ## 3. Decision Consequences
 - Red flag detection overrides all other decision logic
 - No trial period is initiated when red flags are present
-- The system output is REFER (to appropriate medical specialist) or DECLINE
+- The system output is REFER (to the appropriate medical specialist; emergencies to the ER)
 - Documentation must specify the red flag identified and the referral destination
 
 ## 4. Decision Rule
-`If Red_Flag_Detected == TRUE → REFER OR DECLINE (immediate)`
+`If Clinically_Significant_Red_Flag == TRUE → REFER (immediate)`
 
 ## Related Documents
 - [Trial Window Limits](./trial-window-limits.md) — Red flags override trial window and prevent TRIAL initiation
