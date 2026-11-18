@@ -6,6 +6,14 @@ Format based on [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [2.0.1] — 2026-11-18
+
+Packaging fix. No decision logic, threshold or clinical text changed.
+
+### Removed
+- `SITE_INTEGRATION_BRIEF.md`. The 1.3.0 entry below lists it as removed, but the file was still shipped in
+  1.3.0 and 2.0.0. It held instructions for the clinic website, not clinical content.
+
 ## [2.0.0] — 2026-11-18
 
 Decision-logic change (major version, as SYSTEM_FREEZE_NOTICE.md requires). The six canonical outputs are unchanged.

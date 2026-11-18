@@ -1,7 +1,7 @@
 # Recovery TLV — Clinical Decision Models for Physiotherapy
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
+[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/recoverytlv/physio-decision-models/releases)
 [![Status](https://img.shields.io/badge/status-frozen-orange.svg)](#status)
 
 **A formal clinical decision system for physiotherapy under irreducible biological uncertainty.**
@@ -202,7 +202,7 @@ graph TD
 
 ## Status
 
-**Version:** 2.0.0 (2026-11-18)  
+**Version:** 2.0.1 (2026-11-18)  
 **Status:** Version 2.0.0 changes the decision logic (4-session rule with a marker agreed at the first session; see CHANGELOG.md). The six outputs are unchanged since v1.0 (27 Dec 2025).  
 The framework is expert opinion and has not been clinically validated.
 
@@ -226,7 +226,7 @@ If you use these models in research or education, please cite:
 @software{zubrisky2026physio,
   author = {Zubrisky, Alejandro},
   title = {Physio Decision Models: Clinical Reasoning Under Biological Uncertainty},
-  version = {2.0.0},
+  version = {2.0.1},
   date = {2026-11-18},
   doi = {10.5281/zenodo.20683788},
   url = {https://github.com/recoverytlv/physio-decision-models}
